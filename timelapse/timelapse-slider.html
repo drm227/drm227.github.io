@@ -1,0 +1,29 @@
+<style type="text/css">
+    .timelapse {
+        position: relative;
+    }
+    .timelapse figure {
+        margin: 0;
+        position: absolute;
+    }
+    .timelapse figcaption {
+        background-color: black;
+        color: white;
+    }
+</style>
+
+<input style="width:500px;" type="range" min="0"  data-bind="value:position, attr:{max:(frames.length-1)*10}, event:{input:onChangePosition}" list="ticks"/>
+<datalist id="ticks">
+    <option>0</option>
+    <option>10</option>
+    <option>20</option>
+    <option>30</option>
+</datalist>
+
+<div class="timelapse" data-bind="foreach:frames">
+    <figure class="fade" data-bind="style:{opacity:opacity}">
+        <img data-bind="attr:{src:src}" />
+        <figcaption data-bind="text:caption"></figcaption>
+    </figure>
+</div>
+
