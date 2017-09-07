@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BHDB Search</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.4/css/selectize.default.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.4/js/standalone/selectize.js"></script>
+</head>
+<body>
+<div id="wrapper">
+        <input id="select-animal"></input>
+        <script>
+            $('#select-animal').selectize({
+                options: [
+                    {class: 'person', value: "John Adams", name: "John Adams" },
+                    {class: 'person', value: "John Quincy Adams", name: "John Quincy Adams" },
+                    {class: 'place', value: 'Adams Square', name: 'Adams Square'},
+                    {class: 'place', value: 'Adams Courthouse', name: 'Adams Courthouse'}
+                ],
+                optgroups: [
+                    {value: 'person', label: 'Person'},
+                    {value: 'place', label: 'Place'}
+                ],
+                optgroupField: 'class',
+                labelField: 'name',
+                searchField: ['name'],
+                render: {
+                    item: function (data, escape) {
+                        return '<div class="item"><span>' + escape(data.class) + ': ' + escape(data.value) + '</span></div>'
+                    }
+                }
+            });
+    </script>
+</body>
+</html>
