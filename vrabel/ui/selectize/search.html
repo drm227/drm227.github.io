@@ -3,31 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <title>BHDB Search</title>
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.4/css/selectize.default.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.4/css/selectize.bootstrap3.min.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.4/js/standalone/selectize.js"></script>
 </head>
 <body>
 <div id="wrapper">
-        <input id="select-animal"></input>
+        <input id="search"></input>
         <script>
-            $('#select-animal').selectize({
-                options: [
-                    {class: 'person', value: "John Adams", name: "John Adams" },
-                    {class: 'person', value: "John Quincy Adams", name: "John Quincy Adams" },
-                    {class: 'place', value: 'Adams Square', name: 'Adams Square'},
-                    {class: 'place', value: 'Adams Courthouse', name: 'Adams Courthouse'}
-                ],
+            var events;
+
+            $.ajax({
+                url: 'events.json',
+                method: 'GET',
+                dataType: 'json'
+            })
+            .done(function(data){
+                events = data;
+            })
+            .fail(function(jqXHR, textStatus, errorThrown){
+                alert(jqXHR.status + ' - ' + errorThrown);
+            });
+
+            function filterEvents (query, callback) {
+                var results = [];
+                if (query.length > 2) {
+                    events.forEach(function(event){
+                        var value = event[property];
+                        for (var property in event) {
+                            if (event[property].toString().toLowerCase().indexOf(query.toLowerCase()) != -1) {
+                                results.push({
+                                    dimension: property,
+                                    value: property == 'Details' ? formatDetailsValue(query,event[property]) : event[property]
+                                });
+                            }
+                        }
+                    })
+                }
+                callback(results);
+            }
+
+            function formatDetailsValue (query, value) {
+                var index = value.toLowerCase().indexOf(query.toLowerCase()),
+                    start = value.substr(0,index).lastIndexOf('.'),
+                    finish = value.substring(index+1).indexOf('.');
+                start = start === -1 ? 0 : start+1;
+                finish = finish === -1 ? value.length-1 : index+finish;
+                return value.substring(start,finish+2);
+            }
+
+            $('#search').selectize({
+                load: filterEvents,
+                labelField: 'value',
+                searchField: 'value',
                 optgroups: [
-                    {value: 'person', label: 'Person'},
-                    {value: 'place', label: 'Place'}
+                    {dimension: 'Event'},
+                    {dimension: 'Year'},
+                    {dimension: 'Neighborhood'},
+                    {dimension: 'Person'},
+                    {dimension: 'Category'},
+                    {dimension: 'Details'}
                 ],
-                optgroupField: 'class',
-                labelField: 'name',
-                searchField: ['name'],
+                optgroupField: 'dimension',
+                optgroupValueField: 'dimension',
+                optgroupLabelField:'dimension',
+                lockOptgroupOrder: true,
                 render: {
                     item: function (data, escape) {
-                        return '<div class="item"><span>' + escape(data.class) + ': ' + escape(data.value) + '</span></div>'
+                        return '<div class="item"><span>' + escape(data.dimension) + ': ' + escape(data.value) + '</span></div>'
                     }
                 }
             });
