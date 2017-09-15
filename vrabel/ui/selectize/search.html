@@ -9,72 +9,100 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.4/js/standalone/selectize.js"></script>
 </head>
 <body>
-<div id="wrapper">
-        <input id="search"></input>
-        <script>
-            var events;
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-10">
+                <input id="search-box"/>
+            </div>
+            <div class="col-sm-2">
+                <button class="button" id="search-button">Search</button>
+            </div>
+        </div>
+        <h4 id="count"></h4>
+    </div>
 
-            $.ajax({
-                url: 'events.json',
-                method: 'GET',
-                dataType: 'json'
-            })
-            .done(function(data){
-                events = data;
-            })
-            .fail(function(jqXHR, textStatus, errorThrown){
-                alert(jqXHR.status + ' - ' + errorThrown);
-            });
+    <script>
+        var events;
 
-            function filterEvents (query, callback) {
-                var results = [];
-                if (query.length > 2) {
-                    events.forEach(function(event){
-                        var value = event[property];
-                        for (var property in event) {
-                            if (event[property].toString().toLowerCase().indexOf(query.toLowerCase()) != -1) {
-                                results.push({
-                                    dimension: property,
-                                    value: property == 'Details' ? formatDetailsValue(query,event[property]) : event[property]
-                                });
-                            }
+        // Load JSON created using https://shancarter.github.io/mr-data-converter/
+        $.ajax({
+            url: 'events.json',
+            method: 'GET',
+            dataType: 'json'
+        })
+        .done(function(data){
+            events = data;
+        })
+        .fail(function(jqXHR, textStatus, errorThrown){
+            alert(jqXHR.status + ' - ' + errorThrown);
+        });
+
+        function filterEvents (query, callback) {
+            var results = [];
+            if (query.length > 2) {
+                events.forEach(function(event){
+                    var value = event[property];
+                    for (var property in event) {
+                        if (event[property].toString().toLowerCase().indexOf(query.toLowerCase()) != -1) {
+                            results.push({
+                                dimension: property,
+                                value: property == 'Details' ? formatDetailsValue(query,event[property]) : event[property]
+                            });
                         }
-                    })
-                }
-                callback(results);
-            }
-
-            function formatDetailsValue (query, value) {
-                var index = value.toLowerCase().indexOf(query.toLowerCase()),
-                    start = value.substr(0,index).lastIndexOf('.'),
-                    finish = value.substring(index+1).indexOf('.');
-                start = start === -1 ? 0 : start+1;
-                finish = finish === -1 ? value.length-1 : index+finish;
-                return value.substring(start,finish+2);
-            }
-
-            $('#search').selectize({
-                load: filterEvents,
-                labelField: 'value',
-                searchField: 'value',
-                optgroups: [
-                    {dimension: 'Event'},
-                    {dimension: 'Year'},
-                    {dimension: 'Neighborhood'},
-                    {dimension: 'Person'},
-                    {dimension: 'Category'},
-                    {dimension: 'Details'}
-                ],
-                optgroupField: 'dimension',
-                optgroupValueField: 'dimension',
-                optgroupLabelField:'dimension',
-                lockOptgroupOrder: true,
-                render: {
-                    item: function (data, escape) {
-                        return '<div class="item"><span>' + escape(data.dimension) + ': ' + escape(data.value) + '</span></div>'
                     }
+                })
+            }
+            callback(results);
+        }
+
+        function formatDetailsValue (query, value) {
+            var index = value.toLowerCase().indexOf(query.toLowerCase()),
+                start = value.substr(0,index).lastIndexOf('.'),
+                finish = value.substring(index+1).indexOf('.');
+            start = start === -1 ? 0 : start+1;
+            finish = finish === -1 ? value.length-1 : index+finish;
+            return value.substring(start,finish+2);
+        }
+
+        $('#search-box').selectize({
+            load: filterEvents,
+            labelField: 'value',
+            searchField: 'value',
+            optgroups: [
+                {dimension: 'Event'},
+                {dimension: 'Year'},
+                {dimension: 'Neighborhood'},
+                {dimension: 'Person'},
+                {dimension: 'Category'},
+                {dimension: 'Details'}
+            ],
+            optgroupField: 'dimension',
+            optgroupValueField: 'dimension',
+            optgroupLabelField:'dimension',
+            lockOptgroupOrder: true,
+            render: {
+                item: function (data, escape) {
+                    return '<div class="item"><span>' + escape(data.dimension) + ': ' + escape(data.value) + '</span></div>'
                 }
-            });
+            }
+        });
+
+        $('#search-button').click(
+            function (event) {
+                var selectize = $('#search-box')[0].selectize;
+                selectize.items.forEach(
+                        function (item) {
+                            var option = selectize.options[item],
+                                key = option.dimension,
+                                value = option.value,
+                                result = $.map(events,function(event){
+                                    return event[key] == value ? event : null;
+                                });
+                            $('#count')[0].textContent = result.length + ' events';
+                        }
+                );
+            }
+        );
     </script>
 </body>
 </html>
