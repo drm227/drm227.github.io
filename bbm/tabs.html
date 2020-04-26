@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <title>Boston By Map</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <h1>Boston By Map</h1>
+
+    <p><a target="_blank" href="http://drm227.github.io/bbm/slides.pdf">slides</a></p>
+
+    <h2>Mercantile Wharf</h2>
+    <button class="btn btn-primary" type="button" onclick="openLinks('mercantile')">Open All</button>
+    <ul id="mercantile">
+        <li><a target="_blank" href="https://collections.leventhalmap.org/search/commonwealth:9s161f21f">1722 Bonner map</a></li>
+        <li><a target="_blank" href="https://collections.leventhalmap.org/search/commonwealth:wd376006p">1826 Annin &amp; Smith map</a></li>
+        <li><a target="_blank" href="https://collections.leventhalmap.org/search/commonwealth:cj82m1393">1857 Smith &amp; Fuller map</a></li>
+        <li><a target="_blank" href="http://cdm.bostonathenaeum.org/cdm/singleitem/collection/p13110coll5/id/1969/rec/14">1857 Champney illustration</a></li>
+        <li><a target="_blank" href="https://www.google.com/maps/@42.3612466,-71.0525648,3a,75y,304.12h,120.35t/data=!3m7!1e1!3m5!1sQ8dQzteI8dehA_I0vOZVpA!2e0!6s%2F%2Fgeo3.ggpht.com%2Fcbk%3Fpanoid%3DQ8dQzteI8dehA_I0vOZVpA%26output%3Dthumbnail%26cb_client%3Dsearch.revgeo_and_fetch.gps%26thumb%3D2%26w%3D96%26h%3D64%26yaw%3D22.498148%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192">Name on Facade</a></li>
+        <li><a target="_blank" href="http://mapjunction.com/VIEWER/6613">1928 &amp; 1938 Bromley atlases</a></li>
+        <li><a target="_blank" href="http://mapjunction.com/VIEWER/9641">1952 &amp; 1955 USGS aerials</a></li>
+    </ul>
+
+    <h2>Types of Maps</h2>
+    <button class="btn btn-primary" type="button" onclick="openLinks('types')">Open All</button>
+    <ul id="types">
+        <li><a target="_blank" href="https://collections.leventhalmap.org/search/commonwealth:9s161f21f">Maps</a></li>
+        <li><a target="_blank" href="https://collections.leventhalmap.org/search/commonwealth:1257c299m">Atlases</a></li>
+        <li><a target="_blank" href="http://blogs.umb.edu/pumpingstation/files/2013/04/Outfall-Sewers-Main-Drainage-2cdhr3v.jpg">Specialty Maps</a></li>
+        <li><a target="_blank" href="https://collections.leventhalmap.org/search/commonwealth:q524n561v">Reconstructed Maps</a></li>
+        <li><a target="_blank" href="https://collections.leventhalmap.org/search/commonwealth:3f4633656">Birds Eye Views</a></li>
+        <li><a href="https://www.digitalcommonwealth.org/search?f%5Bname_facet_ssim%5D%5B%5D=Fairchild+Aerial+Surveys%2C+inc.&f%5Bsubject_geographic_ssim%5D%5B%5D=Boston"/>Fairchild Aerial Surveys</li>
+        <li><a target="_blank" href="https://earthexplorer.usgs.gov/metadata/4660/AR1VKF000010010/">Aerial Photographs</a></li>
+    </ul>
+
+    <h2>Best of Boston</h2>
+    <button class="btn btn-primary" type="button" onclick="openLinks('best')">Open All</button>
+    <ul id="best">
+        <li><a target="_blank" href="https://www.masshist.org/database/viewer.php?ft=Massachusetts%20Maps&from=/online/massmaps/list.php&item_id=1736">1600's Clough reconstructions</a></li>
+        <li><a target="_blank" href="https://collections.leventhalmap.org/search/commonwealth:x059cc38s">1814 Hales</a></li>
+        <li><a target="_blank" href="https://collections.leventhalmap.org/search/commonwealth:x059c9526">1852 Slatter &amp; Callan</a></li>
+        <li><a target="_blank" href="https://collections.leventhalmap.org/search/commonwealth:3f4632536">1852 McIntyre</a></li>
+        <li><a href="https://www.flickr.com/photos/mastatelibrary/sets/72157634954999891/">Bromley Atlases</a></li>
+    </ul>
+
+    <h2>Maps Online</h2>
+    <button class="btn btn-primary" type="button" onclick="openLinks('online')">Open All</button>
+    <ul id="online">
+        <li><a target="_blank" href="https://collections.leventhalmap.org/search?commit=Apply&f%5Bgenre_basic_ssim%5D%5B%5D=Maps&f%5Bsubject_geographic_ssim%5D%5B%5D=Boston&q=&search_field=dummy_range&sort=date_start_dtsi+asc%2C+title_info_primary_ssort+asc&utf8=%E2%9C%93">Leventhal Map Center</a></li>
+        <li><a target="_blank" href="http://www.mass.gov/anf/research-and-tech/oversight-agencies/lib/massachusetts-real-estate-atlases.html">Massachusetts Real Estate Atlas Digitization Project</a></li>
+        <li><a target="_blank" href="https://www.digitalcommonwealth.org/search?f%5Bgenre_basic_ssim%5D%5B%5D=Maps&f%5Bsubject_geographic_ssim%5D%5B%5D=Boston&q=&search_field=all_fields&sort=date_start_dtsi+asc%2C+title_info_primary_ssort+asc">Digital Commonwealth</a></li>
+        <li><a target="_blank" href="http://www.bostonplans.org/3d-data-maps/historical-maps/the-boston-atlas">Boston Atlas</a></li>
+    </ul>
+
+    <h2>Overlaying Maps</h2>
+    <button class="btn btn-primary" type="button" onclick="openLinks('overlaying')">Open All</button>
+    <ul id="overlaying">
+        <li><a target="_blank" href="http://mapjunction.com/VIEWER/6613">Mapjunction</a></li>
+        <li><a target="_blank" href="https://atlascope.leventhalmap.org/">Leventhal Atlascope</a></li>
+        <li><a target="_blank" href="https://collections.leventhalmap.org/search?f%5Bgeoreferenced_bsi%5D%5B%5D=yes&f%5Bsubject_geographic_ssim%5D%5B%5D=Boston&sort=date_start_dtsi+asc%2C+title_info_primary_ssort+asc">Leventhal Sheet Maps</a></li>
+    </ul>
+
+    <h2>Georeferencing Maps</h2>
+    <button class="btn btn-primary" type="button" onclick="openLinks('georef')">Open All</button>
+    <ul id="georef">
+        <li><a target="_blank" href="https://mapwarper.net/maps/26529#Preview_Rectified_Map_tab">Boston & Maine Rail Yards</a></li>
+        <li><a target="_blank" href="https://www.youtube.com/watch?time_continue=1&v=kIm4X4AVLeg&feature=emb_logo">How To Georference</a></li>
+        <li><a target="_blank" href="https://collections.leventhalmap.org/georeferencing/map-layers">Multiple Layers</a></li>
+        <li><a target="_blank" href="https://dennismc.carto.com/builder/5148ebac-09c7-11e7-b3f4-0e05a8b3e3d7">Reinventing Boston</a></li>
+    </ul>
+</div>
+
+<script>
+    function openLinks (id) {
+        var links = document.getElementById(id).getElementsByTagName('a'),
+                i = 0;
+
+        var interval = setInterval(
+                function () {
+                    if (i < links.length) {
+                        links[i++].click();
+                    }
+                    else {
+                        clearInterval(interval);
+                    }
+                },
+                1000
+        );
+        document.title = id.toUpperCase();
+    }
+</script>
+
+</body>
+</html>
