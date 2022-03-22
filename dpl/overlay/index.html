@@ -6,8 +6,11 @@
     <title>vanIsland.tif</title>
 
     <!-- Leaflet -->
-    <link rel="stylesheet" href="//cdn.leafletjs.com/leaflet-0.7.5/leaflet.css" />
-    <script src="//cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+
+    <script src="L.Control.Opacity.js"></script>
+    <link href="L.Control.Opacity.css" rel="stylesheet" />
 
     <style>
         body { margin:0; padding:0; }
@@ -87,6 +90,9 @@
 
     // Add base layers
     L.control.layers(basemaps, overlaymaps, {collapsed: false}).addTo(map);
+
+    // Add opacity controls (see https://github.com/dayjournal/Leaflet.Control.Opacity)
+    L.control.opacity(overlaymaps,{label:'Overlay Opacity'}).addTo(map);
 
     // Fit to overlay bounds (SW and NE points with (lat, lon))
     // map.fitBounds([[47.0842205424, -118.879875343], [52.9340968887, -129.955667367]]);
