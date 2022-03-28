@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- based on https://github.com/ect123/gdal2tiles-workshop
+     also see http://132.72.155.230:3838/js/leaflet.html -->
 <head>
     <meta charset="utf-8">
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
-    <title>vanIsland.tif</title>
+    <title>Denver Historic Maps Overlay</title>
 
     <!-- Leaflet -->
     <link rel="stylesheet" href="leaflet.css" />
@@ -48,7 +51,10 @@
 
     // Overlay layers
     var dugal1868 = L.tileLayer('https://mapwarper.net/maps/tile/63218/{z}/{x}/{y}.png', {attribution: "Denver Public Library", minZoom: 10, maxZoom: 18});
-    var thayer1879 = L.tileLayer('https://mapwarper.net/maps/tile/61383/{z}/{x}/{y}.png', {attribution: "Denver Public Library", minZoom: 10, maxZoom: 18});
+    var willits1878 = L.tileLayer('https://mapwarper.net/maps/tile/63573/{z}/{x}/{y}.png', {attribution: "Denver Public Library", minZoom: 10, maxZoom: 18});
+    var robinson1877 = L.tileLayer('https://mapwarper.net/mosaics/tile/1524/{z}/{x}/{y}.png', {attribution: "Denver Public Library", minZoom: 10, maxZoom: 18});
+    var hotchkiss1958 = L.tileLayer('https://mapwarper.net/maps/tile/62912/{z}/{x}/{y}.png', {attribution: "Denver Public Library", minZoom: 10, maxZoom: 18});
+    var king1933 = L.tileLayer('https://tiles.arcgis.com/tiles/44C95LOqZjbh8Row/arcgis/rest/services/Denver_1933_Aerial/MapServer/tile/{z}/{y}/{x}', {attribution: "Denver Public Library", minZoom: 10, maxZoom: 18});
 
     // Map
     var map = L.map('map', {
@@ -59,8 +65,14 @@
         layers: [osm]
     });
 
-    var basemaps = {"OpenStreetMap": osm}
-    var overlaymaps = {"1868 Dugal": dugal1868, "1879 Thayer":thayer1879}
+    var basemaps = {"OpenStreetMap": osm};
+    var overlaymaps = {
+        "1868 Dugal":       dugal1868,
+        "1878 Willits":     willits1878,
+        "1887 Robinson":    robinson1877,
+        "1958 Hotchkiss":   hotchkiss1958,
+        "1933 King":        king1933
+    };
 
     // Title
     var title = L.control();
