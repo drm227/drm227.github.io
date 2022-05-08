@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui' />
+    <title>Leaflet Compare</title>
+    <link rel="stylesheet" href="leaflet.css" />
+    <script src="leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-compare/dist/leaflet-compare.css" />
+    <script src="https://unpkg.com/leaflet-compare/dist/leaflet-compare.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            -- height:95%;
+        }
+    </style>
+</head>
+
+<body>
+<div id='map'></div>
+<!--
+<div style="width:100%;height:5%;position:absolute;bottom:0;background-color: yellow;">
+    Left Map:
+    <select>
+        <option>1868 Dugal</option>
+        <option>1878 Willits</option>
+    </select>
+</div>
+-->
+
+<script>
+    const map = L.map('map').setView([39.749771275005315, -104.99320908930397], 15);
+
+    const osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+
+    const stamenLayer = L.tileLayer('https://mapwarper.net/maps/tile/63573/{z}/{x}/{y}.png', {
+        attribution:
+        '&copy; Denver Public Library <a href="http://digital.denverlibrary.org/">Digital Collections</a>'
+    }).addTo(map)
+
+    map.createPane("left")
+    map.createPane("right")
+
+    const compare = L.control.compare([stamenLayer], [osmLayer]).addTo(map);
+</script>
+</body>
+</html>
