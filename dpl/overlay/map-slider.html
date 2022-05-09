@@ -29,17 +29,17 @@
 
 <div id="controls" style="width:100%;height:5%;position:absolute;bottom:0;text-align:center;">
     Left Map:
-    <select>
-        <option>1868 Dugal</option>
-        <option>1878 Willits</option>
+    <select data-bind="value:leftMap">
+        <option value="Willits1878">1878 Willits</option>
+        <option value="Robinson1887">1887 Robinson</option>
     </select>
     &nbsp;&nbsp;Opacity:
     <input id="slide" type="range" min="0" max="1" step="0.1" value="1" data-bind="value:opacity">
     &nbsp;&nbsp;Right Map:
-    <select>
-        <option>Open Street Map</option>
-        <option>1868 Dugal</option>
-        <option>1878 Willits</option>
+    <select data-bind="value:rightMap">
+        <option value="OSM">Open Street Map</option>
+        <option value="Willits1878">1878 Willits</option>
+        <option value="Robinson1887">1887 Robinson</option>
     </select>
 </div>
 
@@ -50,24 +50,56 @@
     const osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
     const osmLayer2 = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
-    const stamenLayer = L.tileLayer('https://mapwarper.net/maps/tile/63573/{z}/{x}/{y}.png', {
+    const Willits1878right = L.tileLayer('https://mapwarper.net/maps/tile/63573/{z}/{x}/{y}.png',{opacity:0}).addTo(map);
+    const Robinson1887right = L.tileLayer('https://mapwarper.net/mosaics/tile/1524/{z}/{x}/{y}.png',{opacity:0}).addTo(map);
+
+    const Willits1878 = L.tileLayer('https://mapwarper.net/maps/tile/63573/{z}/{x}/{y}.png', {
         attribution:
-        '&copy; Denver Public Library <a href="http://digital.denverlibrary.org/">Digital Collections</a>'
+        '&copy; Denver Public Library <a href="http://digital.denverlibrary.org/">Digital Collections</a>',
+        opacity: 1
     }).addTo(map)
+    const Robinson1887 = L.tileLayer('https://mapwarper.net/mosaics/tile/1524/{z}/{x}/{y}.png',{opacity:0}).addTo(map);
 
-    map.createPane("left")
-    map.createPane("right")
+    map.createPane("left");
+    map.createPane("right");
 
-    const compare = L.control.compare([stamenLayer,osmLayer],[osmLayer2]).addTo(map);
+    const compare = L.control.compare([Robinson1887,Willits1878,osmLayer],[Robinson1887right,Willits1878right,osmLayer2]).addTo(map);
 
     function updateOpacity(value) {
         stamenLayer.setOpacity(value);
     }
 
     function ViewModel () {
+        var _this = this;
+        this.leftMap = ko.observable('Willits1878');
+        this.leftMap.subscribe(function(newValue){
+            if (newValue == 'Willits1878') {
+                Willits1878.setOpacity(1);
+                Robinson1887.setOpacity(0);
+            }
+            else {
+                Willits1878.setOpacity(0);
+                Robinson1887.setOpacity(1);
+            };
+            _this.opacity(1)
+        });
+
         this.opacity = new ko.observable(1.0);
         this.opacity.subscribe(function(newValue){
-            stamenLayer.setOpacity(newValue);
+            var layer = (_this.leftMap()=='Willits1878') ? Willits1878 : Robinson1887;
+            layer.setOpacity(newValue);
+        });
+
+        this.rightMap = ko.observable('OSM');
+        this.rightMap.subscribe(function(newValue){
+            if (newValue == 'Willits1878') {
+                Willits1878right.setOpacity(1);
+                Robinson1887right.setOpacity(0);
+            }
+            else {
+                Willits1878right.setOpacity(0);
+                Robinson1887right.setOpacity(1);
+            };
         });
     }
 
