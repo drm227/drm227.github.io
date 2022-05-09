@@ -8,6 +8,7 @@
     <script src="leaflet.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet-compare/dist/leaflet-compare.css" />
     <script src="https://unpkg.com/leaflet-compare/dist/leaflet-compare.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/knockout/3.5.0/knockout-min.js"></script>
     <style>
         body {
             margin: 0;
@@ -26,14 +27,14 @@
 <body>
 <div id='map'></div>
 
-<div style="width:100%;height:5%;position:absolute;bottom:0;text-align:center;">
+<div id="controls" style="width:100%;height:5%;position:absolute;bottom:0;text-align:center;">
     Left Map:
     <select>
         <option>1868 Dugal</option>
         <option>1878 Willits</option>
     </select>
     &nbsp;&nbsp;Opacity:
-    <input id="slide" type="range" min="0" max="1" step="0.1" value="1" onchange="updateOpacity(this.value)">
+    <input id="slide" type="range" min="0" max="1" step="0.1" value="1" data-bind="value:opacity">
     &nbsp;&nbsp;Right Map:
     <select>
         <option>Open Street Map</option>
@@ -62,6 +63,17 @@
     function updateOpacity(value) {
         stamenLayer.setOpacity(value);
     }
+
+    function ViewModel () {
+        this.opacity = new ko.observable(1.0);
+        this.opacity.subscribe(function(newValue){
+            stamenLayer.setOpacity(newValue);
+        });
+    }
+
+    var vm = new ViewModel ();
+
+    ko.applyBindings(vm,document.getElementById('controls'));
 </script>
 </body>
 </html>
