@@ -50,29 +50,36 @@
 
     const leftOSM = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
     const rightOSM = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
-    const Willits1878 = L.tileLayer('https://mapwarper.net/maps/tile/63573/{z}/{x}/{y}.png').addTo(map);
-    const Robinson1887 = L.tileLayer('https://mapwarper.net/mosaics/tile/1524/{z}/{x}/{y}.png');
 
+    var leftLayers = {
+        Willits1878: L.tileLayer('https://mapwarper.net/maps/tile/63573/{z}/{x}/{y}.png'),
+        Robinson1887: L.tileLayer('https://mapwarper.net/mosaics/tile/1524/{z}/{x}/{y}.png')
+    };
+    leftLayers.Willits1878.addTo(map);
 
     map.createPane("left");
     map.createPane("right");
 
-    var compare = L.control.compare([Willits1878,leftOSM],[rightOSM]).addTo(map);
+    var compare = L.control.compare([leftLayers.Willits1878,leftOSM],[rightOSM]).addTo(map);
 
-    function ViewModel () {
+    function ViewModel (leftLayers) {
         var _this = this;
+        this.leftLayers = leftLayers;
 
         this.leftMap = ko.observable('Willits1878');
         this.leftMap.subscribe(function(newValue){
+            var leftLayers = _this.leftLayers;
             if (newValue == 'Willits1878') {
-                map.removeLayer(Robinson1887);
-                Willits1878.addTo(map);
+                compare.remove();
+                map.removeLayer(leftLayers.Robinson1887);
+                leftLayers.Willits1878.addTo(map);
+                compare = L.control.compare([leftLayers.Willits1878,leftOSM],[rightOSM]).addTo(map);
             }
             else if (newValue == 'Robinson1887') {
                 compare.remove();
-                map.removeLayer(Willits1878);
-                Robinson1887.addTo(map);
-                compare = L.control.compare([Robinson1887,leftOSM],[rightOSM]).addTo(map);
+                map.removeLayer(leftLayers.Willits1878);
+                leftLayers.Robinson1887.addTo(map);
+                compare = L.control.compare([leftLayers.Robinson1887,leftOSM],[rightOSM]).addTo(map);
             };
             _this.opacity(1)
         });
@@ -84,7 +91,7 @@
         });
     }
 
-    ko.applyBindings(new ViewModel (),document.getElementById('controls'));
+    ko.applyBindings(new ViewModel (leftLayers),document.getElementById('controls'));
 </script>
 
 </body>
