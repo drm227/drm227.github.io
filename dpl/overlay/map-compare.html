@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<!--
+    Based on https://github.com/phloose/leaflet-compare
+    1. One historic map on left with slider.
+    2. Opacity control for map on left.
+    3. Select map on left from list.
+    4. Select map on right from list
+ -->
+<head>
+    <meta charset=utf-8 />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui' />
+    <title>Denver Historic Maps Overlay</title>
+    <link rel="stylesheet" href="leaflet.css" />
+    <script src="leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-compare/dist/leaflet-compare.css" />
+    <script src="https://unpkg.com/leaflet-compare/dist/leaflet-compare.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/knockout/3.5.0/knockout-min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            height:95%;
+        }
+    </style>
+</head>
+
+<body>
+
+<div id='map'></div>
+
+<script>
+
+    const map = L.map('map').setView([39.749771275005315, -104.99320908930397], 15);
+
+    const leftOSM = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+    const rightOSM = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+    const Willits1878 = L.tileLayer('https://mapwarper.net/maps/tile/63573/{z}/{x}/{y}.png').addTo(map);
+
+
+    map.createPane("left");
+    map.createPane("right");
+
+    const compare = L.control.compare([Willits1878,leftOSM],[rightOSM]).addTo(map);
+
+</script>
+
+</body>
+</html>
+
