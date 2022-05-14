@@ -62,36 +62,32 @@
 
     var compare = L.control.compare([leftLayers.Willits1878,leftOSM],[rightOSM]).addTo(map);
 
-    function ViewModel (leftLayers) {
+    function ViewModel (map,leftLayers) {
         var _this = this;
+        this.map = map;
         this.leftLayers = leftLayers;
 
         this.leftMap = ko.observable('Willits1878');
+        this.oldLeftMap = this.leftMap();
         this.leftMap.subscribe(function(newValue){
-            var leftLayers = _this.leftLayers;
-            if (newValue == 'Willits1878') {
-                compare.remove();
-                map.removeLayer(leftLayers.Robinson1887);
-                leftLayers.Willits1878.addTo(map);
-                compare = L.control.compare([leftLayers.Willits1878,leftOSM],[rightOSM]).addTo(map);
-            }
-            else if (newValue == 'Robinson1887') {
-                compare.remove();
-                map.removeLayer(leftLayers.Willits1878);
-                leftLayers.Robinson1887.addTo(map);
-                compare = L.control.compare([leftLayers.Robinson1887,leftOSM],[rightOSM]).addTo(map);
-            };
+            var map = _this.map,
+                    leftLayers = _this.leftLayers;
+            compare.remove();
+            map.removeLayer(leftLayers[_this.oldLeftMap]);
+            leftLayers[newValue].addTo(map);
+            compare = L.control.compare([leftLayers[newValue],leftOSM],[rightOSM]).addTo(map);
+            _this.oldLeftMap = newValue;
             _this.opacity(1)
         });
 
         this.opacity = new ko.observable(1.0);
         this.opacity.subscribe(function(newValue){
-            var layer = Willits1878;
+            var layer = _this.leftLayers[_this.leftMap()];
             layer.setOpacity(newValue);
         });
     }
 
-    ko.applyBindings(new ViewModel (leftLayers),document.getElementById('controls'));
+    ko.applyBindings(new ViewModel (map,leftLayers),document.getElementById('controls'));
 </script>
 
 </body>
