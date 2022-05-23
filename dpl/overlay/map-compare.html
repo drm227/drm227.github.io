@@ -35,6 +35,28 @@
             display: flex;
             align-items: center; /* Vertical center alignment */
             justify-content: center; /* Horizontal center alignment */
+            background-color: rgb(75, 113, 144);
+            color: white;
+        }
+        .ctl {
+            padding: 2px 10px 2px 10px;
+            background: white;
+            background: rgba(255,255,255,0.9);
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            border-radius: 5px;
+            /*text-align: right;*/
+            background-color: rgb(75, 113, 144);
+        }
+        .title {
+            font-family: fantasy;
+            font-size: 1.3rem;
+            color: white;
+        }
+        .subtitle {
+            text-align: center;
+        }
+        .subtitle a {
+            color: white;
         }
     </style>
 </head>
@@ -54,7 +76,7 @@
     </select>
 
     &nbsp;&nbsp;Opacity:&nbsp;
-    <input id="slide" type="range" min="0" max="1" step="0.1" value="1" data-bind="value:opacity">
+    <span style="background-color: white;"><input id="slide" type="range" min="0" max="1" step="0.1" value="1" data-bind="value:opacity"></span>
 
     &nbsp;&nbsp;Underlay Map:&nbsp;
     <select data-bind="value:rightMap">
@@ -70,6 +92,17 @@
 <script>
 
     const map = L.map('map').setView([39.749771275005315, -104.99320908930397], 15);
+    // Title
+    var title = L.control();
+    title.onAdd = function(map) {
+        this._div = L.DomUtil.create('div', 'ctl');
+        this.update();
+        return this._div;
+    };
+    title.update = function(props) {
+        this._div.innerHTML = "<div class='title'>Time Traveler's Map of Denver</div><div class='subtitle'><a href='//digital.denverlibrary.org/digital/search/searchterm/map/field/formatb/mode/exact/conn/and/order/title/ad/asc' target='_blank'>Denver Public Library: Digital Collections: Maps</a></div>";
+    };
+    title.addTo(map);
 
     const leftOSM = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
     const rightOSM = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
@@ -137,18 +170,40 @@
         var map = this.map,
             leftLayers = this.leftLayers,
             rightLayers = this.rightLayers,
+            leftCompare,
             rightCompare = newValue == 'OSM' ? [rightOSM] : [rightLayers[newValue],rightOSM];
         compare.remove();
-        if (this.oldRightMap !== 'OSM') {
-            map.removeLayer(rightLayers[this.oldRightMap]);
+        // If the old right map was not OSM, then remove the left layer for that map.
+        if (this.oldRightMap != 'OSM') {
+            map.removeLayer(leftLayers[this.oldRightMap]);
         }
+        // If the new right map is OSM, remove the layer for the old right map.
         if (newValue == 'OSM') {
             map.removeLayer(rightLayers[this.oldRightMap]);
         }
+        // If the new right map is not OSM, then
+        // - add the layer for the new right map, and
+        // - remove the left layer for the left map, and
+        // - add the left layers for the new right map and the selected left map, in order so that the left map layer overlays the right map layer.
         else {
+            // ... add the layer for the new right map,
             rightLayers[newValue].addTo(map);
+            map.removeLayer(leftLayers[this.leftMap()]);
+            leftLayers[newValue].addTo(map);
+            leftLayers[this.leftMap()].addTo(map);
         }
-        compare = L.control.compare([leftLayers[this.leftMap()],leftOSM],rightCompare).addTo(map);
+        // The compare will have three layers on the left if the right selection is not OSM:
+        // 1. the left selection
+        // 2. the right selection, if not OSM
+        // 3.
+        if (newValue == 'OSM') {
+            leftCompare = [leftLayers[this.leftMap()],leftOSM];
+        }
+        else {
+            leftCompare = [leftLayers[this.leftMap()],leftLayers[newValue]];
+        }
+
+        compare = L.control.compare(leftCompare,rightCompare).addTo(map);
         this.oldRightMap = newValue;
     };
 
