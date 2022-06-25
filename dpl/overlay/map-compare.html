@@ -53,6 +53,7 @@
             color: white;
         }
         .subtitle {
+            color: white;
             text-align: center;
         }
         .subtitle a {
@@ -71,6 +72,7 @@
         <option value="Dugal1868">1868 Dugal</option>
         <option value="Willits1878">1878 Willits</option>
         <option value="Robinson1887">1887 Robinson</option>
+        <option value="Baist1905">1905 Baist</option>
         <option value="King1933">1933 King</option>
         <option value="Hotchkiss1958">1958 Hotchkiss</option>
     </select>
@@ -84,6 +86,7 @@
         <option value="Dugal1868">1868 Dugal</option>
         <option value="Willits1878">1878 Willits</option>
         <option value="Robinson1887">1887 Robinson</option>
+        <option value="Baist1905">1905 Baist</option>
         <option value="King1933">1933 King</option>
         <option value="Hotchkiss1958">1958 Hotchkiss</option>
     </select>
@@ -100,7 +103,7 @@
         return this._div;
     };
     title.update = function(props) {
-        this._div.innerHTML = "<div class='title'>Time Traveler's Map of Denver</div><div class='subtitle'><a href='//digital.denverlibrary.org/digital/search/searchterm/map/field/formatb/mode/exact/conn/and/order/title/ad/asc' target='_blank'>Denver Public Library: Digital Collections: Maps</a></div>";
+        this._div.innerHTML = "<div class='title'>Time Traveler's Map of Denver</div><div class='subtitle'><a href='//www.denverlibrary.org/' target='_blank'>Denver Public Library</a> &bullet; <a href='//digital.denverlibrary.org/' target='_blank'>Digital Collections</a> &bullet; <a href='//digital.denverlibrary.org/digital/search/searchterm/map/field/formatb/mode/exact/conn/and/order/title/ad/asc' target='_blank'>Maps</a></div>";
     };
     title.addTo(map);
 
@@ -111,6 +114,7 @@
         Dugal1868:      L.tileLayer('https://mapwarper.net/maps/tile/63218/{z}/{x}/{y}.png'),
         Willits1878:    L.tileLayer('https://mapwarper.net/maps/tile/63573/{z}/{x}/{y}.png'),
         Robinson1887:   L.tileLayer('https://mapwarper.net/mosaics/tile/1524/{z}/{x}/{y}.png'),
+        Baist1905:      L.tileLayer('https://mapwarper.net/mosaics/tile/1543/{z}/{x}/{y}.png'),
         King1933:       L.tileLayer('https://tiles.arcgis.com/tiles/44C95LOqZjbh8Row/arcgis/rest/services/Denver_1933_Aerial/MapServer/tile/{z}/{y}/{x}'),
         Hotchkiss1958:  L.tileLayer('https://mapwarper.net/maps/tile/62912/{z}/{x}/{y}.png')
     };
@@ -120,6 +124,7 @@
         Dugal1868:      L.tileLayer('https://mapwarper.net/maps/tile/63218/{z}/{x}/{y}.png'),
         Willits1878:    L.tileLayer('https://mapwarper.net/maps/tile/63573/{z}/{x}/{y}.png'),
         Robinson1887:   L.tileLayer('https://mapwarper.net/mosaics/tile/1524/{z}/{x}/{y}.png'),
+        Baist1905:      L.tileLayer('https://mapwarper.net/mosaics/tile/1543/{z}/{x}/{y}.png'),
         King1933:       L.tileLayer('https://tiles.arcgis.com/tiles/44C95LOqZjbh8Row/arcgis/rest/services/Denver_1933_Aerial/MapServer/tile/{z}/{y}/{x}'),
         Hotchkiss1958:  L.tileLayer('https://mapwarper.net/maps/tile/62912/{z}/{x}/{y}.png'),
         OSM:            rightOSM
