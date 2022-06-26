@@ -73,9 +73,12 @@
         <option value="Willits1878">1878 Willits</option>
         <option value="Robinson1887">1887 Robinson</option>
         <option value="Baist1905">1905 Baist</option>
+        <option value="Clason1917">1917 Clason</option>
         <option value="King1933">1933 King</option>
         <option value="Hotchkiss1958">1958 Hotchkiss</option>
     </select>
+
+    &nbsp;<span style="cursor:help;" data-bind="click:onClickLeftInfo">&#9432;</span>
 
     &nbsp;&nbsp;Opacity:&nbsp;
     <span style="background-color: white;"><input id="slide" type="range" min="0" max="1" step="0.1" value="1" data-bind="value:opacity"></span>
@@ -90,9 +93,20 @@
         <option value="King1933">1933 King</option>
         <option value="Hotchkiss1958">1958 Hotchkiss</option>
     </select>
+
+    &nbsp;&nbsp;<span style="cursor:help;" data-bind="click:onClickRightInfo">&#9432;</span>
 </div>
 
 <script>
+    const mapLinks = {
+        Dugal1868:      "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/560/rec/1",
+        Willits1878:    "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/388/rec/1",
+        Robinson1887:   "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/194/rec/1",
+        Baist1905:      "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/133",
+        Clason1917:     "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/811/rec/13",
+        King1933:       "https://history.denverlibrary.org/research-tool/1933-king-aerial-photographs",
+        Hotchkiss1958:  "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/845/rec/1"
+    };
 
     const map = L.map('map').setView([39.749771275005315, -104.99320908930397], 15);
     // Title
@@ -115,6 +129,7 @@
         Willits1878:    L.tileLayer('https://mapwarper.net/maps/tile/63573/{z}/{x}/{y}.png'),
         Robinson1887:   L.tileLayer('https://mapwarper.net/mosaics/tile/1524/{z}/{x}/{y}.png'),
         Baist1905:      L.tileLayer('https://mapwarper.net/mosaics/tile/1543/{z}/{x}/{y}.png'),
+        Clason1917:     L.tileLayer('https://mapwarper.net/maps/tile/63724/{z}/{x}/{y}.png'),
         King1933:       L.tileLayer('https://tiles.arcgis.com/tiles/44C95LOqZjbh8Row/arcgis/rest/services/Denver_1933_Aerial/MapServer/tile/{z}/{y}/{x}'),
         Hotchkiss1958:  L.tileLayer('https://mapwarper.net/maps/tile/62912/{z}/{x}/{y}.png')
     };
@@ -125,6 +140,7 @@
         Willits1878:    L.tileLayer('https://mapwarper.net/maps/tile/63573/{z}/{x}/{y}.png'),
         Robinson1887:   L.tileLayer('https://mapwarper.net/mosaics/tile/1524/{z}/{x}/{y}.png'),
         Baist1905:      L.tileLayer('https://mapwarper.net/mosaics/tile/1543/{z}/{x}/{y}.png'),
+        Clason1917:     L.tileLayer('https://mapwarper.net/maps/tile/63724/{z}/{x}/{y}.png'),
         King1933:       L.tileLayer('https://tiles.arcgis.com/tiles/44C95LOqZjbh8Row/arcgis/rest/services/Denver_1933_Aerial/MapServer/tile/{z}/{y}/{x}'),
         Hotchkiss1958:  L.tileLayer('https://mapwarper.net/maps/tile/62912/{z}/{x}/{y}.png'),
         OSM:            rightOSM
@@ -171,6 +187,10 @@
         this.opacity(1)
     };
 
+    ViewModel.prototype.onClickLeftInfo = function () {
+        window.open(mapLinks[this.leftMap()], "_blank");
+    };
+
     ViewModel.prototype.changeRightLayer = function (newValue) {
         var map = this.map,
             leftLayers = this.leftLayers,
@@ -210,6 +230,10 @@
 
         compare = L.control.compare(leftCompare,rightCompare).addTo(map);
         this.oldRightMap = newValue;
+    };
+
+    ViewModel.prototype.onClickRightInfo = function () {
+        window.open(mapLinks[this.rightMap()], "_blank");
     };
 
     ko.applyBindings(new ViewModel (map,leftLayers,rightLayers),document.getElementById('controls'));
