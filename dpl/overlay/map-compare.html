@@ -10,11 +10,12 @@
     <meta charset=utf-8 />
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui' />
     <title>Denver Historic Maps Overlay</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/knockout/3.5.0/knockout-min.js"></script>
     <link rel="stylesheet" href="leaflet.css" />
     <script src="leaflet.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet-compare/dist/leaflet-compare.css" />
     <script src="https://unpkg.com/leaflet-compare/dist/leaflet-compare.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/knockout/3.5.0/knockout-min.js"></script>
     <style>
         body {
             margin: 0;
@@ -68,17 +69,7 @@
 
 <div id="controls" style="width:100%;height:5%;position:absolute;bottom:0;text-align:center;">
     Overlay Map:&nbsp;
-    <select data-bind="value:leftMap">
-        <option value="Dugal1868">1868 Dugal</option>
-        <option value="Willits1878">1878 Willits</option>
-        <option value="Robinson1887">1887 Robinson</option>
-        <option value="Willits1899">1899 Willits</option>
-        <option value="Baist1905">1905 Baist</option>
-        <option value="Clason1917">1917 Clason</option>
-        <option value="Nirenstein1929">1929 Nirenstein</option>
-        <option value="King1933">1933 King</option>
-        <option value="Hotchkiss1942">1942 Hotchkiss</option>
-        <option value="Hotchkiss1958">1958 Hotchkiss</option>
+    <select data-bind="value:leftMap,options:config.maps,optionsText:'name',optionsValue:'name'">
     </select>
 
     &nbsp;<span style="cursor:help;" data-bind="click:onClickLeftInfo">&#9432;</span>
@@ -89,22 +80,40 @@
     &nbsp;&nbsp;Underlay Map:&nbsp;
     <select data-bind="value:rightMap">
         <option value="OSM">2022 Open Street Map</option>
-        <option value="Dugal1868">1868 Dugal</option>
-        <option value="Willits1878">1878 Willits</option>
-        <option value="Robinson1887">1887 Robinson</option>
-        <option value="Willits1899">1899 Willits</option>
-        <option value="Baist1905">1905 Baist</option>
-        <option value="Clason1917">1917 Clason</option>
-        <option value="Nirenstein1929">1929 Nirenstein</option>
-        <option value="King1933">1933 King</option>
-        <option value="Hotchkiss1942">1942 Hotchkiss</option>
-        <option value="Hotchkiss1958">1958 Hotchkiss</option>
+        <!-- ko foreach:config.maps -->
+        <option data-bind="text:name,attr:{value:name}">1868 Dugal</option>
+        <!-- /ko -->
     </select>
 
     &nbsp;&nbsp;<span style="cursor:help;" data-bind="click:onClickRightInfo">&#9432;</span>
 </div>
 
 <script>
+    const map = L.map('map').setView([39.749771275005315, -104.99320908930397], 15);
+
+    $.ajax({
+        url: 'Denver.json',
+        method: 'GET',
+        dataType: 'json'
+    })
+    .done(function(config){
+        var mapLinks= {},
+            leftLayers = {},
+            rightLayers = {};
+        config.maps.forEach(function(map){
+            mapLinks[map.name]      = map.infoURL;
+            leftLayers[map.name]    = L.tileLayer(map.tileURL);
+            rightLayers[map.name]   = L.tileLayer(map.tileURL);
+        });
+        leftLayers['1878 Willits'].addTo(map);
+        rightLayers.OSM = rightOSM;
+        compare = L.control.compare([leftLayers['1878 Willits'],leftOSM],[rightOSM]).addTo(map)
+        ko.applyBindings(new ViewModel (map,config,leftLayers,rightLayers,mapLinks),document.getElementById('controls'));
+    })
+    .fail(function(jqXHR, textStatus, errorThrown){
+        alert(jqXHR.status + ' - ' + errorThrown);
+    });
+
     const mapLinks = {
         Dugal1868:      "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/560/rec/1",
         Willits1878:    "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/388/rec/1",
@@ -117,8 +126,6 @@
         Hotchkiss1942:  "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/559/rec/1",
         Hotchkiss1958:  "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/845/rec/1"
     };
-
-    const map = L.map('map').setView([39.749771275005315, -104.99320908930397], 15);
     // Title
     var title = L.control();
     title.onAdd = function(map) {
@@ -134,46 +141,20 @@
     const leftOSM = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
     const rightOSM = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
-    var leftLayers = {
-        Dugal1868:      L.tileLayer('https://mapwarper.net/maps/tile/63218/{z}/{x}/{y}.png'),
-        Willits1878:    L.tileLayer('https://mapwarper.net/maps/tile/63573/{z}/{x}/{y}.png'),
-        Robinson1887:   L.tileLayer('https://mapwarper.net/mosaics/tile/1524/{z}/{x}/{y}.png'),
-        Willits1899:    L.tileLayer('https://mapwarper.net/maps/tile/66218/{z}/{x}/{y}.png'),
-        Baist1905:      L.tileLayer('https://mapwarper.net/mosaics/tile/1543/{z}/{x}/{y}.png'),
-        Clason1917:     L.tileLayer('https://mapwarper.net/maps/tile/63724/{z}/{x}/{y}.png'),
-        Nirenstein1929: L.tileLayer('https://mapwarper.net/maps/tile/66190/{z}/{x}/{y}.png'),
-        King1933:       L.tileLayer('https://tiles.arcgis.com/tiles/44C95LOqZjbh8Row/arcgis/rest/services/Denver_1933_Aerial/MapServer/tile/{z}/{y}/{x}'),
-        Hotchkiss1942:  L.tileLayer('https://mapwarper.net/maps/tile/66163/{z}/{x}/{y}.png'),
-        Hotchkiss1958:  L.tileLayer('https://mapwarper.net/maps/tile/62912/{z}/{x}/{y}.png')
-    };
-    leftLayers.Willits1878.addTo(map);
-
-    var rightLayers = {
-        Dugal1868:      L.tileLayer('https://mapwarper.net/maps/tile/63218/{z}/{x}/{y}.png'),
-        Willits1878:    L.tileLayer('https://mapwarper.net/maps/tile/63573/{z}/{x}/{y}.png'),
-        Robinson1887:   L.tileLayer('https://mapwarper.net/mosaics/tile/1524/{z}/{x}/{y}.png'),
-        Willits1899:    L.tileLayer('https://mapwarper.net/maps/tile/66218/{z}/{x}/{y}.png'),
-        Baist1905:      L.tileLayer('https://mapwarper.net/mosaics/tile/1543/{z}/{x}/{y}.png'),
-        Clason1917:     L.tileLayer('https://mapwarper.net/maps/tile/63724/{z}/{x}/{y}.png'),
-        Nirenstein1929: L.tileLayer('https://mapwarper.net/maps/tile/66190/{z}/{x}/{y}.png'),
-        King1933:       L.tileLayer('https://tiles.arcgis.com/tiles/44C95LOqZjbh8Row/arcgis/rest/services/Denver_1933_Aerial/MapServer/tile/{z}/{y}/{x}'),
-        Hotchkiss1942:  L.tileLayer('https://mapwarper.net/maps/tile/66163/{z}/{x}/{y}.png'),
-        Hotchkiss1958:  L.tileLayer('https://mapwarper.net/maps/tile/62912/{z}/{x}/{y}.png'),
-        OSM:            rightOSM
-    };
-
     map.createPane("left");
     map.createPane("right");
 
-    var compare = L.control.compare([leftLayers.Willits1878,leftOSM],[rightOSM]).addTo(map);
+    var compare;
 
-    function ViewModel (map,leftLayers,rightLayers) {
+    function ViewModel (map,config,leftLayers,rightLayers,mapLinks) {
         var _this = this;
         this.map = map;
+        this.config = config;
         this.leftLayers = leftLayers;
         this.rightLayers = rightLayers;
+        this.mapLinks = mapLinks;
 
-        this.leftMap = ko.observable('Willits1878');
+        this.leftMap = ko.observable('1878 Willits');
         this.oldLeftMap = this.leftMap();
         this.leftMap.subscribe(function(newValue){
             this.changeLeftLayer(newValue);
@@ -204,7 +185,7 @@
     };
 
     ViewModel.prototype.onClickLeftInfo = function () {
-        window.open(mapLinks[this.leftMap()], "_blank");
+        window.open(this.mapLinks[this.leftMap()], "_blank");
     };
 
     ViewModel.prototype.changeRightLayer = function (newValue) {
@@ -249,10 +230,10 @@
     };
 
     ViewModel.prototype.onClickRightInfo = function () {
-        window.open(mapLinks[this.rightMap()], "_blank");
+        window.open(this.mapLinks[this.rightMap()], "_blank");
     };
 
-    ko.applyBindings(new ViewModel (map,leftLayers,rightLayers),document.getElementById('controls'));
+    //ko.applyBindings(new ViewModel (map,leftLayers,rightLayers),document.getElementById('controls'));
 </script>
 
 </body>
