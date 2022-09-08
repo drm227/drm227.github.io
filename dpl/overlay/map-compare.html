@@ -89,7 +89,6 @@
 </div>
 
 <script>
-    const map = L.map('map').setView([39.749771275005315, -104.99320908930397], 15);
 
     $.ajax({
         url: 'Denver.json',
@@ -97,89 +96,80 @@
         dataType: 'json'
     })
     .done(function(config){
-        var mapLinks= {},
-            leftLayers = {},
-            rightLayers = {};
-        config.maps.forEach(function(map){
-            mapLinks[map.name]      = map.infoURL;
-            leftLayers[map.name]    = L.tileLayer(map.tileURL);
-            rightLayers[map.name]   = L.tileLayer(map.tileURL);
-        });
-        leftLayers['1878 Willits'].addTo(map);
-        rightLayers.OSM = rightOSM;
-        compare = L.control.compare([leftLayers['1878 Willits'],leftOSM],[rightOSM]).addTo(map)
-        ko.applyBindings(new ViewModel (map,config,leftLayers,rightLayers,mapLinks),document.getElementById('controls'));
+        ko.applyBindings(new ViewModel (config),document.getElementById('controls'));
     })
     .fail(function(jqXHR, textStatus, errorThrown){
         alert(jqXHR.status + ' - ' + errorThrown);
     });
 
-    const mapLinks = {
-        Dugal1868:      "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/560/rec/1",
-        Willits1878:    "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/388/rec/1",
-        Robinson1887:   "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/194/rec/1",
-        Willits1899:    "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/389/rec/115",
-        Baist1905:      "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/133",
-        Clason1917:     "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/811/rec/13",
-        Nirenstein1929: "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/587/rec/1",
-        King1933:       "https://history.denverlibrary.org/research-tool/1933-king-aerial-photographs",
-        Hotchkiss1942:  "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/559/rec/1",
-        Hotchkiss1958:  "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/845/rec/1"
-    };
-    // Title
-    var title = L.control();
-    title.onAdd = function(map) {
-        this._div = L.DomUtil.create('div', 'ctl');
-        this.update();
-        return this._div;
-    };
-    title.update = function(props) {
-        this._div.innerHTML = "<div class='title'>Time Traveler's Map of Denver</div><div class='subtitle'><a href='//www.denverlibrary.org/' target='_blank'>Denver Public Library</a> &bullet; <a href='//digital.denverlibrary.org/' target='_blank'>Digital Collections</a> &bullet; <a href='//digital.denverlibrary.org/digital/search/searchterm/map/field/formatb/mode/exact/conn/and/order/title/ad/asc' target='_blank'>Maps</a></div>";
-    };
-    title.addTo(map);
-
-    const leftOSM = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
-    const rightOSM = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
-
-    map.createPane("left");
-    map.createPane("right");
-
-    var compare;
-
-    function ViewModel (map,config,leftLayers,rightLayers,mapLinks) {
+    function ViewModel (config) {
         var _this = this;
-        this.map = map;
         this.config = config;
-        this.leftLayers = leftLayers;
-        this.rightLayers = rightLayers;
-        this.mapLinks = mapLinks;
 
+        // Leaflet map.
+        this.map = L.map('map').setView([config.initial.latitude, config.initial.longitude], config.initial.zoom);
+
+        this.leftOSM = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(this.map);
+        this.rightOSM = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(this.map);
+
+        // Left and right map layers and map info links.
+        this.leftLayers = {};
+        this.rightLayers = {};
+        this.mapLinks = {};
+        config.maps.forEach(function(map){
+            _this.mapLinks[map.name]      = map.infoURL;
+            _this.leftLayers[map.name]    = L.tileLayer(map.tileURL);
+            _this.rightLayers[map.name]   = L.tileLayer(map.tileURL);
+        });
+        this.leftLayers['1878 Willits'].addTo(this.map);
+        this.rightLayers.OSM = this.rightOSM;
+
+        // Slider
+        this.map.createPane("left");
+        this.map.createPane("right");
+        this.compare = L.control.compare([this.leftLayers['1878 Willits'],this.leftOSM],[this.rightOSM]).addTo(this.map)
+
+        // Left select observables.
         this.leftMap = ko.observable('1878 Willits');
         this.oldLeftMap = this.leftMap();
         this.leftMap.subscribe(function(newValue){
             this.changeLeftLayer(newValue);
         },this);
 
+        // Right select observables.
         this.rightMap = ko.observable('OSM');
         this.oldRightMap = this.rightMap();
         this.rightMap.subscribe(function(newValue){
             this.changeRightLayer(newValue);
         },this);
 
+        // Opacity slider
         this.opacity = new ko.observable(1.0);
         this.opacity.subscribe(function(newValue){
             var layer = _this.leftLayers[_this.leftMap()];
             layer.setOpacity(newValue);
         });
+
+        // Title
+        var title = L.control();
+        title.onAdd = function(map) {
+            this._div = L.DomUtil.create('div', 'ctl');
+            this.update();
+            return this._div;
+        };
+        title.update = function(props) {
+            this._div.innerHTML = "<div class='title'>Time Traveler's Map of Denver</div><div class='subtitle'><a href='//www.denverlibrary.org/' target='_blank'>Denver Public Library</a> &bullet; <a href='//digital.denverlibrary.org/' target='_blank'>Digital Collections</a> &bullet; <a href='//digital.denverlibrary.org/digital/search/searchterm/map/field/formatb/mode/exact/conn/and/order/title/ad/asc' target='_blank'>Maps</a></div>";
+        };
+        title.addTo(this.map);
     }
 
     ViewModel.prototype.changeLeftLayer = function (newValue) {
         var map = this.map,
                 leftLayers = this.leftLayers;
-        compare.remove();
+        this.compare.remove();
         map.removeLayer(leftLayers[this.oldLeftMap]);
         leftLayers[newValue].addTo(map);
-        compare = L.control.compare([leftLayers[newValue],leftOSM],[rightOSM]).addTo(map);
+        this.compare = L.control.compare([leftLayers[newValue],this.leftOSM],[this.rightOSM]).addTo(map);
         this.oldLeftMap = newValue;
         this.opacity(1)
     };
@@ -193,8 +183,8 @@
             leftLayers = this.leftLayers,
             rightLayers = this.rightLayers,
             leftCompare,
-            rightCompare = newValue == 'OSM' ? [rightOSM] : [rightLayers[newValue],rightOSM];
-        compare.remove();
+            rightCompare = newValue == 'OSM' ? [this.rightOSM] : [rightLayers[newValue],this.rightOSM];
+        this.compare.remove();
         // If the old right map was not OSM, then remove the left layer for that map.
         if (this.oldRightMap != 'OSM') {
             map.removeLayer(leftLayers[this.oldRightMap]);
@@ -219,21 +209,19 @@
         // 2. the right selection, if not OSM
         // 3.
         if (newValue == 'OSM') {
-            leftCompare = [leftLayers[this.leftMap()],leftOSM];
+            leftCompare = [leftLayers[this.leftMap()],this.leftOSM];
         }
         else {
             leftCompare = [leftLayers[this.leftMap()],leftLayers[newValue]];
         }
 
-        compare = L.control.compare(leftCompare,rightCompare).addTo(map);
+        this.compare = L.control.compare(leftCompare,rightCompare).addTo(map);
         this.oldRightMap = newValue;
     };
 
     ViewModel.prototype.onClickRightInfo = function () {
         window.open(this.mapLinks[this.rightMap()], "_blank");
     };
-
-    //ko.applyBindings(new ViewModel (map,leftLayers,rightLayers),document.getElementById('controls'));
 </script>
 
 </body>
