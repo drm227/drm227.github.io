@@ -52,10 +52,12 @@
             font-family: fantasy;
             font-size: 1.3rem;
             color: white;
+            text-align: center;
         }
         .subtitle {
             color: white;
             text-align: center;
+            display: none;
         }
         .subtitle a {
             color: white;
@@ -81,7 +83,7 @@
     <select data-bind="value:rightMap">
         <option value="OSM">2022 Open Street Map</option>
         <!-- ko foreach:config.maps -->
-        <option data-bind="text:name,attr:{value:name}">1868 Dugal</option>
+        <option data-bind="text:name,attr:{value:name}"></option>
         <!-- /ko -->
     </select>
 
@@ -89,9 +91,18 @@
 </div>
 
 <script>
+    /*!
+     * Map Overlay v0.2
+     * (c) 2022 Dennis R McCarthy
+     */
 
+    var city = new URLSearchParams(document.location.search).get('city');
+    if (!city) {
+        city = "Denver";
+    }
     $.ajax({
-        url: 'Denver.json',
+        url: city +
+        '.json',
         method: 'GET',
         dataType: 'json'
     })
@@ -121,16 +132,16 @@
             _this.leftLayers[map.name]    = L.tileLayer(map.tileURL);
             _this.rightLayers[map.name]   = L.tileLayer(map.tileURL);
         });
-        this.leftLayers['1878 Willits'].addTo(this.map);
+        this.leftLayers[config.initial.leftMap].addTo(this.map);
         this.rightLayers.OSM = this.rightOSM;
 
         // Slider
         this.map.createPane("left");
         this.map.createPane("right");
-        this.compare = L.control.compare([this.leftLayers['1878 Willits'],this.leftOSM],[this.rightOSM]).addTo(this.map)
+        this.compare = L.control.compare([this.leftLayers[config.initial.leftMap],this.leftOSM],[this.rightOSM]).addTo(this.map)
 
         // Left select observables.
-        this.leftMap = ko.observable('1878 Willits');
+        this.leftMap = ko.observable(config.initial.leftMap);
         this.oldLeftMap = this.leftMap();
         this.leftMap.subscribe(function(newValue){
             this.changeLeftLayer(newValue);
@@ -158,7 +169,7 @@
             return this._div;
         };
         title.update = function(props) {
-            this._div.innerHTML = "<div class='title'>Time Traveler's Map of Denver</div><div class='subtitle'><a href='//www.denverlibrary.org/' target='_blank'>Denver Public Library</a> &bullet; <a href='//digital.denverlibrary.org/' target='_blank'>Digital Collections</a> &bullet; <a href='//digital.denverlibrary.org/digital/search/searchterm/map/field/formatb/mode/exact/conn/and/order/title/ad/asc' target='_blank'>Maps</a></div>";
+            this._div.innerHTML = "<div class='title'>The Time Traveler's <br/>Map of "+_this.config.city+"</div><div class='subtitle'><a href='//www.denverlibrary.org/' target='_blank'>Denver Public Library</a> &bullet; <a href='//digital.denverlibrary.org/' target='_blank'>Digital Collections</a> &bullet; <a href='//digital.denverlibrary.org/digital/search/searchterm/map/field/formatb/mode/exact/conn/and/order/title/ad/asc' target='_blank'>Maps</a></div>";
         };
         title.addTo(this.map);
     }
