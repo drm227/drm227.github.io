@@ -5,7 +5,11 @@ define([
 
     function BirdseyeComponentVM (params) {
         this.config = params.config;
+
         this.birdseye = ko.observable(this.config.birdseyes[0]);
+        this.birdseye.subscribe(function(newValue){
+            this.changeBirdseye(newValue);
+        }.bind(this));
 
         this.features = ko.computed(function(){
             return this.birdseye().features;
@@ -23,17 +27,41 @@ define([
         L.tileLayer(leaflet.tileLayer.url).addTo(viewModel.tileMap);
 
         viewModel.imageMap = L.map('birdseye',leaflet.imageMap.options);
-        L.imageOverlay('1874 Glover.jpg',leaflet.imageLayer.bounds,leaflet.imageLayer.options).addTo(viewModel.imageMap);
+        L.imageOverlay(leaflet.imageLayer.url,leaflet.imageLayer.bounds,leaflet.imageLayer.options).addTo(viewModel.imageMap);
+    };
+
+    BirdseyeComponentVM.prototype.changeBirdseye = function (birdseye) {
+        var map = this.imageMap,
+            imageOverlay,
+            tileOverlay;
+
+        map.eachLayer(function (layer) {
+            map.removeLayer(layer);
+        });
+        imageOverlay = L.imageOverlay(birdseye.leaflet.imageLayer.url,birdseye.leaflet.imageLayer.bounds,birdseye.leaflet.imageLayer.options).addTo(map);
+        imageOverlay.on('click',function(e){
+            console.log(e.latlng);
+        });
+
+        map = this.tileMap;
+        map.eachLayer(function (layer) {
+            map.removeLayer(layer);
+        });
+        tileOverlay = L.tileLayer(birdseye.leaflet.tileLayer.url,{interactive:true}).addTo(map);
+        tileOverlay.on('click',function(e){
+            console.log(e.latlng);
+        });
     };
 
     BirdseyeComponentVM.prototype.moveTo = function(feature) {
+        var leaflet = this.birdseye().leaflet;
         if (feature) {
             this.imageMap.setView(feature.imageMapLatLng,16);
             this.tileMap.setView(feature.tileMapLatLng,17);
         }
         else {
-            map.setView([39.749771275005315, -104.99320908930397],13);
-            birdseye.setView([39.75, -105], 13);
+            //this.imageMap.setView(leaflet.imageMap.options.center,leaflet.imageMap.options.zoom);
+            //this.tileMap.setView(leaflet.tileMap.options.center,leaflet.tileMap.options.zoom);
         }
     };
 
