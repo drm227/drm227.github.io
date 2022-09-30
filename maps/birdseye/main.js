@@ -14,7 +14,7 @@ require(['jquery', 'knockout'], function($,ko) {
 
     // read the configuration JSON file
     $.ajax({
-        url: '1874 Glover.json',
+        url: 'Denver.json',
         method: 'GET',
         dataType: 'json'
     })
