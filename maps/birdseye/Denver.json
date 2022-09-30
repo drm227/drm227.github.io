@@ -1,0 +1,189 @@
+{
+  "birdseyes": [
+    {
+      "name": "1874 Glover",
+      "birdseye": {
+        "title": "Denver, Colorado, 1874",
+        "creator": "Eli Sheldon Glover",
+        "year": "1874",
+        "description": "In this bird's eye map, you are looking east from a vantage point just west of the South Platte River, just south of the confluence with the Cherry Creek."
+        },
+      "map": {
+        "title": "Thayer's map of Denver, Colorado",
+        "creator": "Homer Lockwood Thayer",
+        "year": "1872",
+        "description": "This map of Denver from 1872 contains a numbered list of buildings below the cartouche.  The number for a building appears on the map, at the locaton of the building."
+      },
+      "features": [
+        {
+          "name": "15 Street Bridge",
+          "description":"The 15th Street bridge shown here was built in 1864, replacing the original bridge that was destroyed by the Great Flood of 1864.  It crossed the South Platte River, connecting the East Denver and Highland sections of the city.",
+          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/34699/default.jpg?highlightTerms=photograph%20AND%2015th%20street%20bridge",
+          "imageMapLatLng": [39.733143,-105.030145],
+          "tileMapLatLng": [39.755652,-105.007776]
+        },
+        {
+          "name": "Denver Pacific Railroad Depot",
+          "description":"The Denver Pacific Railway and Telegraph Company was incorporated in Colorado on November 19, 1867. The first train from Cheyenne arrived in Denver June 24, 1870.",
+          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/10815/default.jpg",
+          "imageMapLatLng": [39.755652,-105.040332],
+          "tileMapLatLng": [39.756100,-104.993191]
+        },
+        {
+          "name": "Holly Water Works",
+          "description":"The first waterworks were built by the Denver City Water Company in 1872. The facility was equipped with steam powered gang pumps from the Holly Manufacturing Company of Lockport, New York. (#25 on map)",
+          "image":"https://5008.sydneyplus.com/HistoryColorado_ArgusNet_Final/ViewImage.aspx?template=Image&field=DerivedIm2&hash=d1586f3af048581f06f7abfb7e87971f&width=max&height=max&r=1973317836&lang=en-US",
+          "imageMapLatLng": [39.7364484,-105.025440],
+          "tileMapLatLng": [39.754409,-105.006419]
+        },
+        {
+          "name":"Lawrence St Methodist Church",
+          "description":"Denver First Methodist, colloquially known as Lawrence Street Church, was completed and first services were held on February 12, 1865. (18 on map)",
+          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/39286/default.jpg",
+          "imageMapLatLng": [39.754885,-104.976821],
+          "tileMapLatLng": [39.746677,-104.998602]
+        },
+        {
+          "name": "St. Mary's Cathedral",
+          "description":"St. Mary’s Cathedral located at what is now the corner of 15th and Stout streets was the first Catholic Church in Denver. Father Joseph P. Machebeuf celebrated the first Mass on Christmas eve of 1860. In 1868, Father Machebeuf was appointed as bishop of Colorado and St. Mary’s became the Cathedral. (16 on map)",
+          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/37835/default.jpg?highlightTerms=denver%20(colo.)%20AND%20st%20mary%20catholic%20church",
+          "imageMapLatLng": [39.763206,-104.968926],
+          "tileMapLatLng": [39.745029,-104.993750]
+        },
+        {
+          "name": "U.S. Mint",
+          "description":"The mint in Denver was established by an act of Congress approved April 21, 1862. It opened in the latter part of September, 1863. (3 on map)",
+          "image":"https://www.us-coin-values-advisor.com/images/xDenver-Mint-1st.jpg.pagespeed.ic.QjZpEaqyLc.jpg",
+          "imageMapLatLng": [39.752085,-104.998670],
+          "tileMapLatLng": [39.749916,-104.998582]
+        }
+      ],
+      "leaflet": {
+        "imageLayer": {
+          "url": "1874 Glover.jpg",
+          "bounds": [[39.8,-104.905],[39.7,-105.095]],
+          "options": {"interactive":true}
+        },
+        "imageMap": {
+          "options": {
+            "center": [39.75, -105],
+            "maxBounds": [[39.8,-104.905],[39.7,-105.095]],
+            "minZoom":12,
+            "maxBoundsViscosity": 1.0,
+            "zoom": 13
+          }
+        },
+        "tileLayer": {
+          "url": "https://mapwarper.net/maps/tile/61381/{z}/{x}/{y}.png",
+          "options": {
+            "center": [39.749771275005315, -104.99320908930397]
+          }
+        },
+        "tileMap": {
+          "options": {
+            "center": [39.749771275005315, -104.99320908930397],
+            "zoom": 13,
+            "minZoom": 12,
+            "maxZoom": 18
+          }
+        }
+      }
+    },
+    {
+      "name": "1882 Flett",
+      "birdseye": {
+        "title": "Bird's eye view of the city of Denver, Colorado",
+        "creator": "J.H. Flett",
+        "year": "1882",
+        "description": "In this bird's eye map, you are looking east from a vantage point just west of the South Platte River, just south of the confluence with the Cherry Creek."
+      },
+      "map": {
+        "title": "Guide map to the city of Denver, Colorado",
+        "creator": "W.H. Lawrence & Co.",
+        "year": "1882",
+        "description": "This map of Denver from 1882 contains a list of buildings along the bottom, with a number/letter for each.  The number/letter for a building appears on the map, at the location of the building."
+      },
+      "features": [
+        {
+          "name": "Arapahoe County Court House",
+          "description":"The Arapahoe County Courthouse at 16th (Sixteenth) and Tremont streets (P on map) in downtown Denver, Colorado, was built in 1883 by Lester Fillmore and Peter Gumry for $185,000 as a three-story building; the fourth level, seen here, was added 10 years later by Denver contractor Frank Anderson. The original building was designed by architect Elijah E. Meyers. The fourth floor addition was designed by architect Frederick Carl Eberley. This building later became the Denver County Courthouse, and was razed in 1934.",
+          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/75556/default.jpg",
+          "imageMapLatLng": [39.770946,-104.959700],
+          "tileMapLatLng": [39.742950, -104.989574]
+        },
+        {
+          "name": "Central Presbyterian Church",
+          "description":"The Central Presbyterian Church stood at the corner of 18th and Champa streets (II on map) in downtown Denver, Colorado. The congregation was organized in 1860s and occupied This site from 1878 to 1892. The large, stained-glass windows of the stone church are topped with pointed, Gothic arches.",
+          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/76175/default.jpg",
+          "imageMapLatLng": [39.762759,-104.994199],
+          "tileMapLatLng": [39.748220, -104.991513]
+        },
+        {
+          "name": "City Hall",
+          "description":"City Hall was then moved to the 14th and Larimer (K on map) location in 1883. The building took 15 months to construct, was designed by W. K. Nichols, and cost about $300,000.  The original building was four floors with a bell tower and a copula.  On Novermber 30, 1901 it caught fire.  The fire burned the fourth floor.  It was rebuilt with a flat roof.",
+          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/17330/default.jpg?highlightTerms=photograph%20AND%20denver%20old%20city%20hall",
+          "imageMapLatLng": [39.748799, -104.988091],
+          "tileMapLatLng": [39.747359, -105.000135]
+        },
+        {
+          "name": "Denver High School",
+          "description":"In 1882, Denver High School was built in Denver's booming business district, on the corner of 19th and Stout streets (III on map). Famed Denver architect Robert Roeschlaub designed the school. The original Denver High School was known by a variety of names. It was most commonly called Denver East Side to differentiate it from Denver West Side High School and Denver North Side High School, which were both built in 1883.",
+          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/71893/default.jpg",
+          "imageMapLatLng": [39.766222,-104.998958],
+          "tileMapLatLng": [39.748453, -104.989460]
+        },
+        {
+          "name": "D&RG Burnham Yards",
+          "description":"Burnham Yards served as the service and repair yards for the Denver & Rio Grande Railroad from 1874 to 1996. The yards were named for George Burnham, a co-owner of the Baldwin Locomotive Works in Pennsylvania, who built the original locomotives and rolling stock for Denver & Rio Grande.",
+          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/27549/default.jpg",
+          "imageMapLatLng": [39.751301,-104.912537],
+          "tileMapLatLng": [39.730636, -105.006393]
+        },
+        {
+          "name": "St. John's Cathedral",
+          "description":"During the years that Denver was becoming a city and Colorado a territory, Saint John’s was establishing an Anglican community. Given the initial name of Saint John’s in the Wilderness, the closest Episcopal church was over 700 miles away in Kansas. In 1879, Bishop of Colorado and Wyoming, the Rt. Rev. John Spalding named Saint John’s in the Wilderness as the cathedral church for the area. Two years later, the church moved into its first cathedral building at the corner of 20th and Welton (VI on map).",
+          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/76237/default.jpg",
+          "imageMapLatLng": [39.769020,-104.991559],
+          "tileMapLatLng": [39.747894,-104.987171]
+        },
+        {
+          "name": "Tabor Opera House",
+          "description":"In 1881 silver magnate Horace Tabor built his Grand Opera House in Denver at Sixteenth and Curtis Streets (M on map). The venue's performances enthralled audiences for the next nine years, until a competing opera house opened on Broadway in 1890 and Tabor lost his fortune in 1893.",
+          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/75479/default.jpg",
+          "imageMapLatLng": [39.758219,-104.987883],
+          "tileMapLatLng": [39.747205, -104.995130]
+        },
+        {
+          "name": "Union Depot",
+          "description":"Although railroads have served Denver since 1868, no consolidated station existed for the city’s rail traffic until the completion of the Union Depot in 1881.  Officials of the various railroads and local citizens held a meeting in November of 1879 that resulted in the formation of the Union Depot and Railroad Company (UDR). Shortly after its creation, the company purchased land at Seventeenth and Wynkoop (W on map) for the facility. Construction began in 1880, and the depot opened for business in May 1881, with an official grand opening held in July.",
+          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/27550/default.jpg?highlightTerms=Denver%20(Colo.)%20AND%20union%20depot",
+          "imageMapLatLng": [39.742875,-105.031824],
+          "tileMapLatLng": [39.753754,-105.000609]
+        },
+        {
+          "name": "Union Pacific Shops",
+          "description":"The first railroads into Denver were the Denver Pacific and the Kansas Pacific, later both part of the Union Pacific System.  One of the first structures to be build was the roundhouse.  The Denver Pacific build a small roundhouse where Broadway and 16th Street now meet (XVII on map).  The Kansas Pacific built a larger structure next to the Denver Pacific.",
+          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/39170/default.jpg",
+          "imageMapLatLng": [39.755420,-105.071982],
+          "tileMapLatLng": [39.763101, -104.985469]
+        }
+      ],
+      "leaflet": {
+        "imageLayer": {
+          "url": "1882 Flett.jpg",
+          "bounds": [[39.8,-104.905],[39.7,-105.095]],
+          "options": {"interactive":true}
+        },
+        "tileLayer": {
+          "url": "https://tiles.arcgis.com/tiles/40CMVGZPtmu7aNof/arcgis/rest/services/1882_Lawrence/MapServer/tile/{z}/{y}/{x}",
+          "options": {
+            "center": [39.749771275005315, -104.99320908930397]
+          }
+        }
+      }
+    },
+    {
+      "name": "1889 Wellge"
+    }
+  ]
+}
