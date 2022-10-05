@@ -183,7 +183,35 @@
       }
     },
     {
-      "name": "1889 Wellge"
+      "name": "1889 Wellge",
+      "birdseye": {
+        "title": "Perspective map of the city of Denver, Colo. 1889",
+        "creator": "Henry Wellge",
+        "year": "1889",
+        "description": ""
+      },
+      "map": {
+        "title": "Rollandet's map of the city of Denver, Colorado",
+        "creator": "Edward Rollandet",
+        "year": "1889",
+        "description": ""
+      },
+      "features": [
+
+      ],
+      "leaflet": {
+        "imageLayer": {
+          "url": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd431:g4314:g4314d:pm000650/full/pct:25/0/default.jpg",
+          "bounds": [[39.8,-104.905],[39.7,-105.095]],
+          "options": {"interactive":true}
+        },
+        "tileLayer": {
+          "url": "https://mapwarper.net/maps/tile/67744/{z}/{x}/{y}.png",
+          "options": {
+            "center": [39.749771275005315, -104.99320908930397]
+          }
+        }
+      }
     }
   ]
 }
