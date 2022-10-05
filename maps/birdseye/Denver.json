@@ -175,7 +175,7 @@
           "options": {"interactive":true}
         },
         "tileLayer": {
-          "url": "https://tiles.arcgis.com/tiles/40CMVGZPtmu7aNof/arcgis/rest/services/1882_Lawrence/MapServer/tile/{z}/{y}/{x}",
+          "url": "https://mapwarper.net/maps/tile/67745/{z}/{x}/{y}.png",
           "options": {
             "center": [39.749771275005315, -104.99320908930397]
           }
