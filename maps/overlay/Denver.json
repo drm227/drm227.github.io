@@ -1,0 +1,61 @@
+{
+  "city": "Denver",
+  "initial": {
+    "latitude": 39.749771275005315,
+    "longitude": -104.99320908930397,
+    "zoom": 15,
+    "leftMap": "1878 Willits"
+  },
+  "maps":[
+    {
+      "name":     "1868 Dugal",
+      "tileURL":  "https://mapwarper.net/maps/tile/63218/{z}/{x}/{y}.png",
+      "infoURL":  "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/560/rec/1"
+    },
+    {
+      "name":     "1878 Willits",
+      "tileURL":  "https://mapwarper.net/maps/tile/63573/{z}/{x}/{y}.png",
+      "infoURL":  "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/388/rec/1"
+    },
+    {
+      "name":     "1887 Robinson",
+      "tileURL":  "https://mapwarper.net/mosaics/tile/1524/{z}/{x}/{y}.png",
+      "infoURL":  "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/194/rec/1"
+    },
+    {
+      "name":     "1899 Willits",
+      "tileURL":  "https://mapwarper.net/maps/tile/66218/{z}/{x}/{y}.png",
+      "infoURL":  "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/389/rec/115"
+    },
+    {
+      "name":     "1905 Baist",
+      "tileURL":  "https://mapwarper.net/mosaics/tile/1543/{z}/{x}/{y}.png",
+      "infoURL":  "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/133"
+    },
+    {
+      "name":     "1917 Clason",
+      "tileURL":  "https://mapwarper.net/maps/tile/63724/{z}/{x}/{y}.png",
+      "infoURL":  "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/811/rec/13"
+    },
+    {
+      "name":     "1929 Nirenstein",
+      "tileURL":  "https://mapwarper.net/maps/tile/66190/{z}/{x}/{y}.png",
+      "infoURL":  "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/587/rec/1"
+    },
+    {
+      "name":     "1933 King",
+      "tileURL":  "https://tiles.arcgis.com/tiles/44C95LOqZjbh8Row/arcgis/rest/services/Denver_1933_Aerial/MapServer/tile/{z}/{y}/{x}",
+      "infoURL":  "https://history.denverlibrary.org/research-tool/1933-king-aerial-photographs"
+    },
+    {
+      "name":     "1942 Hotchkiss",
+      "tileURL":  "https://mapwarper.net/maps/tile/66163/{z}/{x}/{y}.png",
+      "infoURL":  "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/559/rec/1"
+    },
+    {
+      "name":     "1958 Hotchkiss",
+      "infoURL":  "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/845/rec/1",
+      "tileURL":  "https://mapwarper.net/maps/tile/62912/{z}/{x}/{y}.png"
+    }
+  ]
+}

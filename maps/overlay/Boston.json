@@ -1,0 +1,66 @@
+{
+  "city": "Boston",
+  "initial": {
+    "latitude": 42.35873046990275,
+    "longitude": -71.05979763315209,
+    "zoom": 16,
+    "leftMap": "1861 Pinney"
+  },
+  "maps":[
+    {
+      "name":     "1722 Bonner",
+      "tileURL":  "https://geo.leventhalmap.org/maps/tile/19/{z}/{x}/{y}.png",
+      "infoURL":  "https://collections.leventhalmap.org/search/commonwealth:9s161f21f"
+    },
+    {
+      "name":     "1775 Page",
+      "tileURL":  "https://geo.leventhalmap.org/maps/tile/7297/{z}/{x}/{y}.png",
+      "infoURL":  "https://collections.leventhalmap.org/search/commonwealth:z603vs791"
+    },
+    {
+      "name":     "1814 Hales",
+      "tileURL":  "https://geo.leventhalmap.org/maps/tile/20/{z}/{x}/{y}.png",
+      "infoURL":  "https://collections.leventhalmap.org/search/commonwealth:x059cc38s"
+    },
+    {
+      "name":     "1852 McIntyre",
+      "tileURL":  "https://geo.leventhalmap.org/maps/tile/21/{z}/{x}/{y}.png",
+      "infoURL":  "https://collections.leventhalmap.org/search/commonwealth:3f4632536"
+    },
+    {
+      "name":     "1861 Pinney",
+      "tileURL":  "https://s3.us-east-2.wasabisys.com/urbanatlases/39999059012045/tiles/{z}/{x}/{y}.png",
+      "infoURL":  "https://collections.leventhalmap.org/search/commonwealth:tt44pw343"
+    },
+    {
+      "name":     "1874 Hopkins",
+      "tileURL":  "https://s3.us-east-2.wasabisys.com/urbanatlases/39999059010650/tiles/{z}/{x}/{y}.png",
+      "infoURL":  "https://collections.leventhalmap.org/search/commonwealth:tt44pv33m"
+    },
+    {
+      "name":     "1883 Bromley",
+      "tileURL":  "https://s3.us-east-2.wasabisys.com/urbanatlases/39999059010908/tiles/{z}/{x}/{y}.png",
+      "infoURL":  "https://collections.leventhalmap.org/search/commonwealth:tt44pv576"
+    },
+    {
+      "name":     "1908 Bromley",
+      "tileURL":  "https://s3.us-east-2.wasabisys.com/urbanatlases/39999059011427/tiles/{z}/{x}/{y}.png",
+      "infoURL":  "https://collections.leventhalmap.org/search/commonwealth:tt44pv96w"
+    },
+    {
+      "name":     "1917 Bromley",
+      "tileURL":  "https://s3.us-east-2.wasabisys.com/urbanatlases/39999059011625/tiles/{z}/{x}/{y}.png",
+      "infoURL":  "https://collections.leventhalmap.org/search/commonwealth:tt44pw033"
+    },
+    {
+      "name":     "1928 Bromley",
+      "tileURL":  "https://s3.us-east-2.wasabisys.com/urbanatlases/39999059011682/tiles/{z}/{x}/{y}.png",
+      "infoURL":  "https://collections.leventhalmap.org/search/commonwealth:tt44pw08g"
+    },
+    {
+      "name":     "1938 Bromley",
+      "tileURL":  "https://s3.us-east-2.wasabisys.com/urbanatlases/39999059011690/tiles/{z}/{x}/{y}.png",
+      "infoURL":  "https://collections.leventhalmap.org/search/commonwealth:tt44pw09r"
+    }
+  ]
+}
