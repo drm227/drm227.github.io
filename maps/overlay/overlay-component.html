@@ -55,10 +55,10 @@
 
     &nbsp;<span style="cursor:help;" data-bind="click:onClickLeftInfo">&#9432;</span>
 
-    &nbsp;&nbsp;Opacity:&nbsp;
-    <span style="background-color: white;"><input id="slide" type="range" min="0" max="1" step="0.1" value="1" data-bind="value:opacity"></span>
+    <span style="margin-left:1rem;">Overlay Opacity:&nbsp;</span>
+    <input id="slide" style="margin-right:1rem;" type="number" min="0" max="1" step="0.1" value="1" data-bind="value:opacity">
 
-    &nbsp;&nbsp;Underlay Map:&nbsp;
+    Underlay Map:&nbsp;
     <select data-bind="value:rightMap">
         <option value="OSM">2022 Open Street Map</option>
         <!-- ko foreach:config.maps -->
