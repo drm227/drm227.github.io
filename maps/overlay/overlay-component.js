@@ -1,6 +1,8 @@
 define([
-    'knockout'
-], function(ko) {
+    'knockout',
+    'leaflet',
+    'compare'
+], function(ko,L) {
     'use strict';
 
     function OverlayComponentVM (params) {

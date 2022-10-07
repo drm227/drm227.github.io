@@ -2,7 +2,12 @@ require.config({
     paths: {
         jquery:     'https://code.jquery.com/jquery-3.5.1.min',
         knockout:   '//cdnjs.cloudflare.com/ajax/libs/knockout/3.5.0/knockout-min',
-        text:       '//cdnjs.cloudflare.com/ajax/libs/require-text/2.0.12/text'
+        text:       '//cdnjs.cloudflare.com/ajax/libs/require-text/2.0.12/text',
+        leaflet:    '//cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet',
+        compare:    '//unpkg.com/leaflet-compare/dist/leaflet-compare'
+    },
+    shim: {
+        compare: ['leaflet']
     }
 });
 
