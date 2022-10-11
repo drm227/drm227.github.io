@@ -51,6 +51,9 @@ define([
         tileOverlay.on('click',function(e){
             console.log(e.latlng);
         });
+        map.setMinZoom(birdseye.leaflet.tileMap.options.minZoom);
+
+        this.moveTo();
     };
 
     BirdseyeComponentVM.prototype.moveTo = function(feature) {
