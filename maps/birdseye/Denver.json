@@ -169,10 +169,27 @@
         }
       ],
       "leaflet": {
+        "imageMap": {
+          "options": {
+            "center": [39.75, -105],
+            "maxBounds": [[39.8,-104.905],[39.7,-105.095]],
+            "minZoom":12,
+            "maxBoundsViscosity": 1.0,
+            "zoom": 13
+          }
+        },
         "imageLayer": {
           "url": "1882 Flett.jpg",
           "bounds": [[39.8,-104.905],[39.7,-105.095]],
           "options": {"interactive":true}
+        },
+        "tileMap": {
+          "options": {
+            "center": [39.749771275005315, -104.99320908930397],
+            "zoom": 13,
+            "minZoom": 12,
+            "maxZoom": 18
+          }
         },
         "tileLayer": {
           "url": "https://mapwarper.net/maps/tile/67745/{z}/{x}/{y}.png",
@@ -188,15 +205,22 @@
         "title": "Perspective map of the city of Denver, Colo. 1889",
         "creator": "Henry Wellge",
         "year": "1889",
-        "description": ""
+        "description": "In this bird's eye map, you are looking north along Broadway from a vantage point just south of 11th Avenue.  Henry Wellge was a midwestern panoramic map artist and publisher, and one of the the most prolific and successful.  The Library of Congress has 80 of his bird's-eye views."
       },
       "map": {
         "title": "Rollandet's map of the city of Denver, Colorado",
         "creator": "Edward Rollandet",
         "year": "1889",
-        "description": ""
+        "description": "This map of Denver from 1889"
       },
       "features": [
+        {
+          "name": "Argo Smelter",
+          "description":"",
+          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll23/12488/default.jpg",
+          "imageMapLatLng": [39.793053,-104.997897],
+          "tileMapLatLng": [39.781449,-104.994430]
+        },
         {
           "name": "Colorado State Capitol",
           "description":"The Colorado State Capital building was designed by architect Elijah Myers.  Ground was broken in July of 1886, on land that had been donated in 1868 by H.C. Brown.  The building opened in November 1894.  Note that in this birds-eye, the front of the building faces south, but was built facing west.",
@@ -210,6 +234,13 @@
           "image":"https://wp-cpr.s3.amazonaws.com/uploads/2022/07/Denver-City-Hall-1-1024x831.jpeg",
           "imageMapLatLng": [ 39.763159,-105.041065],
           "tileMapLatLng": [39.747392, -105.000264]
+        },
+        {
+          "name": "Fourteenth Street Viaduct",
+          "description":"The original 14th Street Viaduct was constructed by the Fourteenth Street Viaduct Association, which was organized by property owners on both sides of the South Platte River in the winter of 1887-88.  The Associate began construction which slowly continued for three or four years.  This project stalled due to the Panic of 1893.  This viaduct, which ran from Blake Street in Demver to Platte Street in Highlands, was replaced by starting in 1895 by the Fourteenth Street Improvement District, a collaboration between the city of Denver and the town of Highlands.",
+          "image":"https://wp-denverite.s3.amazonaws.com/wp-content/uploads/sites/4/2017/03/14th-finished.png",
+          "imageMapLatLng": [39.772023,-105.058141],
+          "tileMapLatLng": [39.751934,-105.006060]
         },
         {
           "name": "Holden/Globe Smelter",
@@ -240,35 +271,80 @@
           "tileMapLatLng": [39.745123,-104.987000]
         },
         {
-          "name": "",
-          "description":"",
-          "image":"",
-          "imageMapLatLng": [39.7,-105.0],
-          "tileMapLatLng": [39.7, -105.0]
-        },
-        {
-          "name": "",
-          "description":"",
-          "image":"",
-          "imageMapLatLng": [39.7,-105.0],
-          "tileMapLatLng": [39.7, -105.0]
-        },
-        {
-          "name": "",
-          "description":"",
-          "image":"",
-          "imageMapLatLng": [39.7,-105.0],
-          "tileMapLatLng": [39.7, -105.0]
+          "name": "Twenty-Third Street Viaduct",
+          "description":"Denver’s very first viaducts were built to link the city with the village of Argo, a company town built around a new smelter north of Denver.  In 1887 smelter operator Nathaniel P. Hill completed the 23rd Street Viaduct across the railroad tracks and river.  It allowed the city’s horse-drawn streetcars to cross the rail lines and the South Platte, making Argo just an easy hour’s commute from downtown.",
+          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/32252/default.jpg",
+          "imageMapLatLng": [39.781445,-105.006896],
+          "tileMapLatLng": [39.759291,-104.993733]
         }
       ],
       "leaflet": {
+        "imageMap": {
+          "options": {
+            "center": [39.75, -105],
+            "maxBounds": [[39.8,-104.905],[39.7,-105.095]],
+            "minZoom":12,
+            "maxBoundsViscosity": 1.0,
+            "zoom": 13
+          }
+        },
         "imageLayer": {
           "url": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd431:g4314:g4314d:pm000650/full/pct:25/0/default.jpg",
           "bounds": [[39.8,-104.905],[39.7,-105.095]],
           "options": {"interactive":true}
         },
+        "tileMap": {
+          "options": {
+            "center": [39.749771275005315, -104.99320908930397],
+            "zoom": 13,
+            "minZoom": 12,
+            "maxZoom": 18
+          }
+        },
         "tileLayer": {
           "url": "https://mapwarper.net/maps/tile/67744/{z}/{x}/{y}.png",
+          "options": {
+            "center": [39.749771275005315, -104.99320908930397]
+          }
+        }
+      }
+    },
+    {
+      "name": "1908 Birdseye",
+      "features": [
+        {
+          "name": "Denver Tramway Power Station",
+          "description":"The Denver Tramway Powerhouse (1416 Platte Street) was built in 1901–4 to generate power for the Denver Tramway Company’s extensive network of electric streetcars. From a 1911 expansion until the last electric streetcar service in 1950, the powerhouse served as the company’s main source of electricity, making public transportation possible in Denver. After 1956, when the building was sold, it served briefly as a warehouse before becoming the Forney Museum of Transportation. Recreational Equipment, Inc., bought the building in 1998 and opened a flagship store there after a completing an extensive rehabilitation.",
+          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/28722/default.jpg",
+          "imageMapLatLng": [39.745040,-104.956920],
+          "tileMapLatLng": [39.755375, -105.009461]
+        }
+      ],
+      "leaflet": {
+        "imageMap": {
+          "options": {
+            "center": [39.75, -105],
+            "maxBounds": [[39.8,-104.905],[39.7,-105.095]],
+            "minZoom":12,
+            "maxBoundsViscosity": 1.0,
+            "zoom": 13
+          }
+        },
+        "imageLayer": {
+          "url": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd431:g4314:g4314d:pm000660/full/pct:25/0/default.jpg",
+          "bounds": [[39.78728393766774,-105.07491186261178],[39.71368461695864, -104.92471285164356]],
+          "options": {"interactive":true}
+        },
+        "tileMap": {
+          "options": {
+            "center": [39.749771275005315, -104.99320908930397],
+            "zoom": 13,
+            "minZoom": 12,
+            "maxZoom": 18
+          }
+        },
+        "tileLayer": {
+          "url": "https://mapwarper.net/mosaics/tile/1543/{z}/{x}/{y}.png",
           "options": {
             "center": [39.749771275005315, -104.99320908930397]
           }

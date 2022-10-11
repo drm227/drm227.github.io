@@ -60,8 +60,8 @@ define([
             this.tileMap.setView(feature.tileMapLatLng,17);
         }
         else {
-            //this.imageMap.setView(leaflet.imageMap.options.center,leaflet.imageMap.options.zoom);
-            //this.tileMap.setView(leaflet.tileMap.options.center,leaflet.tileMap.options.zoom);
+            this.imageMap.setView(leaflet.imageMap.options.center,leaflet.imageMap.options.zoom);
+            this.tileMap.setView(leaflet.tileMap.options.center,leaflet.tileMap.options.zoom);
         }
     };
 
