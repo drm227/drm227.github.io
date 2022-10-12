@@ -19,6 +19,7 @@
           "name": "15 Street Bridge",
           "description":"The 15th Street bridge shown here was built in 1864, replacing the original bridge that was destroyed by the Great Flood of 1864.  It crossed the South Platte River, connecting the East Denver and Highland sections of the city.",
           "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/34699/default.jpg?highlightTerms=photograph%20AND%2015th%20street%20bridge",
+          "citations": null,
           "imageMapLatLng": [39.733143,-105.030145],
           "tileMapLatLng": [39.755652,-105.007776]
         },
@@ -26,6 +27,7 @@
           "name": "Denver Pacific Railroad Depot",
           "description":"The Denver Pacific Railway and Telegraph Company was incorporated in Colorado on November 19, 1867. The first train from Cheyenne arrived in Denver June 24, 1870.",
           "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/10815/default.jpg",
+          "citations": null,
           "imageMapLatLng": [39.755652,-105.040332],
           "tileMapLatLng": [39.756100,-104.993191]
         },
@@ -33,6 +35,7 @@
           "name": "Holly Water Works",
           "description":"The first waterworks were built by the Denver City Water Company in 1872. The facility was equipped with steam powered gang pumps from the Holly Manufacturing Company of Lockport, New York. (#25 on map)",
           "image":"https://5008.sydneyplus.com/HistoryColorado_ArgusNet_Final/ViewImage.aspx?template=Image&field=DerivedIm2&hash=d1586f3af048581f06f7abfb7e87971f&width=max&height=max&r=1973317836&lang=en-US",
+          "citations": null,
           "imageMapLatLng": [39.7364484,-105.025440],
           "tileMapLatLng": [39.754409,-105.006419]
         },
@@ -40,6 +43,7 @@
           "name":"Lawrence St Methodist Church",
           "description":"Denver First Methodist, colloquially known as Lawrence Street Church, was completed and first services were held on February 12, 1865. (18 on map)",
           "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/39286/default.jpg",
+          "citations": null,
           "imageMapLatLng": [39.754885,-104.976821],
           "tileMapLatLng": [39.746677,-104.998602]
         },
@@ -47,6 +51,7 @@
           "name": "St. Mary's Cathedral",
           "description":"St. Mary’s Cathedral located at what is now the corner of 15th and Stout streets was the first Catholic Church in Denver. Father Joseph P. Machebeuf celebrated the first Mass on Christmas eve of 1860. In 1868, Father Machebeuf was appointed as bishop of Colorado and St. Mary’s became the Cathedral. (16 on map)",
           "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/37835/default.jpg?highlightTerms=denver%20(colo.)%20AND%20st%20mary%20catholic%20church",
+          "citations": null,
           "imageMapLatLng": [39.763206,-104.968926],
           "tileMapLatLng": [39.745029,-104.993750]
         },
@@ -54,6 +59,7 @@
           "name": "U.S. Mint",
           "description":"The mint in Denver was established by an act of Congress approved April 21, 1862. It opened in the latter part of September, 1863. (3 on map)",
           "image":"https://www.us-coin-values-advisor.com/images/xDenver-Mint-1st.jpg.pagespeed.ic.QjZpEaqyLc.jpg",
+          "citations": null,
           "imageMapLatLng": [39.752085,-104.998670],
           "tileMapLatLng": [39.749916,-104.998582]
         }
@@ -311,13 +317,73 @@
     },
     {
       "name": "1908 Birdseye",
+      "birdseye": {
+        "title": "Bird's eye view of Denver, Colorado, 1908",
+        "creator": "Birdseye View Publishing Co.",
+        "year": "1908",
+        "description": "Subtitle reads: Looking south from the Twenty-third Street viaduct. At bottom of map: Directory of business establishments, including address and indexed location on map. Around the map: Pictures of buildings, street scenes and scenic attractions of the area. Major buildings identified with text on rooftop."
+      },
+      "map": {
+        "title": "Baist's real estate atlas of surveys of Denver, Col.",
+        "creator": "George William Baist",
+        "year": "1905",
+        "description": "A spectacularly detailed work exhibiting subdivisions, streets, blocks, lots, and building footprints, as well as building materials. Topographical features exhibited where pertinent. Railroads, electric street car lines, and utilities designated. The Baist's atlas' were comparable to the Sanborn Insurance maps, only not as plentiful. This tome is composed of detail, detail, detail."
+      },
       "features": [
         {
-          "name": "Denver Tramway Power Station",
+          "name": "Brown Palace",
+          "description":"In 1889 or 1890, Brown hired the architect Frank Edbrooke to draw up plans for the hotel. Edbrooke had just designed the Oxford Hotel (1890) at the other end of Seventeenth Street, which is now the only surviving hotel in Denver older than the Brown Palace. For the Brown Palace he planned a triangular building to fit the plot of land, and he wrapped the building’s three sides around a large atrium. At nine stories, it would be the tallest building in Denver, with a red sandstone exterior in the popular Richardsonian Romanesque style. The blueprints for the building reportedly took up two tons of paper.",
+          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll21/8541/default.jpg",
+          "imageMapLatLng": [39.752834,-105.003507],
+          "tileMapLatLng": [39.744172,-104.987676],
+          "citations": {
+            "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/brown-palace-hotel"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/digital/collection/p15330coll21/id/8541/rec/5"}
+          }
+        },
+        {
+          "name": "Cheesman Park",
+          "description":"One of the jewels of Denver’s park and parkway system, Cheesman Park (1601 Race St, Denver, CO 80206) sits on land that originally served as the city’s first cemetery. In 1890 the cemetery was closed, many—but not all—graves were relocated, and a park designed by Denver’s first landscape architect, Reinhard Schuetze, was put in its place. The park was later named in honor of early Denver businessman Walter S. Cheesman after his family donated funds for the park’s neoclassical pavilion. Beloved by locals who flock to its broad expanse of grass, the park has been described by Yale art historian Vincent Scully as one of the finest urban spaces in the United States.",
+          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/59748/default.jpg",
+          "imageMapLatLng": [39.759938,-105.02750240],
+          "tileMapLatLng": [39.733288,-104.966333],
+          "citations": {
+            "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/cheesman-park"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/59748/rec/34"}
+          }
+        },
+        {
+          "name": "Denver Mint",
+          "description":"Established by Congress in 1862, the Denver Mint operated for more than four decades as an assay office, determining the quality of bullion but not producing any coins. In 1895 Congress authorized the mint to produce coins and also provided for a new building, which opened in 1904 at the corner of West Colfax Avenue and Cherokee Street. Expanded several times over the twentieth century, the mint now produces billions of coins per year and is one of the most popular attractions in the city.",
+          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/68064/default.jpg",
+          "imageMapLatLng": [39.755693,-104.996320],
+          "tileMapLatLng": [39.739337,-104.992276],
+          "citations": {
+            "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/denver-mint"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/68064/rec/6"}
+          }
+        },
+        {
+          "name": "Denver Tramway Powerhouse",
           "description":"The Denver Tramway Powerhouse (1416 Platte Street) was built in 1901–4 to generate power for the Denver Tramway Company’s extensive network of electric streetcars. From a 1911 expansion until the last electric streetcar service in 1950, the powerhouse served as the company’s main source of electricity, making public transportation possible in Denver. After 1956, when the building was sold, it served briefly as a warehouse before becoming the Forney Museum of Transportation. Recreational Equipment, Inc., bought the building in 1998 and opened a flagship store there after a completing an extensive rehabilitation.",
           "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/28722/default.jpg",
           "imageMapLatLng": [39.745040,-104.956920],
-          "tileMapLatLng": [39.755375, -105.009461]
+          "tileMapLatLng": [39.755375, -105.009461],
+          "citations": {
+            "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/denver-tramway-powerhouse"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/28722/rec/6"}
+          }
+        },
+        {
+          "name": "Washington Park",
+          "description":"Developed in the 1890s and early 1900s, Washington Park is a scenic recreational area occupying about 160 acres southeast of downtown Denver. Designed around a portion of City Ditch by landscape architects Reinhard Schuetze and Saco DeBoer, the park features two lakes and a large meadow and has a more rural, relaxed feel than Denver’s other major urban parks. Its historic structures include a 1911 bathhouse, a 1913 boathouse designed by Jules Jacques Benois Benedict, and the Eugene Field Cottage, which was moved to the park in 1930.",
+          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/64637/default.jpg",
+          "imageMapLatLng": [39.767568,-105.014223],
+          "tileMapLatLng": [39.702867, -104.970925],
+          "citations": {
+            "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/washington-park"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/64637/rec/30"}
+          }
         }
       ],
       "leaflet": {
