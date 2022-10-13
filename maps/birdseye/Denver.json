@@ -114,6 +114,7 @@
           "name": "Arapahoe County Court House",
           "description":"The Arapahoe County Courthouse at 16th (Sixteenth) and Tremont streets (P on map) in downtown Denver, Colorado, was built in 1883 by Lester Fillmore and Peter Gumry for $185,000 as a three-story building; the fourth level, seen here, was added 10 years later by Denver contractor Frank Anderson. The original building was designed by architect Elijah E. Meyers. The fourth floor addition was designed by architect Frederick Carl Eberley. This building later became the Denver County Courthouse, and was razed in 1934.",
           "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/75556/default.jpg",
+          "citations": null,
           "imageMapLatLng": [39.770946,-104.959700],
           "tileMapLatLng": [39.742950, -104.989574]
         },
@@ -121,6 +122,7 @@
           "name": "Central Presbyterian Church",
           "description":"The Central Presbyterian Church stood at the corner of 18th and Champa streets (II on map) in downtown Denver, Colorado. The congregation was organized in 1860s and occupied This site from 1878 to 1892. The large, stained-glass windows of the stone church are topped with pointed, Gothic arches.",
           "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/76175/default.jpg",
+          "citations": null,
           "imageMapLatLng": [39.762759,-104.994199],
           "tileMapLatLng": [39.748220, -104.991513]
         },
@@ -128,6 +130,7 @@
           "name": "City Hall",
           "description":"City Hall was then moved to the 14th and Larimer (K on map) location in 1883. The building took 15 months to construct, was designed by W. K. Nichols, and cost about $300,000.  The original building was four floors with a bell tower and a copula.  On Novermber 30, 1901 it caught fire.  The fire burned the fourth floor.  It was rebuilt with a flat roof.",
           "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/17330/default.jpg?highlightTerms=photograph%20AND%20denver%20old%20city%20hall",
+          "citations": null,
           "imageMapLatLng": [39.748799, -104.988091],
           "tileMapLatLng": [39.747359, -105.000135]
         },
@@ -135,6 +138,7 @@
           "name": "Denver High School",
           "description":"In 1882, Denver High School was built in Denver's booming business district, on the corner of 19th and Stout streets (III on map). Famed Denver architect Robert Roeschlaub designed the school. The original Denver High School was known by a variety of names. It was most commonly called Denver East Side to differentiate it from Denver West Side High School and Denver North Side High School, which were both built in 1883.",
           "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/71893/default.jpg",
+          "citations": null,
           "imageMapLatLng": [39.766222,-104.998958],
           "tileMapLatLng": [39.748453, -104.989460]
         },
@@ -142,6 +146,7 @@
           "name": "D&RG Burnham Yards",
           "description":"Burnham Yards served as the service and repair yards for the Denver & Rio Grande Railroad from 1874 to 1996. The yards were named for George Burnham, a co-owner of the Baldwin Locomotive Works in Pennsylvania, who built the original locomotives and rolling stock for Denver & Rio Grande.",
           "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/27549/default.jpg",
+          "citations": null,
           "imageMapLatLng": [39.751301,-104.912537],
           "tileMapLatLng": [39.730636, -105.006393]
         },
@@ -149,6 +154,7 @@
           "name": "St. John's Cathedral",
           "description":"During the years that Denver was becoming a city and Colorado a territory, Saint John’s was establishing an Anglican community. Given the initial name of Saint John’s in the Wilderness, the closest Episcopal church was over 700 miles away in Kansas. In 1879, Bishop of Colorado and Wyoming, the Rt. Rev. John Spalding named Saint John’s in the Wilderness as the cathedral church for the area. Two years later, the church moved into its first cathedral building at the corner of 20th and Welton (VI on map).",
           "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/76237/default.jpg",
+          "citations": null,
           "imageMapLatLng": [39.769020,-104.991559],
           "tileMapLatLng": [39.747894,-104.987171]
         },
@@ -156,6 +162,7 @@
           "name": "Tabor Opera House",
           "description":"In 1881 silver magnate Horace Tabor built his Grand Opera House in Denver at Sixteenth and Curtis Streets (M on map). The venue's performances enthralled audiences for the next nine years, until a competing opera house opened on Broadway in 1890 and Tabor lost his fortune in 1893.",
           "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/75479/default.jpg",
+          "citations": null,
           "imageMapLatLng": [39.758219,-104.987883],
           "tileMapLatLng": [39.747205, -104.995130]
         },
@@ -163,6 +170,7 @@
           "name": "Union Depot",
           "description":"Although railroads have served Denver since 1868, no consolidated station existed for the city’s rail traffic until the completion of the Union Depot in 1881.  Officials of the various railroads and local citizens held a meeting in November of 1879 that resulted in the formation of the Union Depot and Railroad Company (UDR). Shortly after its creation, the company purchased land at Seventeenth and Wynkoop (W on map) for the facility. Construction began in 1880, and the depot opened for business in May 1881, with an official grand opening held in July.",
           "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/27550/default.jpg?highlightTerms=Denver%20(Colo.)%20AND%20union%20depot",
+          "citations": null,
           "imageMapLatLng": [39.742875,-105.031824],
           "tileMapLatLng": [39.753754,-105.000609]
         },
@@ -170,6 +178,7 @@
           "name": "Union Pacific Shops",
           "description":"The first railroads into Denver were the Denver Pacific and the Kansas Pacific, later both part of the Union Pacific System.  One of the first structures to be build was the roundhouse.  The Denver Pacific build a small roundhouse where Broadway and 16th Street now meet (XVII on map).  The Kansas Pacific built a larger structure next to the Denver Pacific.",
           "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/39170/default.jpg",
+          "citations": null,
           "imageMapLatLng": [39.755420,-105.071982],
           "tileMapLatLng": [39.763101, -104.985469]
         }
@@ -222,8 +231,9 @@
       "features": [
         {
           "name": "Argo Smelter",
-          "description":"",
+          "description":"In 1879 Hill wanted a more central location for his business and decided to move the Boston and Colorado Smelting Company from Black Hawk to Denver. He also decided to rename the smelter \\“Argo\\” after the legendary ship that sailed in search of the fabled Golden Fleece in Greek mythology. Hill and his business associates built the Argo smelter two miles north of Denver, where it continued to thrive.",
           "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll23/12488/default.jpg",
+          "citations": null,
           "imageMapLatLng": [39.793053,-104.997897],
           "tileMapLatLng": [39.781449,-104.994430]
         },
@@ -231,6 +241,7 @@
           "name": "Colorado State Capitol",
           "description":"The Colorado State Capital building was designed by architect Elijah Myers.  Ground was broken in July of 1886, on land that had been donated in 1868 by H.C. Brown.  The building opened in November 1894.  Note that in this birds-eye, the front of the building faces south, but was built facing west.",
           "image":"https://www.coloradovirtuallibrary.org/wp-content/uploads/Capitol-1888.jpg",
+          "citations": null,
           "imageMapLatLng": [39.7404487,-104.971188],
           "tileMapLatLng": [39.739321, -104.984903]
         },
@@ -238,6 +249,7 @@
           "name": "Denver City Hall",
           "description":"Not until 1883 did Denver build a distinctive City Hall at the southwest corner of Fourteenth and Larimer Streets on the banks of Cherry Creek. Architect William H.J. Nichols planned this $300,000 edifice. The four-story stone structure had a mansard roof with many dormers and bristled with decorative cresting. Besides the mayor’s office, city council chambers, and city offices, it also housed the fire department, central fire station, police department, and city jail. The building was most famous as the setting for the 1893 City Hall War in which the governor tried unsuccessfully to throw out corrupt city officials. After a 1921 fire, the building was reconstructed without the mansard roof and corner towers.",
           "image":"https://wp-cpr.s3.amazonaws.com/uploads/2022/07/Denver-City-Hall-1-1024x831.jpeg",
+          "citations": null,
           "imageMapLatLng": [ 39.763159,-105.041065],
           "tileMapLatLng": [39.747392, -105.000264]
         },
@@ -245,6 +257,7 @@
           "name": "Fourteenth Street Viaduct",
           "description":"The original 14th Street Viaduct was constructed by the Fourteenth Street Viaduct Association, which was organized by property owners on both sides of the South Platte River in the winter of 1887-88.  The Associate began construction which slowly continued for three or four years.  This project stalled due to the Panic of 1893.  This viaduct, which ran from Blake Street in Demver to Platte Street in Highlands, was replaced by starting in 1895 by the Fourteenth Street Improvement District, a collaboration between the city of Denver and the town of Highlands.",
           "image":"https://wp-denverite.s3.amazonaws.com/wp-content/uploads/sites/4/2017/03/14th-finished.png",
+          "citations": null,
           "imageMapLatLng": [39.772023,-105.058141],
           "tileMapLatLng": [39.751934,-105.006060]
         },
@@ -252,6 +265,7 @@
           "name": "Holden/Globe Smelter",
           "description":"The plant began life as the Holden Smelter and was organized in 1886 by entrepreneur Edward R. Holden as a silver/lead smelter, using the latest technology. Holden was known as a promoter and speculator and had borrowed great sums from the Colorado National Bank to build the operation. When the smelter veered toward bankruptcy under Holden, the bank appointed Dennis Sheedy manager and he reorganized the firm as the Globe Smelting and Refining Company on January 16, 1889. A company store, hotel and houses surrounding the plant, once called Holdenville were then referred to as Globeville.",
           "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll21/8266/default.jpg",
+          "citations": null,
           "imageMapLatLng": [39.793229,-104.969327],
           "tileMapLatLng": [39.794322,-104.982170]
         },
@@ -259,6 +273,7 @@
           "name": "Regis University",
           "description":"In 1877, a group of exiled Italian Jesuits established a small college in Las Vegas, New Mexico. The Jesuits named this institution Las Vegas College which would ultimately become known as Regis University. In 1884, the Bishop of Denver invited the Jesuits to create a college in Morrison, Colorado where Sacred Heart College was opened. In 1887, Las Vegas College and Sacred Heart College merged and moved to the present location of Regis University. At the time of the merger, the school was then called the College of the Sacred Heart. Later, in 1921, it adopted the name of Regis College in honor of Saint John Francis Regis, a 17th-century Jesuit who worked with prostitutes and the poor in the mountains of Southern France.",
           "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/27396/default.jpg?highlightTerms=denver%20AND%20photograph%20AND%20sacred%20heart",
+          "citations": null,
           "imageMapLatLng": [39.791328,-105.045746],
           "tileMapLatLng": [39.790515,-105.032943]
         },
@@ -266,6 +281,7 @@
           "name": "River Front Park",
           "description":"Denver’s first “amusement park” was River Front Park, which opened ca 1880. It was located just east of Union Station, near the Platte River between 15th and 19th Streets. The brainchild of John Brisben Walker, the park boasted a variety of recreational opportunities. Included were a race track, a gymnasium, tennis courts, a skating rink, a toboggan run, a bandstand, boating channels, and a baseball diamond.  Walker sold the park to the City of Denver in 1893 and went on to other pursuits such as automobile manufacturing, promoting the country’s first auto race, ownership of Cosmopolitan magazine, and development of Red Rocks Ampitheater. River Front Park closed in 1903.",
           "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll21/4841/default.jpg",
+          "citations": null,
           "imageMapLatLng": [39.778782,-105.042315],
           "tileMapLatLng": [39.757187,-105.003413]
         },
@@ -273,6 +289,7 @@
           "name": "Trinity United Methodist Church",
           "description":"Designed by Colorado’s first licensed architect, the Trinity United Methodist Church sits at Broadway and 18th Street facing west towards Broadway. The building is stone, made mostly of gray Rhyolite, a porous volcanic stone that was quarried in Castle Rock. It is trimmed in sandstone from Utah. The front façade features a triple Gothic arch gabled entryway with tall gothic windows above. Other windows are also thin and tall and often grouped in threes, as many things are in this building, alluding to the significance of the churches namesake. A spire rises to a height of 181 feet at the southwest corner of the building. Two rose windows of twelve spokes face north and south, symbolizing the twelve apostles and twelve tribes of Israel.",
           "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/27382/default.jpg?highlightTerms=photograph%20AND%20TRINITY%20UNITED%20METHODIST%20CHURCH",
+          "citations": null,
           "imageMapLatLng": [39.756358,-104.985529],
           "tileMapLatLng": [39.745123,-104.987000]
         },
@@ -280,6 +297,7 @@
           "name": "Twenty-Third Street Viaduct",
           "description":"Denver’s very first viaducts were built to link the city with the village of Argo, a company town built around a new smelter north of Denver.  In 1887 smelter operator Nathaniel P. Hill completed the 23rd Street Viaduct across the railroad tracks and river.  It allowed the city’s horse-drawn streetcars to cross the rail lines and the South Platte, making Argo just an easy hour’s commute from downtown.",
           "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/32252/default.jpg",
+          "citations": null,
           "imageMapLatLng": [39.781445,-105.006896],
           "tileMapLatLng": [39.759291,-104.993733]
         }
