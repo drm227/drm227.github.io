@@ -7,12 +7,21 @@ define([
 
     function OverlayComponentVM (params) {
         var _this = this,
-            config = params.config;
+            config = params.config,
+            searchParams = new URLSearchParams(window.location.search),
+            initial = {
+                leftMap:    searchParams.get('leftMap') ? searchParams.get('leftMap') : config.initial.leftMap,
+                rightMap:   searchParams.get('rightMap') ? searchParams.get('rightMap') : 'OSM',
+                latitude:   searchParams.get('lat') ? searchParams.get('lat') : config.initial.latitude,
+                longitude:  searchParams.get('lng') ? searchParams.get('lng') : config.initial.longitude,
+                zoom:       searchParams.get('zoom') ? searchParams.get('zoom') : config.initial.zoom,
+                opacity:    searchParams.get('opacity') ? searchParams.get('opacity') : 1.0
+            };
 
         this.config = config;
 
         // Leaflet map.
-        this.map = L.map('map').setView([config.initial.latitude, config.initial.longitude], config.initial.zoom);
+        this.map = L.map('map').setView([initial.latitude, initial.longitude], initial.zoom);
 
         this.leftOSM = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(this.map);
         this.rightOSM = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(this.map);
@@ -26,16 +35,16 @@ define([
             _this.leftLayers[map.name]    = L.tileLayer(map.tileURL);
             _this.rightLayers[map.name]   = L.tileLayer(map.tileURL);
         });
-        this.leftLayers[config.initial.leftMap].addTo(this.map);
+        this.leftLayers[initial.leftMap].addTo(this.map);
         this.rightLayers.OSM = this.rightOSM;
 
         // Slider
         this.map.createPane("left");
         this.map.createPane("right");
-        this.compare = L.control.compare([this.leftLayers[config.initial.leftMap],this.leftOSM],[this.rightOSM]).addTo(this.map)
+        this.compare = L.control.compare([this.leftLayers[initial.leftMap],this.leftOSM],[this.rightOSM]).addTo(this.map);
 
         // Left select observables.
-        this.leftMap = ko.observable(config.initial.leftMap);
+        this.leftMap = ko.observable(initial.leftMap);
         this.oldLeftMap = this.leftMap();
         this.leftMap.subscribe(function(newValue){
             this.changeLeftLayer(newValue);
@@ -48,8 +57,9 @@ define([
             this.changeRightLayer(newValue);
         },this);
 
-        // Opacity slider
-        this.opacity = new ko.observable(1.0);
+        // Opacity observable
+        this.opacity = new ko.observable(initial.opacity);
+        this.leftLayers[initial.leftMap].setOpacity(initial.opacity);
         this.opacity.subscribe(function(newValue){
             var layer = _this.leftLayers[_this.leftMap()];
             layer.setOpacity(newValue);
@@ -66,6 +76,13 @@ define([
             this._div.innerHTML = "<div class='title'>The Time Traveler's <br/>Map of "+_this.config.city+"</div><div class='subtitle'><a href='//www.denverlibrary.org/' target='_blank'>Denver Public Library</a> &bullet; <a href='//digital.denverlibrary.org/' target='_blank'>Digital Collections</a> &bullet; <a href='//digital.denverlibrary.org/digital/search/searchterm/map/field/formatb/mode/exact/conn/and/order/title/ad/asc' target='_blank'>Maps</a></div>";
         };
         title.addTo(this.map);
+
+        // If a right map other than OSM is specified in the URL search, set the observable after Knockout has rendered the HTML template.
+        if (initial.rightMap !== 'OSM') {
+            setTimeout(function(){
+                _this.rightMap(rightMap);
+            }, 0);
+        }
     }
 
     OverlayComponentVM.prototype.changeLeftLayer = function (newValue) {
@@ -91,7 +108,7 @@ define([
             rightCompare = newValue == 'OSM' ? [this.rightOSM] : [rightLayers[newValue],this.rightOSM];
         this.compare.remove();
         // If the old right map was not OSM, then remove the left layer for that map.
-        if (this.oldRightMap != 'OSM') {
+        if (this.oldRightMap && this.oldRightMap != 'OSM') {
             map.removeLayer(leftLayers[this.oldRightMap]);
         }
         // If the new right map is OSM, remove the layer for the old right map.
@@ -126,6 +143,17 @@ define([
 
     OverlayComponentVM.prototype.onClickRightInfo = function () {
         window.open(this.mapLinks[this.rightMap()], "_blank");
+    };
+
+    OverlayComponentVM.prototype.onClickShare = function () {
+        var url = window.location.href;
+        url += (window.location.search ? '&' : '?') + 'leftMap=' + encodeURIComponent(this.leftMap());
+        url += '&rightMap=' + encodeURIComponent(this.rightMap());
+        url += '&opacity=' + this.opacity();
+        url += '&lat=' + this.map.getCenter().lat;
+        url += '&lng=' + this.map.getCenter().lng;
+        url += '&zoom=' + this.map.getZoom();
+        window.open("mailto:?subject=Time Traveler's Map of Denver&body="+encodeURIComponent(url));
     };
 
     return {
