@@ -80,7 +80,7 @@ define([
         // If a right map other than OSM is specified in the URL search, set the observable after Knockout has rendered the HTML template.
         if (initial.rightMap !== 'OSM') {
             setTimeout(function(){
-                _this.rightMap(rightMap);
+                _this.rightMap(initial.rightMap);
             }, 0);
         }
     }
@@ -146,8 +146,12 @@ define([
     };
 
     OverlayComponentVM.prototype.onClickShare = function () {
-        var url = window.location.href;
-        url += (window.location.search ? '&' : '?') + 'leftMap=' + encodeURIComponent(this.leftMap());
+        var url = window.location.origin + window.location.pathname + '?',
+            search = new URLSearchParams(window.location.search);
+        if (search.get('_ijt')) {
+            url += '_ijt=' + search.get('_ijt') + '&';
+        }
+        url += 'leftMap=' + encodeURIComponent(this.leftMap());
         url += '&rightMap=' + encodeURIComponent(this.rightMap());
         url += '&opacity=' + this.opacity();
         url += '&lat=' + this.map.getCenter().lat;
