@@ -1,0 +1,99 @@
+{
+  "themes": [
+    {
+      "name": "Government Buildings",
+      "features": [
+        {
+          "name": "1863 U.S. Mint",
+          "birdseye": "1874 Glover",
+          "map": "1872 Thayer",
+          "text": "In April 1862, Congress authorized the creation of a branch of the US Mint in Denver for coining gold. At the time, US Mints existed only in Philadelphia and San Francisco. The government acquired the Clark, Gruber building and machinery for $25,000 and opened the Denver Mint Assay Office in 1863. Despite its authorization to coin money, the mint did not make coins. It operated only as an assay office, which melted and assayed bullion before returning it to customers. [3 on map]",
+          "image": "https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/70434/default.jpg",
+          "birdseyeLatLng": [39.752085,-104.998670],
+          "mapLatLng": [39.749916,-104.998582]
+        },
+        {
+          "name": "1883 City Hall",
+          "birdseye": "1882 Flett",
+          "map": "1882 Lawrence",
+          "text": "City Hall was then moved to the 14th and Larimer [K on map] location in 1883. [...] The building took 15 months to construct, was designed by W. K. Nichols, and cost about $300,000.  The original building was four floors with a bell tower and a copula.  On Novermber 30, 1901 it caught fire.  The fire burned the fourth floor.  It was rebuilt with a flat roof.",
+          "image": "https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/17330/default.jpg",
+          "birdseyeLatLng": [39.748799, -104.988091],
+          "mapLatLng": [39.747359, -105.000135]
+        }
+      ]
+    }
+  ],
+  "birdseyes": [
+    {
+      "name": "1874 Glover",
+      "leafletMap" : {
+        "options": {
+          "center": [39.75, -105],
+          "maxBounds": [[39.8,-104.905],[39.7,-105.095]],
+          "minZoom":12,
+          "maxBoundsViscosity": 1.0,
+          "zoom": 13
+        }
+      },
+      "leafletLayer": {
+        "url": "../birdseye/1874 Glover.jpg",
+        "bounds": [[39.8,-104.905],[39.7,-105.095]],
+        "options": {"interactive":true}
+      }
+    },
+    {
+      "name": "1882 Flett",
+      "leafletMap" : {
+        "options": {
+          "center": [39.75, -105],
+          "maxBounds": [[39.8,-104.905],[39.7,-105.095]],
+          "minZoom":12,
+          "maxBoundsViscosity": 1.0,
+          "zoom": 13
+        }
+      },
+      "leafletLayer": {
+        "url": "../birdseye/1882 Flett.jpg",
+        "bounds": [[39.8,-104.905],[39.7,-105.095]],
+        "options": {"interactive":true}
+      }
+    }
+  ],
+  "maps": [
+    {
+      "name": "1872 Thayer",
+      "leafletMap": {
+        "options": {
+          "center": [39.749771275005315, -104.99320908930397],
+          "zoom": 13,
+          "minZoom": 12,
+          "maxZoom": 18
+        }
+      },
+      "leafletLayer": {
+        "url": "https://mapwarper.net/maps/tile/61381/{z}/{x}/{y}.png",
+        "options": {
+          "center": [39.749771275005315, -104.99320908930397]
+        }
+      }
+    },
+    {
+      "name": "1882 Lawrence",
+      "leafletMap": {
+        "options": {
+          "center": [39.74970149576019,-104.99691791098803],
+          "zoom": 13,
+          "minZoom": 12,
+          "maxZoom": 18
+        }
+      },
+      "leafletLayer": {
+        "url": "https://mapwarper.net/maps/tile/67745/{z}/{x}/{y}.png",
+        "options": {
+          "center": [39.749771275005315, -104.99320908930397]
+        }
+      }
+    }
+  ]
+}
