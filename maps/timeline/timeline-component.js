@@ -54,7 +54,6 @@ define([
         var _this = this,
             birdseye =  this.birdseyes[feature.birdseye],
             map = this.maps[feature.map];
-        // If
         // Replace the Leaflet layer for the birdseye and zoom to the feature
         this.birdseye.eachLayer(function (layer) {
             _this.birdseye.removeLayer(layer);

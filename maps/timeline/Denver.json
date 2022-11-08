@@ -9,6 +9,10 @@
           "map": "1872 Thayer",
           "text": "In April 1862, Congress authorized the creation of a branch of the US Mint in Denver for coining gold. At the time, US Mints existed only in Philadelphia and San Francisco. The government acquired the Clark, Gruber building and machinery for $25,000 and opened the Denver Mint Assay Office in 1863. Despite its authorization to coin money, the mint did not make coins. It operated only as an assay office, which melted and assayed bullion before returning it to customers. [3 on map]",
           "image": "https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/70434/default.jpg",
+          "citations": {
+            "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/denver-mint"},
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/70434/rec/30"}
+          },
           "birdseyeLatLng": [39.752085,-104.998670],
           "mapLatLng": [39.749916,-104.998582]
         },
@@ -18,8 +22,30 @@
           "map": "1882 Lawrence",
           "text": "City Hall was then moved to the 14th and Larimer [K on map] location in 1883. [...] The building took 15 months to construct, was designed by W. K. Nichols, and cost about $300,000.  The original building was four floors with a bell tower and a copula.  On Novermber 30, 1901 it caught fire.  The fire burned the fourth floor.  It was rebuilt with a flat roof.",
           "image": "https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/17330/default.jpg",
+          "citations": {
+            "text": {"name":"Denver History Blog","url":"https://denverhistory.blog/2017/11/27/larimer-street-14-old-city-hall/"},
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/17330/rec/50"}
+          },
           "birdseyeLatLng": [39.748799, -104.988091],
           "mapLatLng": [39.747359, -105.000135]
+        }
+      ]
+    },
+    {
+      "name": "Places of Worship",
+      "features": [
+        {
+          "name": "St. Mary's Church",
+          "birdseye": "1874 Glover",
+          "map": "1872 Thayer",
+          "text": "In 1860, two years after Denver was founded, Father (later Bishop) Joseph Machebeuf established the city’s first Catholic parish—St. Mary’s—and celebrated the city’s first Mass. The small church at Fifteenth and Stout Streets was enlarged in 1871 to accommodate a growing congregation [...]. In 1873 the church was elevated to cathedral status. [16 on map]",
+          "image": "https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/37835/default.jpg",
+          "citations": {
+            "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/cathedral-basilica-immaculate-conception"},
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/37835/rec/1"}
+          },
+          "birdseyeLatLng": [39.763206,-104.968926],
+          "mapLatLng": [39.745029,-104.993750]
         }
       ]
     }
