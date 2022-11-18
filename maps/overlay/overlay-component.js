@@ -107,9 +107,10 @@ define([
             leftCompare,
             rightCompare = newValue == 'OSM' ? [this.rightOSM] : [rightLayers[newValue],this.rightOSM];
         this.compare.remove();
-        // If the old right map was not OSM, then remove the left layer for that map.
+        // If the old right map was not OSM, then remove the left and right layers for that map.
         if (this.oldRightMap && this.oldRightMap != 'OSM') {
             map.removeLayer(leftLayers[this.oldRightMap]);
+            map.removeLayer(rightLayers[this.oldRightMap]);
         }
         // If the new right map is OSM, remove the layer for the old right map.
         if (newValue == 'OSM') {
