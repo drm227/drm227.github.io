@@ -60,7 +60,7 @@
     {
       "name":     "1980 USGS",
       "infoURL":  "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/845/rec/1",
-      "tileURL":  "https://tiles.arcgis.com/tiles/40CMVGZPtmu7aNof/arcgis/rest/services/USGS_1980_mosaic_tif/MapServer/tile/{z}/{y}/{x}"
+      "tileURL":  "https://tiles.arcgis.com/tiles/40CMVGZPtmu7aNof/arcgis/rest/services/USGS_1980_mosaic4_tif/MapServer/tile/{z}/{y}/{x}"
     }
   ]
 }
