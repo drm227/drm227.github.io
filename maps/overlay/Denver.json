@@ -59,17 +59,17 @@
     },
     {
       "name":     "1965 USGS",
-      "infoURL":  "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/845/rec/1",
+      "infoURL":  "https://ngmdb.usgs.gov/topoview/viewer/#15/39.7512/-105.0045",
       "tileURL":  "https://tiles.arcgis.com/tiles/40CMVGZPtmu7aNof/arcgis/rest/services/USGS_1965_mosaic_tif/MapServer/tile/{z}/{y}/{x}"
     },
     {
       "name":     "1971 USGS",
-      "infoURL":  "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/845/rec/1",
+      "infoURL":  "https://ngmdb.usgs.gov/topoview/viewer/#15/39.7512/-105.0045",
       "tileURL":  "https://tiles.arcgis.com/tiles/40CMVGZPtmu7aNof/arcgis/rest/services/USGS_1971_mosaic_tif/MapServer/tile/{z}/{y}/{x}"
     },
     {
       "name":     "1980 USGS",
-      "infoURL":  "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/845/rec/1",
+      "infoURL":  "https://ngmdb.usgs.gov/topoview/viewer/#15/39.7512/-105.0045",
       "tileURL":  "https://tiles.arcgis.com/tiles/40CMVGZPtmu7aNof/arcgis/rest/services/USGS_1980_mosaic4_tif/MapServer/tile/{z}/{y}/{x}"
     }
   ]
