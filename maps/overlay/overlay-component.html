@@ -46,27 +46,27 @@
     }
 </style>
 
-<div id='map'></div>
+<main id="map" role="main" aria-label="compare two maps of Denver from different decades"></main>
 
-<div id="controls" style="width:100%;height:5%;position:absolute;bottom:0;text-align:center;">
-    Overlay Map:&nbsp;
-    <select data-bind="value:leftMap,options:config.maps,optionsText:'name',optionsValue:'name'">
+<nav id="controls" role="navigation" aria-label="select the maps to compare" style="width:100%;height:5%;position:absolute;bottom:0;text-align:center;">
+    <label for="select-overlay">Overlay Map:&nbsp;</label>
+    <select id="select-overlay" data-bind="value:leftMap,options:config.maps,optionsText:'name',optionsValue:'name'">
     </select>
 
-    &nbsp;<span style="cursor:help;" data-bind="click:onClickLeftInfo">&#9432;</span>
+    &nbsp;<a role="link" tabindex="0" aria-label="open library page for overlay map" style="cursor:help;" alt="open library page for left map" data-bind="click:onClickLeftInfo">&#9432;</a>
 
-    <span style="margin-left:1rem;">Overlay Opacity:&nbsp;</span>
-    <input id="slide" style="margin-right:1rem;" type="number" min="0" max="1" step="0.1" value="1" data-bind="value:opacity">
+    <label for="overlay-opacity"><span style="margin-left:1rem;">Overlay Opacity:&nbsp;</span></label>
+    <input id="overlay-opacity" style="margin-right:1rem;" type="number" min="0" max="1" step="0.1" value="1" data-bind="value:opacity">
 
-    Underlay Map:&nbsp;
-    <select data-bind="value:rightMap">
+    <label for="select-underlay">Underlay Map:&nbsp;</label>
+    <select id="select-underlay" data-bind="value:rightMap">
         <option value="OSM">2022 Open Street Map</option>
         <!-- ko foreach:config.maps -->
         <option data-bind="text:name,attr:{value:name}"></option>
         <!-- /ko -->
     </select>
 
-    &nbsp;&nbsp;<span style="cursor:help;" data-bind="click:onClickRightInfo">&#9432;</span>
+    &nbsp;<a role="link" tabindex="0" aria-label="open library page for underlay map" style="cursor:help;" data-bind="click:onClickRightInfo">&#9432;</a>
 
-    <button style="background-color:white; margin-left:1rem;" data-bind="click:onClickShare">Share</button>
-</div>
+    <button role="button" aria-label="share this view via email" style="background-color:white; margin-left:1rem;" data-bind="click:onClickShare">Share</button>
+</nav>
