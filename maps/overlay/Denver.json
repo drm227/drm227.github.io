@@ -71,6 +71,12 @@
       "name":     "1980 USGS",
       "infoURL":  "https://ngmdb.usgs.gov/topoview/viewer/#15/39.7512/-105.0045",
       "tileURL":  "https://tiles.arcgis.com/tiles/40CMVGZPtmu7aNof/arcgis/rest/services/USGS_1980_mosaic4_tif/MapServer/tile/{z}/{y}/{x}"
+    },
+    {
+      "name":     "1994 USGS",
+      "infoURL":  "https://ngmdb.usgs.gov/topoview/viewer/#15/39.7512/-105.0045",
+      "tileURL":  "https://tiles.arcgis.com/tiles/40CMVGZPtmu7aNof/arcgis/rest/services/USGS_1994_mosaic4_tif/MapServer/tile/{z}/{y}/{x}"
     }
+
   ]
 }
