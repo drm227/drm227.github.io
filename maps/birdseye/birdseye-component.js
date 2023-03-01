@@ -59,8 +59,8 @@ define([
     BirdseyeComponentVM.prototype.moveTo = function(feature) {
         var leaflet = this.birdseye().leaflet;
         if (feature) {
-            this.imageMap.setView(feature.imageMapLatLng,16);
-            this.tileMap.setView(feature.tileMapLatLng,17);
+            this.imageMap.flyTo(feature.imageMapLatLng,16);
+            this.tileMap.flyTo(feature.tileMapLatLng,17);
         }
         else {
             this.imageMap.setView(leaflet.imageMap.options.center,leaflet.imageMap.options.zoom);
