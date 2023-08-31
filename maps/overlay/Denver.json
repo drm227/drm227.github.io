@@ -23,6 +23,11 @@
       "infoURL":  "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/194/rec/1"
     },
     {
+      "name":     "1890 Sanborn",
+      "tileURL":  "https://mapwarper.net/mosaics/tile/1780/{z}/{x}/{y}.png",
+      "infoURL":  "https://cudl.colorado.edu/luna/servlet/view/all/where/Denver/when/1890;JSESSIONID=9354a747-4351-4e7e-8458-292f334d76d0?sort=city%2Cdate%2Csheet&os=0&pgs=50&res=1&cic=UCBOULDERCB1%7E21%7E21"
+    },
+    {
       "name":     "1899 Willits",
       "tileURL":  "https://mapwarper.net/maps/tile/66218/{z}/{x}/{y}.png",
       "infoURL":  "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/389/rec/115"
