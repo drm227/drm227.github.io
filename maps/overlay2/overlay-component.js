@@ -65,18 +65,6 @@ define([
             layer.setOpacity(newValue);
         });
 
-        // Title
-        var title = L.control();
-        title.onAdd = function(map) {
-            this._div = L.DomUtil.create('div', 'ctl');
-            this.update();
-            return this._div;
-        };
-        title.update = function(props) {
-            this._div.innerHTML = "<div class='title'>The Time Traveler's <br/>Map of "+_this.config.city+"</div><div class='subtitle'><a href='//www.denverlibrary.org/' target='_blank'>Denver Public Library</a> &bullet; <a href='//digital.denverlibrary.org/' target='_blank'>Digital Collections</a> &bullet; <a href='//digital.denverlibrary.org/digital/search/searchterm/map/field/formatb/mode/exact/conn/and/order/title/ad/asc' target='_blank'>Maps</a></div>";
-        };
-        title.addTo(this.map);
-
         // If a right map other than OSM is specified in the URL search, set the observable after Knockout has rendered the HTML template.
         if (initial.rightMap !== 'OSM') {
             setTimeout(function(){
