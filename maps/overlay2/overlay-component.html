@@ -1,0 +1,104 @@
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    #map {
+        position: relative;
+        width: 100%;
+        height:calc(100vh - 56px);
+    }
+    #controls {
+        width:100%;
+        height:5%;
+        position:absolute;
+        bottom:0;
+        display: flex;
+        align-items: center; /* Vertical center alignment */
+        justify-content: center; /* Horizontal center alignment */
+        background-color: rgb(75, 113, 144);
+        color: white;
+    }
+    .ctl {
+        padding: 2px 10px 2px 10px;
+        background: white;
+        background: rgba(255,255,255,0.9);
+        box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        border-radius: 5px;
+        /*text-align: right;*/
+        background-color: rgb(75, 113, 144);
+    }
+    .title {
+        font-family: fantasy;
+        font-size: 1.3rem;
+        color: white;
+        text-align: center;
+    }
+    .subtitle {
+        color: white;
+        text-align: center;
+        display: none;
+    }
+    .subtitle a {
+        color: white;
+    }
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-dark"  style="background-color: rgb(75, 113, 144);">
+    <a class="navbar-brand" href="#">Time Traveler's Map</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#overlayControls" aria-controls="overlayControls" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="overlayControls">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item form-inline mr-3">
+                <label for="select-overlay2" class="text-white">Overlay Map:&nbsp;</label>
+                <select id="select-overlay2" class="form-control" data-bind="value:leftMap,options:config.maps,optionsText:'name',optionsValue:'name'">
+                </select>
+                <a class="ml-1 text-white" role="link" tabindex="0" aria-label="open library page for overlay map" style="cursor:help;" alt="open library page for left map" data-bind="click:onClickLeftInfo">&#9432;</a>
+            </li>
+            <li class="nav-item form-inline mr-3 mt-2">
+                <label for="overlay-opacity2" class="text-white">Overlay Opacity:&nbsp;</span></label>
+                <input id="overlay-opacity2" type="number" min="0" max="1" step="0.1" value="1" data-bind="value:opacity">
+            </li>
+            <li class="nav-item form-inline mr-3 mt-2">
+                <label for="select-underlay2" class="text-white">Underlay Map:&nbsp;</label>
+                <select id="select-underlay2" class="form-control" data-bind="value:rightMap">
+                    <option value="OSM">2022 Open Street Map</option>
+                    <!-- ko foreach:config.maps -->
+                    <option data-bind="text:name,attr:{value:name}"></option>
+                    <!-- /ko -->
+                </select>
+                <a class="ml-1 text-white" role="link" tabindex="0" aria-label="open library page for overlay map" style="cursor:help;" alt="open library page for left map" data-bind="click:onClickRightInfo">&#9432;</a>
+            </li>
+            <li class="nav-item mt-2">
+                <button type="button" class="btn btn-light" role="button" aria-label="share this view via email" data-bind="click:onClickShare">Share</button>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<main id="map" role="main" aria-label="compare two maps of Denver from different decades"></main>
+
+<nav id="controls" role="navigation" aria-label="select the maps to compare" style="width:100%;height:5%;position:absolute;bottom:0;text-align:center;">
+    <label for="select-overlay">Overlay Map:&nbsp;</label>
+    <select id="select-overlay" data-bind="value:leftMap,options:config.maps,optionsText:'name',optionsValue:'name'">
+    </select>
+
+    &nbsp;<a role="link" tabindex="0" aria-label="open library page for overlay map" style="cursor:help;" alt="open library page for left map" data-bind="click:onClickLeftInfo">&#9432;</a>
+
+    <label for="overlay-opacity"><span style="margin-left:1rem;">Overlay Opacity:&nbsp;</span></label>
+    <input id="overlay-opacity" style="margin-right:1rem;" type="number" min="0" max="1" step="0.1" value="1" data-bind="value:opacity">
+
+    <label for="select-underlay">Underlay Map:&nbsp;</label>
+    <select id="select-underlay" data-bind="value:rightMap">
+        <option value="OSM">2022 Open Street Map</option>
+        <!-- ko foreach:config.maps -->
+        <option data-bind="text:name,attr:{value:name}"></option>
+        <!-- /ko -->
+    </select>
+
+    &nbsp;<a role="link" tabindex="0" aria-label="open library page for underlay map" style="cursor:help;" data-bind="click:onClickRightInfo">&#9432;</a>
+
+    <button role="button" aria-label="share this view via email" style="background-color:white; margin-left:1rem;" data-bind="click:onClickShare">Share</button>
+</nav>
