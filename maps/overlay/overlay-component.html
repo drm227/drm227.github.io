@@ -47,25 +47,33 @@
 
 <main id="map" role="main" aria-label="compare two maps of Denver from different decades"></main>
 
-<nav id="controls" role="navigation" class="form-inline" aria-label="select the maps to compare">
-    <label for="select-overlay">Overlay Map:&nbsp;</label>
-    <select id="select-overlay" class="form-control form-control-sm" data-bind="value:leftMap,options:config.maps,optionsText:'name',optionsValue:'name'">
-    </select>
+<nav id="controls" role="navigation" aria-label="select the maps to compare">
+    <div class="row pl-4 pr-4">
+        <div class="col-sm-6 col-lg-4 form-inline mt-1">
+            <label for="select-overlay">Overlay Map:&nbsp;</label>
+            <select id="select-overlay" class="form-control form-control-sm w-auto" data-bind="value:leftMap,options:config.maps,optionsText:'name',optionsValue:'name'">
+            </select>
+            &nbsp<a role="link" tabindex="0" aria-label="open library page for overlay map" style="cursor:help;" alt="open library page for left map" data-bind="click:onClickLeftInfo">&#9432;</a>
+        </div>
 
-    &nbsp;<a role="link" tabindex="0" aria-label="open library page for overlay map" style="cursor:help;" alt="open library page for left map" data-bind="click:onClickLeftInfo">&#9432;</a>
+        <div class="col-sm-6 col-lg-3 form-inline mt-1">
+            <label for="overlay-opacity">Overlay Opacity:&nbsp;</label>
+            <input id="overlay-opacity" class="form-control form-control-sm w-auto" type="number" min="0" max="1" step="0.1" value="1" data-bind="value:opacity">
+        </div>
 
-    <label for="overlay-opacity"><span style="margin-left:1rem;">Overlay Opacity:&nbsp;</span></label>
-    <input id="overlay-opacity" class="form-control form-control-sm" style="margin-right:1rem;" type="number" min="0" max="1" step="0.1" value="1" data-bind="value:opacity">
+        <div class="col-sm-6 col-lg-4 form-inline mt-1">
+            <label for="select-underlay">Underlay Map:&nbsp;</label>
+            <select id="select-underlay" class="form-control form-control-sm w-auto" data-bind="value:rightMap">
+                <option value="OSM">2022 Open Street Map</option>
+                <!-- ko foreach:config.maps -->
+                <option data-bind="text:name,attr:{value:name}"></option>
+                <!-- /ko -->
+            </select>
+            &nbsp;<a role="link" tabindex="0" aria-label="open library page for underlay map" style="cursor:help;" data-bind="click:onClickRightInfo">&#9432;</a>
+        </div>
 
-    <label for="select-underlay">Underlay Map:&nbsp;</label>
-    <select id="select-underlay" class="form-control form-control-sm" data-bind="value:rightMap">
-        <option value="OSM">2022 Open Street Map</option>
-        <!-- ko foreach:config.maps -->
-        <option data-bind="text:name,attr:{value:name}"></option>
-        <!-- /ko -->
-    </select>
-
-    &nbsp;<a role="link" tabindex="0" aria-label="open library page for underlay map" style="cursor:help;" data-bind="click:onClickRightInfo">&#9432;</a>
-
-    <button class="form-control form-control-sm" role="button" aria-label="share this view via email" style="background-color:white; margin-left:1rem;" data-bind="click:onClickShare">Share</button>
+        <div class="col-sm-6 col-lg-1 form-inline mt-1">
+            <button class="form-control form-control-sm w-auto" role="button" aria-label="share this view via email" style="background-color:white;" data-bind="click:onClickShare">Share</button>
+        </div>
+    </div>
 </nav>
