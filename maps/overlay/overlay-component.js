@@ -1,3 +1,8 @@
+/*!
+ * Time Traveler's Map Overlay component v 1.0
+ * (c) Dennis McCarthy https://github.com/drm227/drm227.github.io/tree/master/maps/overlay
+ * License: MIT (http://www.opensource.org/licenses/mit-license.php)
+ */
 define([
     'knockout',
     'leaflet',
@@ -73,7 +78,7 @@ define([
             return this._div;
         };
         title.update = function(props) {
-            this._div.innerHTML = "<div class='title'>The Time Traveler's <br/>Map of "+_this.config.city+"</div><div class='subtitle'><a href='//www.denverlibrary.org/' target='_blank'>Denver Public Library</a> &bullet; <a href='//digital.denverlibrary.org/' target='_blank'>Digital Collections</a> &bullet; <a href='//digital.denverlibrary.org/digital/search/searchterm/map/field/formatb/mode/exact/conn/and/order/title/ad/asc' target='_blank'>Maps</a></div>";
+            this._div.innerHTML = "<div class='title'><em>The Time Traveler's <br/>Map of "+_this.config.city+"</em></div><div class='subtitle'><a href='//www.denverlibrary.org/' target='_blank'>Denver Public Library</a> &bullet; <a href='//digital.denverlibrary.org/' target='_blank'>Digital Collections</a> &bullet; <a href='//digital.denverlibrary.org/digital/search/searchterm/map/field/formatb/mode/exact/conn/and/order/title/ad/asc' target='_blank'>Maps</a></div>";
         };
         title.addTo(this.map);
 
