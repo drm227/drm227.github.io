@@ -15,12 +15,30 @@ define([
             return this.birdseye().features;
         }.bind(this));
 
-        this.feature = ko.observable();
+        this.feature = ko.observable({});
+        this.isMapVisible = ko.observable(false);
     }
 
-    BirdseyeComponentVM.prototype.afterRenderMap = function (elements,viewModel) {
+    BirdseyeComponentVM.prototype.afterRenderComponent = function (elements,viewModel) {
         viewModel.imageMap = L.map('birdseye',viewModel.birdseye().leaflet.imageMap.options);
         viewModel.changeBirdseye(viewModel.birdseye());
+
+        $('#featureDialog').on('shown.bs.modal',function(){
+            viewModel.initializeMap();
+        });
+
+        $('#featureDialog').on('hide.bs.modal',function(){
+            viewModel.tileMap.remove();
+        });
+    };
+
+    BirdseyeComponentVM.prototype.afterRenderMap = function (elements,viewModel) {
+        console.log(elements);
+    };
+
+    BirdseyeComponentVM.prototype.initializeMap = function () {
+        this.tileMap = L.map('map',this.birdseye().leaflet.tileMap.options);
+        L.tileLayer(this.birdseye().leaflet.tileLayer.url).addTo(this.tileMap);
     };
 
     BirdseyeComponentVM.prototype.changeBirdseye = function (birdseye) {
@@ -45,6 +63,11 @@ define([
                 $('#featureDialog').modal('show');
             });
         });
+    };
+
+    BirdseyeComponentVM.prototype.onToggleMap = function () {
+        this.isMapVisible(!this.isMapVisible());
+        this.tileMap.invalidateSize();
     };
 
     return {
