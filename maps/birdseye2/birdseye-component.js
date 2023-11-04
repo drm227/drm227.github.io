@@ -29,6 +29,7 @@ define([
 
         $('#featureDialog').on('hide.bs.modal',function(){
             viewModel.tileMap.remove();
+            viewModel.isMapVisible(false);
         });
     };
 
@@ -37,8 +38,14 @@ define([
     };
 
     BirdseyeComponentVM.prototype.initializeMap = function () {
+        var feature = this.feature(),
+            marker;
         this.tileMap = L.map('map',this.birdseye().leaflet.tileMap.options);
         L.tileLayer(this.birdseye().leaflet.tileLayer.url).addTo(this.tileMap);
+
+        marker = L.marker(feature.tileMapLatLng,{title:feature.name});
+        marker.addTo(this.tileMap);
+        this.tileMap.flyTo(feature.tileMapLatLng,16);
     };
 
     BirdseyeComponentVM.prototype.changeBirdseye = function (birdseye) {
