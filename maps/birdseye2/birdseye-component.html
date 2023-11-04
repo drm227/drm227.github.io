@@ -28,6 +28,10 @@
                     </div>
                     <img style="max-height: 50vh;" data-bind="attr:{'src':feature().image},visible:!isMapVisible()"/>
                     <div data-bind="text:feature().description,visible:!isMapVisible()"></div>
+                    <p class="text-center text-muted mt-1 mb-0" style="font-size: 0.9rem;" data-bind="with:feature().citations,visible:!isMapVisible()">
+                        <i>text:</i> <a data-bind="text:text.name,attr:{href:text.url}" target="_blank"></a>,
+                        <i>image:</i> <a data-bind="text:image.name,attr:{href:image.url}" target="_blank"></a>
+                    </p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bind="click:onToggleMap,text:isMapVisible()?'Show Text & Image':'Show Map'">Show Map</button>
