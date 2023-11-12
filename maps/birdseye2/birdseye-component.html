@@ -22,13 +22,13 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body text-center">
+                <div class="modal-body">
                     <div data-bind="template:{afterRender:afterRenderMap}">
                         <div id="map" style="width:100%;height:70vh;" data-bind="visible:isMapVisible()"></div>
                     </div>
-                    <img style="max-height: 50vh;" data-bind="attr:{'src':feature().image},visible:!isMapVisible()"/>
+                    <img class="float-left mr-3" style="max-height: 50vh;" data-bind="attr:{'src':feature().image},visible:!isMapVisible()"/>
                     <div data-bind="text:feature().description,visible:!isMapVisible()"></div>
-                    <p class="text-center text-muted mt-1 mb-0" style="font-size: 0.9rem;" data-bind="with:feature().citations,visible:!isMapVisible()">
+                    <p class="text-center text-muted mt-3 mb-0" style="font-size: 0.9rem;" data-bind="with:feature().citations,visible:!isMapVisible()">
                         <i>text:</i> <a data-bind="text:text.name,attr:{href:text.url}" target="_blank"></a>,
                         <i>image:</i> <a data-bind="text:image.name,attr:{href:image.url}" target="_blank"></a>
                     </p>
