@@ -17,6 +17,12 @@ define([
 
         this.feature = ko.observable({});
         this.isMapVisible = ko.observable(false);
+        this.modalButtonLabel = ko.computed(function(){
+            return this.isMapVisible() ? 'Show Text & Image' : 'Show '+this.birdseye().map.year+' Map';
+        }.bind(this));
+        this.map = ko.computed(function(){
+            return this.isMapVisible() ? this.birdseye().map : undefined;
+        }.bind(this));
     }
 
     BirdseyeComponentVM.prototype.afterRenderComponent = function (elements,viewModel) {
@@ -51,13 +57,18 @@ define([
     BirdseyeComponentVM.prototype.changeBirdseye = function (birdseye) {
         var _this = this,
             map = this.imageMap,
+            imageOverlay,
             features = this.birdseye().features;
 
         // Replace the birdseye image layer with a new one for the selected birdseye.
         map.eachLayer(function (layer) {
             map.removeLayer(layer);
         });
-        L.imageOverlay(birdseye.leaflet.imageLayer.url,birdseye.leaflet.imageLayer.bounds,birdseye.leaflet.imageLayer.options).addTo(map);
+        imageOverlay = L.imageOverlay(birdseye.leaflet.imageLayer.url,birdseye.leaflet.imageLayer.bounds,birdseye.leaflet.imageLayer.options).addTo(map);
+        // This event handler is used to get the lat/lon of points on the birdseye layer for feature markers.
+        imageOverlay.on('click',function(e){
+            console.log(e.latlng);
+        });
 
         // Add markers for the features of the selected map.
         this.featureMap = {};

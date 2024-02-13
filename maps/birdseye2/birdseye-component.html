@@ -34,7 +34,11 @@
                     </p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bind="click:onToggleMap,text:isMapVisible()?'Show Text & Image':'Show Map'">Show Map</button>
+                    <span class="mr-auto text-muted" data-bind="with:map" style="font-size: 0.9rem">
+                        <i data-bind="text:year"></i> <i>map: </i>
+                        <a data-bind="attr:{href:url}" target="_blank">Denver Public Library</a>
+                    </span>
+                    <button type="button" class="btn btn-secondary" data-bind="click:onToggleMap,text:modalButtonLabel">Show Map</button>
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
             </div>
