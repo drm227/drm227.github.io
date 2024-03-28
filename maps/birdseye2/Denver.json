@@ -74,10 +74,10 @@
         {
           "name": "Inter-Ocean Hotel",
           "description":"The Inter-Ocean Hotel, 1436 16th Street, graced the corner of 16th and Blake Streets for one hundred years. Opening to the public on October 29, 1873, the hotel was the creation of Denver pioneer Barney Ford—Colorado’s most prominent black businessman. William N. Byers, editor of the Rocky Mountain News, proclaimed it 'the finest in the territory and the best appointed hotel west of Saint Louis.'",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/76319/default.jpg",
+          "image":"https://digital.denverlibrary.org/assets/display/2320935-max",
           "citations": {
             "text": {"name":"DenverUrbanism","url":"https://denverurbanism.com/2012/03/historic-inter-ocean-hotel.html"},
-            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/76319"}
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1121837"}
           },
           "imageMapLatLng": [39.750975, -105.001476],
           "tileMapLatLng": [39.750291, -104.999187]
@@ -564,6 +564,72 @@
       }
     },
     {
+      "name": "1936 Carlson",
+      "map": {
+        "title": "Denver, Col.",
+        "creator": "Nirenstein, Nathan",
+        "year": "1929",
+        "url": "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/587/rec/1",
+        "description": "Blackline print.; Cadastral map showing land ownership"
+      },
+      "features": [
+        {
+          "name": "Continental Oil (1927)",
+          "description":"The Continental Oil Building was built in 1926 by the Continental Oil Company for their own office use, with some additional rental space. It was build at the corner of Eighteenth and Glenarm Streets with a ground floor area 125 feet by 125 feet, with a court in the rear above the first floor 34 by 68 feet.  The present building is 10 stories high, extending 140 feet above the sidewalk [...] The exterior of the building is of polished granite up to the third floor line with cream colored terra cotta facing above, except for the spandrels betwween windows which are grayish green to emphasize the vertical window lines. The walls at the two street entrances are of polychrome terra cotta which leads the center of interest to thee two points.",
+          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/30971/default.jpg",
+          "citations": {
+            "text": {"name":"Municipal Facts","url":"https://digital.denverlibrary.org/digital/collection/p15330coll15/id/5673/rec/4"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/30971/rec/42"}
+          },
+          "imageMapLatLng": [39.760783168525954, -105.04234313964845],
+          "tileMapLatLng": [39.74563539080376, -104.98861744266651]
+        },
+        {
+          "name": "Denver Municipal Auditorium (1908)",
+          "description":"Completed in 1908, this Renaissance Revival style arena/theater was designed by Denver architect Robert Willison.  Constructed of buff brick, the three-story terracotta trimmed building featured prominent corner towers that were topped with cupolas. The massive 246 by 145 foot building was second only to New York’s Madison Square Garden in size.",
+          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/86519/default.jpg",
+          "citations": {
+            "text": {"name":"History Colorado","url":"https://www.historycolorado.org/location/denver-municipal-auditorium-quigg-newton-denver-municipal-auditorium"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/30971/rec/42"}
+          },
+          "imageMapLatLng": [39.74666202384811, -104.9417495727539],
+          "tileMapLatLng": [39.74492581710934, -104.99692253258267]
+        },
+        {
+          "name": "Mountain States Telephone (1929)",
+          "description":"Completed in 1929, the Telephone Building at 931 14th Street in Denver served for fifty-five years as the headquarters of Mountain States Telephone and Telegraph. Designed by architect William N. Bowman in a combination of Art Deco and Gothic Revival styles, the building helped bring modern architecture to Denver. [...] The architectural style Bowman used for the building, which Mountain States called “Modern American Perpendicular Gothic,” was based on Neo-Gothic skyscrapers such as New York’s Woolworth Building (1913) as well as on the New York Telephone Company’s new Art Deco headquarters then under construction, the Barclay-Vesey Building (1927). Rising ten stories and then stepping back twenty feet to a five-story central tower with Gothic turrets, the Telephone Building in Denver was the first to take advantage of a setback provision in the city height ordinance that allowed buildings to rise above twelve stories if their additional height was set back from the street. Topping out at nearly 237 feet, the building was the tallest in Denver (aside from smelter stacks and the Daniels and Fisher Tower) until the 1950s and contained about 5.2 million cubic feet of space.",
+          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/17036/default.jpg",
+          "citations": {
+            "text": {"name":"Colorado encyclopedia","url":"https://coloradoencyclopedia.org/article/telephone-building"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/17036/rec/32"}
+          },
+          "imageMapLatLng": [39.75141338632425, -104.9568557739258],
+          "tileMapLatLng": [39.74547170913153, -104.99652745688607]
+        }
+      ],
+      "leaflet": {
+        "imageLayer": {
+          "url": "https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/33474/default.jpg",
+          "bounds": [[39.78728393766774,-105.07491186261178],[39.71368461695864, -104.92471285164356]],
+          "options": {"interactive":true}
+        },
+        "tileMap": {
+          "options": {
+            "center": [39.749771275005315, -104.99320908930397],
+            "zoom": 13,
+            "minZoom": 11,
+            "maxZoom": 18
+          }
+        },
+        "tileLayer": {
+          "url": "https://mapwarper.net/maps/tile/66190/{z}/{x}/{y}.png",
+          "options": {
+            "center": [39.749771275005315, -104.99320908930397]
+          }
+        }
+      }
+    },
+    {
       "name": "1960 Walla",
       "map": {
         "title": "Map of Denver business district",
@@ -645,6 +711,94 @@
         },
         "tileLayer": {
           "url": "https://mapwarper.net/maps/tile/62912/{z}/{x}/{y}.png",
+          "options": {
+            "center": [39.749771275005315, -104.99320908930397]
+          }
+        }
+      }
+    },
+    {
+      "name": "1940s Washington Park",
+      "map": {
+        "title": "1933 King Aerial Survey of Denver",
+        "creator": "Jasper King",
+        "year": "1933",
+        "url": "https://history.denverlibrary.org/research-tool/1933-king-aerial-survey-denver",
+        "description": "Jasper King's 1933 aerial photographic survey of Denver, georeferenced by the City and County of Denver."
+      },
+      "features": [
+        {
+          "name": "Eugene Field House (1875)",
+          "description":"Built around 1875, this house was the home of well-known journalist and writer Eugene Field, who was the managing editor of the Denver Tribune and lived in the house from 1881 to 1883.  After Field moved to Chicago in 1883, the house fell into disrepair until a local group of preservationists convinced Margaret Brown to purchase the house and donate it to the City of Denver in 1927.  As part of this preservation effort, the house was moved from its original site at 315 W. Colfax to its present location in Washington Park, where it has served as a branch of the Denver Public Library system and more recently as the headquarters for Park People.",
+          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/39380/default.jpg?highlightTerms=eugene%20field%20house",
+          "citations": {
+            "text": {"name":"History Colorado","url":"https://www.historycolorado.org/location/eugene-field-house"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1070315"}
+          },
+          "imageMapLatLng": [39.775725, -105.024476],
+          "tileMapLatLng": [39.703535, -104.968872]
+        },
+        {
+          "name": "Park Lane Hotel (1929)",
+          "description":"The Park Lane Hotel, opened on June 16, 1928 on Marion Street Parkway between Washington Park and Dakota Street. The twelve-story apartment hotel encompassed 225 rooms and was known as the \"darling of Denver’s high society.\"  [demolished 1966]",
+          "image":"https://assets-global.website-files.com/64139724cdd539ef9ae3eb2a/641750fa7b8e01e177291aaf_timeline-6.jpg",
+          "citations": {
+            "text": {"name":"Washington Park East Neighborhood Association","url":"https://www.wpena.org/our-history"},
+            "image": {"name":"Washington Park East Neighborhood Association","url":"https://www.wpena.org/our-history"}
+          },
+          "imageMapLatLng": [39.744022, -105.014877],
+          "tileMapLatLng": [39.708486, -104.9713784]
+        },
+        {
+          "name": "Smith Lake (1867)",
+          "description":"Smith Lake lies in a natural depression that may have been a buffalo wallow. The depression became a lake in May 1867 when Smith's Ditch was completed.  [...]  After the area became part of the Town of South Denver in 1886, the town attempted unsuccessfully to create a park that included the lake.  [...]  In 1897, three years after the area was annexed by Denver, Mayor Thomas McMurray initiated condemnation proceedings on land south of Smith Lake to create a park that incorporated the lake. By 1904, Washington Park reached its present size through additional land purchases.",
+          "image":"https://digital.denverlibrary.org/assets/display/2336639-max?u=2023-12-08+21%3A05%3A10",
+          "citations": {
+            "text": {"name":"Denver Public Library","url":"https://history.denverlibrary.org/neighborhood-history-guide/washington-park-neighborhood"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1129708"}
+          },
+          "imageMapLatLng": [39.767512, -104.996337],
+          "tileMapLatLng": [39.704829, -104.970847]
+        },
+        {
+          "name": "Steele Elementary School (1913)",
+          "description":"Called one of the finest examples of Art Deco architecture in the state, Steele School actually started as a neo-classical structure made of buff brick and red sandstone.  [...]  By the late 1920s, Steele had more than doubled its population to 523 students and expansion was needed. Popular thought at the time was that buildings should reflect the time in which they were built, and so architect Meryll Hoyt (1881-1933) replaced Steele’s Roman, Greek, and Italian Renaissance elements with the Art Deco building we have today.",
+          "image":"https://digital.denverlibrary.org/assets/display/2352653-max",
+          "citations": {
+            "text": {"name":"Denver Public Schools","url":"https://steele.dpsk12.org/about-us/history"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1137484"}
+          },
+          "imageMapLatLng": [39.714185, -105.036506],
+          "tileMapLatLng": [39.710263, -104.971621]
+        },
+        {
+          "name": "South High School (1926)",
+          "description":"The school was constructed in 1925 and 1926 and was designed by the prolific Denver architecture firm of Fisher and Fisher. [...] The building is an outstanding example of First Romanesque/Italian Renaissance Revival style architecture and is a testament to the City Beautiful movement imprint on Denver. The 1963 additions were designed by notable mid-twentieth century modernist architect Charles Gordon Lee.",
+          "image":"https://upload.wikimedia.org/wikipedia/commons/b/b9/FS17636-303a.jpg",
+          "citations": {
+            "text": {"name":"History Colorado","url":"https://www.historycolorado.org/location/south-high-school"},
+            "image": {"name":"Wikipedia","url":"https://en.wikipedia.org/wiki/South_High_School_%28Denver,_Colorado%29#/media/File:FS17636-303a.jpg"}
+          },
+          "imageMapLatLng": [39.787301, -104.997711],
+          "tileMapLatLng": [39.692121, -104.966054]
+        }
+      ],
+      "leaflet": {
+        "imageLayer": {
+          "url": "1940s WashPark.jpg",
+          "bounds": [[39.78728393766774,-105.07491186261178],[39.71368461695864, -104.92471285164356]],
+          "options": {"interactive":true}
+        },
+        "tileMap": {
+          "options": {
+            "center": [39.749771275005315, -104.99320908930397],
+            "zoom": 13,
+            "minZoom": 11,
+            "maxZoom": 18
+          }
+        },
+        "tileLayer": {
+          "url": "https://tiles.arcgis.com/tiles/44C95LOqZjbh8Row/arcgis/rest/services/Denver_1933_Aerial/MapServer/tile/{z}/{y}/{x}",
           "options": {
             "center": [39.749771275005315, -104.99320908930397]
           }
