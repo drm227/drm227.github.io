@@ -87,7 +87,7 @@
           "description":"The Fink Building on the southeast corner of Fifteenth and Market streets was built by J. P. Fink in 1873 and was considered an extravagantly fine building at that time, as it was three stories high and had a dressed sandstone front on Fifteenth street.",
           "image":"https://digital.denverlibrary.org/assets/display/2169771-max",
           "citations": {
-            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/nodes/view/821260"},
+            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=963"},
             "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1045964"}
           },
           "imageMapLatLng": [39.752099, -104.992733],
@@ -121,7 +121,7 @@
           "description":"Guard Hall was in the building on the northwest corner of Curtis and Fifteenth streets, built by the old military company, the \"Governor's Guards,\" in 1873.[...] In its time Guard Hall stood for the best in theatricals in Denver, but it passed out of commission when the Tabor Opera House was completed and opened.",
           "image":"https://digital.denverlibrary.org/assets/display/2187510-max",
           "citations": {
-            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/nodes/view/821260"},
+            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=910"},
             "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1055156"}
           },
           "imageMapLatLng": [39.758750, -104.975418],
@@ -184,10 +184,10 @@
         },
         {
           "name": "Stout School",
-          "description":"The district's second building soon followed the erection of the Arapahoe. This was what became known as the Stout Street School, and was undertaken June 18, 1873. Eight lots on the northeast corner of Stout and Twenty-eighth streets were purchased at a cost of $2,400. On August 2nd the contracts were let,.and the building was finished early in March, 1874 [...] It was a good-looking building, but faultily designed and constructed [...] ity authorities condemned it on March 11, 1881, when it was just seven years old. [...] on November 10, 1881, was totally destroyed by fire.",
+          "description":"The district's second building soon followed the erection of the Arapahoe. This was what became known as the Stout Street School, and was undertaken June 18, 1873. Eight lots on the northeast corner of Stout and Twenty-eighth streets were purchased at a cost of $2,400. On August 2nd the contracts were let.and the building was finished early in March, 1874 [...] It was a good-looking building, but faultily designed and constructed [...] city authorities condemned it on March 11, 1881, when it was just seven years old. [...] on November 10, 1881, was totally destroyed by fire.",
           "image":"Stout School.png",
           "citations": {
-            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/nodes/view/821260"},
+            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=746"},
             "image": {"name":"Denver Public Library", "url":"https://denverlibrary.recollectcms.com/nodes/view/821260"}
           },
           "imageMapLatLng": [39.7687582, -105.034805],
