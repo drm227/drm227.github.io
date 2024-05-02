@@ -12,28 +12,61 @@
         "title": "Thayer's map of Denver, Colorado",
         "creator": "Homer Lockwood Thayer",
         "year": "1872",
-        "url": "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/9/rec/2",
+        "url": "https://digital.denverlibrary.org/nodes/view/533",
         "description": "This map of Denver from 1872 contains a numbered list of buildings below the cartouche.  The number for a building appears on the map, at the locaton of the building."
       },
       "features": [
         {
           "name": "15 Street Bridge",
           "description":"The 15th Street bridge shown here was built in 1864, replacing the original bridge that was destroyed by the Great Flood of 1864.  It crossed the South Platte River, connecting the East Denver and Highland sections of the city.",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/34699/default.jpg?highlightTerms=photograph%20AND%2015th%20street%20bridge",
+          "image":"https://digital.denverlibrary.org/assets/display/2176338-max",
           "citations": {
             "text": {},
-            "image": {"name":"Denver Pulic Library","url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/34699/rec/5"}
+            "image": {"name":"Denver Pulic Library","url":"https://digital.denverlibrary.org/nodes/view/1049471"}
           },
           "imageMapLatLng": [39.733143,-105.030145],
           "tileMapLatLng": [39.755652,-105.007776]
         },
         {
+          "name": "American House",
+          "description":"In 1860, with a wagon train loaded with merchandise for a general store and machinery for a planning mill, a flour mill, and a [gold-] quartz mill, [John W. Smith] crossed the plains, reaching Denver on June 3. He also brought with him a cash capital of about $20,000. [...] The American House he erected in 1868 was for 10 years the largest and best hotel in Colorado. ",
+          "image":"https://digital.denverlibrary.org/assets/display/2281386-max",
+          "citations": {
+            "text": {"name":"Denver Public Library","url":"https://history.denverlibrary.org/sites/history/files/RealPioneersColorado.pdf"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1102086"}
+          },
+          "imageMapLatLng": [39.750704, -105.006272],
+          "tileMapLatLng": [39.750947, -104.999203]
+        },
+        {
+          "name": "Arapahoe School",
+          "description":"[In] 1873 Arapahoe School opened on Arapahoe Street between 17th and 18th.  The cost was $51,695.  Arapahoe School housed the city’s first high school, which occupied the school’s third floor.  A large bell once called students to class – now, it sits on the south lawn at East High.  The building was only used for nine years; as downtown Denver business encroached and property values increased, the property was sold in 1882 for $165,000. The building became part of the “Club Building” at 1731 Arapahoe Street.",
+          "image":"https://digital.denverlibrary.org/assets/display/2336999-max",
+          "citations": {
+            "text": {"name":"Denver Public Schools","url":"https://east.dpsk12.org/about/history/"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1129888"}
+          },
+          "imageMapLatLng": [39.759387, -104.997170],
+          "tileMapLatLng": [39.749314, -104.994180]
+        },
+        {
+          "name": "Charpiot's Hotel",
+          "description":"Charpiot's Hotel & Restaurant was founded by Frederick Charpiot in 1860 and known as the Delmonico of the West. In 1889 Filbert R. Gatt (possibly anglicized from Gatto or Gatti) took over the lease of Charpiot's. Later Gatt became manager of Hotel Brunswick in Grand Junction, Hotel Jerome in Aspen, and in 1894 the Grand Hotel in Pueblo. Gatt emigrated from Italy to America in 1870. After living in California, he eventually came to Denver and worked as a stonecutter before entering the hotel and restaurant business. ",
+          "image":"https://digital.denverlibrary.org/assets/display/2193393-max",
+          "citations": {
+            "text": {"name":"History Colorado","url":"https://5008.sydneyplus.com/HistoryColorado_ArgusNet_Final/Portal/Portal.aspx?component=AAFW&record=0285de30-ba8a-4493-80eb-94988fb291fc"},
+            "image": {"name":"Denver Pulic Library","url":"https://digital.denverlibrary.org/nodes/view/1058081"}
+          },
+          "imageMapLatLng": [39.754484, -104.991623],
+          "tileMapLatLng": [39.748695, -104.997629]
+        },
+        {
           "name": "Denver Brewing Co.",
           "description":"When the Turnvereins held annual masquerade balls and parades, newspapers reported that 'the trades took up the greater part of the procession. The brewing works of Max Melsheimer & Co, J. Schueler & Co, and Denver Brewing Company, etc. being the most conspicuous among them.'",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/26654/default.jpg",
+          "image":"https://digital.denverlibrary.org/assets/display/2192256-max?u=2023-11-23+21%3A59%3A57",
           "citations": {
             "text": {"name":"Historical Studies Journal","url":"https://clas.ucdenver.edu/history/sites/default/files/attached-files/hsj_2012_web.pdf"},
-            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/26654/rec/1"}
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1057521"}
           },
           "imageMapLatLng": [39.747883, -104.947890],
           "tileMapLatLng": [39.7433158, -105.004975]
@@ -41,24 +74,69 @@
         {
           "name": "Denver Pacific Railroad Depot",
           "description":"Although railroads have served Denver since 1868, no consolidated station existed for the city’s rail traffic until the completion of the Union Depot in 1881. The Denver Pacific Railroad (DP) built the first station in 1868 at Wazee and Twenty-first Streets. Three railroads used this station: the DP, which ran north to meet the Union Pacific in Cheyenne, Wyoming; the Kansas-Pacific Railroad (KP), which ran east toward Kansas, and the Colorado Central Railroad (CC), which ran west toward Golden and Central City. ",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/10815/default.jpg",
+          "image":"https://digital.denverlibrary.org/assets/display/2118338-max",
           "citations": {
             "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/union-station-0"},
-            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/10815/rec/5"}
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1020563"}
           },
           "imageMapLatLng": [39.755652,-105.040332],
           "tileMapLatLng": [39.756100,-104.993191]
         },
         {
-          "name": "Gas Works",
-          "description":"Public Service Company of Colorado traces its roots to 1869, when William N. Byers, owner of the Rocky Mountain News, Colonel James Archer, Walter Scott Cheesman, and five other leading Coloradans gathered in Denver and agreed to finance a local gas lighting company. [...] Construction finally got underway on September 20, 1870; by year's end Archer had laid two miles of mains and built a gas plant on the southwest corner of 18th and Wewatta Streets.",
-          "image":"https://digital.denverlibrary.org/iiif/2/p15330coll22:17304/full/1000,/0/default.jpg",
+          "name": "J. P. Fink's Block",
+          "description":"The Fink Building on the southeast corner of Fifteenth and Market streets was built by J. P. Fink in 1873 and was considered an extravagantly fine building at that time, as it was three stories high and had a dressed sandstone front on Fifteenth street.",
+          "image":"https://digital.denverlibrary.org/assets/display/2169771-max",
           "citations": {
-            "text": {"name":"Public Service Company of Colorado History","url":"http://www.fundinguniverse.com/company-histories/public-service-company-of-colorado-history/"},
-            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/17304/"}
+            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/nodes/view/821260"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1045964"}
           },
-          "imageMapLatLng": [39.748275, -105.033777],
-          "tileMapLatLng": [39.755182, -104.998726]
+          "imageMapLatLng": [39.752099, -104.992733],
+          "tileMapLatLng": [39.748308, -104.998257]
+        },
+        {
+          "name": "Gas Works",
+          "description": "Public Service Company of Colorado traces its roots to 1869, when William N. Byers, owner of the Rocky Mountain News, Colonel James Archer, Walter Scott Cheesman, and five other leading Coloradans gathered in Denver and agreed to finance a local gas lighting company. [...] Construction finally got underway on September 20, 1870; by year's end Archer had laid two miles of mains and built a gas plant on the southwest corner of 18th and Wewatta Streets.",
+          "image": "https://digital.denverlibrary.org/assets/display/2143251-max",
+          "citations": {
+            "text": {
+              "name": "Public Service Company of Colorado History",
+              "url": "http://www.fundinguniverse.com/company-histories/public-service-company-of-colorado-history/"
+            },
+            "image": {
+              "name": "Denver Public Library",
+              "url": "https://digital.denverlibrary.org/nodes/view/1033027"
+            }
+          },
+          "imageMapLatLng": [
+            39.748275,
+            -105.033777
+          ],
+          "tileMapLatLng": [
+            39.755182,
+            -104.998726
+          ]
+        },
+        {
+          "name": "Guard Hall",
+          "description":"Guard Hall was in the building on the northwest corner of Curtis and Fifteenth streets, built by the old military company, the \"Governor's Guards,\" in 1873.[...] In its time Guard Hall stood for the best in theatricals in Denver, but it passed out of commission when the Tabor Opera House was completed and opened.",
+          "image":"https://digital.denverlibrary.org/assets/display/2187510-max",
+          "citations": {
+            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/nodes/view/821260"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1055156"}
+          },
+          "imageMapLatLng": [39.758750, -104.975418],
+          "tileMapLatLng": [39.746266, -104.996417]
+        },
+        {
+          "name": "Hallack & Howard Lumber",
+          "description":"Erastus F. Hallack, an already prosperous Colorado entrepreneur, entered the lumber business in 1867 when he and his brother established the Hallack Brothers Lumber Company in Denver.  The firm was enlarged in 1877 when Charles and J.H. Howard joined the company and the name changed to Hallack & Howard Lumber Company.  The new company [...] was described as \"not only the most extensive in Denver, but one of the largest and most complete concerns in the West.\" ",
+          "image":"https://digital.denverlibrary.org/assets/display/2192225-max",
+          "citations": {
+            "text": {"name":"History Colorado","url":"https://www.historycolorado.org/sites/default/files/media/document/2019/Mss.00288_Hallack_and_Howard.pdf"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1057507"}
+          },
+          "imageMapLatLng": [39.755383, -105.015455],
+          "tileMapLatLng": [39.752193, -104.995735]
         },
         {
           "name": "Holly Water Works",
@@ -85,10 +163,10 @@
         {
           "name":"Lawrence St Methodist Church",
           "description":"The Methodists soon moved into the first Denver building for church services at the southeast corner of Fourteenth and Lawrence Streets [18 on map]. The imposing Lawrence Street Methodist Church opened in 1864. This $23,000 brick church had a distinctive three-story entry tower, making it the tallest building in town. That church and all subsequent Methodist houses of worship benefited from Denver’s Iliff School of Theology, which traces its roots to 1864. Initially a Methodist seminary partnered with the University of Denver, it has grown to accept anyone wanting religious education. The Lawrence Street structure served Denver Methodists until the 1888 construction of today’s Trinity United Methodist Church.",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/39286/default.jpg",
+          "image":"https://digital.denverlibrary.org/assets/display/2216799-max",
           "citations": {
             "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/trinity-united-methodist-church"},
-            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/39286/rec/2"}
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1069786"}
           },
           "imageMapLatLng": [39.754885,-104.976821],
           "tileMapLatLng": [39.746677,-104.998602]
@@ -96,21 +174,32 @@
         {
           "name": "St. Mary's Cathedral",
           "description":"In 1860, two years after Denver was founded, Father (later Bishop) Joseph Machebeuf established the city’s first Catholic parish—St. Mary’s—and celebrated the city’s first Mass. The small church at Fifteenth and Stout Streets was enlarged in 1871 to accommodate a growing congregation [...]. In 1873 the church was elevated to cathedral status. [16 on map]",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/37835/default.jpg?highlightTerms=denver%20(colo.)%20AND%20st%20mary%20catholic%20church",
+          "image":"https://digital.denverlibrary.org/assets/display/2201787-max?u=2023-11-23+22%3A46%3A15",
           "citations": {
             "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/cathedral-basilica-immaculate-conception"},
-            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/37835/rec/1"}
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1062298"}
           },
           "imageMapLatLng": [39.763206,-104.968926],
           "tileMapLatLng": [39.745029,-104.993750]
         },
         {
+          "name": "Stout School",
+          "description":"The district's second building soon followed the erection of the Arapahoe. This was what became known as the Stout Street School, and was undertaken June 18, 1873. Eight lots on the northeast corner of Stout and Twenty-eighth streets were purchased at a cost of $2,400. On August 2nd the contracts were let,.and the building was finished early in March, 1874 [...] It was a good-looking building, but faultily designed and constructed [...] ity authorities condemned it on March 11, 1881, when it was just seven years old. [...] on November 10, 1881, was totally destroyed by fire.",
+          "image":"Stout School.png",
+          "citations": {
+            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/nodes/view/821260"},
+            "image": {"name":"Denver Public Library", "url":"https://denverlibrary.recollectcms.com/nodes/view/821260"}
+          },
+          "imageMapLatLng": [39.7687582, -105.034805],
+          "tileMapLatLng": [39.757088, -104.979035]
+        },
+        {
           "name": "U.S. Mint",
           "description":"In April 1862, Congress authorized the creation of a branch of the US Mint in Denver for coining gold. At the time, US Mints existed only in Philadelphia and San Francisco. The government acquired the Clark, Gruber building and machinery for $25,000 and opened the Denver Mint Assay Office in 1863. Despite its authorization to coin money, the mint did not make coins. It operated only as an assay office, which melted and assayed bullion before returning it to customers. [3 on map]",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/70434/default.jpg?highlightTerms=Photograph%20AND%20denver%20mint",
+          "image":"https://digital.denverlibrary.org/assets/display/2308825-max?u=2023-12-04+10%3A10%3A59",
           "citations": {
             "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/denver-mint"},
-            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/70434/rec/30"}
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1115808"}
           },
           "imageMapLatLng": [39.752085,-104.998670],
           "tileMapLatLng": [39.749916,-104.998582]
@@ -159,17 +248,17 @@
         "title": "Guide map to the city of Denver, Colorado",
         "creator": "W.H. Lawrence & Co.",
         "year": "1882",
-        "url": "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/751/rec/1",
+        "url": "https://digital.denverlibrary.org/nodes/view/822120",
         "description": "This map of Denver from 1882 contains a list of buildings along the bottom, with a number/letter for each.  The number/letter for a building appears on the map, at the location of the building."
       },
       "features": [
         {
           "name": "Arapahoe County Court House",
           "description":"The Arapahoe County Courthouse at 16th (Sixteenth) and Tremont streets in downtown Denver, Colorado, was built in 1883 by Lester Fillmore and Peter Gumry for $185,000 as a three-story building; the fourth level, seen here, was added 10 years later by Denver contractor Frank Anderson. The original building was designed by architect Elijah E. Meyers. The fourth floor addition was designed by architect Frederick Carl Eberley. This building later became the Denver County Courthouse, and was razed in 1934. [P on map]",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/75556/default.jpg",
+          "image":"https://digital.denverlibrary.org/assets/display/2319450-max",
           "citations": {
-            "text": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/75556/rec/4"},
-            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/75556/rec/4"}
+            "text": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1121109"},
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1121109"}
           },
           "imageMapLatLng": [39.770946,-104.959700],
           "tileMapLatLng": [39.742950, -104.989574]
@@ -185,10 +274,10 @@
         {
           "name": "City Hall",
           "description":"City Hall was then moved to the 14th and Larimer [K on map] location in 1883. [...] The building took 15 months to construct, was designed by W. K. Nichols, and cost about $300,000.  The original building was four floors with a bell tower and a copula.  On Novermber 30, 1901 it caught fire.  The fire burned the fourth floor.  It was rebuilt with a flat roof.",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/17330/default.jpg?highlightTerms=photograph%20AND%20denver%20old%20city%20hall",
+          "image":"https://digital.denverlibrary.org/assets/display/2143304-max",
           "citations": {
             "text": {"name":"Denver History Blog","url":"https://denverhistory.blog/2017/11/27/larimer-street-14-old-city-hall/"},
-            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/17330/rec/50"}
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1033053"}
           },
           "imageMapLatLng": [39.748799, -104.988091],
           "tileMapLatLng": [39.747359, -105.000135]
@@ -196,10 +285,10 @@
         {
           "name": "Denver High School",
           "description":"In 1882, Denver High School was built in Denver's booming business district, on the corner of 19th and Stout streets [III on map]. Famed Denver architect Robert Roeschlaub designed the school. [...]  The original Denver High School was known by a variety of names. It was most commonly called Denver East Side to differentiate it from Denver West Side High School and Denver North Side High School, which were both built in 1883.",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/71893/default.jpg",
+          "image":"https://digital.denverlibrary.org/assets/display/2311753-max",
           "citations": {
             "text": {"name":"Denver Public Library","url":"https://history.denverlibrary.org/news/north-south-east-west-denvers-iconic-public-high-schools"},
-            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/71893/rec/1"}
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1117264"}
           },
           "imageMapLatLng": [39.766222,-104.998958],
           "tileMapLatLng": [39.748453, -104.989460]
@@ -207,10 +296,10 @@
         {
           "name": "D&RG Burnham Yards",
           "description":"Burnham Yards served as the service and repair yards for the Denver & Rio Grande Railroad from 1874 to 1996. The yards were named for George Burnham, a co-owner of the Baldwin Locomotive Works in Pennsylvania, who built the original locomotives and rolling stock for Denver & Rio Grande.",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/27549/default.jpg",
+          "image":"https://digital.denverlibrary.org/assets/display/2204045-max",
           "citations": {
             "text": {"name":"Historic Denver News","url":"https://historicdenver.org/wp-content/uploads/2017/05/HD-News-Winter-2016-FINAL.pdf"},
-            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/27549/rec/1"}
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1063426"}
           },
           "imageMapLatLng": [39.751301,-104.912537],
           "tileMapLatLng": [39.730636, -105.006393]
@@ -218,10 +307,10 @@
         {
           "name": "St. John's Cathedral",
           "description":"In 1890 the Diocese of Colorado was created with its own bishop. By that time, Denver had already built a grand church that would serve as the diocesan cathedral. It was largely the work of Reverend Henry Martyn Hart, a young cleric from suburban London. [...] Hart had architects Lloyd & Pearce of Detroit design a large red-brick, Romanesque-style church at the intersection of Twentieth and Welton Streets. Bishop Spalding laid the cornerstone on September 21, 1880. [VI on map].",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/76237/default.jpg",
+          "image":"https://digital.denverlibrary.org/assets/display/2320799-max",
           "citations": {
             "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/st-john%E2%80%99s-episcopal-cathedral"},
-            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/76237/rec/1"}
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1121759"}
           },
           "imageMapLatLng": [39.769020,-104.991559],
           "tileMapLatLng": [39.747894,-104.987171]
@@ -229,10 +318,10 @@
         {
           "name": "Tabor Grand Opera House",
           "description":"In 1881 silver magnate Horace Tabor built his Grand Opera House in Denver at Sixteenth and Curtis Streets [M on map]. The venue's performances enthralled audiences for the next nine years, until a competing opera house opened on Broadway in 1890 and Tabor lost his fortune in 1893.",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/75479/default.jpg",
+          "image":"https://digital.denverlibrary.org/assets/display/2319322-max",
           "citations": {
             "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/tabor-grand-opera-house"},
-            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/75479/rec/1"}
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1121036"}
           },
           "imageMapLatLng": [39.758219,-104.987883],
           "tileMapLatLng": [39.747205, -104.995130]
@@ -240,10 +329,10 @@
         {
           "name": "Union Depot",
           "description":"Although railroads have served Denver since 1868, no consolidated station existed for the city’s rail traffic until the completion of the Union Depot in 1881.  Officials of the various railroads and local citizens held a meeting in November of 1879 that resulted in the formation of the Union Depot and Railroad Company (UDR). Shortly after its creation, the company purchased land at Seventeenth and Wynkoop [W on map] for the facility. Construction began in 1880, and the depot opened for business in May 1881, with an official grand opening held in July.",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/27550/default.jpg?highlightTerms=Denver%20(Colo.)%20AND%20union%20depot",
+          "image":"https://digital.denverlibrary.org/assets/display/2204058-max",
           "citations": {
             "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/union-station-0"},
-            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/27550/rec/1"}
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1063431"}
           },
           "imageMapLatLng": [39.742875,-105.031824],
           "tileMapLatLng": [39.753754,-105.000609]
@@ -251,10 +340,10 @@
         {
           "name": "Union Pacific Shops",
           "description":"The first railroads into Denver were the Denver Pacific and the Kansas Pacific, later both part of the Union Pacific System.  One of the first structures to be build was the roundhouse.  The Denver Pacific build a small roundhouse where Broadway and 16th Street now meet [XVII on map].  The Kansas Pacific built a larger structure next to the Denver Pacific.",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/39170/default.jpg",
+          "image":"https://digital.denverlibrary.org/assets/display/2215361-max",
           "citations": {
             "text": {"name":"Denver's Railroads (p. 191)","url":"https://catalog.denverlibrary.org/search/title.aspx?ctx=1.1033.0.0.6&pos=1&cn=111987"},
-            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/39170/rec/1"}
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1069076"}
           },
           "imageMapLatLng": [39.755420,-105.071982],
           "tileMapLatLng": [39.763101, -104.985469]
@@ -303,17 +392,17 @@
         "title": "Rollandet's map of the city of Denver, Colorado",
         "creator": "Edward Rollandet",
         "year": "1889",
-        "url": "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/816/rec/1",
+        "url": "https://digital.denverlibrary.org/nodes/view/822407",
         "description": "This map of Denver from 1889"
       },
       "features": [
         {
           "name": "Argo Smelter",
           "description":"In 1879 Hill wanted a more central location for his business and decided to move the Boston and Colorado Smelting Company from Black Hawk to Denver. He also decided to rename the smelter \\“Argo\\” after the legendary ship that sailed in search of the fabled Golden Fleece in Greek mythology. Hill and his business associates built the Argo smelter two miles north of Denver, where it continued to thrive.",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll23/12488/default.jpg",
+          "image":"https://digital.denverlibrary.org/assets/display/2350598-max",
           "citations": {
             "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/nathaniel-p-hill"},
-            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/digital/collection/p15330coll23/id/12488"}
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1136485"}
           },
           "imageMapLatLng": [39.793053,-104.997897],
           "tileMapLatLng": [39.781449,-104.994430]
@@ -332,21 +421,21 @@
         {
           "name": "Denver City Hall",
           "description":"Not until 1883 did Denver build a distinctive City Hall at the southwest corner of Fourteenth and Larimer Streets on the banks of Cherry Creek. Architect William H.J. Nichols planned this $300,000 edifice. The four-story stone structure had a mansard roof with many dormers and bristled with decorative cresting. Besides the mayor’s office, city council chambers, and city offices, it also housed the fire department, central fire station, police department, and city jail. The building was most famous as the setting for the 1893 City Hall War in which the governor tried unsuccessfully to throw out corrupt city officials. After a 1921 fire, the building was reconstructed without the mansard roof and corner towers.",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/17295/default.jpg?highlightTerms=denver%20city%20hall",
+          "image":"https://digital.denverlibrary.org/assets/display/2143233-max",
           "citations": {
             "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/denver-city-and-county-building#Earlier-City-Halls"},
-            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/17295/rec/1"}
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1033018"}
           },
           "imageMapLatLng": [ 39.763159,-105.041065],
           "tileMapLatLng": [39.747392, -105.000264]
         },
         {
           "name": "Fourteenth Street Viaduct",
-          "description":"The original 14th Street Viaduct was constructed by the Fourteenth Street Viaduct Association, which was organized by property owners on both sides of the South Platte River in the winter of 1887-88.  The Associate began construction which slowly continued for three or four years.  This project stalled due to the Panic of 1893.  This viaduct, which ran from Blake Street in Demver to Platte Street in Highlands, was replaced by starting in 1895 by the Fourteenth Street Improvement District, a collaboration between the city of Denver and the town of Highlands.",
+          "description":"The great viaduct, which is practically an extension of Fourteenth street to \"North Denver,\" was opened to traffic late in September, 1899. [...] the structure, proper, begins at Blake, spans the numerous railway tracks between that street and the river, crosses the Platte, and terminates at Platte street; a distance of 4,276 feet, or about four-fifths of a mile.  [...] Its construction was primarily undertaken by property-owners on both sides of the river who, in the winter of 1887-88 organized the Fourteenth Street Viaduct Association",
           "image":"https://wp-denverite.s3.amazonaws.com/wp-content/uploads/sites/4/2017/03/14th-finished.png",
           "citations": {
-            "text": {"name":"History of Denver","url":"https://digital.denverlibrary.org/digital/collection/p15330coll2/id/2121/rec/1"},
-            "image": {"name":"Denver Public Library","url":""}
+            "text": {"name":"History of Denver","url":"https://digital.denverlibrary.org/nodes/view/821260"},
+            "image": {"name":"Denverite","url":"https://denverite.com/2017/03/15/tattered-covers-second-floor-door-opens-ghost-denvers-viaducts/"}
           },
           "imageMapLatLng": [39.772023,-105.058141],
           "tileMapLatLng": [39.751934,-105.006060]
@@ -354,10 +443,10 @@
         {
           "name": "Holden/Globe Smelter",
           "description":"The plant began life as the Holden Smelter and was organized in 1886 by entrepreneur Edward R. Holden as a silver/lead smelter, using the latest technology. Holden was known as a promoter and speculator and had borrowed great sums from the Colorado National Bank to build the operation. When the smelter veered toward bankruptcy under Holden, the bank appointed Dennis Sheedy manager and he reorganized the firm as the Globe Smelting and Refining Company on January 16, 1889. A company store, hotel and houses surrounding the plant, once called Holdenville were then referred to as Globeville.",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll21/8266/default.jpg",
+          "image":"https://cdm16079.contentdm.oclc.org/digital/api/singleitem/image/p15330coll21/8266/default.jpg",
           "citations": {
             "text": {"name":"Globeville Story","url":"http://globevillestory.blogspot.com/2011/05/globe-asarco.html"},
-            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/digital/collection/p15330coll21/id/8266/rec/1"}
+            "image": {"name":"Denver Public Library", "url":"https://cdm16079.contentdm.oclc.org/digital/collection/p15330coll21/id/8266/rec/1"}
           },
           "imageMapLatLng": [39.793229,-104.969327],
           "tileMapLatLng": [39.794322,-104.982170]
@@ -365,10 +454,10 @@
         {
           "name": "Regis University",
           "description":"In 1877, a group of exiled Italian Jesuits established a small college in Las Vegas, New Mexico. The Jesuits named this institution Las Vegas College which would ultimately become known as Regis University. In 1884, the Bishop of Denver invited the Jesuits to create a college in Morrison, Colorado where Sacred Heart College was opened. In 1887, Las Vegas College and Sacred Heart College merged and moved to the present location of Regis University. At the time of the merger, the school was then called the College of the Sacred Heart. Later, in 1921, it adopted the name of Regis College in honor of Saint John Francis Regis, a 17th-century Jesuit who worked with prostitutes and the poor in the mountains of Southern France.",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/27396/default.jpg?highlightTerms=denver%20AND%20photograph%20AND%20sacred%20heart",
+          "image":"https://digital.denverlibrary.org/assets/display/2202677-max?u=b957992cd6788f39efa6728bb5a29ba7",
           "citations": {
             "text": {"name":"Widipedia","url":"https://en.wikipedia.org/wiki/Regis_University"},
-            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/27396/rec/3"}
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1062732"}
           },
           "imageMapLatLng": [39.791328,-105.045746],
           "tileMapLatLng": [39.790515,-105.032943]
@@ -376,10 +465,10 @@
         {
           "name": "River Front Park",
           "description":"Denver’s first “amusement park” was River Front Park, which opened ca 1880. It was located just east of Union Station, near the Platte River between 15th and 19th Streets. The brainchild of John Brisben Walker, the park boasted a variety of recreational opportunities. Included were a race track, a gymnasium, tennis courts, a skating rink, a toboggan run, a bandstand, boating channels, and a baseball diamond.  A Castle of Culture & Commerce and weekly fireworks displays were also featured.  Walker dammed the Platte to create a channel for an excursion steamboat/casino and hosted the city’s first rodeo, as well as Buffalo Bill’s Wild West Show and P.T. Barnum’s circus. [...] River Front Park closed in 1903.",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll21/6381/default.jpg?highlightTerms=walker%20castle",
+          "image":"https://cdm16079.contentdm.oclc.org/digital/api/singleitem/image/p15330coll21/6381/default.jpg",
           "citations": {
             "text": {"name":"Pamela Nowak","url":"http://www.pamelanowak.com/wp/?p=212"},
-            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/digital/collection/p15330coll21/id/6381/rec/28"}
+            "image": {"name":"Denver Public Library", "url":"https://cdm16079.contentdm.oclc.org/digital/collection/p15330coll21/id/6381/rec/28"}
           },
           "imageMapLatLng": [39.778782,-105.042315],
           "tileMapLatLng": [39.757187,-105.003413]
@@ -387,10 +476,10 @@
         {
           "name": "Trinity United Methodist Church",
           "description":"Designed by Colorado’s first licensed architect, the Trinity United Methodist Church sits at Broadway and 18th Street facing west towards Broadway. The building is stone, made mostly of gray Rhyolite, a porous volcanic stone that was quarried in Castle Rock. It is trimmed in sandstone from Utah. The front façade features a triple Gothic arch gabled entryway with tall gothic windows above. Other windows are also thin and tall and often grouped in threes, as many things are in this building, alluding to the significance of the churches namesake. A spire rises to a height of 181 feet at the southwest corner of the building. Two rose windows of twelve spokes face north and south, symbolizing the twelve apostles and twelve tribes of Israel.",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/27382/default.jpg?highlightTerms=photograph%20AND%20TRINITY%20UNITED%20METHODIST%20CHURCH",
+          "image":"https://digital.denverlibrary.org/assets/display/2202521-max",
           "citations": {
             "text": {"name":"Denver Architecture Foundation","url":"https://denverarchitecture.org/site/trinity-united-methodist-church/"},
-            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/27382/rec/80"}
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1062667"}
           },
           "imageMapLatLng": [39.756358,-104.985529],
           "tileMapLatLng": [39.745123,-104.987000]
@@ -398,10 +487,10 @@
         {
           "name": "Twenty-Third Street Viaduct",
           "description":"Denver’s very first viaducts were built to link the city with the village of Argo, a company town built around a new smelter north of Denver.  In 1887 smelter operator Nathaniel P. Hill completed the 23rd Street Viaduct across the railroad tracks and river.  It allowed the city’s horse-drawn streetcars to cross the rail lines and the South Platte, making Argo just an easy hour’s commute from downtown.",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/32252/default.jpg",
+          "image":"https://digital.denverlibrary.org/assets/display/2159571-max",
           "citations": {
             "text": {"name":"Denverite","url":"https://denverite.com/2017/03/15/tattered-covers-second-floor-door-opens-ghost-denvers-viaducts/"},
-            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/32252/rec/10"}
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1041188"}
           },
           "imageMapLatLng": [39.781445,-105.006896],
           "tileMapLatLng": [39.759291,-104.993733]
@@ -457,78 +546,78 @@
         {
           "name": "Boston Building",
           "description":"Located at 828 Seventeenth Street in Denver, the Boston Building opened in 1890. Hailed by early historian Jerome Smiley as “the first of the strictly modern office buildings” in the city, the Boston Building signaled the emergence of Seventeenth Street as the “Wall Street of the Rockies” and later housed the Boettcher family businesses. As the Boston name suggests, the building also represented a major early commitment by eastern capitalists to Denver as the metropolis of the Rocky Mountain region. The historic eight-story office tower was converted to residential lofts in the late 1990s.",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll21/12408/default.jpg",
+          "image":"https://cdm16079.contentdm.oclc.org/digital/api/singleitem/image/p15330coll21/12408/default.jpg",
           "imageMapLatLng": [39.750315, -104.992670],
           "tileMapLatLng": [39.747132, -104.992698],
           "citations": {
             "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/boston-building"},
-            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/digital/collection/p15330coll21/id/12408/rec/4"}
+            "image": {"name":"Denver Public Library","url":"https://cdm16079.contentdm.oclc.org/digital/collection/p15330coll21/id/12408/rec/4"}
           }
         },
         {
           "name": "Brown Palace",
           "description":"In 1889 or 1890, Brown hired the architect Frank Edbrooke to draw up plans for the hotel. Edbrooke had just designed the Oxford Hotel (1890) at the other end of Seventeenth Street, which is now the only surviving hotel in Denver older than the Brown Palace. For the Brown Palace he planned a triangular building to fit the plot of land, and he wrapped the building’s three sides around a large atrium. At nine stories, it would be the tallest building in Denver, with a red sandstone exterior in the popular Richardsonian Romanesque style. The blueprints for the building reportedly took up two tons of paper.",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll21/8541/default.jpg",
+          "image":"https://cdm16079.contentdm.oclc.org/digital/api/singleitem/image/p15330coll21/8541/default.jpg",
           "imageMapLatLng": [39.752834,-105.003507],
           "tileMapLatLng": [39.744172,-104.987676],
           "citations": {
             "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/brown-palace-hotel"},
-            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/digital/collection/p15330coll21/id/8541/rec/5"}
+            "image": {"name":"Denver Public Library","url":"https://cdm16079.contentdm.oclc.org/digital/collection/p15330coll21/id/8541/rec/5"}
           }
         },
         {
           "name": "Cheesman Park",
           "description":"One of the jewels of Denver’s park and parkway system, Cheesman Park (1601 Race St, Denver, CO 80206) sits on land that originally served as the city’s first cemetery. In 1890 the cemetery was closed, many—but not all—graves were relocated, and a park designed by Denver’s first landscape architect, Reinhard Schuetze, was put in its place. The park was later named in honor of early Denver businessman Walter S. Cheesman after his family donated funds for the park’s neoclassical pavilion. Beloved by locals who flock to its broad expanse of grass, the park has been described by Yale art historian Vincent Scully as one of the finest urban spaces in the United States.",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/59748/default.jpg",
+          "image":"https://digital.denverlibrary.org/assets/display/2273069-max",
           "imageMapLatLng": [39.759938,-105.02750240],
           "tileMapLatLng": [39.733288,-104.966333],
           "citations": {
             "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/cheesman-park"},
-            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/59748/rec/34"}
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1097929"}
           }
         },
         {
           "name": "Denver Mint",
           "description":"Established by Congress in 1862, the Denver Mint operated for more than four decades as an assay office, determining the quality of bullion but not producing any coins. In 1895 Congress authorized the mint to produce coins and also provided for a new building, which opened in 1904 at the corner of West Colfax Avenue and Cherokee Street. Expanded several times over the twentieth century, the mint now produces billions of coins per year and is one of the most popular attractions in the city.",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/68064/default.jpg",
+          "image":"https://digital.denverlibrary.org/assets/display/2288206-max",
           "imageMapLatLng": [39.755693,-104.996320],
           "tileMapLatLng": [39.739337,-104.992276],
           "citations": {
             "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/denver-mint"},
-            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/68064/rec/6"}
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1105500"}
           }
         },
         {
           "name": "Denver Tramway Powerhouse",
           "description":"The Denver Tramway Powerhouse (1416 Platte Street) was built in 1901–4 to generate power for the Denver Tramway Company’s extensive network of electric streetcars. From a 1911 expansion until the last electric streetcar service in 1950, the powerhouse served as the company’s main source of electricity, making public transportation possible in Denver. After 1956, when the building was sold, it served briefly as a warehouse before becoming the Forney Museum of Transportation. Recreational Equipment, Inc., bought the building in 1998 and opened a flagship store there after a completing an extensive rehabilitation.",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/28722/default.jpg",
+          "image":"https://digital.denverlibrary.org/assets/display/2219554-max",
           "imageMapLatLng": [39.745040,-104.956920],
           "tileMapLatLng": [39.755375, -105.009461],
           "citations": {
             "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/denver-tramway-powerhouse"},
-            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/28722/rec/6"}
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1071068"}
           }
         },
         {
           "name": "Equitable Building",
           "description":"The Equitable Building (730 Seventeenth Street) is located in the heart of downtown Denver’s financial district. Built in 1892 as the town’s premier office structure, it arguably still is. It also signaled that eastern capitalists had begun focusing on Denver as the most promising location for their Rocky Mountain regional offices. In 1977 the building was designated a Denver landmark, and in 1978 it was listed in the National Register of Historic Places.",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll21/4086/default.jpg",
+          "image":"https://cdm16079.contentdm.oclc.org/digital/api/singleitem/image/p15330coll21/4086/default.jpg",
           "imageMapLatLng": [39.751061, -104.994047],
           "tileMapLatLng": [39.746349, -104.991963],
           "citations": {
             "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/equitable-building"},
-            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/digital/collection/p15330coll21/id/4086/rec/2"}
+            "image": {"name":"Denver Public Library","url":"https://cdm16079.contentdm.oclc.org/digital/collection/p15330coll21/id/4086/rec/2"}
           }
         },
         {
           "name": "Washington Park",
           "description":"Developed in the 1890s and early 1900s, Washington Park is a scenic recreational area occupying about 160 acres southeast of downtown Denver. Designed around a portion of City Ditch by landscape architects Reinhard Schuetze and Saco DeBoer, the park features two lakes and a large meadow and has a more rural, relaxed feel than Denver’s other major urban parks. Its historic structures include a 1911 bathhouse, a 1913 boathouse designed by Jules Jacques Benois Benedict, and the Eugene Field Cottage, which was moved to the park in 1930.",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/64637/default.jpg",
+          "image":"https://digital.denverlibrary.org/assets/display/2278120-max",
           "imageMapLatLng": [39.767568,-105.014223],
           "tileMapLatLng": [39.702867, -104.970925],
           "citations": {
             "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/washington-park"},
-            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/64637/rec/30"}
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1100454"}
           }
         }
       ],
@@ -569,17 +658,17 @@
         "title": "Denver, Col.",
         "creator": "Nirenstein, Nathan",
         "year": "1929",
-        "url": "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/587/rec/1",
+        "url": "https://digital.denverlibrary.org/nodes/view/822075",
         "description": "Blackline print.; Cadastral map showing land ownership"
       },
       "features": [
         {
           "name": "Continental Oil (1927)",
           "description":"The Continental Oil Building was built in 1926 by the Continental Oil Company for their own office use, with some additional rental space. It was build at the corner of Eighteenth and Glenarm Streets with a ground floor area 125 feet by 125 feet, with a court in the rear above the first floor 34 by 68 feet.  The present building is 10 stories high, extending 140 feet above the sidewalk [...] The exterior of the building is of polished granite up to the third floor line with cream colored terra cotta facing above, except for the spandrels betwween windows which are grayish green to emphasize the vertical window lines. The walls at the two street entrances are of polychrome terra cotta which leads the center of interest to thee two points.",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/30971/default.jpg",
+          "image":"https://digital.denverlibrary.org/assets/display/2155329-max",
           "citations": {
-            "text": {"name":"Municipal Facts","url":"https://digital.denverlibrary.org/digital/collection/p15330coll15/id/5673/rec/4"},
-            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/30971/rec/42"}
+            "text": {"name":"Municipal Facts","url":"https://cdm16079.contentdm.oclc.org/digital/collection/p15330coll15/id/5673/rec/4"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1039064"}
           },
           "imageMapLatLng": [39.760783168525954, -105.04234313964845],
           "tileMapLatLng": [39.74563539080376, -104.98861744266651]
@@ -587,10 +676,10 @@
         {
           "name": "Denver Municipal Auditorium (1908)",
           "description":"Completed in 1908, this Renaissance Revival style arena/theater was designed by Denver architect Robert Willison.  Constructed of buff brick, the three-story terracotta trimmed building featured prominent corner towers that were topped with cupolas. The massive 246 by 145 foot building was second only to New York’s Madison Square Garden in size.",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/86519/default.jpg",
+          "image":"https://digital.denverlibrary.org/assets/display/2164306-max",
           "citations": {
             "text": {"name":"History Colorado","url":"https://www.historycolorado.org/location/denver-municipal-auditorium-quigg-newton-denver-municipal-auditorium"},
-            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/30971/rec/42"}
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1043549"}
           },
           "imageMapLatLng": [39.74666202384811, -104.9417495727539],
           "tileMapLatLng": [39.74492581710934, -104.99692253258267]
@@ -598,10 +687,10 @@
         {
           "name": "Mountain States Telephone (1929)",
           "description":"Completed in 1929, the Telephone Building at 931 14th Street in Denver served for fifty-five years as the headquarters of Mountain States Telephone and Telegraph. Designed by architect William N. Bowman in a combination of Art Deco and Gothic Revival styles, the building helped bring modern architecture to Denver. [...] The architectural style Bowman used for the building, which Mountain States called “Modern American Perpendicular Gothic,” was based on Neo-Gothic skyscrapers such as New York’s Woolworth Building (1913) as well as on the New York Telephone Company’s new Art Deco headquarters then under construction, the Barclay-Vesey Building (1927). Rising ten stories and then stepping back twenty feet to a five-story central tower with Gothic turrets, the Telephone Building in Denver was the first to take advantage of a setback provision in the city height ordinance that allowed buildings to rise above twelve stories if their additional height was set back from the street. Topping out at nearly 237 feet, the building was the tallest in Denver (aside from smelter stacks and the Daniels and Fisher Tower) until the 1950s and contained about 5.2 million cubic feet of space.",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/17036/default.jpg",
+          "image":"https://digital.denverlibrary.org/assets/display/2142715-max",
           "citations": {
             "text": {"name":"Colorado encyclopedia","url":"https://coloradoencyclopedia.org/article/telephone-building"},
-            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/17036/rec/32"}
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1032759"}
           },
           "imageMapLatLng": [39.75141338632425, -104.9568557739258],
           "tileMapLatLng": [39.74547170913153, -104.99652745688607]
@@ -609,7 +698,7 @@
       ],
       "leaflet": {
         "imageLayer": {
-          "url": "https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/33474/default.jpg",
+          "url": "https://digital.denverlibrary.org/assets/display/2165742-max?u=6851a9dc2ceabdf41486949ec8c160d4",
           "bounds": [[39.78728393766774,-105.07491186261178],[39.71368461695864, -104.92471285164356]],
           "options": {"interactive":true}
         },
@@ -635,7 +724,7 @@
         "title": "Map of Denver business district",
         "creator": "Hotchkiss, Inc.",
         "year": "1958",
-        "url": "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/845/rec/1",
+        "url": "https://digital.denverlibrary.org/nodes/view/822420",
         "description": "Shows downtown Denver's business district in the late 1950s. Date is estimated."
       },
       "features": [
@@ -647,7 +736,7 @@
             "text": {"name":"uscourts.gov","url":"https://www.ca10.uscourts.gov/history-byron-white-courthouse"},
             "image": {"name":"uscourts.gov","url":"https://www.ca10.uscourts.gov/sites/ca10/files/images/bwch-exterior1915.jpg"}
           },
-          "imageMapLatLng": [39.762032, -104.986364],
+          "imageMapLatLng": [39.762509, -105.006912],
           "tileMapLatLng": [39.748543, -104.990517]
         },
         {
@@ -664,10 +753,10 @@
         {
           "name": "Daniels & Fisher Tower (1911)",
           "description":"At the corner of Sixteenth and Arapahoe, where the enlarged store’s new main entrance would be, Daniels wanted to build an impressive tower to serve as an artistic advertisement for the store. Designed by Colorado architect Frederick G. Sterner, the tower was based on St. Mark’s Campanile in Venice, which had collapsed in 1902 and was being rebuilt at the time, inspiring replicas around the world. The Daniels and Fisher Tower would be a few feet taller, though, prompting the Denver Times to joke that Venice was building a smaller copy of Denver’s tower.",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/3477/default.jpg?highlightTerms=denver%20(colo.)%20AND%20photograph%20AND%20Daniels%20%26%20Fisher",
+          "image":"https://digital.denverlibrary.org/assets/display/2116522-max",
           "citations": {
             "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/daniels-and-fisher-tower"},
-            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/3477/rec/25"}
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1019567"}
           },
           "imageMapLatLng": [39.767380, -105.051772],
           "tileMapLatLng": [39.748543, -104.990517]
@@ -675,10 +764,10 @@
         {
           "name": "Denver City and County Building (1932)",
           "description":"Facing the State Capitol Building and completing the dominant east-west axis for Civic Center, Denver’s City and County Building (300 W. Colfax Avenue) is the grandest monument of Mayor Robert Speer’s City Beautiful efforts. The elegant neoclassical building houses the mayor, city council, many county and district courts, and other city offices. Conceived as part of Charles Mulford Robinson’s original City Beautiful Plan of 1906, which placed it on the north side of West Colfax Avenue, it took twenty-six years to materialize due to extended legal, political, and architectural battles. Completed in 1932 at a final cost of more than $5.5 million, it has not been altered much over the decades.",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/30762/default.jpg?highlightTerms=denver%20(colo.)%20AND%20photograph%20AND%20denver%20city%20and%20county%20building",
+          "image":"https://digital.denverlibrary.org/assets/display/2154277-max?u=698ffadee0c0ba2e61cdbce5c3b139dd",
           "citations": {
             "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/denver-city-and-county-building"},
-            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/digital/collection/p15330coll22/id/30762/rec/76"}
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1038506"}
           },
           "imageMapLatLng": [39.734518, -105.021915],
           "tileMapLatLng": [39.739272, -104.990961]
