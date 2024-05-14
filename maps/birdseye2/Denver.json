@@ -50,6 +50,28 @@
           "tileMapLatLng": [39.749314, -104.994180]
         },
         {
+          "name": "Baptist Dugout",
+          "description":"In the autumn of 1866 a building site was purchased, at a cost of $1,150 on the northeast corner of Sixteenth and Curtis streets (present numbers 1001-07 Sixteenth), and a beginning made on a church building which was to have been of the \"basement\" type. The little band got the basement walls of stone put up, and then the funds gave out. No financial reinforcements appearing in sight, the basement was roofed over with boards, fitted up with seats, and for some time thereafter used by the congregation as a place of worship.  It was a queer-looking structure, and the unregenerate soon began calling it \"the Baptist dug-out,\" a name by which it was rather commonly known as long as it remained there.",
+          "image":"Baptist Dugout.png",
+          "citations": {
+            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=731"},
+            "image": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=731"}
+          },
+          "imageMapLatLng": [39.759328, -104.984646],
+          "tileMapLatLng": [39.747537, -104.994881]
+        },
+        {
+          "name": "Broadwell House",
+          "description":"The Broadwell House, [...] was built in the winter of 1859-60 by James M. Broadwell, who came to Denver in April, 1859. [...] His hotel was long the principal one in town. It was originally a good-sized two story frame structure that was raised to three stories in the \"Seventies,\" and stood at the corner of Larimer and Sixteenth streets on the site of the present Tabor Block, to make place for which it was torn down by H. A. W. Tabor.  In its time it was a noted hotel.",
+          "image":"https://digital.denverlibrary.org/assets/display/2329378-max",
+          "citations": {
+            "text": {"name":"Denver Public Library","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=329"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1126053"}
+          },
+          "imageMapLatLng": [39.754959, -104.995199],
+          "tileMapLatLng": [39.749197, -104.997074]
+        },
+        {
           "name": "Charpiot's Hotel",
           "description":"Charpiot's Hotel & Restaurant was founded by Frederick Charpiot in 1860 and known as the Delmonico of the West. In 1889 Filbert R. Gatt (possibly anglicized from Gatto or Gatti) took over the lease of Charpiot's. Later Gatt became manager of Hotel Brunswick in Grand Junction, Hotel Jerome in Aspen, and in 1894 the Grand Hotel in Pueblo. Gatt emigrated from Italy to America in 1870. After living in California, he eventually came to Denver and worked as a stonecutter before entering the hotel and restaurant business. ",
           "image":"https://digital.denverlibrary.org/assets/display/2193393-max",
@@ -59,6 +81,17 @@
           },
           "imageMapLatLng": [39.754484, -104.991623],
           "tileMapLatLng": [39.748695, -104.997629]
+        },
+        {
+          "name": "Constitution Hall",
+          "description":"This building was the first permanent home of the First National Bank of Denver. Ebenezer Smith, a founding stockholder and director of the bank was involved in mining, banking and railroading. The founding stockholders Eben and Jerome Chafee used some of the money they made in Gilpin Country to finance the Fist National Bank.  The bank occupied the corner rooms of the lower story of this brick building. During it’s 10 year occupoancy the bank made improvements to the building. First bank installed gaslights and enlarged the director’ rooms. The third story fish-scale, slate, mansard roof was added in 1875.",
+          "image":"https://digital.denverlibrary.org/assets/display/647618-max",
+          "citations": {
+            "text": {"name":"LoDo History","url":"https://lodohistory.wordpress.com/lodo-destinations/constitution-hall/"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/316828"}
+          },
+          "imageMapLatLng": [39.751291, -104.994375],
+          "tileMapLatLng": [39.750027, -105.000323]
         },
         {
           "name": "Denver Brewing Co.",
@@ -81,6 +114,39 @@
           },
           "imageMapLatLng": [39.755652,-105.040332],
           "tileMapLatLng": [39.756100,-104.993191]
+        },
+        {
+          "name": "Denver Theater",
+          "description":"In 1861 the house was bought by Jack Langrishe who made many improvements in it, and gave it the name \"Denver Theater.\" Its opening under his management, on November 30th, was a conspicuous social event of that period. As a theater it was conducted by Langrishe on a far higher plane than any other place of amusement in the town; and it was also utilized in subsequent years as a place for holding public meetings.",
+          "image":"Denver Theater.png",
+          "citations": {
+            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=338"},
+            "image": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=437"}
+          },
+          "imageMapLatLng": [39.755861, -104.992462],
+          "tileMapLatLng": [39.748904, -104.996595]
+        },
+        {
+          "name": "Denver Tribune",
+          "description":"The famous old daily and weekly Tribune which, in one period of its career, was a great and influential newspaper of National renown, was founded by L. M. Koons, as \"The Denver Daily,\" in 1867 [...] In July, 1872, the Tribune was removed to Henry C. Brown's building on the southeast corner of Sixteenth and Market streets. ",
+          "image":"https://digital.denverlibrary.org/assets/display/2191000-max",
+          "citations": {
+            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=667"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1056906"}
+          },
+          "imageMapLatLng": [39.753506, -104.999252],
+          "tileMapLatLng": [39.749895, -104.997904]
+        },
+        {
+          "name": "Elephant Corral",
+          "description":"An ancestor to the beginnings of the National Western Stock Show, the Elephant Corral was home to prairie oxen and mountain mules, horses, and cows, but not a single elephant. [...] The first structure at this address was constructed of hewn logs in 1858 by Charles Blake and Andrew Williams and was commonly known as Denver Hall. Here, emigrants watered, boarded and fed, and traded livestock. With the Denver House on the same block, the scene was the center of civilization in early Denver and was a favorite place for holding public meetings. A fire destroyed the building in 1863, and a new two-story warehouse was built on the site with a high wall and stables.",
+          "image":"https://digital.denverlibrary.org/assets/display/2226905-max",
+          "citations": {
+            "text": {"name":"The Lower Downtown Walking Tour","url":" https://www.hmdb.org/m.asp?m=199427"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1074861"}
+          },
+          "imageMapLatLng": [39.746291, -104.996985],
+          "tileMapLatLng": [39.749827, -105.001464]
         },
         {
           "name": "J. P. Fink's Block",
@@ -161,6 +227,17 @@
           "tileMapLatLng": [39.750291, -104.999187]
         },
         {
+          "name": "Kettle Building",
+          "description":"In mid‐1859, Count Henri Murat opened a barbershop on this site. George Kettle, a butcher, built the building named after him on this location in 1873. He wedged his building in between two other buildings that had already been built. One interesting thing about this building is that it had no side walls of its own. Rather, it used the side walls of the buildings that were already there.  Not long after it was built, Mr. Kettle left his building. Kettle himself went into the real estate business.  After Kettle left it, the building housed many different businesses. At various times it served as the home for an employment agency, a knick‐knack store, a newspaper office, and a steam dye works. In terms of design, the building is most notable for its simulated stone facing and the decorative top (cornice) of the building.",
+          "image":"Kettle Bldg.png",
+          "citations": {
+            "text": {"name":"University of Northern Colorado","url":"https://www.unco.edu/hewit/pdf/doing-history/virtual-field-trips-denvers-larimer-square.pdf"},
+            "image": {"name":"Nation Register of Historic Places","url":"https://s3.amazonaws.com/NARAprodstorage/lz/electronic-records/rg-079/NPS_CO/73000468.pdf"}
+          },
+          "imageMapLatLng": [39.752919, -104.983409],
+          "tileMapLatLng": [39.747630, -104.999165]
+        },
+        {
           "name":"Lawrence St Methodist Church",
           "description":"The Methodists soon moved into the first Denver building for church services at the southeast corner of Fourteenth and Lawrence Streets [18 on map]. The imposing Lawrence Street Methodist Church opened in 1864. This $23,000 brick church had a distinctive three-story entry tower, making it the tallest building in town. That church and all subsequent Methodist houses of worship benefited from Denver’s Iliff School of Theology, which traces its roots to 1864. Initially a Methodist seminary partnered with the University of Denver, it has grown to accept anyone wanting religious education. The Lawrence Street structure served Denver Methodists until the 1888 construction of today’s Trinity United Methodist Church.",
           "image":"https://digital.denverlibrary.org/assets/display/2216799-max",
@@ -170,6 +247,28 @@
           },
           "imageMapLatLng": [39.754885,-104.976821],
           "tileMapLatLng": [39.746677,-104.998602]
+        },
+        {
+          "name": "People's Restaurant",
+          "description":"In 1863 the black pioneer Barney L. Ford built the People’s Restaurant at 1514 Blake Street in Denver. The success of the restaurant helped make Ford into one of the the state’s most influential black business and civic leaders. [...] The building opened on August 16, 1863, with a barbershop in the basement, the People’s Restaurant on the main floor, and a bar on the second floor. Offering luxuries like fresh oysters, lemons, and Havana cigars, the People’s Restaurant proved immediately successful [...] Originally a two-story brick structure, the building now has a third story (probably added in 1892) and stone lintels above the windows. In 1976 the building was listed on the National Register of Historic Places.",
+          "image":"https://digital.denverlibrary.org/assets/display/2334703-max",
+          "citations": {
+            "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/barney-fords-peoples-restaurant"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1128741"}
+          },
+          "imageMapLatLng": [39.749466, -104.998183],
+          "tileMapLatLng": [39.749806, -104.999785]
+        },
+        {
+          "name": "St. Mary's Academy",
+          "description":"Conspicuous among the Catholic educational establishments is the Loretto Academy, the origin of which takes us back to pioneer times and to the first permanently maintained academy established in Denver. In 1864 the large frame dwelling of William Clayton, on the south side of California street between Fourteenth and Fifteenth streets, and then out of town, was purchased and placed in charge of three Sisters of the Order of Loretto, who came from Kentucky in response to a call from Father Machebeuf to institute an academic school in Denver, which was called St. Mary's Academy, but was better known as the \"Sisters' School.\" It flourished from the beginning, and within a few years the entire half-block was acquired and large additions to the original building were erected. These were three-story brick wings so constructed as to admit the later construction of the present central building forming the unified edifice.",
+          "image":"https://digital.denverlibrary.org/assets/display/2203806-max",
+          "citations": {
+            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=764"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1063309"}
+          },
+          "imageMapLatLng": [39.765104, -104.959988],
+          "tileMapLatLng": [39.743651, -104.993714]
         },
         {
           "name": "St. Mary's Cathedral",
@@ -187,7 +286,7 @@
           "description":"The district's second building soon followed the erection of the Arapahoe. This was what became known as the Stout Street School, and was undertaken June 18, 1873. Eight lots on the northeast corner of Stout and Twenty-eighth streets were purchased at a cost of $2,400. On August 2nd the contracts were let.and the building was finished early in March, 1874 [...] It was a good-looking building, but faultily designed and constructed [...] city authorities condemned it on March 11, 1881, when it was just seven years old. [...] on November 10, 1881, was totally destroyed by fire.",
           "image":"Stout School.png",
           "citations": {
-            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=746"},
+            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=746 "},
             "image": {"name":"Denver Public Library", "url":"https://denverlibrary.recollectcms.com/nodes/view/821260"}
           },
           "imageMapLatLng": [39.7687582, -105.034805],
@@ -203,6 +302,17 @@
           },
           "imageMapLatLng": [39.752085,-104.998670],
           "tileMapLatLng": [39.749916,-104.998582]
+        },
+        {
+          "name": "Wolfe Hall",
+          "description":"In 1866 Rev. George M. Randall, the first Bishop of this Episcopal diocese, determined to establish schools at or near Denver for boys and girls, and brought his intentions to the notice of the Mission Board of his church. The girls' school was first undertaken, and in 1867 the original Wolfe Hall building — a small one — was erected on the southwest corner of Seventeenth and Champa streets, the site of the present Boston Building, and then on the outskirts of the town.  [...] In 1873 the original building was enlarged, and again in 1879; the last additions making it a structure of two stories and a \"mansard\" roof",
+          "image":"https://digital.denverlibrary.org/assets/display/2187501-max",
+          "citations": {
+            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=765"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1055151"}
+          },
+          "imageMapLatLng": [39.762966, -104.981071],
+          "tileMapLatLng": [39.747125, -104.992706]
         }
       ],
       "leaflet": {
