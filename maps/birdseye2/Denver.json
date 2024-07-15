@@ -176,7 +176,7 @@
           "image":"Excelsior Mills.png",
           "citations": {
             "text": {"name":"Denver Public Library","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=878"},
-            "image": {"name":"Library of Congress", "url":"https://www.loc.gov/resource/g4314dm.g009851887/?sp=34&st=image&r=0.164,0.256,0.576,0.299,0"}
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1137752"}
           },
           "imageMapLatLng": [39.746070,-104.947492],
           "tileMapLatLng": [39.742988, -105.006305]
@@ -749,6 +749,17 @@
           "tileMapLatLng": [39.738015, -104.986701]
         },
         {
+          "name": "City Jail",
+          "description":"The Arapahoe County Sheriff's Office had its third jail from 1891-1903. It was at the Brownstone Hotel in Denver. It was thought to be the finest and best-equipped correction facility in the U.S. The three-winged ‘T’ shaped building could house up to 400 inmates. It was used for 65 years. ",
+          "image":"https://digital.denverlibrary.org/assets/display/2281067-max",
+          "citations": {
+            "text": {"name":"Arapahoe County Sheriff's Office","url":"https://www.arapahoeco.gov/your_county/county_departments/sheriffs_office/our_agency/acso_history/the_jails_of_the_acso.php"},
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1101930"}
+          },
+          "imageMapLatLng": [39.739814,-105.048932],
+          "tileMapLatLng": [39.739145, -104.999356]
+        },
+        {
           "name": "City Park",
           "description":"Established in 1882, City Park is Denver’s largest urban park, occupying nearly 320 acres between East Seventeenth and East Twenty-Third Avenues from York Street to Colorado Boulevard. Designed primarily by civil engineers Henry Meryweather and Walter Graves in the 1880s and by Reinhard Schuetze in the 1890s and early 1900s, the park is known for its lakes, large fields, and scenic views of downtown Denver and the Front Range. It has always featured a variety of uses in its northern half, including a racetrack (now turned into playing fields), tennis courts, maintenance buildings, the Denver Zoo, and the Denver Museum of Nature & Science.",
           "image":"https://digital.denverlibrary.org/assets/display/2168646-max",
@@ -804,6 +815,17 @@
           "tileMapLatLng": [39.739786, -104.987766]
         },
         {
+          "name": "Emerson School",
+          "description":"The 1885 Emerson School is the oldest surviving school designed by one of Colorado’s most important architects, Robert S. Roeschlaub. Roeschlaub began his architectural career in Denver in 1873 and continued to design buildings until 1912.  While his work spans the full spectrum of commercial, civic, and residential architecture, he achieved particular prominence for his school buildings. ",
+          "image":"https://digital.denverlibrary.org/assets/display/2337588-max",
+          "citations": {
+            "text": {"name":"History Colorado","url":"https://www.historycolorado.org/location/emerson-school-1"},
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1130183"}
+          },
+          "imageMapLatLng": [39.739189,-104.924082],
+          "tileMapLatLng": [39.738853, -104.974955]
+        },
+        {
           "name": "Fourteenth Street Viaduct",
           "description":"The great viaduct, which is practically an extension of Fourteenth street to \"North Denver,\" was opened to traffic late in September, 1899. [...] the structure, proper, begins at Blake, spans the numerous railway tracks between that street and the river, crosses the Platte, and terminates at Platte street; a distance of 4,276 feet, or about four-fifths of a mile.  [...] Its construction was primarily undertaken by property-owners on both sides of the river who, in the winter of 1887-88 organized the Fourteenth Street Viaduct Association",
           "image":"https://wp-denverite.s3.amazonaws.com/wp-content/uploads/sites/4/2017/03/14th-finished.png",
@@ -835,6 +857,17 @@
           },
           "imageMapLatLng": [39.793229,-104.969327],
           "tileMapLatLng": [39.794322,-104.982170]
+        },
+        {
+          "name": "Hungarian Mills",
+          "description":"In 1867, Mullen headed out west looking for a miller position. After spending time in Illinois and Atchison, Kansas, he settled in Troy, Kansas, managing the Banner Flour Mills. Three years later, Mullen left for Denver, where he worked for a mill owned by Shackelton and Davis. [...] In 1875, Mullen decided to operate his own mill and leased the old Star Mill in north Denver as a partnership with Theodore Seth. A year later, Mullen bought Seth out and the company became J.K. Mullen and Company. In the years following, Mullen took over the Iron Clad Mill, Sigler Mill, and Excelsior Mill. He opened the Hungarian Mill in 1882, and the Colorado Milling and Elevator Company in 1885.",
+          "image":"Hungarian Mills.png",
+          "citations": {
+            "text": {"name":"Denver Public Library","url":"https://history.denverlibrary.org/news/western-history/who-was-denvers-mullen"},
+            "image": {"name":"University of Colorado", "url":"https://cudl.colorado.edu/luna/servlet/detail/UCBOULDERCB1~21~21~89912~108752:Insurance-maps-of-Denver%2C-Colorado-"}
+          },
+          "imageMapLatLng": [39.761336,-105.071359],
+          "tileMapLatLng": [39.745455, -105.009035]
         },
         {
           "name": "Hyde Park School",
@@ -890,6 +923,17 @@
           },
           "imageMapLatLng": [39.757744,-105.011549],
           "tileMapLatLng": [39.745106, -104.992798]
+        },
+        {
+          "name": "Molly Brown House",
+          "description":"The Molly Brown House Museum enhances Denver’s unique identity by telling the story of Margaret “Molly” Brown’s activism, philanthropy and passion. Not only does the house at 1340 Pennsylvania Street symbolize the influential Margaret “Molly” Brown (see above), but it serves as an example of a brief period of building in Denver just prior to the silver crash of 1893, when Colorado’s economy thrived from the recent mineral wealth of the 1880s. Construction on Denver’s new Capitol building was in the works, and Capitol Hill was the next “Millionaire’s Row.” Built in 1889, the Molly Brown House was one of the earliest homes being built with electricity (rather than being converted from gas). Its local stonework, quarried from Castle Rock and Manitou Springs, represent the uniqueness of Colorado architecture and geology. It also represents a lasting image of the unique work of prominent Denver architect William Lang, who left his final mark on the cityscape before the 1893 crisis. Just four houses on the block were built before the devastation of the silver crash, and only 1340 Pennsylvania remains.",
+          "image":"https://digital.denverlibrary.org/assets/display/2222201-max?u=7ddadbff60b3ec0c838917c9412a8e41",
+          "citations": {
+            "text": {"name":"History Colorado","url":"https://www.historycolorado.org/node/55463"},
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1072507"}
+          },
+          "imageMapLatLng": [39.733711,-104.944755],
+          "tileMapLatLng": [39.737523, -104.980772]
         },
         {
           "name": "Mount St. Vincent's",
@@ -1022,6 +1066,28 @@
           },
           "imageMapLatLng": [39.771021,-105.016829],
           "tileMapLatLng": [39.751396, -104.995049]
+        },
+        {
+          "name": "Wolfe Hall",
+          "description":"A new site for Wolfe Hall was purchased back on Capitol Hill ; the entire block bounded by Thirteenth and Fourteenth Avenues, Clarkson and Emerson streets, on which the present large and beautiful building of stone was soon afterward completed. The building contains 350 rooms which include study halls, recitation rooms, studios, gymnasium, laboratories, kindergarten rooms, parlors, reception rooms, dining rooms, and a large number of bright and cheerful sleeping rooms.",
+          "image":"https://digital.denverlibrary.org/assets/display/2260101-max",
+          "citations": {
+            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=765"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1091445"}
+          },
+          "imageMapLatLng": [39.734699, -104.929213],
+          "tileMapLatLng": [39.737588, -104.977054]
+        },
+        {
+          "name": "Zang Brewery",
+          "description":"Adolph Zang’s father, Phillip, bought the Rocky Mountain Brewery around 1869. Adolph and his wife, Minnie, moved to Denver in 1882, when Adolph took over management of his father’s brewery. Adolph turned the Zang Brewery into one of the most successful breweries west of the Mississippi River. An English syndicate bought the business in 1889, but Adolph continued to manage it until his retirement in 1913.",
+          "image":"https://5008.sydneyplus.com/HistoryColorado_ArgusNet_Final/ViewImage.aspx?template=Image&field=DerivedIma&hash=15ec7a110017656ec020ae93b7c2fe47&width=max&height=max&r=1973317836&lang=en-US",
+          "citations": {
+            "text": {"name":"Denver Public Library","url":"https://history.denverlibrary.org/news/old-house-denver%E2%80%99s-adolph-zang-mansion"},
+            "image": {"name":"History Colorado", "url":"https://5008.sydneyplus.com/HistoryColorado_ArgusNet_Final/Portal.aspx?lang=en-US&g_AAFC=HistoryColorado_ArgusNet_Final+%7cObject+%7c%25SsearAtta+%3d+%2784.405.28%27&d=d"}
+          },
+          "imageMapLatLng": [39.772733,-105.076223],
+          "tileMapLatLng": [39.750862, -105.015406]
         }
       ],
       "leaflet": {
@@ -1067,10 +1133,32 @@
         "title": "Baist's real estate atlas of surveys of Denver, Col.",
         "creator": "George William Baist",
         "year": "1905",
-        "url": "https://digital.denverlibrary.org/digital/collection/p16079coll39/id/169/rec/1",
+        "url": "https://digital.denverlibrary.org/nodes/view/822284",
         "description": "A spectacularly detailed work exhibiting subdivisions, streets, blocks, lots, and building footprints, as well as building materials. Topographical features exhibited where pertinent. Railroads, electric street car lines, and utilities designated. The Baist's atlas' were comparable to the Sanborn Insurance maps, only not as plentiful. This tome is composed of detail, detail, detail."
       },
       "features": [
+        {
+          "name": "Adams Hotel",
+          "description":"Adams Hotel opened in 1902, 18th (Eighteenth) and Welton Streets, designed by Harold W. and Vigio Baerresen (Baerresen Brothers Architectural firm) Denver, Colorado; especially remembered for its giant copper dome soaring 25 feet above dining/ballroom floor; featured push-button elevator and a telephone in every room; interior designed by Gilbert Charles Jaka; closed in 1969 and razed soon thereafter for a parking lot.",
+          "image":"https://digital.denverlibrary.org/assets/display/2323304-max",
+          "imageMapLatLng": [39.750954, -105.001500],
+          "tileMapLatLng": [39.746383, -104.988361],
+          "citations": {
+            "text": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1123049"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1123049"}
+          }
+        },
+        {
+          "name": "Barteldes Seed Warehouse",
+          "description":"In 1860, six years after the first settlers arrived in Lawrence, Friedo Barteldes was the proprietor of a small grocery business on Massachusetts Street. He added a few seed packets to his inventory, and this aspect of his business grew rapidly. It became the Kansas Seed House, the largest seed firm west of the Mississippi. The business employed four salesman on the road, plus fifteen to twenty employees who worked at the House, cleaning and shipping seeds. Friedo’s nephew F. W. Barteldes joined the business in 1874. Upon Friedo’s death in 1887, F. W. Barteldes and Max Wilhelmi became the company’s proprietors. In 1906, the Kansas Seed House was incorporated as the Barteldes Seed Company. It expanded that same year, adding locations in Denver and Oklahoma City. The company’s headquarters moved to Denver in 1961.",
+          "image":"https://digital.denverlibrary.org/assets/display/2146728-max",
+          "imageMapLatLng": [39.746630, -104.976223],
+          "tileMapLatLng": [39.751882, -105.000434],
+          "citations": {
+            "text": {"name":"University of Kansas","url":"https://blogs.lib.ku.edu/spencer/seedy-business-history-of-the-barteldes-seed-company/"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1034765"}
+          }
+        },
         {
           "name": "Boston Building",
           "description":"Located at 828 Seventeenth Street in Denver, the Boston Building opened in 1890. Hailed by early historian Jerome Smiley as “the first of the strictly modern office buildings” in the city, the Boston Building signaled the emergence of Seventeenth Street as the “Wall Street of the Rockies” and later housed the Boettcher family businesses. As the Boston name suggests, the building also represented a major early commitment by eastern capitalists to Denver as the metropolis of the Rocky Mountain region. The historic eight-story office tower was converted to residential lofts in the late 1990s.",
@@ -1094,6 +1182,17 @@
           }
         },
         {
+          "name": "Cathedral of the Immaculate Conception",
+          "description":"Called the “Pinnacled Glory of the West,” the cathedral was designed by Detroit architect Leon Coquard in the Gothic Revival style. When Coquard came down with an illness, the Denver firm of Aaron Gove and Thomas Walsh supervised the project. Constructed with Indiana limestone on a foundation of Colorado granite, the building measured 195 feet long and 116 feet wide, with a pair of twin spires that rose 210 feet above East Colfax Avenue. The interior was decorated with statuary of Italian Carrara marble, stained-glass windows made by the Royal Bavarian Institute in Germany, and a massive 3,000-pipe Kimball organ. The pews could seat 1,500, the largest capacity of any church in the city. ",
+          "image":"https://digital.denverlibrary.org/assets/display/2201357-max",
+          "citations": {
+            "text": {"name":"History Colorado","url":"https://coloradoencyclopedia.org/article/cathedral-basilica-immaculate-conception"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1062085"}
+          },
+          "imageMapLatLng": [39.755750, -105.013871],
+          "tileMapLatLng": [39.740519, -104.981941]
+        },
+        {
           "name": "Cheesman Park",
           "description":"One of the jewels of Denver’s park and parkway system, Cheesman Park (1601 Race St, Denver, CO 80206) sits on land that originally served as the city’s first cemetery. In 1890 the cemetery was closed, many—but not all—graves were relocated, and a park designed by Denver’s first landscape architect, Reinhard Schuetze, was put in its place. The park was later named in honor of early Denver businessman Walter S. Cheesman after his family donated funds for the park’s neoclassical pavilion. Beloved by locals who flock to its broad expanse of grass, the park has been described by Yale art historian Vincent Scully as one of the finest urban spaces in the United States.",
           "image":"https://digital.denverlibrary.org/assets/display/2273069-max",
@@ -1102,6 +1201,61 @@
           "citations": {
             "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/cheesman-park"},
             "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1097929"}
+          }
+        },
+        {
+          "name": "City Park Pavilion",
+          "description":"Part of the “City Beautiful” campaign at the beginning of the 20th century, the Pavilion was designed by John Humphreys and William Fisher, and completed in 1882. The original structure was replaced in 1929 and refurbished in 1992. Surrounded by the picturesque Sopris garden, Ferril Lake, and the historic City Park Band Shell, the Pavilion offers a variety of breathtaking views and photo opportunities. This elegant Spanish-style landmark features towers and arches and is nestled in front of the awe-inspiring Denver skyline. The City Park Pavilion is the signature Denver venue.",
+          "image":"https://digital.denverlibrary.org/assets/display/2176411-max",
+          "imageMapLatLng": [39.752419,-105.060474],
+          "tileMapLatLng": [39.746155, -104.952386],
+          "citations": {
+            "text": {"name":"City and County of Denver","url":"https://denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Parks-Recreation/Rentals-Permits/Event-Facilities/City-Park-Pavilion"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1049511"}
+          }
+        },
+        {
+          "name": "Colorado Building",
+          "description":"The Colorado Building, originally named the Hayden, Dickenson and Feldhauser Building after its developers, was built in 1891 as a brick commercial structure. In 1909 it was expanded by the addition of several floors and, in 1937, it was given its current terra cotta Art Deco facade and renamed the Colorado Building.",
+          "image":"https://digital.denverlibrary.org/assets/display/2111470-max",
+          "imageMapLatLng": [39.752283,-104.994597],
+          "tileMapLatLng": [39.745568, -104.992217],
+          "citations": {
+            "text": {"name":"Denver Urbanism","url":"https://denverurbanism.com/ddhd-colorado-building"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1017115"}
+          }
+        },
+        {
+          "name": "Corona School",
+          "description":"Robert Roeschlaub designed the original portion of this 1889 Capitol Hill neighborhood school.  The distinctive 2½-story brick building features stone and terra cotta trim and four square corner entry towers topped by bell-shaped domes.  On the interior, the classrooms radiate from a central open stairway.  An adjacent two-story brick building, of much simpler design, was constructed in 1909.  An early 1990s rehabilitation of the still functioning school included the construction of a new three-story connecting structure between the two buildings.  Originally known as Corona School, the school board renamed the school in 1929 to honor Dora Moore, the school’s principal for thirty-five years.",
+          "image":"https://digital.denverlibrary.org/assets/display/2352004-max",
+          "imageMapLatLng": [39.761042,-105.019864],
+          "tileMapLatLng": [39.729989, -104.973748],
+          "citations": {
+            "text": {"name":"History Colorado","url":"https://www.historycolorado.org/location/dora-moore-school-corona-school"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1137161"}
+          }
+        },
+        {
+          "name": "Denver Dry Goods",
+          "description":"Exterior view of Denver Dry Goods building, 16th (Sixteenth) and California Streets, Denver, Colorado; original 1894 building designed by Frank E. Edbrooke; Dennis Sheedy and Charles Kountze renamed business Denver Dry Goods in 1894 after purchase, added fourth floor to building in 1900 and constructed additional adjoining building at 15th (Fifteenth) and California in 1905.",
+          "image":"https://digital.denverlibrary.org/assets/display/2109468-max",
+          "imageMapLatLng": [39.752239,-104.992058],
+          "tileMapLatLng": [39.745106, -104.992823],
+          "citations": {
+            "text": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1016113"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1016113"}
+          }
+        },
+        {
+          "name": "Denver Central YMCA",
+          "description":"The 1906 YMCA building with its 1958 annex served as the main facility and headquarters building of the Denver Young Men’s Christian Association.  [...]  The Central YMCA is also a good example of early 20th century Neoclassical Revival style architecture in downtown Denver.  The building is an important design in the body of work of the architectural firm of Marean and Norton.  Willis Marean and Albert Norton are generally acknowledged as masters of early 20th century Denver architecture.  The Central YMCA is the earliest of the firm’s four major Neo-Classical Revival style commissions.",
+          "image":"https://www.historycolorado.org/sites/default/files/media/images/2018/5dv2049.jpg",
+          "imageMapLatLng": [39.754329,-105.006271],
+          "tileMapLatLng": [39.741941, -104.986478],
+          "citations": {
+            "text": {"name":"History Colorado","url":"https://www.historycolorado.org/location/downtown-denver-central-ymca-annex"},
+            "image": {"name":"History Colorado","url":"https://www.historycolorado.org/location/downtown-denver-central-ymca-annex"}
           }
         },
         {
@@ -1138,6 +1292,237 @@
           }
         },
         {
+          "name": "Ernest & Cranmer Building",
+          "description":"The Ernest & Cranmer Building, designed by Frank Edbrooke, stood on the southern corner of 17th and Curtis from 1890 to 1963. It was built by cattlemen Finis (\"Fine\") P. Ernest and William Henry Harrison Cranmer, who were brothers-in-law. Cranmer died the year the building was his completed, but his son George went on to have a prominent role in the 20th century; his great legacy is the city's purchase of Red Rocks and construction of the amphitheater. Colorado National Bank (next door) bought the building in 1959, tearing it down to built a drive-up banking facility, later replaced by a high rise tower (now US Bank) designed by Minoru Yamasaki.",
+          "image":"https://digital.denverlibrary.org/assets/display/2323135-max?u=5a16c816d3ff54759af21024b681b569",
+          "imageMapLatLng": [39.750588, -104.990971],
+          "tileMapLatLng": [39.747769, -104.993602],
+          "citations": {
+            "text": {"name":"Mark Barnhouse","url":"https://www.facebook.com/photo/?fbid=4164689340236900&set=a.156689547703586&paipv=0&eav=AfZHwrlqqrRpXONQnbcMyVZc4b4Sln-cKsTSVt-Z3j7EYRMUuvrwpY8CMNdHAEJvX5k"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1122964"}
+          }
+        },
+        {
+          "name": "First Church of Christ, Scientist",
+          "description":"The First Church of Christ, Scientist, is an elegant classical gray stone building located at the corner of Logan and 14th Streets. It was designed by  Ernest Phillip Varian of Varian and Sterner in 1904. The building  is an unusually pure example of the  Greek  Revival  style of architecture and  has  detailing that is  reminiscent of ancient Greek temple architecture. [...] The  First Church of Christ, Scientist  was the first large structure in Capitol Hill built of lava stone, which  was produced by the Kerr Quarry in the Arkansas River Valley near  Salida, Colorado.  The cornerstone of  the building is made from granite quarried in New Hampshire, the home  state  of Mary Baker Eddy, the founder of the Christian Science church.",
+          "image":"https://digital.denverlibrary.org/assets/display/2212765-max",
+          "imageMapLatLng": [39.757049, -105.012397],
+          "tileMapLatLng": [39.738709, -104.982708],
+          "citations": {
+            "text": {"name":"Denver Architecture Foundation","url":"https://denverarchitecture.org/site/first-church-of-christ-scientist/"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1067777"}
+          }
+        },
+        {
+          "name": "Fletcher Mansion",
+          "description":"This property once bolstered a mansion built by Donald Fletcher, founder of the city of Aurora. The house, completed in 1892 at a cost in excess of $100,000, was built of Manitou red sandstone. According to the January 1, 1892 edition of The Rocky Mountain News, “none can surpass Mr. Fletcher’s residence in its beauty”.  The estate consisted of a parlor finished in mahogany wood, library done in cherry wood, an art gallery with marble tile, four bedrooms and baths, reception hall finished in polished English oak, and several servants’ quarters. Stables and a large 45ft x 45ft hall adjoined the mansion.",
+          "image":"https://digital.denverlibrary.org/assets/display/2311679-max",
+          "imageMapLatLng": [39.754703, -105.011050],
+          "tileMapLatLng": [39.741458, -104.983861],
+          "citations": {
+            "text": {"name":"Denver Hall","url":"https://denverhall.org/history-1"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1117222"}
+          }
+        },
+        {
+          "name": "Ideal Cement",
+          "description":"Reported to be the first multi-level building constructed of reinforced concrete west of the Mississippi, the eight-story structure is topped with a penthouse level.  Designed by Montana Fallis and John Stein, the building was constructed in 1907 by the Dome Investment Co. for Claude Boettcher in order to promote the capabilities of his Colorado Portland Cement Company. The first two floors are faced with large blocks of dressed travertine marble.  The brick of the upper floors was stuccoed in the 1920s.  A 1927 addition was designed by the architectural firm of Fisher and Fisher.",
+          "image":"https://digital.denverlibrary.org/assets/display/2198588-max",
+          "imageMapLatLng": [39.750811, -104.993817],
+          "tileMapLatLng": [39.747477, -104.992255],
+          "citations": {
+            "text": {"name":"History Colorado","url":"https://www.historycolorado.org/location/ideal-building"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1060697"}
+          }
+        },
+        {
+          "name": "J.S. Brown Mercantile Building",
+          "description":"This five-story. red-brick building in Denver went up in 1899 for John Sidney Brown’s wholesale grocery business. Strategically located at 1634 Eighteenth Street—across Wynkoop Street from Union Station—it was next to the rail lines it depended on for customers and for shipping goods to the Rocky Mountain hinterlands. Rail-era relics include boxcar door–level loading docks on the east and west sides. The building’s 1988 conversion to Colorado’s first brewpub, the Wynkoop Brewing Company, propelled the transformation of what was then “skid row” into the thriving Lower Downtown Historic District (LoDo).",
+          "image":"https://history.denverlibrary.org/sites/history/files/brewing_1_0.jpg",
+          "imageMapLatLng": [39.744824, -104.9796819],
+          "tileMapLatLng": [39.753386, -104.998529],
+          "citations": {
+            "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/j-s-brown-mercantile-building-wynkoop-brewing-company"},
+            "image": {"name":"Denver Public Library","url":"https://history.denverlibrary.org/building/js-brown-mercantilewynkoop-brewing-company"}
+          }
+        },
+        {
+          "name": "Littleton Creamery",
+          "description":"The Littleton Creamery/Beatrice Foods Cold Storage Warehouse is a series of three attached brick structures. The original Littleton Creamery, built in 19C3, is five stories with a full basement. It is constructed of thick brick exterior and interior bearing walls with a sandstone foundation. The structure is heavy timber framing. [...] The original 1903 building served the cold storage, administration, manufacture and distribution of dairy products. Butter was originally produced in the basement, offices were located on the first level and cold storage occured on Levels 2-5.  Because the building was used for cold storage, windows were placed only in non-cold storage areas. No windows existed on Levels 3 and 4, and the windows on Levels 2 and 5 were boarded up and insulated for cold storage use.",
+          "image":"https://www.historycolorado.org/sites/default/files/media/images/2018/5dv878.jpg",
+          "imageMapLatLng": [39.743657, -104.979773],
+          "tileMapLatLng": [39.754137, -104.998529],
+          "citations": {
+            "text": {"name":"National Register of Historic Places","url":"https://npgallery.nps.gov/GetAsset/cee681d2-1f84-454c-952c-4eb9755dda15"},
+            "image": {"name":"History Colorado","url":"https://www.historycolorado.org/location/littleton-creamery-beatrice-foods-cold-storage-warehouse"}
+          }
+        },
+        {
+          "name": "Longmont Farmer's Mill",
+          "description":"The original mill building was built by J.R. McDonald and Burell Engineering and Construction Co. in 1906. The building was commissioned by the Longmont Farmers Milling and Elevator Company [which produced \"Pride of the Rockies Flour\"]. [...] In 1920, a great fire devastated the mill building [...] the new $75,000 7-story mill building which began to rise from the rubble the year of the fire. [...] With the exception of the mill building and its three external bins, all the remaining structures were demolished or destroyed in fires sometime after 1958. ",
+          "image":"https://digital.denverlibrary.org/assets/display/2334230-max",
+          "imageMapLatLng": [39.734461, -104.970174],
+          "tileMapLatLng": [39.760047, -105.000181],
+          "citations": {
+            "text": {"name":"National Register of Historic Places","url":"https://npgallery.nps.gov/GetAsset/58f021cb-340e-4992-b608-1475d996cfa5"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1128504"}
+          }
+        },
+        {
+          "name": "Main Library in Civic Center",
+          "description":"In 1902 Andrew Carnegie granted $200,000 to the city of Denver for a new library building. “Old Main,” as it became known, was built in Civic Center Park and matched the area’s other civic structures through its Neoclassical style, Corinthian columns, sandstone exterior, and granite base. Built at a cost of $430,000, the new library was designed to hold 300,000 books on its metal and glass shelves, more than adequate for the 1910 collection of 125,000 tomes.",
+          "image":"https://digital.denverlibrary.org/assets/display/2118196-max?u=83dcf0ca3038df6810ead7e7b4545172",
+          "imageMapLatLng": [39.755862, -105.001011],
+          "tileMapLatLng": [39.739722, -104.989549],
+          "citations": {
+            "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/denver-public-library"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1020494"}
+          }
+        },
+        {
+          "name": "May Company",
+          "description":"The May Company was founded by David May in Leadville, Colorado in 1887 where he and his partners sold Levis and long, red, woolen underwear. His second \"chain\" store was in Irwin, Colorado. In 1887 he started the store in Denver. In 1905, the business headquarters were moved to St. Lewis and in 1910 the business was incorporated as the May Department Store's Company. In 1956 the company acquired Daniels and Fisher Co. in Denver and became known as May D and F in Denver. In 2005, the May stores were folded into Macy Department Stores.",
+          "image":"https://digital.denverlibrary.org/assets/display/2169924-max",
+          "imageMapLatLng": [39.750867, -104.990220],
+          "tileMapLatLng": [39.746969, -104.994005],
+          "citations": {
+            "text": {"name":"University of Denver","url":"https://duarchives.coalliance.org/agents/corporate_entities/2028"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1046049"}
+          }
+        },
+        {
+          "name": "Majestic Building",
+          "description":"Over the next decade Sixteenth Street experienced a construction boom. [...] elegant offices and stores designed by Frank Edbrooke made Sixteenth into the most impressive urban street between Chicago and California: the Essex Building (1887) and the nine-story People’s National Savings Bank (1890) at Lawrence, the Joslin Dry Goods Building (1887) at Curtis, the Denver Dry Goods Building (1889) at California, the Masonic Temple Building (1889) at Welton, and the Majestic Building (1894) at Cleveland Place.",
+          "image":"https://digital.denverlibrary.org/assets/display/2198442-max?u=b026c164e4d0c38db70f89fe699b1ec0",
+          "imageMapLatLng": [39.754702, -105.003451],
+          "tileMapLatLng": [39.742260, -104.987864],
+          "citations": {
+            "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/sixteenth-street-denver"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1060629"}
+          }
+        },
+        {
+          "name": "Manual Training School",
+          "description":"The fine Manual Training School is a recent addition to the educational equipment of District Number 1. I t was primarily the conception of C. S. Morey when he was a member of the Board; and while heartily indorsed and supported by his associates, its existence is to a great extent due to his deep personal interest and untiring zeal in and for it. A portion of the building was built in 1892 and occupied in April, 1893.",
+          "image":"https://digital.denverlibrary.org/assets/display/2263779-max",
+          "imageMapLatLng": [39.741531, -105.049551],
+          "tileMapLatLng": [39.755506, -104.968877],
+          "citations": {
+            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=752"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1093283"}
+          }
+        },
+        {
+          "name": "Morey Mercantile",
+          "description":"Established in 1884 by Chester Stephen Morey, it not only sold coffee, spices and canned goods but offered customers brooms, matches, writing tablets and cigars. In 1896, construction began on the new six-story Morey Mercantile, covering five city lots and located at the corner of Wynkoop and 16th [...] The new building had a roasting plant, spice-grinding department, extract laboratory and print shop. In 1902, Chester S. Morey launched the Solitaire Brand, which became the company’s best seller in top-quality canned goods such as spices, coffee, and canned fruits and vegetables.",
+          "image":"Morey Mercantile.png",
+          "imageMapLatLng": [39.747296, -104.975284],
+          "tileMapLatLng": [39.751527, -105.000938],
+          "citations": {
+            "text": {"name":"History Colorado","url":"https://www.historycolorado.org/story/stuff-history/2014/03/11/rediscovering-morey-mercantile"},
+            "image": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=892"}
+          }
+        },
+        {
+          "name": "Denver Municipal Auditorium (1908)",
+          "description":"Completed in 1908, this Renaissance Revival style arena/theater was designed by Denver architect Robert Willison.  Constructed of buff brick, the three-story terracotta trimmed building featured prominent corner towers that were topped with cupolas. The massive 246 by 145 foot building was second only to New York’s Madison Square Garden in size.",
+          "image":"https://digital.denverlibrary.org/assets/display/2164306-max",
+          "citations": {
+            "text": {"name":"History Colorado","url":"https://www.historycolorado.org/location/denver-municipal-auditorium-quigg-newton-denver-municipal-auditorium"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1043549"}
+          },
+          "imageMapLatLng": [39.752544, -104.984478],
+          "tileMapLatLng": [39.744806, -104.997187]
+        },
+        {
+          "name": "St. Elizabeth Church",
+          "description":"St. Elizabeth’s Church was designed by Brother Adrian, O.F.M. of the Sacred Heart province, in the German Gothic style in 1898.  It is constructed of rhyolite quarried at Castle Rock. A black and white photo of the church from the front with gabled roof, brickwork, three arched entry, and tall steeple on the right.  St. Elizabeth’s Church The interior features carved wooden statues from Germany and painted and stained glass windows given by early parishioners. St. Elizabeth’s parish, the second Catholic parish to be established in Denver, was created in 1878.",
+          "image":"https://5008.sydneyplus.com/HistoryColorado_ArgusNet_Final/ViewImage.aspx?template=Image&field=DerivedIm2&hash=9f0e177c5ff9637e4e55b09541cb4a4d&r=1973317836&lang=en-US",
+          "imageMapLatLng": [39.754076, -104.976500],
+          "tileMapLatLng": [39.742809, -105.002163],
+          "citations": {
+            "text": {"name":"History Colorado","url":"https://www.historycolorado.org/location/st-elizabeths-church-denver"},
+            "image": {"name":"History Colorado","url":"https://5008.sydneyplus.com/HistoryColorado_ArgusNet_Final/Portal.aspx?lang=en-US&g_AAFC=HistoryColorado_ArgusNet_Final+%7cObject+%7c%25SsearAtta+%3d+%2789.451.5922%27&d=d"}
+          }
+        },
+        {
+          "name": "St. Joseph's Hospital",
+          "description":"In that year [1878] a three-story brick building, forty by ninety feet in dimensions, costing $40,000, was erected on ground purchased at Eighteenth Avenue and Humboldt street, and the Sisters then took possession of their new home where they have remained ever since. The original building had accommodations for about ninety sick, and served for a dozen years, at the end of which time the demands made upon it necessitated the erection of a large additional building. This is sixty by one hundred feet, four stories high, and was completed in 1890 at a cost of $60,000, making the total cost of the hospital buildings as they now stand, $100,000. ",
+          "image":"https://digital.denverlibrary.org/assets/display/2323263-max",
+          "imageMapLatLng": [39.752370, -105.035315],
+          "tileMapLatLng": [39.745406, -104.969075],
+          "citations": {
+            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=776"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1123028"}
+          }
+        },
+        {
+          "name": "St. Leo Church",
+          "description":"Unhappy that the Germans controlled St. Elizabeth’s, the Irish petitioned Bishop Machebeuf for their own church in 1882. The petition went unanswered, as Machebeuf was waiting for several Franciscans to arrive and take charge of St. Elizabeth’s. In 1887 two Franciscans, Reverend Francis Koch and Reverend Patrick Carr, arrived. Reverend Koch became the rector at St. Elizabeth’s, while Reverend Carr was assigned as pastor of the English-speaking (Irish) parishioners at the church. The Irish remained at St. Elizabeth’s for another year, until Father Carr acquired land at West Colfax Avenue and Tenth Street (just a few blocks from St. Elizabeth’s) to begin construction of St. Leo the Great Catholic Church.  In 1888 the Irish miller John K. Mullen provided $10,000 to build St. Leo’s Catholic Church on the land that Father Carr had acquired, with another $1,200 toward the church coming from Sunday collections. The building was made of brick, with lancet arches over the windows and a wide wooden front door.",
+          "image":"https://digital.denverlibrary.org/assets/display/2109581-max",
+          "imageMapLatLng": [39.755124, -104.977839],
+          "tileMapLatLng": [39.740332, -105.002000],
+          "citations": {
+            "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/st-leos-catholic-church"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1016171"}
+          }
+        },
+        {
+          "name": "St. Luke's Hospital",
+          "description":"The board agreed to begin fundraising for a new building at the Pearl Street site. The new St. Luke’s Hospital opened at Nineteenth and Pearl on October 18, 1891. It consisted of three stone buildings: an administrative wing, a kitchen wing, and the patient areas. It had an operating room, drug dispensary, and offices for the chaplain, head nurse, and superintendent. The patients stayed in wards or in private rooms in the main building.",
+          "image":"https://digital.denverlibrary.org/assets/display/2324547-max",
+          "imageMapLatLng": [39.750183, -105.019524],
+          "tileMapLatLng": [39.746907, -104.979110],
+          "citations": {
+            "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/st-lukes-hospital"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1123670"}
+          }
+        },
+        {
+          "name": "St. Patrick Church",
+          "description":"St. Patrick's parish was established in 1881 by Bishop Joseph Projectus Machebeuf, first Bishop of the See of Denver, and known as the \"Apostle of the Rockies.\"  This was the first Roman Catholic parish established west of the South Platte River in what is now the City of Denver. As the \"mother-church\" of Northwest Denver, eight parishes were eventually established within its original boundaries. The congregation met in various buildings until the first church was completed in 1884. ",
+          "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxlLSqoiIHAtIJ34z3I6y58-AtqxcCMRugSRA3exmcBO30-xuuyaI0yjs-YlypDBrWHGU&usqp=CAU",
+          "imageMapLatLng": [39.730559, -104.950788],
+          "tileMapLatLng": [39.762740, -105.005618],
+          "citations": {
+            "text": {"name":"National Register of Historic Places","url":"https://npgallery.nps.gov/GetAsset/d3b7ea78-a12f-46a1-91da-39735416dcf3"},
+            "image": {"name":"Estately","url":"https://www.estately.com/listings/info/3233-osage-street-denver-co-80211--2"}
+          }
+        },
+        {
+          "name": "Savoy Hotel",
+          "description":"Savoy Hotel, Denver, Colorado, opened in 1904 at 17th (Seventeenth) and Broadway. Shirley Hotel opened in 1903 at 17th and Lincoln. Both faced 17th (Seventeenth) with the Shirley at Lincoln and the Savoy at Broadway, Denver, Colorado. The two hotels consolidated in 1921 becoming Shirley-Savoy Hotel, Shirley building razed in early 1960's and Savoy section continued as a hotel until it was razed in early 1970.",
+          "image":"https://digital.denverlibrary.org/assets/display/2210500-max",
+          "imageMapLatLng": [39.753936, -105.005472],
+          "tileMapLatLng": [39.742939, -104.986977],
+          "citations": {
+            "text": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1123025"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1066654"}
+          }
+        },
+        {
+          "name": "Shirley Hotel",
+          "description":"Savoy Hotel, Denver, Colorado, opened in 1904 at 17th (Seventeenth) and Broadway. Shirley Hotel opened in 1903 at 17th and Lincoln. Both faced 17th (Seventeenth) with the Shirley at Lincoln and the Savoy at Broadway, Denver, Colorado. The two hotels consolidated in 1921 becoming Shirley-Savoy Hotel, Shirley building razed in early 1960's and Savoy section continued as a hotel until it was razed in early 1970.",
+          "image":"https://digital.denverlibrary.org/assets/display/2323574-max",
+          "imageMapLatLng": [39.753906, -105.006461],
+          "tileMapLatLng": [39.742972, -104.986473],
+          "citations": {
+            "text": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1123025"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1123184"}
+          }
+        },
+        {
+          "name": "University of Denver",
+          "description":"In 1886 it had been determined to go outside the then limits of the city and obtain a site upon which the University could be more appropriately located and that would afford abundant room for prospective new buildings. [...] Preparations for building at University Parkwere not made until 1890. The first two structures erected there were University Hall, at a cost of $80,000; and Wycliffe Cottage, a home for young women students. The Hall, a large and imposing edifice, of lava, three and one-half stories high, and the Cottage, were built in 1891.",
+          "image":"University Hall.png",
+          "citations": {
+            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=763"},
+            "image": {"name":"Denver Public Library", "url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=764"}
+          },
+          "imageMapLatLng": [39.770259,-105.012834],
+          "tileMapLatLng": [39.677039, -104.960575]
+        },
+        {
           "name": "Washington Park",
           "description":"Developed in the 1890s and early 1900s, Washington Park is a scenic recreational area occupying about 160 acres southeast of downtown Denver. Designed around a portion of City Ditch by landscape architects Reinhard Schuetze and Saco DeBoer, the park features two lakes and a large meadow and has a more rural, relaxed feel than Denver’s other major urban parks. Its historic structures include a 1911 bathhouse, a 1913 boathouse designed by Jules Jacques Benois Benedict, and the Eugene Field Cottage, which was moved to the park in 1930.",
           "image":"https://digital.denverlibrary.org/assets/display/2278120-max",
@@ -1146,6 +1531,17 @@
           "citations": {
             "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/washington-park"},
             "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1100454"}
+          }
+        },
+        {
+          "name": "Welcome/Mizpah Arch",
+          "description":"In 1906 citizens of Denver dedicated a giant arch in front of the depot. The arch contained 17 tons of metal and 1,600 light bulbs. Originally, the arch read “Welcome” on both sides. In 1908 the Wynkoop Street side was changed to read “Mizpah,” a Hebrew word meaning, “may the Lord watch between you and I while we are apart.” By 1930 the city inspector found the arch to be structurally unsafe and, due to traffic concerns and financial constraints caused by the Great Depression, the city paid to dismantle it.",
+          "image":"https://digital.denverlibrary.org/assets/display/2118887-max",
+          "imageMapLatLng": [39.745027, -104.977138],
+          "tileMapLatLng": [39.752916, -104.999804],
+          "citations": {
+            "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/union-station-0"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1091445"}
           }
         }
       ],
