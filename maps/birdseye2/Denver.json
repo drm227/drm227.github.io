@@ -850,10 +850,10 @@
         {
           "name": "Holden/Globe Smelter",
           "description":"The plant began life as the Holden Smelter and was organized in 1886 by entrepreneur Edward R. Holden as a silver/lead smelter, using the latest technology. Holden was known as a promoter and speculator and had borrowed great sums from the Colorado National Bank to build the operation. When the smelter veered toward bankruptcy under Holden, the bank appointed Dennis Sheedy manager and he reorganized the firm as the Globe Smelting and Refining Company on January 16, 1889. A company store, hotel and houses surrounding the plant, once called Holdenville were then referred to as Globeville.",
-          "image":"https://cdm16079.contentdm.oclc.org/digital/api/singleitem/image/p15330coll21/8266/default.jpg",
+          "image":"https://digital.denverlibrary.org/assets/display/2103021-max",
           "citations": {
             "text": {"name":"Globeville Story","url":"http://globevillestory.blogspot.com/2011/05/globe-asarco.html"},
-            "image": {"name":"Denver Public Library", "url":"https://cdm16079.contentdm.oclc.org/digital/collection/p15330coll21/id/8266/rec/1"}
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1014110?lsk=c4243c27a68a93a0f371df749ea6f61e"}
           },
           "imageMapLatLng": [39.793229,-104.969327],
           "tileMapLatLng": [39.794322,-104.982170]
@@ -982,10 +982,10 @@
         {
           "name": "River Front Park",
           "description":"Denver’s first “amusement park” was River Front Park, which opened ca 1880. It was located just east of Union Station, near the Platte River between 15th and 19th Streets. The brainchild of John Brisben Walker, the park boasted a variety of recreational opportunities. Included were a race track, a gymnasium, tennis courts, a skating rink, a toboggan run, a bandstand, boating channels, and a baseball diamond.  A Castle of Culture & Commerce and weekly fireworks displays were also featured.  Walker dammed the Platte to create a channel for an excursion steamboat/casino and hosted the city’s first rodeo, as well as Buffalo Bill’s Wild West Show and P.T. Barnum’s circus. [...] River Front Park closed in 1903.",
-          "image":"https://cdm16079.contentdm.oclc.org/digital/api/singleitem/image/p15330coll21/6381/default.jpg",
+          "image":"https://digital.denverlibrary.org/assets/display/2337636-max",
           "citations": {
-            "text": {"name":"Pamela Nowak","url":"http://www.pamelanowak.com/wp/?p=212"},
-            "image": {"name":"Denver Public Library", "url":"https://cdm16079.contentdm.oclc.org/digital/collection/p15330coll21/id/6381/rec/28"}
+            "text": {"name":"Pamela Nowak","url":"https://pamelanowak.com/2024/01/30/early-denver-amusement-parks/"},
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1130207"}
           },
           "imageMapLatLng": [39.778782,-105.042315],
           "tileMapLatLng": [39.757187,-105.003413]
@@ -1162,23 +1162,23 @@
         {
           "name": "Boston Building",
           "description":"Located at 828 Seventeenth Street in Denver, the Boston Building opened in 1890. Hailed by early historian Jerome Smiley as “the first of the strictly modern office buildings” in the city, the Boston Building signaled the emergence of Seventeenth Street as the “Wall Street of the Rockies” and later housed the Boettcher family businesses. As the Boston name suggests, the building also represented a major early commitment by eastern capitalists to Denver as the metropolis of the Rocky Mountain region. The historic eight-story office tower was converted to residential lofts in the late 1990s.",
-          "image":"https://cdm16079.contentdm.oclc.org/digital/api/singleitem/image/p15330coll21/12408/default.jpg",
+          "image":"https://digital.denverlibrary.org/assets/display/2205872-max",
           "imageMapLatLng": [39.750315, -104.992670],
           "tileMapLatLng": [39.747132, -104.992698],
           "citations": {
             "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/boston-building"},
-            "image": {"name":"Denver Public Library","url":"https://cdm16079.contentdm.oclc.org/digital/collection/p15330coll21/id/12408/rec/4"}
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1064329"}
           }
         },
         {
           "name": "Brown Palace",
           "description":"In 1889 or 1890, Brown hired the architect Frank Edbrooke to draw up plans for the hotel. Edbrooke had just designed the Oxford Hotel (1890) at the other end of Seventeenth Street, which is now the only surviving hotel in Denver older than the Brown Palace. For the Brown Palace he planned a triangular building to fit the plot of land, and he wrapped the building’s three sides around a large atrium. At nine stories, it would be the tallest building in Denver, with a red sandstone exterior in the popular Richardsonian Romanesque style. The blueprints for the building reportedly took up two tons of paper.",
-          "image":"https://cdm16079.contentdm.oclc.org/digital/api/singleitem/image/p15330coll21/8541/default.jpg",
+          "image":"https://digital.denverlibrary.org/assets/display/2227734-max",
           "imageMapLatLng": [39.752834,-105.003507],
           "tileMapLatLng": [39.744172,-104.987676],
           "citations": {
             "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/brown-palace-hotel"},
-            "image": {"name":"Denver Public Library","url":"https://cdm16079.contentdm.oclc.org/digital/collection/p15330coll21/id/8541/rec/5"}
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1075275"}
           }
         },
         {
@@ -1283,12 +1283,12 @@
         {
           "name": "Equitable Building",
           "description":"The Equitable Building (730 Seventeenth Street) is located in the heart of downtown Denver’s financial district. Built in 1892 as the town’s premier office structure, it arguably still is. It also signaled that eastern capitalists had begun focusing on Denver as the most promising location for their Rocky Mountain regional offices. In 1977 the building was designated a Denver landmark, and in 1978 it was listed in the National Register of Historic Places.",
-          "image":"https://cdm16079.contentdm.oclc.org/digital/api/singleitem/image/p15330coll21/4086/default.jpg",
+          "image":"https://digital.denverlibrary.org/assets/display/2198754-max",
           "imageMapLatLng": [39.751061, -104.994047],
           "tileMapLatLng": [39.746349, -104.991963],
           "citations": {
             "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/equitable-building"},
-            "image": {"name":"Denver Public Library","url":"https://cdm16079.contentdm.oclc.org/digital/collection/p15330coll21/id/4086/rec/2"}
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1060782"}
           }
         },
         {
@@ -1591,7 +1591,7 @@
           "description":"The Continental Oil Building was built in 1926 by the Continental Oil Company for their own office use, with some additional rental space. It was build at the corner of Eighteenth and Glenarm Streets with a ground floor area 125 feet by 125 feet, with a court in the rear above the first floor 34 by 68 feet.  The present building is 10 stories high, extending 140 feet above the sidewalk [...] The exterior of the building is of polished granite up to the third floor line with cream colored terra cotta facing above, except for the spandrels betwween windows which are grayish green to emphasize the vertical window lines. The walls at the two street entrances are of polychrome terra cotta which leads the center of interest to thee two points.",
           "image":"https://digital.denverlibrary.org/assets/display/2155329-max",
           "citations": {
-            "text": {"name":"Municipal Facts","url":"https://cdm16079.contentdm.oclc.org/digital/collection/p15330coll15/id/5673/rec/4"},
+            "text": {"name":"Municipal Facts","url":"https://digital.denverlibrary.org/nodes/view/184237?highlights=WyImcXVvdDtwb2x5Y2hyb21lIiwidGVycmEiLCJjb3R0YSZxdW90OyJd&type=all&keywords=#idx376674"},
             "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1039064"}
           },
           "imageMapLatLng": [39.760783168525954, -105.04234313964845],
