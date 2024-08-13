@@ -6,6 +6,7 @@
         "title": "Denver, Colorado, 1874",
         "creator": "Eli Sheldon Glover",
         "year": "1874",
+        "url": "https://collections.lib.uwm.edu/digital/collection/agdm/id/5863/",
         "description": "In this bird's eye map, you are looking east from a vantage point just west of the South Platte River, just south of the confluence with the Cherry Creek."
         },
       "map": {
@@ -407,6 +408,7 @@
         "title": "Bird's eye view of the city of Denver, Colorado",
         "creator": "J.H. Flett",
         "year": "1882",
+        "url": "https://digital.denverlibrary.org/nodes/view/822240",
         "description": "In this bird's eye map, you are looking east from a vantage point just west of the South Platte River, just south of the confluence with the Cherry Creek."
       },
       "map": {
@@ -683,6 +685,7 @@
         "title": "Perspective map of the city of Denver, Colo. 1889",
         "creator": "Henry Wellge",
         "year": "1889",
+        "url": "http://hdl.loc.gov/loc.gmd/g4314d.pm000650",
         "description": "In this bird's eye map, you are looking north along Broadway from a vantage point just south of 11th Avenue.  Henry Wellge was a midwestern panoramic map artist and publisher, and one of the the most prolific and successful.  The Library of Congress has 80 of his bird's-eye views."
       },
       "map": {
@@ -850,10 +853,10 @@
         {
           "name": "Holden/Globe Smelter",
           "description":"The plant began life as the Holden Smelter and was organized in 1886 by entrepreneur Edward R. Holden as a silver/lead smelter, using the latest technology. Holden was known as a promoter and speculator and had borrowed great sums from the Colorado National Bank to build the operation. When the smelter veered toward bankruptcy under Holden, the bank appointed Dennis Sheedy manager and he reorganized the firm as the Globe Smelting and Refining Company on January 16, 1889. A company store, hotel and houses surrounding the plant, once called Holdenville were then referred to as Globeville.",
-          "image":"https://digital.denverlibrary.org/assets/display/2103021-max",
+          "image":"https://5008.sydneyplus.com/HistoryColorado_ArgusNet_Final/ViewImage.aspx?template=Image&field=DerivedIma&hash=53d2bed03d9ec77819928da0f5625b7b&r=1973317836&lang=en-US",
           "citations": {
             "text": {"name":"Globeville Story","url":"http://globevillestory.blogspot.com/2011/05/globe-asarco.html"},
-            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1014110?lsk=c4243c27a68a93a0f371df749ea6f61e"}
+            "image": {"name":"History Colorado", "url":"https://5008.sydneyplus.com/HistoryColorado_ArgusNet_Final/Portal/Portal.aspx?component=AAFW&record=E13E1B1D-0AFE-41A3-AE7F-EB785173748D"}
           },
           "imageMapLatLng": [39.793229,-104.969327],
           "tileMapLatLng": [39.794322,-104.982170]
@@ -1127,6 +1130,7 @@
         "title": "Bird's eye view of Denver, Colorado, 1908",
         "creator": "Birdseye View Publishing Co.",
         "year": "1908",
+        "url": "https://digital.denverlibrary.org/nodes/view/822284",
         "description": "Subtitle reads: Looking south from the Twenty-third Street viaduct. At bottom of map: Directory of business establishments, including address and indexed location on map. Around the map: Pictures of buildings, street scenes and scenic attractions of the area. Major buildings identified with text on rooftop."
       },
       "map": {
@@ -1578,6 +1582,13 @@
     },
     {
       "name": "1936 Carlson",
+      "birdseye": {
+        "title": "V. F. W. parade Nat. Conv. Denver",
+        "creator": "George Carlson",
+        "year": "1936",
+        "url": "https://digital.denverlibrary.org/nodes/view/1044116",
+        "description": "Aerial view, during a Veterans of Foreign Wars parade, of downtown Denver, Colorado."
+      },
       "map": {
         "title": "Denver, Col.",
         "creator": "Nirenstein, Nathan",
@@ -1644,6 +1655,13 @@
     },
     {
       "name": "1960 Walla",
+      "birdseye": {
+        "title": "Aerial view of Denver",
+        "creator": "Walla, Dennis S.",
+        "year": "1960",
+        "url": "https://digital.denverlibrary.org/nodes/view/1100154",
+        "description": "Aerial view of Denver, Colorado. Shows the central business district and Civic Center park."
+      },
       "map": {
         "title": "Map of Denver business district",
         "creator": "Hotchkiss, Inc.",
@@ -1732,6 +1750,13 @@
     },
     {
       "name": "1940s Washington Park",
+      "birdseye": {
+        "title": "Denver, Colorado, 1874",
+        "creator": "Eli Sheldon Glover",
+        "year": "1874",
+        "url": "https://collections.lib.uwm.edu/digital/collection/agdm/id/5863/",
+        "description": "In this bird's eye map, you are looking east from a vantage point just west of the South Platte River, just south of the confluence with the Cherry Creek."
+      },
       "map": {
         "title": "1933 King Aerial Survey of Denver",
         "creator": "Jasper King",
