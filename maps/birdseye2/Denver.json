@@ -1598,15 +1598,92 @@
       },
       "features": [
         {
+          "name": "Buerger Brothers Building (1929)",
+          "description":"The 1929 building, designed by Denver architect Montana Fallis, is one of the finest examples of Art Deco architecture in Colorado.  The Buerger Brother Supply Company, founded in Pueblo in 1885, built the office and warehouse to headquarter what became the preeminent barbershop and beauty salon supplier in the Rocky Mountain and western plains region of the United States.",
+          "image":"https://digital.denverlibrary.org/assets/display/2334853-max",
+          "citations": {
+            "text": {"name":"History Colorado","url":"https://www.historycolorado.org/location/buerger-brothers-building-annex"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1128816"}
+          },
+          "imageMapLatLng": [39.749426, -105.048566],
+          "tileMapLatLng": [39.748543, -104.990517]
+        },
+        {
+          "name": "Byron White Courthouse (1916)",
+          "description":"Although not the first neo-classical building in Denver, its design introduced and popularized this style on a grand scale. Original plans specified the use of Georgia marble, but through the efforts of local businessmen, the native stone Colorado Yule marble from Marble, Colorado, was used to clad the exterior of the post office courthouse. [...]  This building has been described as a \"poem in marble\"",
+          "image":"https://www.ca10.uscourts.gov/sites/ca10/files/images/bwch-exterior1915.jpg",
+          "citations": {
+            "text": {"name":"uscourts.gov","url":"https://www.ca10.uscourts.gov/history-byron-white-courthouse"},
+            "image": {"name":"uscourts.gov","url":"https://www.ca10.uscourts.gov/sites/ca10/files/images/bwch-exterior1915.jpg"}
+          },
+          "imageMapLatLng": [39.751554, -105.066788],
+          "tileMapLatLng": [39.748543, -104.990517]
+        },
+        {
+          "name": "Chamber of Commerce (1910)",
+          "description":"This neoclassical building was built in 1910 and designed by Marean & Norton as the home to the Denver Chamber of Commerce. It was later covered with a metal facade and fell into disrepair, only to be faithfully restored in the late 1990s including the 400 electric lights in the facade. The building now contains residential apartments.",
+          "image":"https://digital.denverlibrary.org/assets/display/2138798-max",
+          "citations": {
+            "text": {"name":"Denver Urbanism","url":"https://denverurbanism.com/ddhd-chamber-of-commerce-building"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1030800"}
+          },
+          "imageMapLatLng": [39.750256, -105.044754],
+          "tileMapLatLng": [39.747658, -104.991959]
+        },
+        {
+          "name": "Colorado Building (1937)",
+          "description":"The Colorado Building, originally named the Hayden, Dickenson and Feldhauser Building after its developers, was built in 1891 as a brick commercial structure. In 1909 it was expanded by the addition of several floors and, in 1937, it was given its current terra cotta Art Deco facade and renamed the Colorado Building.",
+          "image":"https://digital.denverlibrary.org/assets/display/2199040-max",
+          "imageMapLatLng": [39.755591,-105.010552],
+          "tileMapLatLng": [39.745568, -104.992217],
+          "citations": {
+            "text": {"name":"Denver Urbanism","url":"https://denverurbanism.com/ddhd-colorado-building"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1060925"}
+          }
+        },
+        {
           "name": "Continental Oil (1927)",
           "description":"The Continental Oil Building was built in 1926 by the Continental Oil Company for their own office use, with some additional rental space. It was build at the corner of Eighteenth and Glenarm Streets with a ground floor area 125 feet by 125 feet, with a court in the rear above the first floor 34 by 68 feet.  The present building is 10 stories high, extending 140 feet above the sidewalk [...] The exterior of the building is of polished granite up to the third floor line with cream colored terra cotta facing above, except for the spandrels betwween windows which are grayish green to emphasize the vertical window lines. The walls at the two street entrances are of polychrome terra cotta which leads the center of interest to thee two points.",
           "image":"https://digital.denverlibrary.org/assets/display/2155329-max",
           "citations": {
-            "text": {"name":"Municipal Facts","url":"https://digital.denverlibrary.org/nodes/view/184237?highlights=WyImcXVvdDtwb2x5Y2hyb21lIiwidGVycmEiLCJjb3R0YSZxdW90OyJd&type=all&keywords=#idx376674"},
+            "text": {"name":"Municipal Facts","url":"https://www.historycolorado.org/location/chamber-commerce-building-chamber-lofts-denver"},
             "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1039064"}
           },
           "imageMapLatLng": [39.760783168525954, -105.04234313964845],
           "tileMapLatLng": [39.74563539080376, -104.98861744266651]
+        },
+        {
+          "name": "Daniels & Fisher Tower (1911)",
+          "description":"Rising 330 feet above Sixteenth Street, the Daniels and Fisher Tower in Denver was based on St. Mark’s Campanile in Venice and opened in 1911 as a beacon drawing shoppers to the adjacent Daniels and Fisher department store. The Daniels and Fisher department store closed in 1958 and was demolished for Denver’s Skyline Urban Renewal Project in 1970–71, but the tower was spared and eventually converted into offices.  The tallest structure in Denver for more than forty years after it opened, the tower continues to be one of the city’s most iconic buildings.",
+          "image":"https://digital.denverlibrary.org/assets/display/2116522-max",
+          "citations": {
+            "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/daniels-and-fisher-tower"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1019567"}
+          },
+          "imageMapLatLng": [39.746596, -105.011873],
+          "tileMapLatLng": [39.748110, -104.995690]
+        },
+        {
+          "name": "Denham Theater (1913)",
+          "description":"The Shubert brothers, James, Sam and Lee, ran a huge theatre empire from their offices in New York, and their Shubert Theatre opened in Denver in 1913. The name was changed to the Denham Theatre shortly after its opening [...] The theatre was entirely fireproof, built of steel, concrete and brick, and seated over 1,660 persons, 200 of those in boxes three tiers high. [...] In 1932 the Denham Theatre was converted to a motion picture theatre.  In its earliest days, the six-story building contained offices for mining, lumber, oil and railroad companies, along with the central offices for the Crown Hill Cemetery Association",
+          "image":"https://digital.denverlibrary.org/assets/display/2191801-max",
+          "citations": {
+            "text": {"name":"Cinema Treasures","url":"https://cinematreasures.org/theaters/19052"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1057306"}
+          },
+          "imageMapLatLng": [39.756197, -105.055818],
+          "tileMapLatLng": [39.747149, -104.989169]
+        },
+        {
+          "name": "Denver City and County Building (1932)",
+          "description":"Facing the State Capitol Building and completing the dominant east-west axis for Civic Center, Denver’s City and County Building (300 W. Colfax Avenue) is the grandest monument of Mayor Robert Speer’s City Beautiful efforts. The elegant neoclassical building houses the mayor, city council, many county and district courts, and other city offices. Conceived as part of Charles Mulford Robinson’s original City Beautiful Plan of 1906, which placed it on the north side of West Colfax Avenue, it took twenty-six years to materialize due to extended legal, political, and architectural battles. Completed in 1932 at a final cost of more than $5.5 million, it has not been altered much over the decades.",
+          "image":"https://digital.denverlibrary.org/assets/display/2143243-max",
+          "citations": {
+            "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/denver-city-and-county-building"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1033023"}
+          },
+          "imageMapLatLng": [39.764375, -104.963162],
+          "tileMapLatLng": [39.739255, -104.991057]
         },
         {
           "name": "Denver Municipal Auditorium (1908)",
@@ -1620,6 +1697,61 @@
           "tileMapLatLng": [39.74492581710934, -104.99692253258267]
         },
         {
+          "name": "El Jebel Shrine (1907)",
+          "description":"This 1907 building, one of the best examples of Moorish-inspired architecture in Colorado, utilizes Middle Eastern architectural styles to create ceremonial spaces in keeping with the spirit and rituals of the Ancient Order of Nobles of the Mystic Shrine.  The architects, the Baerresen Brothers, reached the pinnacle of their prolific practice with its design.  The exterior is one of the best examples of Moorish-inspired architecture in Colorado, and the interior exhibits an incredible collection of architectural styles, ranging from Moorish and Egyptian to French Provincial, Elizabethan, and Arts and Crafts.  No other interior space in the state surpasses the mosque for its high level of artistic detail and craftsmanship.",
+          "image":"https://digital.denverlibrary.org/assets/display/2271795-max",
+          "citations": {
+            "text": {"name":"History Colorado","url":"https://www.historycolorado.org/location/mosque-el-jebel-shrine-temple-1770-sherman-street-event-complex"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1097293"}
+          },
+          "imageMapLatLng": [39.765264, -105.052514],
+          "tileMapLatLng": [39.744651, -104.984477]
+        },
+        {
+          "name": "First Unitarian Church (1887)",
+          "description":"The church on the southeast corner of the 19th and Broadway was dedicated on September 4, 1887.  Costing $42,358, it was described as one of the most beautiful church building in Denver, built of brick with red sandstone trimmings.  The sanctuary was approached by a flight of fourteen broad stone steps and the building was surrounded by a green lawn.  The sanctuary was furnished in oak and lighted by beautiful memorial windows of stained glass.",
+          "image":"https://digital.denverlibrary.org/assets/display/2152309-max",
+          "imageMapLatLng": [39.760189, -105.054616],
+          "tileMapLatLng": [39.745917, -104.987031],
+          "citations": {
+            "text": {"name":"First Unitarian Society","url":"https://fusden.org/church-history/"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1037534"}
+          }
+        },
+        {
+          "name": "Hotel Cosmopolitan (1926)",
+          "description":"The Cosmopolitan Hotel was built in Denver at the corner of East 18th Avenue and Broadway in 1926. It was a 460-room building with flowing cold water and baths. On August 31, 1927, the hotel hosted a banquet with Colonel Charles L. Lindbergh. The building was demolished in 1984.",
+          "image":"https://digital.denverlibrary.org/assets/display/2149056-max",
+          "imageMapLatLng": [39.763290, -105.037493],
+          "tileMapLatLng": [39.744641, -104.987082],
+          "citations": {
+            "text": {"name":"Denver Public Library","url":"https://archives.denverlibrary.org/repositories/3/resources/9628"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1035929"}
+          }
+        },
+        {
+          "name": "Ideal Cement (1907)",
+          "description":"Reported to be the first multi-level building constructed of reinforced concrete west of the Mississippi, the eight-story structure is topped with a penthouse level.  Designed by Montana Fallis and John Stein, the building was constructed in 1907 by the Dome Investment Co. for Claude Boettcher in order to promote the capabilities of his Colorado Portland Cement Company. The first two floors are faced with large blocks of dressed travertine marble.  The brick of the upper floors was stuccoed in the 1920s.  A 1927 addition was designed by the architectural firm of Fisher and Fisher.",
+          "image":"https://digital.denverlibrary.org/assets/display/2198588-max",
+          "imageMapLatLng": [39.751403, -105.036559],
+          "tileMapLatLng": [39.747477, -104.992255],
+          "citations": {
+            "text": {"name":"History Colorado","url":"https://www.historycolorado.org/location/ideal-building"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1060697"}
+          }
+        },
+        {
+          "name": "International Trust Co. (1912)",
+          "description":" International Trust Company building (17th & corner of California), Denver, Colorado; designed by architects & brothers William E. & Arthur A. Fisher, completed in 1912, International Trust Company merged with First National Bank in 1958, building torn down in 1974 to make way for a plaza; [...] Corinthian columns with composite capitols (acanthus & scrolls), balusters & balustrade on roof.",
+          "image":"https://digital.denverlibrary.org/assets/display/2118849-max",
+          "imageMapLatLng": [39.755394, -105.032870],
+          "tileMapLatLng": [39.746162, -104.990485],
+          "citations": {
+            "text": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1020818"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1020818"}
+          }
+        },
+        {
           "name": "Mountain States Telephone (1929)",
           "description":"Completed in 1929, the Telephone Building at 931 14th Street in Denver served for fifty-five years as the headquarters of Mountain States Telephone and Telegraph. Designed by architect William N. Bowman in a combination of Art Deco and Gothic Revival styles, the building helped bring modern architecture to Denver. [...] The architectural style Bowman used for the building, which Mountain States called “Modern American Perpendicular Gothic,” was based on Neo-Gothic skyscrapers such as New York’s Woolworth Building (1913) as well as on the New York Telephone Company’s new Art Deco headquarters then under construction, the Barclay-Vesey Building (1927). Rising ten stories and then stepping back twenty feet to a five-story central tower with Gothic turrets, the Telephone Building in Denver was the first to take advantage of a setback provision in the city height ordinance that allowed buildings to rise above twelve stories if their additional height was set back from the street. Topping out at nearly 237 feet, the building was the tallest in Denver (aside from smelter stacks and the Daniels and Fisher Tower) until the 1950s and contained about 5.2 million cubic feet of space.",
           "image":"https://digital.denverlibrary.org/assets/display/2142715-max",
@@ -1629,6 +1761,72 @@
           },
           "imageMapLatLng": [39.75141338632425, -104.9568557739258],
           "tileMapLatLng": [39.74547170913153, -104.99652745688607]
+        },
+        {
+          "name": "Post Office Building (1892)",
+          "description":"The United States Building on the southwest corner of Sixteenth and Arapahoe streets was begun in the winter of 1884-85, and nearly eight years elapsed before it was entirely finished [...] This Federal Building, or, as more commonly called, the Post Office Building, is one of the conspicuously inconvenient, ill-arranged, cramped, dark, and inadequate public structures evolved by \"bureau architecture,\" and is wholly unfitted for present requirements",
+          "image":"https://digital.denverlibrary.org/assets/display/2314007-max",
+          "citations": {
+            "text": {"name":"History of Dever","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=970"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1118340"}
+          },
+          "imageMapLatLng": [39.743202, -104.999338],
+          "tileMapLatLng": [39.747364, -104.995764]
+        },
+        {
+          "name": "Republic Building (1927)",
+          "description":"Designed by preeminent Denver architect G. Meredith Musick, the building contained early Art Deco elements, which Musick later took full throttle, especially with his beautiful design of the Bryant-Webster Public School in northwest Denver. His Republic Building took up a quarter of Block 209, from the alley between Court Place and Tremont Place, along 16th Street.",
+          "image":"https://digital.denverlibrary.org/assets/display/2190769-max",
+          "citations": {
+            "text": {"name":"Denver History Tours Blog","url":"https://denverhistorytours.blogspot.com/2008/01/republic-building.html"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1056790"}
+          },
+          "imageMapLatLng": [39.763651, -105.010417],
+          "tileMapLatLng": [39.743218, -104.989051]
+        },
+        {
+          "name": "St. John’s Episcopal Cathedral (1911)",
+          "description":"After a fire struck the building in 1903, the cathedral held a competition for an architectural design for the new building. The cornerstone for what now stands as the cathedral was laid on January 24, 1909, and the building was completed in 1911. It houses a collection of significant religious artwork, including Oberammergau carvings (many of which are from the first cathedral) as well as stained glass windows from the Edward Frampton Studios of London and the Charles J. Connick Studios of Boston.",
+          "image":"https://digital.denverlibrary.org/assets/display/2213556-max?u=4589b11c8babef424bb744ba282fa4e4",
+          "citations": {
+            "text": {"name":"Saint John's Cathedral","url":"https://sjcathedral.org/history/"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1068181"}
+          },
+          "imageMapLatLng": [39.772477, -105.026743],
+          "tileMapLatLng": [39.738035, -104.978155]
+        },
+        {
+          "name": "Security Building (1927)",
+          "description":"For most architects working in the United States during the 1910s and '20s, modem architecture meant modern structural techniques and floor-plans but did not necessarily mean modern architectural style. [...] Instead, using the functionalist design concepts of thecommercial style,architects decorated their structures with ornament derived from one or another of a number of traditional styles. [...] In the case of the Security Building, which like the Midland Building, was the work of the architectural firm of William E. Fisher and Arthur A. Fisher, the style is the Neo-Gothic Style.",
+          "image":"https://digital.denverlibrary.org/assets/display/2160459-max",
+          "citations": {
+            "text": {"name":"National Register of Historic Places","url":"https://npgallery.nps.gov/GetAsset/448feba4-5f05-4a27-9eae-69b668137294"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1041634"}
+          },
+          "imageMapLatLng": [39.757897, -105.025893],
+          "tileMapLatLng": [39.745803, -104.991005]
+        },
+        {
+          "name": "State Office Building (1921)",
+          "description":"The architect hired to design the State Office Building was William N. Bowman, who specialized in designing public buildings. [...] The neoclassical State Office Building was constructed to closely match the State Capitol in style. The exterior is clad in Cotopaxi granite, and the interior lobby features an atrium topped by a stained glass skylight overlooking a black-and-white checkered marble floor, marble walls, and large bronze chandeliers. The building is also connected to the State Capitol and other state buildings via an underground tunnel.  Among the State Office Building’s most distinctive features are bronze mountain lions that guard the doors at the Colfax entrance.",
+          "image":"https://digital.denverlibrary.org/assets/display/2155171-max",
+          "citations": {
+            "text": {"name":"Colorado Virtual Library","url":"https://www.coloradovirtuallibrary.org/resource-sharing/state-pubs-blog/time-machine-tuesday-the-state-office-building-turns-100/"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1038986"}
+          },
+          "imageMapLatLng": [39.767974, -105.014040],
+          "tileMapLatLng": [39.740531, -104.985221]
+        },
+        {
+          "name": "Tramway Building (1911)",
+          "description":"Completed in 1911, the Tramway Building (1100 Fourteenth Street, Denver) consists of a striking red-and-white tower and adjacent car barn that originally served as the headquarters of the powerful Denver Tramway Company. In 1956 Tramway sold the building to the University of Colorado, which housed its Denver Center there after converting the car barn to classrooms. Students and faculty moved out after the Auraria Higher Education Center opened just across Cherry Creek in the late 1970s, and the University of Colorado later sold the building. In 1991 the Denver Center for the Performing Arts acquired the car barn, which now houses its education program, and in 1998 developers bought the tower and turned it into a boutique hotel called Hotel Teatro.",
+          "image":"https://digital.denverlibrary.org/assets/display/2260586-max",
+          "citations": {
+            "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/tramway-building-hotel-teatro"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1091688"}
+          },
+          "imageMapLatLng": [39.739237, -104.934337],
+          "tileMapLatLng": [39.746089, -104.998484]
         }
       ],
       "leaflet": {
