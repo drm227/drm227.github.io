@@ -1407,7 +1407,7 @@
         },
         {
           "name": "Manual Training School",
-          "description":"The fine Manual Training School is a recent addition to the educational equipment of District Number 1. I t was primarily the conception of C. S. Morey when he was a member of the Board; and while heartily indorsed and supported by his associates, its existence is to a great extent due to his deep personal interest and untiring zeal in and for it. A portion of the building was built in 1892 and occupied in April, 1893.",
+          "description":"The fine Manual Training School is a recent addition to the educational equipment of District Number 1. It was primarily the conception of C. S. Morey when he was a member of the Board; and while heartily indorsed and supported by his associates, its existence is to a great extent due to his deep personal interest and untiring zeal in and for it. A portion of the building was built in 1892 and occupied in April, 1893.",
           "image":"https://digital.denverlibrary.org/assets/display/2263779-max",
           "imageMapLatLng": [39.741531, -105.049551],
           "tileMapLatLng": [39.755506, -104.968877],
@@ -1620,6 +1620,28 @@
           "tileMapLatLng": [39.748543, -104.990517]
         },
         {
+          "name": "Central Bank & Trust (1911)",
+          "description":"Jacques Benedict (1879–1948), one of Colorado’s best-known and most-flamboyant architects [...] Practicing in Denver from 1909 to 1942, he is credited with at least eighty known buildings, mostly in metro Denver. He eschewed modern styles, preferring to work in various European revival modes. [...] The nine-story Central Savings Bank (1911) at Fifteenth and Arapahoe Streets was a highly praised Renaissance Revival building where Benedict once had an office. It was demolished in 1990 despite protests from preservationists.",
+          "image":"https://digital.denverlibrary.org/assets/display/2143453-max",
+          "citations": {
+            "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/jules-jacques-benois-benedict"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1033128"}
+          },
+          "imageMapLatLng": [39.739863, -104.966468],
+          "tileMapLatLng": [39.746921, -104.997376]
+        },
+        {
+          "name": "Central Loop (1892)",
+          "description":"Also, in 1892 the Tramway opened the Central Loop at 15th Street between Lawrence and Arapahoe Streets. The Central Loop, with its heated waiting room for patrons, became a major hub of the Tramway’s network",
+          "image":"https://digital.denverlibrary.org/assets/display/2260594-max",
+          "citations": {
+            "text": {"name":"Historic Streetcar Systems of Colorado","url":"https://www.historycolorado.org/sites/default/files/media/document/2020/Historic%20Streetcar%20Systems%20of%20Colorado_Part%202.pdf"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1091692"}
+          },
+          "imageMapLatLng": [39.736168, -104.957756],
+          "tileMapLatLng": [39.746885, -104.997879]
+        },
+        {
           "name": "Chamber of Commerce (1910)",
           "description":"This neoclassical building was built in 1910 and designed by Marean & Norton as the home to the Denver Chamber of Commerce. It was later covered with a metal facade and fell into disrepair, only to be faithfully restored in the late 1990s including the 400 electric lights in the facade. The building now contains residential apartments.",
           "image":"https://digital.denverlibrary.org/assets/display/2138798-max",
@@ -1646,7 +1668,7 @@
           "description":"The Continental Oil Building was built in 1926 by the Continental Oil Company for their own office use, with some additional rental space. It was build at the corner of Eighteenth and Glenarm Streets with a ground floor area 125 feet by 125 feet, with a court in the rear above the first floor 34 by 68 feet.  The present building is 10 stories high, extending 140 feet above the sidewalk [...] The exterior of the building is of polished granite up to the third floor line with cream colored terra cotta facing above, except for the spandrels betwween windows which are grayish green to emphasize the vertical window lines. The walls at the two street entrances are of polychrome terra cotta which leads the center of interest to thee two points.",
           "image":"https://digital.denverlibrary.org/assets/display/2155329-max",
           "citations": {
-            "text": {"name":"Municipal Facts","url":"https://www.historycolorado.org/location/chamber-commerce-building-chamber-lofts-denver"},
+            "text": {"name":"Municipal Facts","url":"https://digital.denverlibrary.org/nodes/view/184237?highlights=WyJcIkNvbnRpbmVudGFsIiwiT2lsIiwiQnVpbGRpbmdcIiIsImdsZW5hcm0iXQ==&type=all&keywords=%22Continental%20Oil%20Building%22%20glenarm#idx376674"},
             "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1039064"}
           },
           "imageMapLatLng": [39.760783168525954, -105.04234313964845],
@@ -1708,6 +1730,28 @@
           "tileMapLatLng": [39.744651, -104.984477]
         },
         {
+          "name": "Federal Reserve Branch (1925)",
+          "description":"The Denver Branch of the Federal Reserve Bank of Kansas City opened Jan. 14, 1918, in the Interstate Trust Building at the corner of 16th and Lawrence streets. [...] Conditions in the Interstate Trust Building were difficult. [...] Three years later [1925], the Branch resolved the space problem and moved into its own building at 1111 17th St. The Branch operated at that location through the early 1960s when the Branch sought to move into a more modern facility. In 1968, the Bank completed construction on the current facility at 16th and Curtis streets.",
+          "image":"https://digital.denverlibrary.org/assets/display/2145497-max",
+          "citations": {
+            "text": {"name":"Federal Reserve Bank of Kansas City","url":"https://www.kansascityfed.org/Denver/documents/7385/denver_branch_centennial.pdf"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1034150"}
+          },
+          "imageMapLatLng": [39.737884, -105.046935],
+          "tileMapLatLng": [39.749174, -104.994475]
+        },
+        {
+          "name": "Foster Building (1911)",
+          "description":"Constructed in 1911, the twelve-story office building was designed by noted Denver architects William E. and Arthur A. Fisher. While the first and second stories are surfaced with smooth cut granite, the walls are primarily of dark brown brick.  The 16th St. facade is composed of seven bays, with segmental arches topping the five central bays. The upper portion of the eleventh story and the entire twelfth story, which are faced with heavily ornamented terra cotta, appear as part of the building’s cornice line.  Alexis C. Foster was instrumental in the building’s construction, which was one of the first built after Denver modified an ordinance that had limited buildings to nine stories in height.",
+          "image":"https://digital.denverlibrary.org/assets/display/2198685-max",
+          "citations": {
+            "text": {"name":"History Colorado","url":"https://www.historycolorado.org/location/ac-foster-building-university-building"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1060751"}
+          },
+          "imageMapLatLng": [39.750588, -105.001873],
+          "tileMapLatLng": [39.746576, -104.994406]
+        },
+        {
           "name": "First Unitarian Church (1887)",
           "description":"The church on the southeast corner of the 19th and Broadway was dedicated on September 4, 1887.  Costing $42,358, it was described as one of the most beautiful church building in Denver, built of brick with red sandstone trimmings.  The sanctuary was approached by a flight of fourteen broad stone steps and the building was surrounded by a green lawn.  The sanctuary was furnished in oak and lighted by beautiful memorial windows of stained glass.",
           "image":"https://digital.denverlibrary.org/assets/display/2152309-max",
@@ -1716,6 +1760,17 @@
           "citations": {
             "text": {"name":"First Unitarian Society","url":"https://fusden.org/church-history/"},
             "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1037534"}
+          }
+        },
+        {
+          "name": "Haish Building (1888)",
+          "description":"Professor J.C. Shattuck, who has had in charge the construction of the addition that has been built to the Haish Manual Training School of Denver University, has completed the same and turned it over to the university. [...]  It is built of brick and is three stories high with a basement. This makes a total gift of $40,000 by Mr. Haish to the university.  In the basement is the gymnasium, which is one of the finest and best furnished in the West.  In the first story is the medical lecture room. This is in the front room and in the rear is the pharmaceutical department.  On the second floor in the front room is the Dental College, in the rear of which is a part of the rooms used by the Commercial College.  On the third floor is the amphitheater of the Medical College. Here lectures are also given, but the regular dissecting rooms are not connected with this building. In the rear of this amphitheater is a reception room for the professors and the medical laboratory.",
+          "image":"https://digital.denverlibrary.org/assets/display/2147792-max",
+          "imageMapLatLng": [39.740557, -104.947543],
+          "tileMapLatLng": [39.746032, -104.997641],
+          "citations": {
+            "text": {"name":"Jacob Haish History","url":"http://www.jacobhaishstory.com/2018/01/mr-haishs-liberal-gift.html"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1035298"}
           }
         },
         {
@@ -1763,15 +1818,37 @@
           "tileMapLatLng": [39.74547170913153, -104.99652745688607]
         },
         {
+          "name": "Pioneer Monument (1911)",
+          "description":"Denver’s Pioneer Monument, a sculpture-adorned fountain at the intersection of Broadway and Colfax, was erected in 1911 as a display of Denver’s place in the intensely complex migration branded as “Manifest Destiny.” This symbol, born of aspirational memory-making and established half a century after the city it hailed, immediately became a source of controversy and concern about public art, pioneers, and the nature of the American West. [...] Denver’s Pioneer Monument was part of a larger movement, down to its Beaux-Arts styling and the selection of famous artist Frederick MacMonnies as designer.",
+          "image":"https://digital.denverlibrary.org/assets/display/2278192-max",
+          "citations": {
+            "text": {"name":"Denver Public Library","url":"https://history.denverlibrary.org/news/denver/denvers-pioneer-monument-and-legacy-controversy"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1100491"}
+          },
+          "imageMapLatLng": [39.765022, -104.993698],
+          "tileMapLatLng": [39.740264, -104.987692]
+        },
+        {
           "name": "Post Office Building (1892)",
           "description":"The United States Building on the southwest corner of Sixteenth and Arapahoe streets was begun in the winter of 1884-85, and nearly eight years elapsed before it was entirely finished [...] This Federal Building, or, as more commonly called, the Post Office Building, is one of the conspicuously inconvenient, ill-arranged, cramped, dark, and inadequate public structures evolved by \"bureau architecture,\" and is wholly unfitted for present requirements",
           "image":"https://digital.denverlibrary.org/assets/display/2314007-max",
           "citations": {
-            "text": {"name":"History of Dever","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=970"},
+            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=970"},
             "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1118340"}
           },
           "imageMapLatLng": [39.743202, -104.999338],
           "tileMapLatLng": [39.747364, -104.995764]
+        },
+        {
+          "name": "Quincy Building (1887)",
+          "description":"The Quincy Building, formerly the Patterson & Thomas Building, on the northwest corner of Seventeenth and Curtis streets was built in 1887 by Thomas M. Patterson and Charles S. Thomas. It is of stone, pressed brick, and steel, and five stories high.",
+          "image":"https://digital.denverlibrary.org/assets/display/2190635-max",
+          "citations": {
+            "text": {"name":"Denver Public Library","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=967"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1056722"}
+          },
+          "imageMapLatLng": [39.747585, -105.030455],
+          "tileMapLatLng": [39.748136, -104.994155]
         },
         {
           "name": "Republic Building (1927)",
