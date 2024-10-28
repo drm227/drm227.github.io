@@ -4,9 +4,14 @@ define([
     'use strict';
 
     function BirdseyeComponentVM (params) {
+        var birdseye = params.config.birdseyes.find(function(birdseye){
+            return birdseye.name == decodeURI(location.hash).substring(1);
+        });
+        birdseye = birdseye ? birdseye : this.config.birdseyes[0];
+
         this.config = params.config;
 
-        this.birdseye = ko.observable(this.config.birdseyes[0]);
+        this.birdseye = ko.observable(birdseye);
         this.birdseye.subscribe(function(newValue){
             this.changeBirdseye(newValue);
         }.bind(this));
@@ -81,6 +86,12 @@ define([
                 $('#featureDialog').modal('show');
             });
         });
+        // Set the hash to the name of the birdseye selected.
+        location.hash = birdseye.name;
+    };
+
+    BirdseyeComponentVM.prototype.onClickInfo = function () {
+        window.open(this.birdseye().birdseye.url, "_blank");
     };
 
     BirdseyeComponentVM.prototype.onToggleMap = function () {
