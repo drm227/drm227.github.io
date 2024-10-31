@@ -1807,6 +1807,17 @@
           }
         },
         {
+          "name": "Midland Savings (1926)",
+          "description":"In 1926, Midland Savings Building, designed by Fisher and Fisher, was completed at 444 17th Street. The building was headquarters of the Midland Savings and Loan Company, one of the city's most respected financial institutions of the early twentieth century. Founded in 1891, the organization became the largest savings and loan firm in Colorado and one of the largest in the nation by the 1920s.",
+          "image":"https://digital.denverlibrary.org/assets/display/2190508-max",
+          "citations": {
+            "text": {"name":"National Register of Historic Places","url":"https://www.historycolorado.org/sites/default/files/media/document/2017/646.pdf"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1056659"}
+          },
+          "imageMapLatLng": [39.761113, -105.022087],
+          "tileMapLatLng": [39.744471, -104.989148]
+        },
+        {
           "name": "Mountain States Telephone (1929)",
           "description":"Completed in 1929, the Telephone Building at 931 14th Street in Denver served for fifty-five years as the headquarters of Mountain States Telephone and Telegraph. Designed by architect William N. Bowman in a combination of Art Deco and Gothic Revival styles, the building helped bring modern architecture to Denver. [...] The architectural style Bowman used for the building, which Mountain States called “Modern American Perpendicular Gothic,” was based on Neo-Gothic skyscrapers such as New York’s Woolworth Building (1913) as well as on the New York Telephone Company’s new Art Deco headquarters then under construction, the Barclay-Vesey Building (1927). Rising ten stories and then stepping back twenty feet to a five-story central tower with Gothic turrets, the Telephone Building in Denver was the first to take advantage of a setback provision in the city height ordinance that allowed buildings to rise above twelve stories if their additional height was set back from the street. Topping out at nearly 237 feet, the building was the tallest in Denver (aside from smelter stacks and the Daniels and Fisher Tower) until the 1950s and contained about 5.2 million cubic feet of space.",
           "image":"https://digital.denverlibrary.org/assets/display/2142715-max",
@@ -1907,6 +1918,15 @@
         }
       ],
       "leaflet": {
+        "imageMap": {
+          "options": {
+            "center": [39.75, -105],
+            "maxBounds": [[39.8,-104.905],[39.7,-105.095]],
+            "minZoom":12,
+            "maxBoundsViscosity": 1.0,
+            "zoom": 13
+          }
+        },
         "imageLayer": {
           "url": "https://digital.denverlibrary.org/assets/display/2165742-max?u=6851a9dc2ceabdf41486949ec8c160d4",
           "bounds": [[39.78728393766774,-105.07491186261178],[39.71368461695864, -104.92471285164356]],
@@ -1955,6 +1975,17 @@
           },
           "imageMapLatLng": [39.739401, -105.002517],
           "tileMapLatLng": [39.740702, -104.989724]
+        },
+        {
+          "name": "Brown Palace West (1959)",
+          "description":"The twenty-two-story tower, known as Brown Palace West, was designed by the New York architectural firm of William B. Tabler. Boettcher died in 1957, not long after approving plans for the tower. Construction went forward, and the new building opened on April 25, 1959, during the Rush to the Rockies centennial celebration. Brown Palace West added 300 guest rooms and a ballroom to the hotel, and it was connected to the historic triangular building by a bridge above Tremont Place and an underground service tunnel.",
+          "image":"https://www.cardcow.com/images/set405/card00796_fr.jpg",
+          "citations": {
+            "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/brown-palace-hotel"},
+            "image": {"name":"CardCow","url":"https://www.cardcow.com/327833/denver-colorado-brown-palace-hotel-west/"}
+          },
+          "imageMapLatLng": [39.755504, -104.985437],
+          "tileMapLatLng": [39.744441, -104.988358]
         },
         {
           "name": "Byers-Evans House (1883)",
@@ -2045,6 +2076,39 @@
           "tileMapLatLng": [39.737117, -104.989122]
         },
         {
+          "name": "Denver Athletic Club (1890)",
+          "description":"By 1890 club members had built a stylish, five-story Romanesque Revival home, designed by leading Denver architects Ernest P. Varian and Fredrick J. Sterner, at 1325 Glenarm Place. [...] The fast-growing club built an addition just two years later, doubling the building’s size. Architects Varian and Sterner were hired again and matched their earlier facade’s rusticated and polished red sandstone so skillfully that later members often assumed it was all built at the same time.",
+          "image":"https://digital.denverlibrary.org/assets/display/2153474-max",
+          "citations": {
+            "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/denver-athletic-club"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1038085"}
+          },
+          "imageMapLatLng": [39.745210, -105.051355],
+          "tileMapLatLng": [39.741647, -104.993746]
+        },
+        {
+          "name": "Denver Mint (1904)",
+          "description":"Established by Congress in 1862, the Denver Mint operated for more than four decades as an assay office, determining the quality of bullion but not producing any coins. In 1895 Congress authorized the mint to produce coins and also provided for a new building, which opened in 1904 at the corner of West Colfax Avenue and Cherokee Street. Expanded several times over the twentieth century, the mint now produces billions of coins per year and is one of the most popular attractions in the city.",
+          "image":"https://digital.denverlibrary.org/assets/display/2288206-max",
+          "imageMapLatLng": [39.736432,-105.037794],
+          "tileMapLatLng": [39.739337,-104.992276],
+          "citations": {
+            "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/denver-mint"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1105500"}
+          }
+        },
+        {
+          "name": "Denver Press Club (1925)",
+          "description":"The 1925 Denver Press Club is significant for its long-tenured role in social history and communications and represents the growth and history of Colorado journalism. A corner view of the red bricked building with parking lots on either side an American flag draping from the front and a series of windows beneath it. Denver Press Club This includes the club’s pioneering and central role in social support of journalists that reflects the societal and media industry transformation and journalism’s development through its inclusion of female members in the mid-1960s. The building is architecturally significant as a good example of the Tudor Revival architectural style designed by well-known Denver architects, Burnham F. Hoyt and Merrill H. Hoyt.",
+          "image":"https://www.historycolorado.org/sites/default/files/media/images/2018/5dv601.jpg",
+          "citations": {
+            "text": {"name":"History Colorado","url":"https://www.historycolorado.org/location/denver-press-club"},
+            "image": {"name":"History Colorado","url":"https://www.historycolorado.org/location/denver-press-club"}
+          },
+          "imageMapLatLng": [39.742933, -105.047321],
+          "tileMapLatLng": [39.741286, -104.993306]
+        },
+        {
           "name": "Denver City and County Building (1932)",
           "description":"Facing the State Capitol Building and completing the dominant east-west axis for Civic Center, Denver’s City and County Building (300 W. Colfax Avenue) is the grandest monument of Mayor Robert Speer’s City Beautiful efforts. The elegant neoclassical building houses the mayor, city council, many county and district courts, and other city offices. Conceived as part of Charles Mulford Robinson’s original City Beautiful Plan of 1906, which placed it on the north side of West Colfax Avenue, it took twenty-six years to materialize due to extended legal, political, and architectural battles. Completed in 1932 at a final cost of more than $5.5 million, it has not been altered much over the decades.",
           "image":"https://digital.denverlibrary.org/assets/display/2154277-max?u=698ffadee0c0ba2e61cdbce5c3b139dd",
@@ -2080,10 +2144,10 @@
         {
           "name": "Denver Public Library (1956)",
           "description":"In October, 1956, the new Burnham F. Hoyt library opened, hailed by the Denver Post as \"one of the world's most modern libraries,\" and adding a $3.3 million dollar asset to Denver's Civic Center. City Librarian John T. Eastlick explained \"We have tried for a wide open effect, informal, flexible, a place where it will be pleasant to come and where we can expand or contract at will as future needs develop.\" The apparently five story building actually comprises seven floors, with two levels of underground stacks with room to accommodate 500,000 books.",
-          "image":"https://history.denverlibrary.org/sites/history/files/styles/story/public/IMG_2796.JPG?itok=zl2KasIH",
+          "image":"https://history.denverlibrary.org/sites/history/files/cdm_60909_0.jpg",
           "citations": {
             "text": {"name":"Denver Public Library","url":"https://history.denverlibrary.org/exhibit/history-denver-public-library"},
-            "image": {"name":"Denver Public Library","url":"https://history.denverlibrary.org/exhibit/history-denver-public-library"}
+            "image": {"name":"Denver Public Library","url":"https://history.denverlibrary.org/news/denver/update-landmark-status-boyhood-home-red-rocks-architect-burnham-hoyt-rejected-denver"}
           },
           "imageMapLatLng": [39.721975, -104.979300],
           "tileMapLatLng": [39.737546, -104.988060]
@@ -2098,6 +2162,17 @@
           },
           "imageMapLatLng": [39.751182, -105.017580],
           "tileMapLatLng": [39.743812, -104.991054]
+        },
+        {
+          "name": "Denargo Market (1939)",
+          "description":"The [...] Denargo Market was built by the Growers’ Market Association on thirty acres of land at 29th Street and Broadway. The Denargo Market had access to the Union Pacific railway and boasted 504 growers’ stalls, an administration building, refrigeration plant, restaurant, and its own barber shop. It opened on May 20, 1939. On July 7, 1971, a four-alarm fire devastated the market. Today, the Denargo Market is the site of a major redevelopment project.",
+          "image":"https://5008.sydneyplus.com/HistoryColorado_ArgusNet_Final/ViewImage.aspx?template=Image&field=DerivedIm2&hash=10722cef523a49cef8f945a89dd975dc&r=1973317836&lang=en-US",
+          "citations": {
+            "text": {"name":"Denver Public Library","url":"https://history.denverlibrary.org/news/denvers-bygone-markets"},
+            "image": {"name":"History Colorado","url":"https://5008.sydneyplus.com/HistoryColorado_ArgusNet_Final/Portal.aspx?lang=en-US&g_AAFC=HistoryColorado_ArgusNet_Final+%7cObject+%7c%25SsearAtta+%3d+%2786.296.7679%27&d=d"}
+          },
+          "imageMapLatLng": [39.778677, -104.993355],
+          "tileMapLatLng": [39.762561, -104.989606]
         },
         {
           "name": "Elks Club (1912)",
@@ -2120,6 +2195,17 @@
           },
           "imageMapLatLng": [39.742569, -104.946126],
           "tileMapLatLng": [39.741387, -104.985269]
+        },
+        {
+          "name": "Fireman's Grain Elevator",
+          "description":"The Fireman’s Grain Elevator stood 120 feet tall at 20th Street and Wazee at the center of abandoned small buildings and remnants of our rail and distribution heritage. [...] Tractor-trailers were parked on the bricks inlayed by the previous era. The bricks as well as the entire area would be scrapped for the beginning construction of Coors Field.",
+          "image":"https://digital.denverlibrary.org/assets/display/2186608-max",
+          "citations": {
+            "text": {"name":"buckfifty.org","url":"https://buckfifty.org/2008/12/08/firemens-grain-elevator-implosion-1992/"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1054703"}
+          },
+          "imageMapLatLng": [39.773087, -105.033373],
+          "tileMapLatLng": [39.755400, -104.995197]
         },
         {
           "name": "First National Bank Building (1958)",
@@ -2155,6 +2241,17 @@
           "tileMapLatLng": [39.748161, -104.987932]
         },
         {
+          "name": "Justina Ford House (1890)",
+          "description":"Built in 1890 at 2335 Arapahoe Street in Denver, the Justina Ford House served for forty years as the home and office of Colorado’s first black woman physician. In 1984 the house was moved to save it from demolition, and after renovations it opened at 3091 California Street as the new home of the Black American West Museum. [...] What is now known as the Justina Ford House was originally built in 1890 on Arapahoe Street in the Curtis Park neighborhood of Denver. The house was a simple two-story rectangular box of red brick with an Italianate façade on a stone foundation.",
+          "image":"https://digital.denverlibrary.org/assets/display/2334669-max",
+          "citations": {
+            "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/justina-ford-house"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1128724"}
+          },
+          "imageMapLatLng": [39.770169, -104.975600],
+          "tileMapLatLng": [39.755089, -104.986847]
+        },
+        {
           "name": "Knights of Columbus (1910)",
           "description":"When the Fraternal Union Building was torn down in 1910, Denver Council 539 and the Knights of Columbus Building Association had already made plans for and completed construction of, the Knights of Columbus Club at 1409 Glenarm Place.  Built at a cost of $80,000, the building contained a basement used for storage and the heating plant; a ground floor, which was leased to Denver business concerns; a second floor, which was rented to many of the Catholic doctors of the area. On the third floor were offices, clubroom, library and smaller meeting rooms.  The fourth floor was the Council’s Chambers and a place where meetings , dances, and other large social gatherings were held.  ",
           "image":"https://digital.denverlibrary.org/assets/display/2110516-max",
@@ -2164,6 +2261,17 @@
           },
           "imageMapLatLng": [39.747321, -105.039854],
           "tileMapLatLng": [39.742322, -104.992932]
+        },
+        {
+          "name": "McNichols Building (1910)",
+          "description":"In 1902 Andrew Carnegie granted $200,000 to the city of Denver for a new library building. “Old Main,” as it became known, was built in Civic Center Park and matched the area’s other civic structures through its Neoclassical style, Corinthian columns, sandstone exterior, and granite base. Built at a cost of $430,000, the new library was designed to hold 300,000 books on its metal and glass shelves [...]  Today, the old Carnegie Library is known as the McNichols Civic Center Building and is a cultural center housing art exhibitions and cultural performances for the public.",
+          "image":"https://digital.denverlibrary.org/assets/display/2118196-max?u=83dcf0ca3038df6810ead7e7b4545172",
+          "imageMapLatLng": [39.734748, -105.001487],
+          "tileMapLatLng": [39.739722, -104.989549],
+          "citations": {
+            "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/denver-public-library"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1020494"}
+          }
         },
         {
           "name": "Mile High Center (1955)",
@@ -2199,6 +2307,17 @@
           "tileMapLatLng": [39.744159, -104.992259]
         },
         {
+          "name": "McPhee & McGinnity Paint Factory (1923)",
+          "description":"The McPhee & McGinnity Paint Factory is located at the intersection of Broadway, Walnut and 25th Streets [...] Constructed of red brick with a very restrained use of ivory glaze terra cotta trim, the building is constructed with a rhythmic fenestration pattern that generally consists of grouped window openings within vertical piers [..] The McPhee & McGinnity Paint Factory served as the paint manufacturing facility for the McPhee & McGinnity Lumber Company. The McPhee & McGinnity Lumber Company was instrumental in the construction of many of the city's buildings as a supplier and producer of construction materials during the period from the mid-1860s to the late 1920s.",
+          "image":"https://digital.denverlibrary.org/assets/display/2167626-max",
+          "citations": {
+            "text": {"name":"National Register of Historic Places","url":"https://npgallery.nps.gov/GetAsset/ccf4b7ba-460c-49d1-b433-a6d6d9b8a923"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1044908"}
+          },
+          "imageMapLatLng": [39.774720, -104.980545],
+          "tileMapLatLng": [39.758810, -104.987229]
+        },
+        {
           "name": "Paramount Theater (1930)",
           "description":"Denver’s Paramount Theater was the grandest of the movie palaces to open on Sixteenth. It was designed by Temple Hoyne Buell, then working with the theater design firm of C. W. and George L. Rapp, the nation’s foremost movie-palace architects. Buell made it a superb example of zigzag Art Deco, a style introduced by the Paris Exhibition of 1925 and characterized by sharp angular or curvilinear forms, flat roofs, shiny glazed surfaces, and sleek design. Inside and out, the Paramount displays exquisite Art Deco craftsmanship and ornamentation.",
           "image":"https://digital.denverlibrary.org/assets/display/2189505-max",
@@ -2210,9 +2329,20 @@
           "tileMapLatLng": [39.744495, -104.990085]
         },
         {
+          "name": "Steel's Deptartment Store (1922)",
+          "description":"The Steel’s Department Store building was completed in December, 1922 to house the new Denver branch of one of the country’s first chain department stores. One year later, the Steel’s chain had gone bankrupt and the Denver building sold. Decades later, the handsome building with muted Art Deco elements was home to Fontius Shoes, which operated out of the corner storefront until 1988. Then for nearly 20 years, the building sat mostly vacant and in disrepair [...] In 2008, the building finally received a complete restoration and is now known as the Sage Building.",
+          "image":"https://digital.denverlibrary.org/assets/display/2177543-max",
+          "citations": {
+            "text": {"name":"Denver Urbanism","url":"https://denverurbanism.com/ddhd-steels-department-store"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1050093"}
+          },
+          "imageMapLatLng": [39.753409, -105.021250],
+          "tileMapLatLng": [39.744531, -104.991706]
+        },
+        {
           "name": "Valley Highway (1958)",
           "description":"A January 12, 1945 headline in the Denver Post read, “Plans for Postwar Superhighways are Outlined by Denver.” The new highway would be 9.3 miles in length, beginning at 52nd Avenue between Acoma and Bannock Streets on the north and continue to Colorado and Buchtel Boulevard on the south. Because the route followed the valley west of the Platte River, it was named the \"Valley Highway.\" [...] By July 1946, an agreement had been reached between the state, federal and city officials to purchase all of the right-of-way, with construction slated to begin in 1947. [...] The north-south Valley Highway was completed in 1958.",
-          "image":"https://scontent-den2-1.xx.fbcdn.net/v/t39.30808-6/337279812_6795941463754294_1403237075867488848_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ev1fqvVcEuIQ7kNvgGrn1Ux&_nc_zt=23&_nc_ht=scontent-den2-1.xx&_nc_gid=A8maIrI283b23XmeFLkJqqF&oh=00_AYDWBQ-fVxAp_s8MnXU5yjhN9M7GXSklRNqcgnPk8HadPQ&oe=6714655C",
+          "image":"ValleyHighway.jpg",
           "citations": {
             "text": {"name":"Globeville Story","url":"http://globevillestory.blogspot.com/2016/11/the-vally-highway.html"},
             "image": {"name":"Historic Denver","url":"https://www.facebook.com/photo/?fbid=540105751642249&set=a.503590918627066"}
@@ -2222,10 +2352,10 @@
         },
         {
           "name": "Petroleum Club Building (1957)",
-          "description":"When it open in 1957, the Petroleum Club Building at 16th and Broadway was not only the tallest building in Denver, but is also housed the biggest oil man’s club in the world with 1,100 members.  It was a mid-century modernist high-rise with simple, austere lines designed by Denver architect Charles Strong.  The club, situated on the 12th and 13th floors, was described as a “thing of expensive magnificence, elegance and luxuriousness,” in The Denver Post at the time.",
+          "description":"Numerous exploration and production companies located in Denver, and the industry supported its own Petroleum Club for members of the industry, founded in 1948 by Bill and Maury Goodin. The 1957 Petroleum Club building was described as the only “Denver-owned, Denver-financed major building” of the period. Denver Architect Charles D. Strong designed the Formalist style office building and club headquarters at 110 16th Street, completed in 1957. It was believed that such a fine building would put Denver on a level with other oil centers in the country, such as Los Angeles and Houston.",
           "image":"https://digital.denverlibrary.org/assets/display/2332243-max",
           "citations": {
-            "text": {"name":"Denver Post","url":"https://www.denverpost.com/2007/09/27/time-capsule-reveals-secrets-tomorrow/"},
+            "text": {"name":"National Register of Historic Places","url":"https://www.historycolorado.org/sites/default/files/media/document/2017/646.pdf"},
             "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1127512"}
           },
           "imageMapLatLng": [39.744616, -104.977369],
@@ -2241,6 +2371,17 @@
           },
           "imageMapLatLng": [39.757549, -105.041742],
           "tileMapLatLng": [39.745573, -104.993870]
+        },
+        {
+          "name": "Rocky Mountain News (1952)",
+          "description":"The Rocky Mountain News, a newspaper that was a Denver institution for just short of 150 years, was Colorado's oldest newspaper and possibly the longest-running business in the state. Born during the 1859 Colorado Gold Rush, the paper went through many ups and downs, until it finally closed its doors in 2009, just two months shy of its 150th anniversary. [...] The Rocky moves from Welton Street to 400 W. Colfax Avenue [June 1952].",
+          "image":"https://digital.denverlibrary.org/assets/display/1475031-max",
+          "citations": {
+            "text": {"name":"Denver Public Library","url":"https://history.denverlibrary.org/exhibit/rocky-mountain-news-denver-public-library"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/714031"}
+          },
+          "imageMapLatLng": [39.736135, -105.053458],
+          "tileMapLatLng": [39.739558, -104.993451]
         },
         {
           "name": "State Services Building (1957)",
@@ -2265,6 +2406,17 @@
           "tileMapLatLng": [39.753149, -105.000107]
         },
         {
+          "name": "U.S. Custom House (1931)",
+          "description":"Located in the heart of the Denver Federal District, the U.S. Custom House is an Italian Renaissance Revival architectural marvel. Architects James Wetmore and Temple H. Buell designed and constructed the “E” shaped building between 1931 and 1937. The main entrance’s arched grill and doors are made of solid bronze. Oak and quarry tile were used extensively throughout the building. Colorado yule marble was used on both the interior and exterior of the building — the same marble used to construct the Lincoln Memorial and the Tomb of the Unknown Soldier in Washington, DC. ",
+          "image":"https://digital.denverlibrary.org/assets/display/2145408-max",
+          "citations": {
+            "text": {"name":"General Services Administration","url":"https://www.gsa.gov/about-us/gsa-regions/region-8-rocky-mountain/buildings-and-facilities/colorado/denver-federal-district/us-custom-house"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1034105"}
+          },
+          "imageMapLatLng": [39.762003, -104.986081],
+          "tileMapLatLng": [39.748813, -104.988381]
+        },
+        {
           "name": "University Club (1895)",
           "description":"The University Club stands at 17th (Seventeenth) 17th Avenue and Sherman Street in Denver, Colorado. [...] The University Club was built in 1895 and was designed by Frederick Sterner and Ernest Phillip Varian.",
           "image":"https://digital.denverlibrary.org/assets/display/2319405-max",
@@ -2277,6 +2429,15 @@
         }
       ],
       "leaflet": {
+        "imageMap": {
+          "options": {
+            "center": [39.75, -105],
+            "maxBounds": [[39.8,-104.905],[39.7,-105.095]],
+            "minZoom":12,
+            "maxBoundsViscosity": 1.0,
+            "zoom": 13
+          }
+        },
         "imageLayer": {
           "url": "1960 Walla.jpeg",
           "bounds": [[39.78728393766774,-105.07491186261178],[39.71368461695864, -104.92471285164356]],
