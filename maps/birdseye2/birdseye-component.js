@@ -7,7 +7,7 @@ define([
         var birdseye = params.config.birdseyes.find(function(birdseye){
             return birdseye.name == decodeURI(location.hash).substring(1);
         });
-        birdseye = birdseye ? birdseye : this.config.birdseyes[0];
+        birdseye = birdseye ? birdseye : params.config.birdseyes[0];
 
         this.config = params.config;
 
