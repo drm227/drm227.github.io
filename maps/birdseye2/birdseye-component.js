@@ -28,6 +28,8 @@ define([
         this.map = ko.computed(function(){
             return this.isMapVisible() ? this.birdseye().map : undefined;
         }.bind(this));
+
+        this.buildIndex();
     }
 
     BirdseyeComponentVM.prototype.afterRenderComponent = function (elements,viewModel) {
@@ -45,7 +47,7 @@ define([
     };
 
     BirdseyeComponentVM.prototype.afterRenderMap = function (elements,viewModel) {
-        console.log(elements);
+        //console.log(elements);
     };
 
     BirdseyeComponentVM.prototype.initializeMap = function () {
@@ -99,8 +101,45 @@ define([
         this.tileMap.invalidateSize();
     };
 
+    BirdseyeComponentVM.prototype.buildIndex = function () {
+        var _this = this,
+            names = {};
+        this.features = [];
+        // Add all features from all birdseyes to features array
+        this.config.birdseyes.forEach(function(birdseye){
+            birdseye.features.forEach(function(feature){
+                if (names[feature.name]) {
+                    names[feature.name].birdseyes.push(birdseye.name);
+                }
+                else {
+                    feature.birdseyes = [birdseye.name];
+                    _this.features.push(feature);
+                    names[feature.name] = feature;
+                }
+            });
+        });
+        // Sort the features array by name
+        this.features.sort(function(left,right){return left.name < right.name ? -1 : 1});
+    };
+
+    BirdseyeComponentVM.prototype.onClickFeatureBirdseye = function(name,e) {
+        var vm = ko.contextFor(e.target).$parents[1],
+            feature = ko.contextFor(e.target).$parent,
+            birdseye;
+        if (feature.birdseye != vm.birdseye().name) {
+            birdseye = vm.config.birdseyes.find(function (be){
+                return be.name == feature.birdseyes;
+            });
+            vm.birdseye(birdseye);
+        }
+        vm.feature(feature);
+        $('#featureDialog').modal('show');
+        window.scrollTo(0,0);
+    };
+
     return {
         template: { require: 'text!birdseye-component.html' },
         viewModel: BirdseyeComponentVM
     };
 });
+

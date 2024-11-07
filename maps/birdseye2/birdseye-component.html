@@ -6,6 +6,8 @@
         <div class="col-4 form-inline">
             <label class="col-form-label text-white">Bird's Eye View:&nbsp;</label>
             <select class="form-control" data-bind="value:birdseye,options:config.birdseyes,optionsText:'name'"></select>
+            &nbsp
+            <a role="link" tabindex="0" aria-label="open library page for overlay map" style="cursor:help;color:white;" alt="open library page for left map" data-bind="click:onClickInfo">&#9432;</a>
         </div>
     </nav>
 
@@ -44,6 +46,17 @@
             </div>
         </div>
     </div>
+</div>
 
+<div id="feature-index">
+    <table class="table">
+        <thead><tr><th>Name</th><th>Bird's Eye View</th></tr></thead>
+        <tbody data-bind="foreach:features">
+            <tr>
+                <td data-bind="text:name"></td>
+                <td data-bind="foreach:birdseyes"><div data-bind="if:$index > 0"><br/></div><a href="" data-bind="text:$data,click:$parents[1].onClickFeatureBirdseye"></a></td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 
