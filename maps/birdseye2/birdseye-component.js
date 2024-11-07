@@ -122,6 +122,10 @@ define([
         this.features.sort(function(left,right){return left.name < right.name ? -1 : 1});
     };
 
+    BirdseyeComponentVM.prototype.onClickIndex = function () {
+        $('#indexDialog').modal('show');
+    };
+
     BirdseyeComponentVM.prototype.onClickFeatureBirdseye = function(name,e) {
         var vm = ko.contextFor(e.target).$parents[1],
             feature = ko.contextFor(e.target).$parent,
@@ -133,8 +137,9 @@ define([
             vm.birdseye(birdseye);
         }
         vm.feature(feature);
+        $('#indexDialog').modal('hide');
         $('#featureDialog').modal('show');
-        window.scrollTo(0,0);
+        vm.imageMap.setView(feature.imageMapLatLng,16);
     };
 
     return {
@@ -142,4 +147,3 @@ define([
         viewModel: BirdseyeComponentVM
     };
 });
-

@@ -9,6 +9,9 @@
             &nbsp
             <a role="link" tabindex="0" aria-label="open library page for overlay map" style="cursor:help;color:white;" alt="open library page for left map" data-bind="click:onClickInfo">&#9432;</a>
         </div>
+        <div class="col-4">
+            <a role="button" aria-label="open index dialog" alt="open index dialog" class="ml-3 text-white" data-bind="click:onClickIndex">Show Marker Index</a>
+        </div>
     </nav>
 
     <div class="row" style="margin-top:58px;">
@@ -46,17 +49,34 @@
             </div>
         </div>
     </div>
-</div>
 
-<div id="feature-index">
-    <table class="table">
-        <thead><tr><th>Name</th><th>Bird's Eye View</th></tr></thead>
-        <tbody data-bind="foreach:features">
-            <tr>
-                <td data-bind="text:name"></td>
-                <td data-bind="foreach:birdseyes"><div data-bind="if:$index > 0"><br/></div><a href="" data-bind="text:$data,click:$parents[1].onClickFeatureBirdseye"></a></td>
-            </tr>
-        </tbody>
-    </table>
+
+    <div class="modal fade" id="indexDialog" tabindex="-1" role="dialog" aria-labelledby="indexModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content" data-bind="">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="indexModalLabel">Marker Index</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="table">
+                        <thead><tr><th>Name</th><th>Bird's Eye View</th></tr></thead>
+                        <tbody data-bind="foreach:features">
+                        <tr>
+                            <td data-bind="text:name"></td>
+                            <td data-bind="foreach:birdseyes"><div data-bind="if:$index > 0"><br/></div><a href="" data-bind="text:$data,click:$parents[1].onClickFeatureBirdseye"></a></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>
 
