@@ -132,7 +132,7 @@ define([
             birdseye;
         if (feature.birdseye != vm.birdseye().name) {
             birdseye = vm.config.birdseyes.find(function (be){
-                return be.name == feature.birdseyes;
+                return be.name == feature.birdseyes[ko.contextFor(e.target).$index()];
             });
             vm.birdseye(birdseye);
         }
