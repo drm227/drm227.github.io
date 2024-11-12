@@ -2054,6 +2054,17 @@
           "tileMapLatLng": [39.741678, -104.988862]
         },
         {
+          "name": "Curry-Chucovich House (1888)",
+          "description":"Architect Fred Hale designed the 1887-88 sandstone townhouse using elements of Queen Anne and Romanesque Revival styles. The building is the oldest remaining residential structure in downtown Denver. The house was built for James M. Curry who operated the Douglas County Lava Quarries in Castle Rock. Vasco L. Chucovich, a Yugoslavian immigrant, took possession of the house in 1902. Chucovich invested in real estate but made a substantial income from his gambling connections. He became involved in local politics and counted Mayor Robert Speer among his close friends.",
+          "image":"https://digital.denverlibrary.org/assets/display/2334657-max",
+          "imageMapLatLng": [39.741827,-105.013461],
+          "tileMapLatLng": [39.741317, -104.990603],
+          "citations": {
+            "text": {"name":"Denver Public Library","url":"https://history.denverlibrary.org/building/curry-chucovich-house"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1128718"}
+          }
+        },
+        {
           "name": "Daniels & Fisher Tower (1911)",
           "description":"At the corner of Sixteenth and Arapahoe, where the enlarged store’s new main entrance would be, Daniels wanted to build an impressive tower to serve as an artistic advertisement for the store. Designed by Colorado architect Frederick G. Sterner, the tower was based on St. Mark’s Campanile in Venice, which had collapsed in 1902 and was being rebuilt at the time, inspiring replicas around the world. The Daniels and Fisher Tower would be a few feet taller, though, prompting the Denver Times to joke that Venice was building a smaller copy of Denver’s tower.",
           "image":"https://digital.denverlibrary.org/assets/display/2116522-max",
@@ -2230,6 +2241,17 @@
           "tileMapLatLng": [39.745619, -104.995658]
         },
         {
+          "name": "Ghost Building (1890)",
+          "description":"This business block, named for its client, Allen M. Ghost, is the only commercial design by one of Denver's best-known residential architects, who had his office here. A two-story arcade embracing storefront and second-story office windows is highlighted by radiating stone trim beneath a double-corniced third story. Quarry-face brown sandstone laid in a vernacular Richardsonian Romanesque mode exhibits the eccentric, ornate detailing that hallmarked Lang's work. Built at 15th Street and Glenarm Place, the building was reconstructed here after being disassembled stone by stone. The resurrected Ghost Block reopened in 1990 as a popular restaurant featuring Old West food and drink and New West decor.",
+          "image":"https://digital.denverlibrary.org/assets/display/2334251-max",
+          "citations": {
+            "text": {"name":"SAH Archipedia","url":"https://sah-archipedia.org/buildings/CO-01-DV038"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1128515"}
+          },
+          "imageMapLatLng": [39.748509, -105.027451],
+          "tileMapLatLng": [39.742955, -104.992094]
+        },
+        {
           "name": "Holy Ghost Chruch (1924)",
           "description":"In 1922–23, Neenan paid $70,000 for a new church site at Nineteenth and California Streets. Prominent Denver architect Jules Jacques Benois Benedict was hired to design the building. Completed in December 1923, Benedict’s plan called for a blend of Spanish and Italian Renaissance architecture that would provide the “directness and simplicity” that he believed were desirable in a downtown church. The large church would occupy the entire site and seat 1,200 people. Ground was broken on February 29, 1924, and the cornerstone was laid on October 5 of that year, but funding did not allow for the full building to be completed. Instead, only the basement was built and a temporary tar roof was erected over it. On December 14, 1924, the church was dedicated in its partially finished state, with about one-third of Benedict’s design completed.",
           "image":"https://digital.denverlibrary.org/assets/display/2201206-max",
@@ -2261,6 +2283,17 @@
           },
           "imageMapLatLng": [39.747321, -105.039854],
           "tileMapLatLng": [39.742322, -104.992932]
+        },
+        {
+          "name": "Majestic Building",
+          "description":"Over the next decade Sixteenth Street experienced a construction boom. [...] elegant offices and stores designed by Frank Edbrooke made Sixteenth into the most impressive urban street between Chicago and California: the Essex Building (1887) and the nine-story People’s National Savings Bank (1890) at Lawrence, the Joslin Dry Goods Building (1887) at Curtis, the Denver Dry Goods Building (1889) at California, the Masonic Temple Building (1889) at Welton, and the Majestic Building (1894) at Cleveland Place.",
+          "image":"https://digital.denverlibrary.org/assets/display/2198442-max?u=b026c164e4d0c38db70f89fe699b1ec0",
+          "imageMapLatLng": [39.746496, -104.978699],
+          "tileMapLatLng": [39.742260, -104.987864],
+          "citations": {
+            "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/sixteenth-street-denver"},
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1060629"}
+          }
         },
         {
           "name": "McNichols Building (1910)",
