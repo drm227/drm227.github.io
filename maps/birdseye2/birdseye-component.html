@@ -66,7 +66,7 @@
                         <tbody data-bind="foreach:features">
                         <tr>
                             <td data-bind="text:name"></td>
-                            <td data-bind="foreach:birdseyes"><div data-bind="if:$index > 0"><br/></div><a href="" data-bind="text:$data,click:$parents[1].onClickFeatureBirdseye"></a></td>
+                            <td ><a href="" data-bind="text:birdseye,click:$parent.onClickFeatureBirdseye"></a></td>
                         </tr>
                         </tbody>
                     </table>

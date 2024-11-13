@@ -108,14 +108,8 @@ define([
         // Add all features from all birdseyes to features array
         this.config.birdseyes.forEach(function(birdseye){
             birdseye.features.forEach(function(feature){
-                if (names[feature.name]) {
-                    names[feature.name].birdseyes.push(birdseye.name);
-                }
-                else {
-                    feature.birdseyes = [birdseye.name];
-                    _this.features.push(feature);
-                    names[feature.name] = feature;
-                }
+                feature.birdseye = birdseye.name;
+                _this.features.push(feature);
             });
         });
         // Sort the features array by name
@@ -127,12 +121,13 @@ define([
     };
 
     BirdseyeComponentVM.prototype.onClickFeatureBirdseye = function(name,e) {
-        var vm = ko.contextFor(e.target).$parents[1],
-            feature = ko.contextFor(e.target).$parent,
+        var context = ko.contextFor(e.target),
+            vm = context.$parent,
+            feature = context.$data,
             birdseye;
         if (feature.birdseye != vm.birdseye().name) {
             birdseye = vm.config.birdseyes.find(function (be){
-                return be.name == feature.birdseyes[ko.contextFor(e.target).$index()];
+                return be.name == feature.birdseye;
             });
             vm.birdseye(birdseye);
         }
