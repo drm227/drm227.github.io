@@ -1,0 +1,663 @@
+{
+  "birdseyes": [
+    {
+      "name": "1850 Bachmann",
+      "birdseye": {
+        "title": "The City of Boston : 1879",
+        "creator": "O.H. Bailey & Co",
+        "year": "1879",
+        "url": "https://collections.leventhalmap.org/search/commonwealth:x059c9968",
+        "description": "This view of Victorian Boston portrays a prosperous city during its Independence Day celebration. Cannon smoke issuing from harbor island fortifications and a military re-enactment on the Boston Common are clearly evident. Boston is a city that is clearly undergoing rapid change. Industries have begun to crowd portions of the waterfront. The shipping trade that fueled Boston's prosperity for two centuries has fallen off due to the arrival of the railroads in the 1830s. Although the harbor is full of clipper ships that brought fame to Boston in the 1850s, the steamship, only two of which are visible, has decimated New England's shipbuilding industry, which was centered on wooden ships."
+      },
+      "map": {
+        "title": "Map of the city of Boston and immediate neighborhood : from original surveys",
+        "creator": "Hopkins, G.M.",
+        "year": "1852",
+        "url": "https://collections.leventhalmap.org/search/commonwealth:3f4632536",
+        "description": "This large wall map provides a point of comparison for appreciating the various geographical perspectives used in the Boston birds eye views. It also serves as a baseline from which to trace the growth of Shawmut Peninsulas land mass during the last half of the 19th century when these views were published. It is plain that in 1852 the reclamation of Back Bay has not yet begun. Like most conventional maps, it is oriented with north at the top."
+      },
+      "features": [
+        {
+          "name": "Boston & Providence RR Depot (1834)",
+          "description":"It is located on Pleasant Street.  The building is replaced by a new station (second)  in Park Square in 1875.",
+          "image":"https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:cf95jh054/image_access_800.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/6065"},
+            "image": {"name":"Digital Commonwealth","url":"https://www.digitalcommonwealth.org/search/commonwealth:cf95jh04v"}
+          },
+          "imageMapLatLng": [-302,522],
+          "tileMapLatLng": [42.351260, -71.068200]
+        },
+        {
+          "name": "Bunker Hill Monument (1843)",
+          "description":"  Architect: Solomon Willard. The base is designed by Arthur Vinal.  Built of 6,700 tons of Quincy granite, the obelisk is located in Monument Square.  President John Tyler and 13 veterans of the battle attend the event the dedication ceremony.  As he did for the laying of the cornerstone 18 years earlier, Daniel Webster delivers the oration.  In his speech, he declares, \"[The monument shall prompt] from every youthful breast, the ejaculation ‘thank God, I - I also - AM AN AMERICAN.’\"  The first major Revolutionary War monument in the U.S., it is also the first monument in the U.S. to honor a group of soldiers rather than an individual officer, and the tallest structure in the U.S. at this time.",
+          "image":"https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:37720k20k/image_access_800.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/7185"},
+            "image": {"name":"Digital Commonwealth","url":"https://www.digitalcommonwealth.org/search/commonwealth:37720k19t"}
+          },
+          "imageMapLatLng": [-206.5,69.5],
+          "tileMapLatLng": [42.376346, -71.060769]
+        },
+        {
+          "name": "Charles Street Meeting House (1807)",
+          "description":"Originally the Third Baptist Church in Boston, it is patterned after designs by Benjamin Asher and located is patterned after designs by Benjamin Asher and located is located at today’s 121 Mount Vernon Street (70 Charles Street).  The congregation was established by former members of the First and Second Baptist Churches.  Caleb Blood is the first minister.  Speakers include Frederick Douglass, William Lloyd Garrison, Wendell Phillips, Harriet Tubman, and Sojourner Truth.  The building is purchased by the Charles Street A.M.E. Church in 1876,* and later used as an Albanian Orthodox Church.  It is purchased by the Charles Street Meeting House Society in 1939, and by the Universalist Church of America in 1949*  [Society for the Preservation of New England Antiquities in 1947-Tufts].  The building is renovated by John Sharratt Associates as the architect's office and home and for other commercial use in 1982.",
+          "image":"https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:37720k976/image_access_800.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/4046"},
+            "image": {"name":"Digital Commonwealth","url":"https://www.digitalcommonwealth.org/search/commonwealth:37720k96x"}
+          },
+          "imageMapLatLng": [-294,171],
+          "tileMapLatLng": [42.357902, -71.070638]
+        },
+        {
+          "name": "New South Church (1814)",
+          "description":"  Architect: Charles Bulfinch.  Built of Chelmsford granite the octagonal building is located on Church Green at the corner of Summer Street and Bedford Street at today's 105 - 113 Summer Street.  At the time, it is reputed to be the only Boston church built facing the sea.  At the dedication ceremony, Samuel Cooper Thatcher delivers \"An Apology for Rational and Evangelical Christianity,\" which Peter Tufts Richardson later calls \"the clearest polemic for the new movement\" prior to William Ellery Channing's \"Unitarian Christianity.\"  The congregation moves to Tremont Street (third) in 1868,* and the building is torn down to make way for commercial development.",
+          "image":"https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:2801pj98w/image_access_800.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/4406"},
+            "image": {"name":"Digital Commonwealth","url":"https://www.digitalcommonwealth.org/search/commonwealth:2801pj97m"}
+          },
+          "imageMapLatLng": [-196,383],
+          "tileMapLatLng": [42.353487, -71.058130]
+        }
+      ],
+      "leaflet": {
+        "imageLayer": {
+          "url": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:x059c997j/info.json",
+          "options": {
+            "interactive": true
+          }
+        },
+        "imageMap": {
+          "options": {
+            "maxBoundsViscosity": 1.0,
+            "zoom": 1
+          }
+        },
+        "tileLayer": {
+          "url": "https://geo.leventhalmap.org/maps/tile/21/{z}/{x}/{y}.png",
+          "options": {
+            "center": [
+              39.749771275005315,
+              -104.99320908930397
+            ]
+          }
+        },
+        "tileMap": {
+          "options": {
+            "center": [
+              39.749771275005315,
+              -104.99320908930397
+            ],
+            "zoom": 15,
+            "minZoom": 12,
+            "maxZoom": 18
+          }
+        }
+      }
+    },
+    {
+      "name": "1866 Nutting",
+      "birdseye": {
+        "title": "Bird's eye view of Boston",
+        "creator": "Nutting, B. F.",
+        "year": "1866",
+        "url": "https://www.digitalcommonwealth.org/search/commonwealth:3f4633656",
+        "description": ""
+      },
+      "map": {
+        "title": "Insurance map of Boston : volume 1",
+        "creator": "Sanborn, D. A.",
+        "year": "1867",
+        "url": "https://collections.leventhalmap.org/search/commonwealth:tt44pw36n",
+        "description": ""
+      },
+      "features": [
+        {
+          "name": "Beacon Hill Reservoir (1849)",
+          "description":"Architect: William Whitwell.  One of the new reservoirs built to supply \"high water service\" to the newly annexed towns, it is located on Derne Street.  The reservoir is closed in 1880, demolished in 1884, and filled in 1889.  Some of the granite blocks from the reservoir are subsequently used for the foundation of the rear addition the Massachusetts State House.",
+          "image":"https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:c821gr18p/image_access_800.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/8313"},
+            "image": {"name":"Digital Commonwealth","url":"https://www.digitalcommonwealth.org/search/commonwealth:c821gr17d"}
+          },
+          "imageMapLatLng": [-353.5, 307.3],
+          "tileMapLatLng": [42.359169, -71.063949]
+        },
+        {
+          "name": "Fitchburg Railroad Depot (1848)",
+          "description":"  Architect: George Dexter.  Originally Fitchburg Depot, it is located on Causeway Street.  The castle-like building includes the second-floor Depot Hall, the largest auditorium in New England at the time, with a capacity of 4,000 people.  Jenny Lind performs there in 1850.*  Damaged by a fire on January 17, 1925, the building is demolished in 1926.",
+          "image":"https://images.historicnewengland.org/rs/280133/scr/default.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/8081"},
+            "image": {"name":"Historic New England","url":"https://www.historicnewengland.org/explore/collections-access/gusn/321486"}
+          },
+          "imageMapLatLng": [-355, 134.4],
+          "tileMapLatLng": [42.366312, -71.060942]
+        },
+        {
+          "name": "Mercantile Wharf (1856)",
+          "description":"Architect: Gridley Bryant.  Designed in the Italian Palazzo style, the three granite buildings are located at today’s 71 - 117 Commercial Street.  The western end of the row of buildings is demolished to make way for construction of Cross Street in 1933.  Part of the remaining buildings are demolished to make way for construction of the Central Artery in the 1950s.  The remaining sections are converted to residential use in 1976.*",
+          "image":"https://cdm.bostonathenaeum.org/digital/api/singleitem/image/p13110coll5/1969/default.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/9755"},
+            "image": {"name":"Boston Athenaeum","url":"https://cdm.bostonathenaeum.org/digital/collection/p13110coll5/id/1969"}
+          },
+          "imageMapLatLng": [-314.7, 236.9],
+          "tileMapLatLng": [42.361419, -71.052763]
+        },
+        {
+          "name": "Natural History Museum (1864)",
+          "description":"  Architect: William Preston.  Originally the Museum of Natural History, it is designed in the  French Academic style and located at 234 Berkeley Street.  Bradford Washburn is the longtime director in the late 20th century.  Ioannis Miaoulis is the current director.  The museum moves to its current site (second) in 1951.*  The original building becomes home to Bonwit Teller in 1947, then to Louis Boston until 2010, and to Restoration Hardware in 2013.",
+          "image":"https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:ht24xc87q/image_access_800.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/11179"},
+            "image": {"name":"Digital Commonwealth","url":"https://www.digitalcommonwealth.org/search/commonwealth:ht24xc86f"}
+          },
+          "imageMapLatLng": [-399.8, 546.8],
+          "tileMapLatLng": [42.351573, -71.073696]
+        }
+      ],
+      "leaflet": {
+        "imageLayer": {
+          "url": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:3f463366g/info.json",
+          "options": {
+            "interactive": true
+          }
+        },
+        "imageMap": {
+          "options": {
+            "maxBoundsViscosity": 1.0,
+            "zoom": 1
+          }
+        },
+        "tileLayer": {
+          "url": "https://s3.us-east-2.wasabisys.com/urbanatlases/39999059012052/tiles/{z}/{x}/{y}.png",
+          "options": {
+            "center": [
+              39.749771275005315,
+              -104.99320908930397
+            ]
+          }
+        },
+        "tileMap": {
+          "options": {
+            "center": [
+              39.749771275005315,
+              -104.99320908930397
+            ],
+            "zoom": 15,
+            "minZoom": 12,
+            "maxZoom": 20
+          }
+        }
+      }
+    },
+    {
+      "name": "1879 Bailey",
+      "birdseye": {
+        "title": "The City of Boston : 1879",
+        "creator": "O.H. Bailey & Co",
+        "year": "1879",
+        "url": " https://collections.leventhalmap.org/search/commonwealth:3f463447g",
+        "description": ""
+      },
+      "map": {
+        "title": "City atlas of Boston, Massachusetts : complete in one volume : from official records, private plans and actual surveys",
+        "creator": "Hopkins, Griffith Morgan, Jr.",
+        "year": "1882",
+        "url": "https://collections.leventhalmap.org/search/commonwealth:tt44pv51j",
+        "description": ""
+      },
+      "features": [
+        {
+          "name": "Atlantic Avenue (1872)",
+          "description":"  Built of made land from the recently demolished Fort Hill, it runs along the route of the former Barricado.  Construction began in 1869 and led to the demolition of parts of a number of warehouses.  The road was meant to promote commercial activity, but soon after it is built the Port of Boston begins to decline in importance.",
+          "image":"https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:x059cb19c/3072,3072,1024,1024/1024,/0/default.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/13663"},
+            "image": {"name":"Leventhal Map & Education Center","url":"https://www.digitalcommonwealth.org/search/commonwealth:x059cb183"}
+          },
+          "imageMapLatLng": [-300.5, 527.1],
+          "tileMapLatLng": [42.361165, -71.051066]
+        },
+        {
+          "name": "Charles Street Jail (1851)",
+          "description":"  Architect: Gridley Bryant.  With Rev. Louis Dwight.  Designed in the Italian Palazzo style as the Town Jail (fifth) and House of Correction (sixth), it is located at today's 215 Charles Street.  An octagonal central building with four radiating wings, the facility incorporates the latest theories in correctional thinking promoted by Dwight's Prison Discipline Society and provides light and fresh air in every cell.  Inmates subsequently include Gennaro Angiulo, Elmer \"Trigger\" Burke, James Michael Curley, William Lloyd Garrison, Sacco and Vanzetti, women suffragists in 1919, and the crew of a captured German submarine.  The building is expanded in 1901 and 1920.  After spending a night in the jail, U.S. District Court Judge W. Arthur Garrity orders it closed on July 20, 1973.  But the facility remains open until it is replaced by the current jail (sixth) on Nashua Street in 1990.*  The original building is converted to a luxury hotel in 2007.*",
+          "image":"https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:8k71pc58f/image_access_800.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/8807"},
+            "image": {"name":"Digital Commonwealth","url":"https://www.digitalcommonwealth.org/search/commonwealth:8k71pc575"}
+          },
+          "imageMapLatLng": [-114.6, 424.0],
+          "tileMapLatLng": [42.361977, -71.070180]
+        },
+        {
+          "name": "City Hospital (1864)",
+          "description":"Architect: Gridley Bryant.  Designed in the French Second Empire style, it consists of a domed administration building flanked by medical and surgical pavilions at 818 Harrison Avenue.  The second municipal hospital in the U.S., it is incorporated on March 27, 1858.  Its purpose is, \"[To serve] the honest, temperate and industrious poor [and] to bring them under the influence of order, purity and kindness.\"  But except in cases of accident or emergency, it refuses admission to those \"who cannot give a satisfactory reference as to character when requested to do so.\"  The hospital is subsequently the site of the first successful demonstration of the therapeutic use of radium, Nobel Prize-winning work in the treatment of pernicious anemia, and pioneering treatment in hematology and sickle cell disease.  The administration building is torn down in 1933 [1934-Barnet] and replaced in the mid-1950s.  A new hospital (second) opens in 1994.*",
+          "image":"https://bpldcassets.blob.core.windows.net/derivatives/metadata/commonwealth-oai:2801qd46g/image_thumbnail_300.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/11174"},
+            "image": {"name":"Digital Commonwealth","url":"https://www.digitalcommonwealth.org/search/commonwealth-oai:h415pm852"}
+          },
+          "imageMapLatLng": [-271.7, 71.9],
+          "tileMapLatLng": [42.335078, -71.073166]
+        },
+        {
+          "name": "Fitchburg Railroad Depot (1848)",
+          "description":"  Architect: George Dexter.  Originally Fitchburg Depot, it is located on Causeway Street.  The castle-like building includes the second-floor Depot Hall, the largest auditorium in New England at the time, with a capacity of 4,000 people.  Jenny Lind performs there in 1850.*  Damaged by a fire on January 17, 1925, the building is demolished in 1926.",
+          "image":"https://images.historicnewengland.org/rs/280133/scr/default.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/8081"},
+            "image": {"name":"Historic New England","url":"https://www.historicnewengland.org/explore/collections-access/gusn/321486"}
+          },
+          "imageMapLatLng": [-159.6, 538.0],
+          "tileMapLatLng": [42.366312, -71.060942]
+        },
+        {
+          "name": "Trinity Church (1877)",
+          "description":"Architect: H.H. Richardson.  Designed in the Richardsonian Romanesque style and  modeled after the Salamanca Cathedral, it is located at 206 Clarendon Street.  The  cornerstone was laid on May 20, 1875 [11/10/1874] and the building rests on 4,502 wooden piles.  The interior design and murals are by John LaFarge, the stained glass windows by William Morris and Edward Burne-Jones.  Van Wyck Brooks later writes, \"[The building represents] the break of the Boston mind with its Puritan past.\"  Phillips Brooks serves as minister from 1869 to 1891.  Voted the finest work of architecture in the U.S. in 1886, the building's porch and front towers are added by Shepley, Rutan &amp; Coolidge in 1897.  The pulpit is added in 1914, and the chancel by Charles Maginnis in 1938.  The building is restored by Shepley, Bulfinch, Richardson &amp; Abbott in 1981.",
+          "image":"https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:vd66zq280/image_access_800.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/15149"},
+            "image": {"name":"Digital Commonwealth","url":"https://www.digitalcommonwealth.org/search/commonwealth:bz60gk66x"}
+          },
+          "imageMapLatLng": [-177.3, 201.7],
+          "tileMapLatLng": [42.350002, -71.075472]
+        }
+      ],
+      "leaflet": {
+        "imageLayer": {
+          "url": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:3f463448r/info.json",
+          "options": {
+            "interactive": true
+          }
+        },
+        "imageMap": {
+          "options": {
+            "maxBoundsViscosity": 1.0,
+            "zoom": 1
+          }
+        },
+        "tileLayer": {
+          "url": "https://s3.us-east-2.wasabisys.com/urbanatlases/39999059010825/tiles/{z}/{x}/{y}.png",
+          "options": {
+            "center": [
+              39.749771275005315,
+              -104.99320908930397
+            ]
+          }
+        },
+        "tileMap": {
+          "options": {
+            "center": [
+              39.749771275005315,
+              -104.99320908930397
+            ],
+            "zoom": 15,
+            "minZoom": 12,
+            "maxZoom": 20
+          }
+        }
+      }
+    },
+    {
+      "name": "1899 Downs",
+      "birdseye": {
+        "title": "Boston : 1899",
+        "creator": "Downs, A. E.",
+        "year": "1899",
+        "url": " https://collections.leventhalmap.org/search/commonwealth:9s161f868",
+        "description": "By the time this aerial view was published, the filling in and development of Back Bay was nearly complete, doubling the original size of the city."
+      },
+      "map": {
+        "title": "Map of the city of Boston and immediate neighborhood : from original surveys",
+        "creator": "Hopkins, G.M.",
+        "year": "1898",
+        "url": "https://collections.leventhalmap.org/search/commonwealth:tt44pv78z",
+        "description": "This large wall map provides a point of comparison for appreciating the various geographical perspectives used in the Boston birds eye views. It also serves as a baseline from which to trace the growth of Shawmut Peninsulas land mass during the last half of the 19th century when these views were published. It is plain that in 1852 the reclamation of Back Bay has not yet begun. Like most conventional maps, it is oriented with north at the top."
+      },
+      "features": [
+        {
+          "name": "Ames Building (1889)",
+          "description":"  Architect: Shepley, Rutan &amp; Coolidge.  Designed in the Romanesque style, it is located at 1 Court Street.  The tallest building in New England and the tallest load-bearing masonry building in the U.S. at the time, it is soon surpassed in the latter category by the Monadnock Building in Chicago and in the former by many buildings with the introduction of steel-framed construction.  It is converted to a hotel in 2009.*",
+          "image":"https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:8k71nv70f/image_access_800.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/18932"},
+            "image": {"name":"Digital Commonwealth","url":"https://www.digitalcommonwealth.org/search/commonwealth:8k71nv69p"}
+          },
+          "imageMapLatLng": [-337.0, 529.7],
+          "tileMapLatLng": [42.359023, -71.057978]
+        },
+        {
+          "name": "Boston Public Library (1895)",
+          "description":"Architect: McKim, Mead &amp; White.  Designed in the Beaux Arts style and modeled after the Bibliotheque Sainte-Genevieve in Paris, it is located at 700 Boylston Street.  The building features bronze doors by Daniel Chester French; interior vaulted ceilings by Rafael Guastavino, lion statues by Louis St. Gaudens, and murals by Pierre Puvis de Chavannes, Edwin Austin Abbey, and an unfinished series by John Singer Sargent.  The library collection is made up initially of 144,000 books (second most in the U.S. at the time to the 175,000 at the Library of Congress), and includes the first children’s library in the U.S.  Oliver Wendell Holmessubsequently calls the building, \"A palace for the people.\"   Additions are built in 1918* and 1972.*  The original building is restored by Shepley, Bulfinch, Richardson &amp; Abbott in 2001.",
+          "image":"https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:p2677h762/image_access_800.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/21813"},
+            "image": {"name":"Digital Commonwealth","url":"https://www.digitalcommonwealth.org/search/commonwealth:p2677h75s"}
+          },
+          "imageMapLatLng": [-259.4, 170.6],
+          "tileMapLatLng": [42.349448, -71.077801]
+        },
+        {
+          "name": "Harvard Bridge (1891)",
+          "description":"Engineer: Jackson, William.  Also know as the Mass. Ave. Bridge, it is located on today's Massachusetts Avenue between then West Chester Park in Boston and Harvard Bridge Avenue in Cambridge.  The 2,165-foot-long bridge initially contains a swing span in the middle that rotates to allow boats to pass through it.  It is replaced by a fixed span in 1924.  The two streets connected by the bridge are renamed in 1894.*  The Boston City Council passes an order that changes its name to Technology Bridge in 1946, but the name is rarely used.  The bridge receives a unique system of measurement in 1958.*",
+          "image":"https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:9593vd208/image_access_800.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/20616"},
+            "image": {"name":"Digital Commonwealth","url":"https://www.digitalcommonwealth.org/search/commonwealth:9593vd19h"}
+          },
+          "imageMapLatLng": [-190.0, 171.4],
+          "tileMapLatLng": [42.351475, -71.089806]
+        },
+        {
+          "name": "North Union Station (1894)",
+          "description":"Architect: Shepley, Rutan & Coolidge.  An addition to the existing Boston & Lowell and Fitchburg Railroad stations, it is designed in the Neoclassical style  with a multi-story arch and located along Causeway Street.  The building is demolished to make way for the construction of North Station and Boston Garden in 1927.*",
+          "image":"https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:9593vd44v/image_access_800.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/21509"},
+            "image": {"name":"Digital Commonwealth","url":"https://www.digitalcommonwealth.org/search/commonwealth:9593vd43k"}
+          },
+          "imageMapLatLng": [-257.6, 663.8],
+          "tileMapLatLng": [42.36583215663826, -71.06195243185385]
+        },
+        {
+          "name": "Suffolk County Court House (1894)",
+          "description":"Architect: George Clough.  Originally the Suffolk County Court House (fifth) and later known as the Old Suffolk Court House, it is designed in the French Second Empire style and located at 1 Pemberton Square.  A two-story mansard roof is added in 1910.  A new court house (sixth) is built next to it in 1939.*  The original building is renamed the John Adams Court House in 2002, renovated by CBT Architects, and reopens in 2005.",
+          "image":"https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:ht24xc057/image_access_800.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/21740"},
+            "image": {"name":"Digital Commonwealth","url":"https://www.digitalcommonwealth.org/search/commonwealth:ht24xc04z"}
+          },
+          "imageMapLatLng": [-306.7, 503.0],
+          "tileMapLatLng": [42.359215, -71.061134]
+        },
+        {
+          "name": "South Station (1894)",
+          "description":"Architect: Shepley, Rutan &amp; Coolidge.  Originally South Union Terminal, it is designed in the Beaux Arts style [Classical Revival style] with a clock by the E. Howard Company and located at 700 Atlantic Avenue.  At the ceremony, Mayor Josiah Quincy tells a crowd of 5,000 people that, \"This station] will raise to a distinctly higher level the impression which Boston will hereafter make upon the traveler who visits our city.\"  The station opens on January 1, 1899, with 28 tracks serving 737 trains daily, and becomes the busiest station in the world.  The train shed, the largest in the world at the time, is demolished in 1930, and the head house wings are removed in the 1970s.  After the New York &amp; New Haven Railroad goes bankrupt, the building is purchased by the Boston Redevelopment Authority in 1961.  Slated for demolition in 1975, it is instead sold to the MBTA in 1978, and renovated by Skidmore, Owings, Merrill, Hugh Stubbins, and Stull &amp; Lee in 1989.",
+          "image":"https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:9593vd30h/image_access_800.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/23046"},
+            "image": {"name":"Digital Commonwealth","url":"https://www.digitalcommonwealth.org/search/commonwealth:9593vd29r"}
+          },
+          "imageMapLatLng": [-477.8, 394.0],
+          "tileMapLatLng": [42.351209, -71.054640]
+        }
+      ],
+      "leaflet": {
+        "imageLayer": {
+          "url": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:9s161f87j/info.json",
+          "options": {
+            "interactive": true
+          }
+        },
+        "imageMap": {
+          "options": {
+            "maxBoundsViscosity": 1.0,
+            "zoom": 1
+          }
+        },
+        "tileLayer": {
+          "url": "https://s3.us-east-2.wasabisys.com/urbanatlases/39999059011153/tiles/{z}/{x}/{y}.png",
+          "options": {
+            "center": [
+              39.749771275005315,
+              -104.99320908930397
+            ]
+          }
+        },
+        "tileMap": {
+          "options": {
+            "center": [
+              39.749771275005315,
+              -104.99320908930397
+            ],
+            "zoom": 15,
+            "minZoom": 12,
+            "maxZoom": 20
+          }
+        }
+      }
+    },
+    {
+      "name": "1905 Poole",
+      "birdseye": {
+        "title": "Twentieth century Boston",
+        "creator": "Poole, A. F.",
+        "year": "ca. 1905",
+        "url": " https://collections.leventhalmap.org/search/commonwealth:9s161f868",
+        "description": "This is one of the last recorded bird's eye views of Boston proper. It foreshadows the vertical growth of downtown during the 20th century when the late 19th-century skyline composed of buildings typically three, four, five, and six stories high, was replaced with a skyline dominated by high-rise commercial and office buildings."
+      },
+      "map": {
+        "title": "Map of the city of Boston and immediate neighborhood : from original surveys",
+        "creator": "Hopkins, G.M.",
+        "year": "1908",
+        "url": "https://collections.leventhalmap.org/search/commonwealth:tt44pv96w",
+        "description": "This large wall map provides a point of comparison for appreciating the various geographical perspectives used in the Boston birds eye views. It also serves as a baseline from which to trace the growth of Shawmut Peninsulas land mass during the last half of the 19th century when these views were published. It is plain that in 1852 the reclamation of Back Bay has not yet begun. Like most conventional maps, it is oriented with north at the top."
+      },
+      "features": [
+        {
+          "name": "Atlantic Avenue El (1901)",
+          "description":"  Built and operated by the Boston Elevated Railway Company, the line runs from North Station along today's Commercial Street and Atlantic Avenue, then along Beach Street [Pleasant Street-Beaucher], then down Harrison Avenue to Castle Square, forming a loop when it reconnects with the Main Line.  The line is discontinued on October 1, 1938,* and the tracks are torn down in 1942.",
+          "image":"https://us.preservica.com/Render/render/resource/7b8b9871-cb3e-4cee-9c76-811444906dd6/openseadragon/image?token=019f8dd6-d3c8-4a16-8de8-da011ab9e1be",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/26498"},
+            "image": {"name":"City of Boston Archives","url":"https://cityofboston.access.preservica.com/uncategorized/IO_7b8b9871-cb3e-4cee-9c76-811444906dd6/"}
+          },
+          "imageMapLatLng": [-234.4, 316.3],
+          "tileMapLatLng": [42.359477, -71.050900]
+        },
+        {
+          "name": "Charles River Dam (1910)",
+          "description":"Architect: Lowell, Guy.  Chief Engineer: Miller, Hiram A.  Championed by James Jackson Storrow, it is built on the site of the former Craigie Bridge.  The dam transforms the mouth of the Charles River from a tidal estuary to a freshwater basin, alleviates the sanitation problems at low tide, transforms the water behind it from brackish to fresh, and enables construction of the Esplanade in 1936.*  But according to Karl Haglund, \"For a number of Bostonians, the water park was a great disappointment,\" and architect Robert Bellows complained it presented a view of \"an extremely wide and uninteresting body of water.\"  It is replaced in 1978.*",
+          "image":"https://us.preservica.com/Render/render/resource/e25d391f-acba-48b9-956c-1444bd600c22/openseadragon/image?token=81e0bc5e-f6cb-421a-a0eb-b04ece46d71b",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/29956"},
+            "image": {"name":"City of Boston Archives","url":"https://cityofboston.access.preservica.com/uncategorized/IO_e25d391f-acba-48b9-956c-1444bd600c22/"}
+          },
+          "imageMapLatLng": [-119.9, 323.2],
+          "tileMapLatLng": [42.367158, -71.069160]
+        },
+        {
+          "name": "Charlestown Bridge (1848)",
+          "description":"Architect: William Jackson.  Also known as the North Washington Street Bridge, it spans the mouth of the Charles River and connects Charlestown to the North End.  The first bridge in Boston to accommodate various modes of transit, it includes a main deck with four lanes for traffic and two streetcar tracks and an upper level with an elevated railway track.  The swing-span bridge also pivots to allow ships to pass.  The bridge is rebuilt in 1956 and in 1992, and replaced by a new bridge in 2024.",
+          "image":"https://bpldcassets.blob.core.windows.net/derivatives/metadata/commonwealth-oai:v692xc657/image_thumbnail_300.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/23366"},
+            "image": {"name":"Digital Commonwealth","url":"https://www.digitalcommonwealth.org/search/commonwealth-oai:xk81ns85d"}
+          },
+          "imageMapLatLng": [-121.9, 424.7],
+          "tileMapLatLng": [42.368298, -71.059473]
+        },
+        {
+          "name": "Fitchburg Railroad Depot (1848)",
+          "description":"  Architect: George Dexter.  Originally Fitchburg Depot, it is located on Causeway Street.  The castle-like building includes the second-floor Depot Hall, the largest auditorium in New England at the time, with a capacity of 4,000 people.  Jenny Lind performs there in 1850.*  Damaged by a fire on January 17, 1925, the building is demolished in 1926.",
+          "image":"https://images.historicnewengland.org/rs/280133/scr/default.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/8081"},
+            "image": {"name":"Historic New England","url":"https://www.historicnewengland.org/explore/collections-access/gusn/321486"}
+          },
+          "imageMapLatLng": [-128.7, 373.9],
+          "tileMapLatLng": [42.366312, -71.060942]
+        },
+        {
+          "name": "Longfellow Bridge (1906)",
+          "description":"Architect: Wheelwright, Edmund March.  Engineer: William Jackson.  Originally the New Cambridge Bridge and actuality the West Boston Bridge (third), it spans the Charles River and connects Boston to Cambridge.  At the ceremony before a crowd of some 200,000 people. Mayor John F. Fitzgerald recites Henry Wadsworth Longfellow's 1845 poem about the first bridge.   The bridge's two granite \"salt and pepper\" towers are dedicated on July 31, 1907, and the bridge is renamed for the poet in 1927.  The bridge is extensively renovated from 2013 to 2018.",
+          "image":"https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:5h73qt09d/image_access_800.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/29046"},
+            "image": {"name":"Digital Commonwealth","url":"https://www.digitalcommonwealth.org/search/commonwealth:5h73qt084"}
+          },
+          "imageMapLatLng": [-112.3, 218.6],
+          "tileMapLatLng": [42.361302, -71.072549]
+        },
+        {
+          "name": "Northern Avenue Bridge (1908)",
+          "description":"  Engineer: Jackson, William.  The Pratt triple-barreled truss swing bridge spans the Forth Point Channel between Rowes Wharf and the Fan Pier.  One of the oldest swing bridges of its kind in the world and one of the few remaining in Massachusetts, it is closed to vehicular traffic after construction of a new bridge nearby in 1996.*  It remains open for pedestrian use until it is closed due to safety concerns on December 18, 2014.  Current plans call for it to be rebuilt and reopened.",
+          "image":"https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:5h73s617q/image_access_800.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/29564"},
+            "image": {"name":"Digital Commonwealth","url":"https://www.digitalcommonwealth.org/search/commonwealth:5h73s616f"}
+          },
+          "imageMapLatLng": [-264.5, 39.6],
+          "tileMapLatLng": [42.354809, -71.050206]
+        }
+      ],
+      "leaflet": {
+        "imageLayer": {
+          "url": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:x633fc377/info.json",
+          "options": {
+            "interactive": true
+          }
+        },
+        "imageMap": {
+          "options": {
+            "maxBoundsViscosity": 1.0,
+            "zoom": 1
+          }
+        },
+        "tileLayer": {
+          "url": "https://s3.us-east-2.wasabisys.com/urbanatlases/39999059011427/tiles/{z}/{x}/{y}.png",
+          "options": {
+            "center": [
+              39.749771275005315,
+              -104.99320908930397
+            ]
+          }
+        },
+        "tileMap": {
+          "options": {
+            "center": [
+              39.749771275005315,
+              -104.99320908930397
+            ],
+            "zoom": 15,
+            "minZoom": 12,
+            "maxZoom": 20
+          }
+        }
+      }
+    },
+    {
+      "name": "1931 Fairchild",
+      "birdseye": {
+        "title": "Fairchild aerial view of Boston",
+        "creator": "Jones, Leslie",
+        "year": "1931",
+        "url": " https://www.digitalcommonwealth.org/search/commonwealth:5h73r644f",
+        "description": ""
+      },
+      "map": {
+        "title": "Atlas of the city of Boston : Boston proper and Back Bay : from actual surveys and official plans",
+        "creator": "G.W. Bromley & Co.",
+        "year": "1928",
+        "url": "https://collections.leventhalmap.org/search/commonwealth:tt44pw08g",
+        "description": "This large wall map provides a point of comparison for appreciating the various geographical perspectives used in the Boston birds eye views. It also serves as a baseline from which to trace the growth of Shawmut Peninsulas land mass during the last half of the 19th century when these views were published. It is plain that in 1852 the reclamation of Back Bay has not yet begun. Like most conventional maps, it is oriented with north at the top."
+      },
+      "features": [
+        {
+          "name": "Batterymarch Building (1928)",
+          "description":"Architect: Harold Field Kellogg.  Originally the Public Services Building, it is the first Art Deco building in Boston and is located at 89 Broad Street and 54 - 66 Batterymarch Street.  It is the first building in the U.S. to employ tonal gradation through the use of different colored bricks.  The building includes a terra cotta third floor balcony over the main entrance contains detailing that depicts the Sacred Cod, a bean pot, and the Massachusetts State House.  Renamed to honor the Revolutionary war soldiers who marched by the site on their way to their garrison, the building is converted to a hotel in 1999.*",
+          "image":"https://aknextphase.com/wp-content/uploads/2017/05/Batterymarch-Bldg.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/36966"},
+            "image": {"name":"The Next Phase Blog","url":"https://aknextphase.com/batterymarch-street-who-goes-there/"}
+          },
+          "imageMapLatLng": [-274.2,123.7],
+          "tileMapLatLng": [42.357352, -71.053209]
+        },
+        {
+          "name": "Custom House Tower (1915)",
+          "description":"Architect: Peabody &amp; Stearns.  Designed in the Greek Revival style and built above its predecessor 1847 building, it is located at 3 McKinley Square.  One of the first structural steel-framed buildings in the U.S., it is the tallest building in New England until construction the of the Travelers tower in Hartford in 1919, and the tallest in Boston until 1947.*   Construction began in 1913 and was allowed only because federally-owned buildings were not subject to the city’s 125-foot height limit.  An observation deck is located on the 26th floor.  The clock begins operating on April 6, 1916.  Its 22-foot diameter face is the largest in the U.S. at the time.  Declared surplus property by the federal government in 1986, it is purchased by the city on April 16, 1987, then by the Marriott Hotel Company and converted to hotel use by Jung/Brannen Associates in 1997.*",
+          "image":"https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:gt54kx53r/image_access_800.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/32423"},
+            "image": {"name":"Digital Commonwealth","url":"https://www.digitalcommonwealth.org/search/commonwealth:gt54kx52g"}
+          },
+          "imageMapLatLng": [-293.6,166.4],
+          "tileMapLatLng": [42.359055, -71.053560]
+        },
+        {
+          "name": "North Station (1928)",
+          "description":"  Architect: Fellheimer &amp; Wagner.  It is located on Causeway Street.  The station is dedicated on November 14, 1928, when President Calvin Coolidge uses a key made from Yukon Gold to turn a switch in the White House that turns the lights on in the station via telegraph.  A fire interrupts service between January 20, 1984 and April 20, 1985.  The station is replaced by a new facility built underneath the Fleet Center in 1995.",
+          "image":"https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:9593vd28g/image_access_800.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/36722"},
+            "image": {"name":"Digital Commonwealth","url":"https://www.digitalcommonwealth.org/search/commonwealth:9593vd276"}
+          },
+          "imageMapLatLng": [-266.2,479.6],
+          "tileMapLatLng": [42.365683, -71.061680]
+        },
+        {
+          "name": "State Street Trust Building (1929)",
+          "description":"Architect: Thomas James.  Designed in the Art Deco style, it is located at 75 Federal Street (220 Devonshire Street).  The building's façade features bronze panels depicting scenes of man's accomplishments in agriculture, finance, manufacturing, mining, power, and transportation.  It is renovated and joined by an addition added at 101 Federal Street in 1988.*",
+          "image":"https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/53164_500x650.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/37192"},
+            "image": {"name":"CTBUH","url":"https://www.skyscrapercenter.com/boston/state-street-trust-building/22993/"}
+          },
+          "imageMapLatLng": [-230.8,150.0],
+          "tileMapLatLng": [42.355250, -71.056943]
+        },
+        {
+          "name": "Statler Hotel (1927)",
+          "description":"  Architect: George B. Post & Sons.  (15)  Originally the Statler and then the Statler Hilton Hotel, it is located at 50 Park Plaza (64 Arlington Street).  The second tallest building in Boston at the time and the largest hotel in New England and eighth largest in the world at the time, it is the first hotel in the U.S.  to provide radios in every room, and the first with in-suite bathrooms and telephones in Boston.  Guests include most U.S. presidents from this time forward, as well as Muhammad Ali, Fidel Castro, Winston Churchill, Bette Davis, Judy Garland, and John Wayne, and, as a union hotel, it is the site of countless political events.  Purchased by the Saunders family in 1976, it reopens as the Park Plaza Hotel and Towers on January 6, 1977.  It is purchased by Sunstone Hotels in 2013.",
+          "image":"https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:kp78kh59h/image_access_800.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/36442"},
+            "image": {"name":"Digital Commonwealth","url":"https://www.digitalcommonwealth.org/search/commonwealth:vh540x600"}
+          },
+          "imageMapLatLng": [-167.8,247.7],
+          "tileMapLatLng": [42.351116, -71.069362]
+        },
+        {
+          "name": "United Shoe Machinery Building (1930)",
+          "description":"Architect: Parker, Thomas &amp; Rice.  Designed in the Art Deco style, it is located at 140 Federal Street.  It is the first building to conform to the 1928 \"pyramid\" amendment to the city’s zoning code, which allows buildings to exceed the height limits provided their upper floors \"step back\" set back from the street.  The building is renovated and renamed The Landmark in 1987.",
+          "image":"https://bpldcassets.blob.core.windows.net/derivatives/images/commonwealth:v692wx48q/image_access_800.jpg",
+          "citations": {
+            "text": {"name":"When and Where in Boston","url":"https://bhdb.a2hosted.com/ui2/#event/37236"},
+            "image": {"name":"Digital Commonwealth","url":"https://www.digitalcommonwealth.org/search/commonwealth:n2970r06w"}
+          },
+          "imageMapLatLng": [-231,109.6],
+          "tileMapLatLng": [42.354121, -71.055845]
+        }
+      ],
+      "leaflet": {
+        "imageLayer": {
+          "url": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:5h73r645q/info.json",
+          "options": {
+            "interactive": true
+          }
+        },
+        "imageMap": {
+          "options": {
+            "maxBoundsViscosity": 1.0,
+            "zoom": 1
+          }
+        },
+        "tileLayer": {
+          "url": "https://s3.us-east-2.wasabisys.com/urbanatlases/39999059011682/tiles/{z}/{x}/{y}.png",
+          "options": {
+            "center": [
+              39.749771275005315,
+              -104.99320908930397
+            ]
+          }
+        },
+        "tileMap": {
+          "options": {
+            "center": [
+              39.749771275005315,
+              -104.99320908930397
+            ],
+            "zoom": 18,
+            "minZoom": 12,
+            "maxZoom": 20
+          }
+        }
+      }
+    }
+  ]
+}

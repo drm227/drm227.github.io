@@ -1,0 +1,82 @@
+<div class="container-fluid" data-bind="template:{afterRender:afterRenderComponent}">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <div class="col-4">
+            <span class="navbar-brand">Bird's Eye View of Boston History</span>
+        </div>
+        <div class="col-4 form-inline">
+            <label class="col-form-label text-white">Bird's Eye View:&nbsp;</label>
+            <select class="form-control" data-bind="value:birdseye,options:config.birdseyes,optionsText:'name'"></select>
+            &nbsp
+            <a role="link" tabindex="0" aria-label="open library page for overlay map" style="cursor:help;color:white;" alt="open library page for left map" data-bind="click:onClickInfo">&#9432;</a>
+        </div>
+        <div class="col-4">
+            <a role="button" aria-label="open index dialog" alt="open index dialog" class="ml-3 text-white" data-bind="click:onClickIndex">Show Marker Index</a>
+        </div>
+    </nav>
+
+    <div class="row" style="margin-top:58px;">
+        <div id="birdseye" style="width:100%;height:calc(100vh - 58px);"></div>
+    </div>
+
+    <div class="modal fade" id="featureDialog" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content" data-bind="">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel" data-bind="text:feature().name"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div data-bind="template:{afterRender:afterRenderMap}">
+                        <div id="map" style="width:100%;height:70vh;" data-bind="visible:isMapVisible()"></div>
+                    </div>
+                    <img class="float-left mr-3" style="max-height: 50vh;" data-bind="attr:{'src':feature().image},visible:!isMapVisible()"/>
+                    <div data-bind="text:feature().description,visible:!isMapVisible()"></div>
+                    <p class="text-center text-muted mt-3 mb-0" style="font-size: 0.9rem;" data-bind="with:feature().citations,visible:!isMapVisible()">
+                        <i>text:</i> <a data-bind="text:text.name,attr:{href:text.url}" target="_blank"></a>,
+                        <i>image:</i> <a data-bind="text:image.name,attr:{href:image.url}" target="_blank"></a>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <span class="mr-auto text-muted" data-bind="with:map" style="font-size: 0.9rem">
+                        <i data-bind="text:year"></i> <i>atlas: </i>
+                        <a data-bind="attr:{href:url}" target="_blank">Leventhal Map &amp; Education Center</a>
+                    </span>
+                    <button type="button" class="btn btn-secondary" data-bind="click:onToggleMap,text:modalButtonLabel">Show Map</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="indexDialog" tabindex="-1" role="dialog" aria-labelledby="indexModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content" data-bind="">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="indexModalLabel">Marker Index</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="table">
+                        <thead><tr><th>Name</th><th>Bird's Eye View</th></tr></thead>
+                        <tbody data-bind="foreach:features">
+                        <tr>
+                            <td data-bind="text:name"></td>
+                            <td ><a href="" data-bind="text:birdseye,click:$parent.onClickFeatureBirdseye"></a></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
