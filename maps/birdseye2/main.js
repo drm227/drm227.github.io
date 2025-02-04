@@ -12,8 +12,14 @@ require(['knockout'], function(ko) {
     ko.components.register('birdseye-component',{require:'birdseye-component'});
 
     // read the configuration JSON file
+    var city = new URLSearchParams(document.location.search).get('city');
+    if (!city) {
+        city = "Denver";
+    }
+
+    // read the configuration JSON file
     $.ajax({
-        url: 'Denver.json',
+        url: city + '.json',
         method: 'GET',
         dataType: 'json'
     })
