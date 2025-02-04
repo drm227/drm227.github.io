@@ -177,7 +177,7 @@
           "image":"Excelsior Mills.png",
           "citations": {
             "text": {"name":"Denver Public Library","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=878"},
-            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1137752"}
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/822225"}
           },
           "imageMapLatLng": [39.746070,-104.947492],
           "tileMapLatLng": [39.742988, -105.006305]
@@ -254,7 +254,7 @@
           "description":"The Inter-Ocean Hotel, 1436 16th Street, graced the corner of 16th and Blake Streets for one hundred years. Opening to the public on October 29, 1873, the hotel was the creation of Denver pioneer Barney Ford—Colorado’s most prominent black businessman. William N. Byers, editor of the Rocky Mountain News, proclaimed it 'the finest in the territory and the best appointed hotel west of Saint Louis.'",
           "image":"https://digital.denverlibrary.org/assets/display/2320935-max",
           "citations": {
-            "text": {"name":"DenverUrbanism","url":"https://denverurbanism.com/2012/03/historic-inter-ocean-hotel.html"},
+            "text": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1121837"},
             "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1121837"}
           },
           "imageMapLatLng": [39.750975, -105.001476],
@@ -421,7 +421,7 @@
       "features": [
         {
           "name": "Arapahoe County Court House",
-          "description":"The Arapahoe County Courthouse at 16th (Sixteenth) and Tremont streets in downtown Denver, Colorado, was built in 1883 by Lester Fillmore and Peter Gumry for $185,000 as a three-story building; the fourth level, seen here, was added 10 years later by Denver contractor Frank Anderson. The original building was designed by architect Elijah E. Meyers. The fourth floor addition was designed by architect Frederick Carl Eberley. This building later became the Denver County Courthouse, and was razed in 1934. [P on map]",
+          "description":"The Arapahoe County Court House at 16th (Sixteenth) and Tremont streets in downtown Denver, Colorado, was built in 1883 by Lester Fillmore and Peter Gumry for $185,000 as a three-story building; the fourth level, seen here, was added 10 years later by Denver contractor Frank Anderson. The original building was designed by architect Elijah E. Meyers. The fourth floor addition was designed by architect Frederick Carl Eberley. This building later became the Denver County Courthouse, and was razed in 1934. [P on map]",
           "image":"https://digital.denverlibrary.org/assets/display/2319450-max",
           "citations": {
             "text": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1121109"},
@@ -455,8 +455,11 @@
         {
           "name": "Central Presbyterian Church",
           "description":"The Central Presbyterian Church stood at the corner of 18th and Champa streets (II on map) in downtown Denver, Colorado. The congregation was organized in 1860s and occupied This site from 1878 to 1892. The large, stained-glass windows of the stone church are topped with pointed, Gothic arches.",
-          "image":"https://digital.denverlibrary.org/digital/api/singleitem/image/p15330coll22/76175/default.jpg",
-          "citations": null,
+          "image":"https://digital.denverlibrary.org/assets/display/2202716-max?u=b1fbe6487df099e81fa415d6a1b48f56",
+          "citations": {
+            "text": {"name":"Denver Architecture Foundation","url":"https://denverarchitecture.org/wp-content/uploads/2018/09/Central-Presbyterian-Church-Description-Final.pdf"},
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1062748"}
+          },
           "imageMapLatLng": [39.762759,-104.994199],
           "tileMapLatLng": [39.748220, -104.991513]
         },
