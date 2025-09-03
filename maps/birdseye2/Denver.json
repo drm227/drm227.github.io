@@ -23,17 +23,17 @@
           "image":"11thStreetSchool.png",
           "citations": {
             "text": {"name":"CU Libraries","url":"https://archives.colorado.edu/repositories/2/resources/705"},
-            "image": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=754"}
+            "image": {"name":"History of Denver","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=754"}
           },
           "imageMapLatLng": [39.749103, -104.957261],
           "tileMapLatLng": [39.744439, -105.003262]
         },
         {
-          "name": "15 Street Bridge",
-          "description":"The 15th Street bridge shown here was built in 1864, replacing the original bridge that was destroyed by the Great Flood of 1864.  It crossed the South Platte River, connecting the East Denver and Highland sections of the city.",
+          "name": "15th Street Bridge",
+          "description":"[19 May 1864] The South Platte had risen to an unprecedented stage, flooding far beyond its nominal limits, and it quickly demolished the bridge at the foot of 11th Street and another at the foot of 15th.  Bayaud's 15th Street Bridge and Karczewsky's 11th Street Bridge were soon reconstructedwiththeothers. And washed away again in July 1875. Rebuilt again, they were washed away again in May 1878. [...] The flimsily constructed wooden pile bridges began to give way to far more substantial iron (and later steel) trusses and stringers for the more heavily trafficked crossings of the Platte within a couple of years after the 1873 flood.",
           "image":"https://digital.denverlibrary.org/assets/display/2176338-max",
           "citations": {
-            "text": {},
+            "text": {"name":"HAER","url":"https://tile.loc.gov/storage-services/master/pnp/habshaer/co/co0100/co0164/data/co0164data.pdf"},
             "image": {"name":"Denver Pulic Library","url":"https://digital.denverlibrary.org/nodes/view/1049471"}
           },
           "imageMapLatLng": [39.733143,-105.030145],
@@ -66,8 +66,8 @@
           "description":"In the autumn of 1866 a building site was purchased, at a cost of $1,150 on the northeast corner of Sixteenth and Curtis streets (present numbers 1001-07 Sixteenth), and a beginning made on a church building which was to have been of the \"basement\" type. The little band got the basement walls of stone put up, and then the funds gave out. No financial reinforcements appearing in sight, the basement was roofed over with boards, fitted up with seats, and for some time thereafter used by the congregation as a place of worship.  It was a queer-looking structure, and the unregenerate soon began calling it \"the Baptist dug-out,\" a name by which it was rather commonly known as long as it remained there.",
           "image":"Baptist Dugout.png",
           "citations": {
-            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=731"},
-            "image": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=731"}
+            "text": {"name":"History of Denver","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=731"},
+            "image": {"name":"History of Denver","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=731"}
           },
           "imageMapLatLng": [39.759328, -104.984646],
           "tileMapLatLng": [39.747537, -104.994881]
@@ -77,7 +77,7 @@
           "description":"The Broadwell House, [...] was built in the winter of 1859-60 by James M. Broadwell, who came to Denver in April, 1859. [...] His hotel was long the principal one in town. It was originally a good-sized two story frame structure that was raised to three stories in the \"Seventies,\" and stood at the corner of Larimer and Sixteenth streets on the site of the present Tabor Block, to make place for which it was torn down by H. A. W. Tabor.  In its time it was a noted hotel.",
           "image":"https://digital.denverlibrary.org/assets/display/2329378-max",
           "citations": {
-            "text": {"name":"Denver Public Library","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=329"},
+            "text": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=329"},
             "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1126053"}
           },
           "imageMapLatLng": [39.754959, -104.995199],
@@ -96,10 +96,10 @@
         },
         {
           "name": "Constitution Hall",
-          "description":"This building was the first permanent home of the First National Bank of Denver. Ebenezer Smith, a founding stockholder and director of the bank was involved in mining, banking and railroading. The founding stockholders Eben and Jerome Chafee used some of the money they made in Gilpin Country to finance the Fist National Bank.  The bank occupied the corner rooms of the lower story of this brick building. During it’s 10 year occupoancy the bank made improvements to the building. First bank installed gaslights and enlarged the director’ rooms. The third story fish-scale, slate, mansard roof was added in 1875.",
+          "description":"[...] building that housed the First National Bank of Denver, sign visible in photo. Delegate's to the state's Constitutional Convention met here in anticipation of Colorado being admitted to the Union. Also visible in the photo is a sign for the Agriculturist and Stock Journal. The building caught fire in 1977 and was demolished.",
           "image":"https://digital.denverlibrary.org/assets/display/647618-max",
           "citations": {
-            "text": {"name":"LoDo History","url":"https://lodohistory.wordpress.com/lodo-destinations/constitution-hall/"},
+            "text": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/316828"},
             "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/316828"}
           },
           "imageMapLatLng": [39.751291, -104.994375],
@@ -132,8 +132,8 @@
           "description":"In 1861 the house was bought by Jack Langrishe who made many improvements in it, and gave it the name \"Denver Theater.\" Its opening under his management, on November 30th, was a conspicuous social event of that period. As a theater it was conducted by Langrishe on a far higher plane than any other place of amusement in the town; and it was also utilized in subsequent years as a place for holding public meetings.",
           "image":"Denver Theater.png",
           "citations": {
-            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=338"},
-            "image": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=437"}
+            "text": {"name":"History of Denver","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=338"},
+            "image": {"name":"History of Denver","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=437"}
           },
           "imageMapLatLng": [39.755861, -104.992462],
           "tileMapLatLng": [39.748904, -104.996595]
@@ -143,7 +143,7 @@
           "description":"The famous old daily and weekly Tribune which, in one period of its career, was a great and influential newspaper of National renown, was founded by L. M. Koons, as \"The Denver Daily,\" in 1867 [...] In July, 1872, the Tribune was removed to Henry C. Brown's building on the southeast corner of Sixteenth and Market streets. ",
           "image":"https://digital.denverlibrary.org/assets/display/2191000-max",
           "citations": {
-            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=667"},
+            "text": {"name":"History of Denver","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=667"},
             "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1056906"}
           },
           "imageMapLatLng": [39.753506, -104.999252],
@@ -154,7 +154,7 @@
           "description":"In 1870 John W. Smith and John Winterbottom built and began operating a rather large woolen mill making rough flannels, blankets and yarns ; their building having been on the south side of Larimer street, near the \"millditch\" in \"West Denver.\" But the business didnot permanently prove profitable. Conditions of 1873 embarrassed it, and in 1877 it was discontinued. This was, we believe, the first and only woolen mill in Colorado.",
           "image":"https://digital.denverlibrary.org/assets/display/2193245-max",
           "citations": {
-            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=879"},
+            "text": {"name":"History of Denver","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=879"},
             "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1058009"}
           },
           "imageMapLatLng": [39.744657, -104.946791],
@@ -176,7 +176,7 @@
           "description":"John W. Smith brought Denver's first flour-making machine (and also the first in Colorado) when he came here in 1860. It was a small portable buhr grist mill with which he made in that year the first flour and corn meal produced in Colorado. I n 1865 Smith erected in \"West Denver\" a rather large steam flour mill the fuel for which was wood at twenty-five dollars a cord. Disposing of this a year or so later, he built another and much larger mill which he operated by water power obtained from the Union Ditch Company's hydraulic canal that had been constructed in \"West Denver\" in 1864, and taking water from the Platte river some distance above the town. I n 1874 Smith built still another and still larger mill—the Excelsior Mill—still in operation at Eighth and Lawrence streets and which in 1879 he sold to J. K. Mullen who later built the present great Hungarian Mills.",
           "image":"Excelsior Mills.png",
           "citations": {
-            "text": {"name":"Denver Public Library","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=878"},
+            "text": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=878"},
             "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/822225"}
           },
           "imageMapLatLng": [39.746070,-104.947492],
@@ -187,7 +187,7 @@
           "description":"The Fink Building on the southeast corner of Fifteenth and Market streets was built by J. P. Fink in 1873 and was considered an extravagantly fine building at that time, as it was three stories high and had a dressed sandstone front on Fifteenth street.",
           "image":"https://digital.denverlibrary.org/assets/display/2169771-max",
           "citations": {
-            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=963"},
+            "text": {"name":"History of Denver","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=963"},
             "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1045964"}
           },
           "imageMapLatLng": [39.752099, -104.992733],
@@ -221,7 +221,7 @@
           "description":"Guard Hall was in the building on the northwest corner of Curtis and Fifteenth streets, built by the old military company, the \"Governor's Guards,\" in 1873.[...] In its time Guard Hall stood for the best in theatricals in Denver, but it passed out of commission when the Tabor Opera House was completed and opened.",
           "image":"https://digital.denverlibrary.org/assets/display/2187510-max",
           "citations": {
-            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=910"},
+            "text": {"name":"History of Denver","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=910"},
             "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1055156"}
           },
           "imageMapLatLng": [39.758750, -104.975418],
@@ -320,7 +320,7 @@
           "description":"Conspicuous among the Catholic educational establishments is the Loretto Academy, the origin of which takes us back to pioneer times and to the first permanently maintained academy established in Denver. In 1864 the large frame dwelling of William Clayton, on the south side of California street between Fourteenth and Fifteenth streets, and then out of town, was purchased and placed in charge of three Sisters of the Order of Loretto, who came from Kentucky in response to a call from Father Machebeuf to institute an academic school in Denver, which was called St. Mary's Academy, but was better known as the \"Sisters' School.\" It flourished from the beginning, and within a few years the entire half-block was acquired and large additions to the original building were erected. These were three-story brick wings so constructed as to admit the later construction of the present central building forming the unified edifice.",
           "image":"https://digital.denverlibrary.org/assets/display/2203806-max",
           "citations": {
-            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=764"},
+            "text": {"name":"History of Denver","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=764"},
             "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1063309"}
           },
           "imageMapLatLng": [39.765104, -104.959988],
@@ -342,7 +342,7 @@
           "description":"The district's second building soon followed the erection of the Arapahoe. This was what became known as the Stout Street School, and was undertaken June 18, 1873. Eight lots on the northeast corner of Stout and Twenty-eighth streets were purchased at a cost of $2,400. On August 2nd the contracts were let.and the building was finished early in March, 1874 [...] It was a good-looking building, but faultily designed and constructed [...] city authorities condemned it on March 11, 1881, when it was just seven years old. [...] on November 10, 1881, was totally destroyed by fire.",
           "image":"Stout School.png",
           "citations": {
-            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=746 "},
+            "text": {"name":"History of Denver","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=746 "},
             "image": {"name":"Denver Public Library", "url":"https://denverlibrary.recollectcms.com/nodes/view/821260"}
           },
           "imageMapLatLng": [39.7687582, -105.034805],
@@ -364,7 +364,7 @@
           "description":"In 1866 Rev. George M. Randall, the first Bishop of this Episcopal diocese, determined to establish schools at or near Denver for boys and girls, and brought his intentions to the notice of the Mission Board of his church. The girls' school was first undertaken, and in 1867 the original Wolfe Hall building — a small one — was erected on the southwest corner of Seventeenth and Champa streets, the site of the present Boston Building, and then on the outskirts of the town.  [...] In 1873 the original building was enlarged, and again in 1879; the last additions making it a structure of two stories and a \"mansard\" roof",
           "image":"https://digital.denverlibrary.org/assets/display/2187501-max",
           "citations": {
-            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=765"},
+            "text": {"name":"History of Denver","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=765"},
             "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1055151"}
           },
           "imageMapLatLng": [39.762966, -104.981071],
@@ -446,7 +446,7 @@
           "description":"The [fire] department continued to expand as more people moved to Denver. Tabor Hose Company No. 5, organized in 1879, later became the last volunteer company to disband after a paid department was established. Broadway Hose No. 6 formed to protect the palatial mansions that wealthy Denverites were building in Capitol Hill.",
           "image":"https://digital.denverlibrary.org/assets/display/2282123-max",
           "citations": {
-            "text": {"name":"History Colorado","url":"https://coloradoencyclopedia.org/article/early-firefighting-denver-1858-81"},
+            "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/early-firefighting-denver-1858-81"},
             "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1102457"}
           },
           "imageMapLatLng": [39.775946,-104.950387],
@@ -454,10 +454,10 @@
         },
         {
           "name": "Central Presbyterian Church",
-          "description":"The Central Presbyterian Church stood at the corner of 18th and Champa streets (II on map) in downtown Denver, Colorado. The congregation was organized in 1860s and occupied This site from 1878 to 1892. The large, stained-glass windows of the stone church are topped with pointed, Gothic arches.",
+          "description":"Stereographic view of the Central Presbyterian Church that stood at the corner of 18th and Champa streets in downtown Denver, Colorado. The congregation was organized in 1860s and occupied this site from 1878 to 1892. The church building features large stained-glass lancet arch windows, roof crests, and arched doorways.",
           "image":"https://digital.denverlibrary.org/assets/display/2202716-max?u=b1fbe6487df099e81fa415d6a1b48f56",
           "citations": {
-            "text": {"name":"Denver Architecture Foundation","url":"https://denverarchitecture.org/wp-content/uploads/2018/09/Central-Presbyterian-Church-Description-Final.pdf"},
+            "text": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1121700"},
             "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1062748"}
           },
           "imageMapLatLng": [39.762759,-104.994199],
@@ -465,10 +465,10 @@
         },
         {
           "name": "City Hall",
-          "description":"City Hall was then moved to the 14th and Larimer [K on map] location in 1883. [...] The building took 15 months to construct, was designed by W. K. Nichols, and cost about $300,000.  The original building was four floors with a bell tower and a copula.  On Novermber 30, 1901 it caught fire.  The fire burned the fourth floor.  It was rebuilt with a flat roof.",
+          "description":"Not until 1883 did Denver build a distinctive City Hall at the southwest corner of Fourteenth and Larimer Streets on the banks of Cherry Creek. Architect William H.J. Nichols planned this $300,000 edifice. The four-story stone structure had a mansard roof with many dormers and bristled with decorative cresting. Besides the mayor’s office, city council chambers, and city offices, it also housed the fire department, central fire station, police department, and city jail. The building was most famous as the setting for the 1893 City Hall War in which the governor tried unsuccessfully to throw out corrupt city officials. After a 1921 fire, the building was reconstructed without the mansard roof and corner towers. [...] After the new City and County Building opened in 1932, the old City Hall continued to house the fire department and central fire station until it was demolished in 1937. ",
           "image":"https://digital.denverlibrary.org/assets/display/2143304-max",
           "citations": {
-            "text": {"name":"Denver History Blog","url":"https://denverhistory.blog/2017/11/27/larimer-street-14-old-city-hall/"},
+            "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/denver-city-and-county-building"},
             "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1033053"}
           },
           "imageMapLatLng": [39.748799, -104.988091],
@@ -477,10 +477,10 @@
         {
           "name": "Colorado Seminary",
           "description":"Early in 1880 Rev. David H. Moore, then of Cincinnati, was elected Chancellor of the new University [of Denver] and President of Colorado Seminary. When he came the building at Arapahoe and Fourteenth streets was not quite finished and no funds were at hand to provide its ordinary furniture. From his personal means Dr. Moore defrayed the expense of the finishing touches to the building and of providing furniture for it, and the school under its new auspices was opened in the autumn of that year. The building with its furniture and equipments cost about $80,000.",
-          "image":"https://exhibits.library.du.edu/librariespresents/files/original/23ce78e88d3af4f047ee2167c63ea1ab.jpg",
+          "image":"Colorado Seminary.png",
           "citations": {
-            "text": {"name":"Denver Public Library","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=762"},
-            "image": {"name":"University of Denver", "url":"https://exhibits.library.du.edu/librariespresents/items/show/3641"}
+            "text": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=762"},
+            "image": {"name":"History of Denver", "url":"https://digital.denverlibrary.org/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=762"}
           },
           "imageMapLatLng": [39.755159,-104.977391],
           "tileMapLatLng": [39.745574, -104.998011]
@@ -523,7 +523,7 @@
           "description":"However, arc lighting was introduced in service by the \"Denver Consolidated Electric Company,\" in which had been merged the Colorado-Edison company and the company just mentioned; the new company having a capital of $1,000,000. In 1883 the consolidated company secured from the city a contract to light the suburban districts by the \"tower\" system. Seven iron towers, one hundred and fifty feet high were erected at once, and later the eighth was added. Each of these towers carriedsix 3,000-candle-power Brush arc-lights. These towers were conspicuous objects in the day-time, and their lamps were equally so at night, as they shed their mellow light over large areas around them.",
           "image":"Ligth Tower.png",
           "citations": {
-            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=477"},
+            "text": {"name":"History of Denver","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=477"},
             "image": {"name":"Denver Public Library", "url":"https://history.denverlibrary.org/sites/history/files/PSCo%20publications%201929-2019_2.pdf"}
           },
           "imageMapLatLng": [39.751367,-104.956435],
@@ -542,10 +542,10 @@
         },
         {
           "name": "La Veta Place",
-          "description":"La Veta Place went up on the southwest corner of West Colfax Avenue and Bannok Street in 1880 as an elite, suburban apartment house.  Workers razed it in sections between 1906 and 1910 to make way for the new home of the Denver Public Library.",
+          "description":"Carnegie originally offered the City the money for a library back in 1902. [...] After about a year of consideration, the City settled on a site known as La Veta Place, which was described as, \"...a long terrace of residences facing Colfax and turning the corner running along Bannock. Bannock Street was then called Evans Street.\" [...] To help fund the new library, the City purchased the buildings on the site and collected rent on them while architects started their plans.",
           "image":"https://digital.denverlibrary.org/assets/display/2337596-max",
           "citations": {
-            "text": {"name":"The Denver Civic Center","url":"https://catalog.denverlibrary.org/search/title.aspx?ctx=1.1033.0.0.6&pos=2&cn=1534302"},
+            "text": {"name":"Denver Public Library","url":"https://history.denverlibrary.org/news/denver/andrew-carnegie-and-denver-public-library-opening-never-happened"},
             "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1130187"}
           },
           "imageMapLatLng": [39.773184,-104.947495],
@@ -600,7 +600,7 @@
           "description":"The Union Block on the northwest corner of Arapahoe and Sixteenth streets was erected in 1882, by the Denver Safe Deposit & Savings Bank, P . Gottesleben, and J o h n J . Riethmann, who owned the land in severalty, but united in building the block—hence its name.",
           "image":"https://5008.sydneyplus.com/HistoryColorado_ArgusNet_Final/ViewImage.aspx?template=Image&field=DerivedIm2&hash=5fe32f2dce8160fcb236e0f130ddc04f&width=max&height=max&r=1973317836&lang=en-US",
           "citations": {
-            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=970"},
+            "text": {"name":"History of Denver","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=970"},
             "image": {"name":"History Colorado", "url":"https://5008.sydneyplus.com/HistoryColorado_ArgusNet_Final/Portal.aspx?lang=en-US&g_AAFC=HistoryColorado_ArgusNet_Final+%7cObject+%7c%25SsearAtta+%3d+%27%22union+block%22%27&p_AAGF=AAGA+%5c%7cAAFJ&p_AAEE=tab5&d=d"}
           },
           "imageMapLatLng": [39.756174,-104.992420],
@@ -633,7 +633,7 @@
           "description":"A hydraulic canal some two miles in length and terminating in a reservoir named \"Lake Archer\" in honor of the water company's President, was constructed along the right bank of the river. A building was erected on West Twelfth Avenue and equipped with water wheels and new pumps, the plant having a daily capacity of 5,000,000 gallons, drawing the water from Lake Archer. The new station began operation in May, 1880 [...] in 1881, two more pumps of a combined capacity of 5,000,000 gallons, were added to the Lake Archer equipment. As the available water-power from the river by the hydraulic canal was insufficient at times to operate all this machinery, a 350-horse power steam engine was also added.",
           "image":"https://digital.denverlibrary.org/assets/display/2154595-max",
           "citations": {
-            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=798"},
+            "text": {"name":"History of Denver","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=798"},
             "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1038694"}
           },
           "imageMapLatLng": [39.742438,-104.918231],
@@ -711,6 +711,17 @@
           "tileMapLatLng": [39.746776, -104.991368]
         },
         {
+          "name": "Arapahoe County Jail",
+          "description":"The Arapahoe County Jail was once located near the intersection of Santa Fe Drive and West Colfax, Denver, Colorado. The four-story, stone building [designed by Frederick C. Eberley] was erected in 1891. Built in 1920, the West Side Court Building was connected to the north side of the jail structure.",
+          "image":"https://digital.denverlibrary.org/assets/display/2281067-max",
+          "citations": {
+            "text": {"name":"Denver Public Library","url":"https://archives.denverlibrary.org/repositories/3/resources/6914"},
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1101930"}
+          },
+          "imageMapLatLng": [39.739814,-105.048932],
+          "tileMapLatLng": [39.739145, -104.999356]
+        },
+        {
           "name": "Argo Smelter",
           "description":"In 1879 Hill wanted a more central location for his business and decided to move the Boston and Colorado Smelting Company from Black Hawk to Denver. He also decided to rename the smelter \\“Argo\\” after the legendary ship that sailed in search of the fabled Golden Fleece in Greek mythology. Hill and his business associates built the Argo smelter two miles north of Denver, where it continued to thrive.",
           "image":"https://digital.denverlibrary.org/assets/display/2350598-max",
@@ -755,17 +766,6 @@
           "tileMapLatLng": [39.738015, -104.986701]
         },
         {
-          "name": "City Jail",
-          "description":"The Arapahoe County Sheriff's Office had its third jail from 1891-1903. It was at the Brownstone Hotel in Denver. It was thought to be the finest and best-equipped correction facility in the U.S. The three-winged ‘T’ shaped building could house up to 400 inmates. It was used for 65 years. ",
-          "image":"https://digital.denverlibrary.org/assets/display/2281067-max",
-          "citations": {
-            "text": {"name":"Arapahoe County Sheriff's Office","url":"https://www.arapahoeco.gov/your_county/county_departments/sheriffs_office/our_agency/acso_history/the_jails_of_the_acso.php"},
-            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1101930"}
-          },
-          "imageMapLatLng": [39.739814,-105.048932],
-          "tileMapLatLng": [39.739145, -104.999356]
-        },
-        {
           "name": "City Park",
           "description":"Established in 1882, City Park is Denver’s largest urban park, occupying nearly 320 acres between East Seventeenth and East Twenty-Third Avenues from York Street to Colorado Boulevard. Designed primarily by civil engineers Henry Meryweather and Walter Graves in the 1880s and by Reinhard Schuetze in the 1890s and early 1900s, the park is known for its lakes, large fields, and scenic views of downtown Denver and the Front Range. It has always featured a variety of uses in its northern half, including a racetrack (now turned into playing fields), tennis courts, maintenance buildings, the Denver Zoo, and the Denver Museum of Nature & Science.",
           "image":"https://digital.denverlibrary.org/assets/display/2168646-max",
@@ -803,7 +803,7 @@
           "description":"The Denver Club was one of the many consequences of the great forward movement that began in 1880, and it was called into existence by the need for a social Organization among the business and professional men of the city. The association was incorporated as \"The Denver Club,\" July 28, 1880 [...] The fine Club House on the northwest corner of Seventeenth and Glenarm streets was erected in 1887-88, and opened October 20, 1888.  Built of granite and Colorado red-sandstone, its architecture, size, elegance and completeness of appointments, make it one of the notable establishments of its kind west of New York.",
           "image":"https://5008.sydneyplus.com/HistoryColorado_ArgusNet_Final/ViewImage.aspx?template=Image&field=DerivedIma&hash=ea53df9ad9a477d8c52cc1619e4299f2&width=max&height=max&r=1973317836&lang=en-US",
           "citations": {
-            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=914"},
+            "text": {"name":"History of Denver","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=914"},
             "image": {"name":"History Colorado", "url":"https://5008.sydneyplus.com/HistoryColorado_ArgusNet_Final/Portal.aspx?lang=en-US&g_AAFC=HistoryColorado_ArgusNet_Final+%7cObject+%7c%25SsearAtta+%3d+%2786.200.2191%27&d=d"}
           },
           "imageMapLatLng": [39.757141,-104.997516],
@@ -834,10 +834,10 @@
         {
           "name": "Fourteenth Street Viaduct",
           "description":"The great viaduct, which is practically an extension of Fourteenth street to \"North Denver,\" was opened to traffic late in September, 1899. [...] the structure, proper, begins at Blake, spans the numerous railway tracks between that street and the river, crosses the Platte, and terminates at Platte street; a distance of 4,276 feet, or about four-fifths of a mile.  [...] Its construction was primarily undertaken by property-owners on both sides of the river who, in the winter of 1887-88 organized the Fourteenth Street Viaduct Association",
-          "image":"https://wp-denverite.s3.amazonaws.com/wp-content/uploads/sites/4/2017/03/14th-finished.png",
+          "image":"https://digital.denverlibrary.org/assets/display/2173502-max?u=025b53d1fb5c2540f4b0246bc2998810",
           "citations": {
             "text": {"name":"History of Denver","url":"https://digital.denverlibrary.org/nodes/view/821260"},
-            "image": {"name":"Denverite","url":"https://denverite.com/2017/03/15/tattered-covers-second-floor-door-opens-ghost-denvers-viaducts/"}
+            "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1048055"}
           },
           "imageMapLatLng": [39.772023,-105.058141],
           "tileMapLatLng": [39.751934,-105.006060]
@@ -943,11 +943,11 @@
         },
         {
           "name": "Mount St. Vincent's",
-          "description":"One of the older, and the most important of the institutions for the care of such children, is the Mount St. Vincent's Orphan Asylum on Homer Boulevard between West Forty-second and West Forty-third Avenues in \"North Denver.\" It, also, had its origin in the zeal of Bishop Machebeuf. I n 1880 he determined to establish here an orphan's home. Several Sisters of Charity came from Leavenworth and he and they began the work.  The Denver & Rio Grande Railroad Company gave them several lots upon which they succeeded in building the fine brick and stone Asylum which was opened on September 1, 1882, and has been the only home of many children from that day to this; the number cared for in recent times beneath its sheltering roof having averaged near two hundred.",
-          "image":"https://3.bp.blogspot.com/_vjlTTnUPlbc/TVE8oouzV_I/AAAAAAAAEio/_IBYVzc-RWo/s1600/Denver+orphanage.jpg",
+          "description":"One of the older, and the most important of the institutions for the care of such children, is the Mount St. Vincent's Orphan Asylum on Homer Boulevard between West Forty-second and West Forty-third Avenues in \"North Denver.\" It, also, had its origin in the zeal of Bishop Machebeuf. In 1880 he determined to establish here an orphan's home. Several Sisters of Charity came from Leavenworth and he and they began the work.  The Denver & Rio Grande Railroad Company gave them several lots upon which they succeeded in building the fine brick and stone Asylum which was opened on September 1, 1882, and has been the only home of many children from that day to this; the number cared for in recent times beneath its sheltering roof having averaged near two hundred.",
+          "image":"https://digital.denverlibrary.org/assets/display/2322808-max",
           "citations": {
-            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=780"},
-            "image": {"name":"McNamara's Blog", "url":"https://www.patheos.com/blogs/mcnamarasblog/2011/02/%E2%80%9Cwhat-can-a-woman-do%E2%80%9D-mother-xavier-ross-1813-1895-and-the-sisters-of-charity-of-leavenworth.html"}
+            "text": {"name":"History of Denver","url":"https://digital.denverlibrary.org/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=780"},
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1122800"}
           },
           "imageMapLatLng": [39.788008,-105.065538],
           "tileMapLatLng": [39.774477, -105.035328]
@@ -957,7 +957,7 @@
           "description":"In 1886 District Number 17 became a district of the first class and acquired rank equal to that of Districts Numbers 1 and 2. [...] It was then decided to tear down the old Ashland School and in its place erect a fine High School building of perfect appointments. This was done in 1888, the pupils of the Ashland being quartered in a small temporary building and in rented rooms. The \"North Denver\" High School is one of the city's exceptionally good school building",
           "image":"https://digital.denverlibrary.org/assets/display/2262428-max",
           "citations": {
-            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=757"},
+            "text": {"name":"History of Denver","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=757"},
             "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1092610"}
           },
           "imageMapLatLng": [39.782257,-105.065880],
@@ -968,7 +968,7 @@
           "description":"The Railroad Building on the north side of Larimer streets near Fifteenth and next east of the Pioneer Building, of Colorado granite, eight stories high, was built by the late Governor John Evans in 1888. [...] When the Railroad Building was about completed, a boy named Ivers fell from its roof (about 100 feet above street grade,) struck upon strands of telephone wires below, and bounded off to the street. H e was but little injured, and is still a resident here none the worse in consequence of his remarkable adventure.",
           "image":"https://digital.denverlibrary.org/assets/display/2226807-max",
           "citations": {
-            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=967"},
+            "text": {"name":"History of Denver","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=967"},
             "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1074804"}
           },
           "imageMapLatLng": [39.767285,-105.031893],
@@ -1023,7 +1023,7 @@
           "description":"The only conspicuous building east of Broadway anywhere was the dwelling built in 1875-76 by Henry C. Brown on the block bounded by Broadway, and Seventeenth, Lincoln and Eighteenth Avenues. In those years it was the finest residence in the city.  It still stands there, on the south part of the block, and is yet a handsome dwelling, even by comparison. In January, 1879, Brown sold the entire block, containing forty lots, to H. A. W. Tabor for $40,000, at that time considered an extravagant price. The dwelling was the only building on the block, and all its furniture and furnishings were included in the sale.",
           "image":"https://digital.denverlibrary.org/assets/display/2185161-max",
           "citations": {
-            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=468"},
+            "text": {"name":"History of Denver","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=468"},
             "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1053983"}
           },
           "imageMapLatLng": [39.754076,-104.983290],
@@ -1031,10 +1031,10 @@
         },
         {
           "name": "Trinity United Methodist Church",
-          "description":"Designed by Colorado’s first licensed architect, the Trinity United Methodist Church sits at Broadway and 18th Street facing west towards Broadway. The building is stone, made mostly of gray Rhyolite, a porous volcanic stone that was quarried in Castle Rock. It is trimmed in sandstone from Utah. The front façade features a triple Gothic arch gabled entryway with tall gothic windows above. Other windows are also thin and tall and often grouped in threes, as many things are in this building, alluding to the significance of the churches namesake. A spire rises to a height of 181 feet at the southwest corner of the building. Two rose windows of twelve spokes face north and south, symbolizing the twelve apostles and twelve tribes of Israel.",
+          "description":"The finest design of Colorado’s first licensed architect, Robert S. Roeschlaub, Trinity was the largest church and tallest building in town when it opened. [...] The cornerstone was laid on September 5, 1887, and the building finished on December 20, 1888. The towering steeple—more than 181 feet tall, topped by a bronze cross—made Trinity easy to find. Roeschlaub could build the spire and bell tower that high by using lightweight rhyolite (lava rock) from a Castle Rock quarry.",
           "image":"https://digital.denverlibrary.org/assets/display/2202521-max",
           "citations": {
-            "text": {"name":"Denver Architecture Foundation","url":"https://denverarchitecture.org/site/trinity-united-methodist-church/"},
+            "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/trinity-united-methodist-church"},
             "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/nodes/view/1062667"}
           },
           "imageMapLatLng": [39.756358,-104.985529],
@@ -1078,7 +1078,7 @@
           "description":"A new site for Wolfe Hall was purchased back on Capitol Hill ; the entire block bounded by Thirteenth and Fourteenth Avenues, Clarkson and Emerson streets, on which the present large and beautiful building of stone was soon afterward completed. The building contains 350 rooms which include study halls, recitation rooms, studios, gymnasium, laboratories, kindergarten rooms, parlors, reception rooms, dining rooms, and a large number of bright and cheerful sleeping rooms.",
           "image":"https://digital.denverlibrary.org/assets/display/2260101-max",
           "citations": {
-            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=765"},
+            "text": {"name":"History of Denver","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=765"},
             "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1091445"}
           },
           "imageMapLatLng": [39.734699, -104.929213],
@@ -1415,7 +1415,7 @@
           "imageMapLatLng": [39.741531, -105.049551],
           "tileMapLatLng": [39.755506, -104.968877],
           "citations": {
-            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=752"},
+            "text": {"name":"History of Denver","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=752"},
             "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1093283"}
           }
         },
@@ -1427,7 +1427,7 @@
           "tileMapLatLng": [39.751527, -105.000938],
           "citations": {
             "text": {"name":"History Colorado","url":"https://www.historycolorado.org/story/stuff-history/2014/03/11/rediscovering-morey-mercantile"},
-            "image": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=892"}
+            "image": {"name":"History of Denver","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=892"}
           }
         },
         {
@@ -1459,7 +1459,7 @@
           "imageMapLatLng": [39.752370, -105.035315],
           "tileMapLatLng": [39.745406, -104.969075],
           "citations": {
-            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=776"},
+            "text": {"name":"History of Denver","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=776"},
             "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1123028"}
           }
         },
@@ -1523,8 +1523,8 @@
           "description":"In 1886 it had been determined to go outside the then limits of the city and obtain a site upon which the University could be more appropriately located and that would afford abundant room for prospective new buildings. [...] Preparations for building at University Parkwere not made until 1890. The first two structures erected there were University Hall, at a cost of $80,000; and Wycliffe Cottage, a home for young women students. The Hall, a large and imposing edifice, of lava, three and one-half stories high, and the Cottage, were built in 1891.",
           "image":"University Hall.png",
           "citations": {
-            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=763"},
-            "image": {"name":"Denver Public Library", "url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=764"}
+            "text": {"name":"History of Denver","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=763"},
+            "image": {"name":"Denver Public Library", "url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=764"}
           },
           "imageMapLatLng": [39.770259,-105.012834],
           "tileMapLatLng": [39.677039, -104.960575]
@@ -1638,7 +1638,7 @@
           "description":"Also, in 1892 the Tramway opened the Central Loop at 15th Street between Lawrence and Arapahoe Streets. The Central Loop, with its heated waiting room for patrons, became a major hub of the Tramway’s network",
           "image":"https://digital.denverlibrary.org/assets/display/2260594-max",
           "citations": {
-            "text": {"name":"Historic Streetcar Systems of Colorado","url":"https://www.historycolorado.org/sites/default/files/media/document/2020/Historic%20Streetcar%20Systems%20of%20Colorado_Part%202.pdf"},
+            "text": {"name":"Colorado Department of Transportation","url":"https://hermes.cde.state.co.us/islandora/object/co%3A33960/datastream/OBJ/download/Historic_streetcar_systems_of_Colorado.pdf"},
             "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1091692"}
           },
           "imageMapLatLng": [39.736168, -104.957756],
@@ -1847,7 +1847,7 @@
           "description":"The United States Building on the southwest corner of Sixteenth and Arapahoe streets was begun in the winter of 1884-85, and nearly eight years elapsed before it was entirely finished [...] This Federal Building, or, as more commonly called, the Post Office Building, is one of the conspicuously inconvenient, ill-arranged, cramped, dark, and inadequate public structures evolved by \"bureau architecture,\" and is wholly unfitted for present requirements",
           "image":"https://digital.denverlibrary.org/assets/display/2314007-max",
           "citations": {
-            "text": {"name":"History of Denver","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=970"},
+            "text": {"name":"History of Denver","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=970"},
             "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1118340"}
           },
           "imageMapLatLng": [39.743202, -104.999338],
@@ -1858,7 +1858,7 @@
           "description":"The Quincy Building, formerly the Patterson & Thomas Building, on the northwest corner of Seventeenth and Curtis streets was built in 1887 by Thomas M. Patterson and Charles S. Thomas. It is of stone, pressed brick, and steel, and five stories high.",
           "image":"https://digital.denverlibrary.org/assets/display/2190635-max",
           "citations": {
-            "text": {"name":"Denver Public Library","url":"https://denverlibrary.recollectcms.com/pdf/web/viewer.html?file=/assets/displaypdf/821260#page=967"},
+            "text": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/pdf/4.0.189/web/viewer.html?file=/assets/displaypdf/821260#page=967"},
             "image": {"name":"Denver Public Library","url":"https://digital.denverlibrary.org/nodes/view/1056722"}
           },
           "imageMapLatLng": [39.747585, -105.030455],
@@ -1982,10 +1982,10 @@
         {
           "name": "Brown Palace West (1959)",
           "description":"The twenty-two-story tower, known as Brown Palace West, was designed by the New York architectural firm of William B. Tabler. Boettcher died in 1957, not long after approving plans for the tower. Construction went forward, and the new building opened on April 25, 1959, during the Rush to the Rockies centennial celebration. Brown Palace West added 300 guest rooms and a ballroom to the hotel, and it was connected to the historic triangular building by a bridge above Tremont Place and an underground service tunnel.",
-          "image":"https://www.cardcow.com/images/set405/card00796_fr.jpg",
+          "image":"https://upload.wikimedia.org/wikipedia/commons/3/30/6408-DenSkyline-BrownPalaceCosmoHotels.Jpg",
           "citations": {
             "text": {"name":"Colorado Encyclopedia","url":"https://coloradoencyclopedia.org/article/brown-palace-hotel"},
-            "image": {"name":"CardCow","url":"https://www.cardcow.com/327833/denver-colorado-brown-palace-hotel-west/"}
+            "image": {"name":"Robert J. Boser","url":"https://commons.wikimedia.org/wiki/File:6408-DenSkyline-BrownPalaceCosmoHotels.Jpg"}
           },
           "imageMapLatLng": [39.755504, -104.985437],
           "tileMapLatLng": [39.744441, -104.988358]
@@ -2083,7 +2083,7 @@
           "description":"In 1948, the DAM purchased a building on Acoma and 14th Avenue on the south side of Civic Center Park. Denver architect Burnham Hoyt renovated the building, which opened as the Schleier Memorial Gallery in 1949.",
           "image":"https://images.artfulcloud.com/98330_5257920org.jpg",
           "citations": {
-            "text": {"name":"Denver Art Museum History","url":"https://www.zippia.com/denver-art-museum-careers-724673/history/#"},
+            "text": {"name":"Wikipedia","url":"https://en.wikipedia.org/wiki/Denver_Art_Museum"},
             "image": {"name":"Denver Public Library","url":"https://www.betsyjohnsonweltyfineart.com/blog/188244/the-denver-artists-club-and-the-path-to-an-art-museum-for-denver"}
           },
           "imageMapLatLng": [39.718674, -104.999170],
