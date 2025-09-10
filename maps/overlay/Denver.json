@@ -48,6 +48,11 @@
       "infoURL":  "https://digital.denverlibrary.org/nodes/view/822075"
     },
     {
+      "name":     "1929 Sanborn",
+      "tileURL":  "https://mapwarper.net/mosaics/tile/2301/{z}/{x}/{y}.png",
+      "infoURL":  "https://cudl.colorado.edu/luna/servlet/view/all/where/Denver/when/1890;JSESSIONID=9354a747-4351-4e7e-8458-292f334d76d0?sort=city%2Cdate%2Csheet&os=0&pgs=50&res=1&cic=UCBOULDERCB1%7E21%7E21"
+    },
+    {
       "name":     "1933 King",
       "tileURL":  "https://tiles.arcgis.com/tiles/44C95LOqZjbh8Row/arcgis/rest/services/Denver_1933_Aerial/MapServer/tile/{z}/{y}/{x}",
       "infoURL":  "https://history.denverlibrary.org/research-tool/1933-king-aerial-photographs"
