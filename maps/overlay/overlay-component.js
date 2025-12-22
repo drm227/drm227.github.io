@@ -13,6 +13,8 @@ define([
     function OverlayComponentVM (params) {
         var _this = this,
             config = params.config,
+            maxZoom = config.maxZoom,
+            maxNativeZoom = config.maxNativeZoom,
             searchParams = new URLSearchParams(window.location.search),
             initial = {
                 leftMap:    searchParams.get('leftMap') ? searchParams.get('leftMap') : config.initial.leftMap,
@@ -26,19 +28,20 @@ define([
         this.config = config;
 
         // Leaflet map.
-        this.map = L.map('map').setView([initial.latitude, initial.longitude], initial.zoom);
+        this.map = L.map('map',{maxZoom:maxZoom}).setView([initial.latitude, initial.longitude], initial.zoom);
 
-        this.leftOSM = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(this.map);
-        this.rightOSM = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(this.map);
+        this.leftOSM = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:maxZoom,maxNativeZoom:19}).addTo(this.map);
+        this.rightOSM = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:maxZoom,maxNativeZoom:19}).addTo(this.map);
 
         // Left and right map layers and map info links.
         this.leftLayers = {};
         this.rightLayers = {};
         this.mapLinks = {};
         config.maps.forEach(function(map){
+            var maxNativeZoom = map.maxNativeZoom?map.maxNativeZoom:maxNativeZoom;
             _this.mapLinks[map.name]      = map.infoURL;
-            _this.leftLayers[map.name]    = L.tileLayer(map.tileURL);
-            _this.rightLayers[map.name]   = L.tileLayer(map.tileURL);
+            _this.leftLayers[map.name]    = L.tileLayer(map.tileURL,{maxZoom:maxZoom,maxNativeZoom:maxNativeZoom});
+            _this.rightLayers[map.name]   = L.tileLayer(map.tileURL,{maxZoom:maxZoom,maxNativeZoom:maxNativeZoom});
         });
         this.leftLayers[initial.leftMap].addTo(this.map);
         this.rightLayers.OSM = this.rightOSM;

@@ -1,5 +1,7 @@
 {
-  "city": "Denver", 
+  "city": "Denver",
+  "maxZoom": 20,
+  "maxNativeZoom": 18,
   "initial": {
     "latitude": 39.749771275005315,
     "longitude": -104.99320908930397,
@@ -50,7 +52,8 @@
     {
       "name":     "1929 Sanborn",
       "tileURL":  "https://mapwarper.net/mosaics/tile/2301/{z}/{x}/{y}.png",
-      "infoURL":  "https://cudl.colorado.edu/luna/servlet/view/all/where/Denver/when/1890;JSESSIONID=9354a747-4351-4e7e-8458-292f334d76d0?sort=city%2Cdate%2Csheet&os=0&pgs=50&res=1&cic=UCBOULDERCB1%7E21%7E21"
+      "infoURL":  "https://cudl.colorado.edu/luna/servlet/view/all/where/Denver/when/1890;JSESSIONID=9354a747-4351-4e7e-8458-292f334d76d0?sort=city%2Cdate%2Csheet&os=0&pgs=50&res=1&cic=UCBOULDERCB1%7E21%7E21",
+      "maxNativeZoom":  20
     },
     {
       "name":     "1933 King",
